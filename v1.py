@@ -63,15 +63,81 @@ def save_subtitle(video_id, transcript, language):
     
     # 生成整合后的文本文件
     create_consolidated_text(video_id, transcript, language)
+    
+    # 生成Markdown文件
+    create_markdown_text(video_id, transcript, language)
 
 def create_consolidated_text(video_id, transcript, language):
-    # 生成整合后的文本文件
     txt_filename = f"{video_id}_{language}_consolidated.txt"
     with open(txt_filename, "w", encoding="utf-8") as f:
+        paragraph = ""
+        sentence_count = 0
+        last_end_time = 0
+        is_first_paragraph = True
+        
         for entry in transcript.fetch():
-            f.write(f"{entry['text']} ")
+            text = entry['text'].strip()
+            start_time = entry['start']
+            
+            # 如果与上一个字幕的时间间隔超过5秒，或者累积了3个句子，就开始新的段落
+            if start_time - last_end_time > 5 or sentence_count >= 3:
+                if paragraph:
+                    if not is_first_paragraph:
+                        f.write("\n\n")  # 段落之间空两行
+                    f.write("    " + paragraph.strip() + "\n")  # 段落首个单词缩进
+                    is_first_paragraph = False
+                    paragraph = ""
+                    sentence_count = 0
+            
+            paragraph += text + " "
+            last_end_time = start_time + entry['duration']
+            
+            # 检查是否有句子结束符
+            if text.endswith('.') or text.endswith('?') or text.endswith('!'):
+                sentence_count += 1
+        
+        # 写入最后剩余的文本
+        if paragraph:
+            if not is_first_paragraph:
+                f.write("\n\n")
+            f.write("    " + paragraph.strip())
     
-    print(f"整合后的{language}文本已保存到 {txt_filename}")
+    print(f"整合并分段后的{language}文本已保存到 {txt_filename}")
+
+def create_markdown_text(video_id, transcript, language):
+    md_filename = f"{video_id}_{language}_consolidated.md"
+    with open(md_filename, "w", encoding="utf-8") as f:
+        paragraph = ""
+        sentence_count = 0
+        last_end_time = 0
+        
+        # 写入标题
+        f.write(f"# Transcript: {video_id}\n\n")
+        
+        for entry in transcript.fetch():
+            text = entry['text'].strip()
+            start_time = entry['start']
+            
+            # 如果与上一个字幕的时间间隔超过5秒，或者累积了3个句子，就开始新的段落
+            if start_time - last_end_time > 5 or sentence_count >= 3:
+                if paragraph:
+                    f.write(paragraph.strip() + "\n\n\n")  # 段落之间空两行
+                    f.write(f"## {format_time(start_time)}\n\n")  # 添加时间戳作为二级标题
+                paragraph = ""
+                sentence_count = 0
+            
+            paragraph += text + " "
+            last_end_time = start_time + entry['duration']
+            
+            # 检查是否有句子结束符
+            if text.endswith('.') or text.endswith('?') or text.endswith('!'):
+                sentence_count += 1
+        
+        # 写入最后剩余的文本
+        if paragraph:
+            f.write(paragraph.strip())
+    
+    print(f"整合并分段后的{language} Markdown 文件已保存到 {md_filename}")
 
 def format_time(seconds):
     # 将秒数转换为SRT时间格式 (HH:MM:SS,mmm)
