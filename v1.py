@@ -8,30 +8,70 @@ def extract_video_id(url):
         return video_id_match.group(1)
     return None
 
-def get_subtitles(video_url, language='zh-CN'):
+def get_subtitles(video_url):
     video_id = extract_video_id(video_url)
     if not video_id:
         print("无效的YouTube URL")
         return
 
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=[language])
+        # 尝试获取所有可用的字幕
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
         
-        # 将字幕保存为SRT格式
-        with open(f"{video_id}_{language}_subtitles.srt", "w", encoding="utf-8") as f:
-            for i, entry in enumerate(transcript, start=1):
-                start = entry['start']
-                duration = entry['duration']
-                end = start + duration
-                text = entry['text']
-                
-                f.write(f"{i}\n")
-                f.write(f"{format_time(start)} --> {format_time(end)}\n")
-                f.write(f"{text}\n\n")
+        # 优先尝试获取中文字幕
+        zh_transcript = None
+        en_transcript = None
         
-        print(f"字幕已保存到 {video_id}_{language}_subtitles.srt")
+        try:
+            zh_transcript = transcript_list.find_transcript(['zh-CN', 'zh'])
+        except:
+            print("未找到中文字幕")
+        
+        try:
+            en_transcript = transcript_list.find_transcript(['en'])
+        except:
+            if not zh_transcript:
+                print("未找到英文字幕")
+        
+        if zh_transcript:
+            save_subtitle(video_id, zh_transcript, 'zh-CN')
+        
+        if en_transcript:
+            save_subtitle(video_id, en_transcript, 'en')
+        
+        if not zh_transcript and not en_transcript:
+            print("未找到中文或英文字幕")
+        
     except Exception as e:
         print(f"获取字幕时出错: {str(e)}")
+
+def save_subtitle(video_id, transcript, language):
+    # 将字幕保存为SRT格式
+    srt_filename = f"{video_id}_{language}_subtitles.srt"
+    with open(srt_filename, "w", encoding="utf-8") as f:
+        for i, entry in enumerate(transcript.fetch(), start=1):
+            start = entry['start']
+            duration = entry['duration']
+            end = start + duration
+            text = entry['text']
+            
+            f.write(f"{i}\n")
+            f.write(f"{format_time(start)} --> {format_time(end)}\n")
+            f.write(f"{text}\n\n")
+    
+    print(f"{language}字幕已保存到 {srt_filename}")
+    
+    # 生成整合后的文本文件
+    create_consolidated_text(video_id, transcript, language)
+
+def create_consolidated_text(video_id, transcript, language):
+    # 生成整合后的文本文件
+    txt_filename = f"{video_id}_{language}_consolidated.txt"
+    with open(txt_filename, "w", encoding="utf-8") as f:
+        for entry in transcript.fetch():
+            f.write(f"{entry['text']} ")
+    
+    print(f"整合后的{language}文本已保存到 {txt_filename}")
 
 def format_time(seconds):
     # 将秒数转换为SRT时间格式 (HH:MM:SS,mmm)
@@ -43,10 +83,4 @@ def format_time(seconds):
 
 if __name__ == "__main__":
     video_url = input("请输入YouTube视频URL: ")
-    language = input("请选择字幕语言 (zh-CN 为中文, en 为英文): ").strip().lower()
-    if language not in ['zh-cn', 'en']:
-        print("不支持的语言,默认使用中文")
-        language = 'zh-CN'
-    elif language == 'en':
-        language = 'en'
-    get_subtitles(video_url, language)
+    get_subtitles(video_url)
