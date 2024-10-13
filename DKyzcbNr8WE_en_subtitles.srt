@@ -1,0 +1,5700 @@
+1
+00:00:00,030 --> 00:00:05,100
+the following is a conversation with
+
+2
+00:00:01,770 --> 00:00:07,769
+john hopfield professor Princeton whose
+
+3
+00:00:05,099 --> 00:00:10,619
+life's work weave beautifully through
+
+4
+00:00:07,769 --> 00:00:13,710
+biology chemistry neuroscience and
+
+5
+00:00:10,619 --> 00:00:15,869
+physics most crucially he saw the messy
+
+6
+00:00:13,710 --> 00:00:19,080
+world of biology through the piercing
+
+7
+00:00:15,869 --> 00:00:21,239
+eyes of a physicist he's perhaps best
+
+8
+00:00:19,079 --> 00:00:24,358
+known for his work on associative neural
+
+9
+00:00:21,239 --> 00:00:26,759
+networks now known as hopfield networks
+
+10
+00:00:24,359 --> 00:00:28,710
+that were one of the early ideas that
+
+11
+00:00:26,760 --> 00:00:32,579
+catalyzed the development of the modern
+
+12
+00:00:28,710 --> 00:00:34,649
+field of deep learning as his 2019
+
+13
+00:00:32,579 --> 00:00:37,020
+Franklin medal in physics award States
+
+14
+00:00:34,649 --> 00:00:39,239
+he applied concepts of theoretical
+
+15
+00:00:37,020 --> 00:00:41,190
+physics to provide new insights and
+
+16
+00:00:39,238 --> 00:00:43,828
+important biological questions in a
+
+17
+00:00:41,189 --> 00:00:46,439
+variety of areas including genetics and
+
+18
+00:00:43,829 --> 00:00:49,439
+neuroscience was significant impact on
+
+19
+00:00:46,439 --> 00:00:52,920
+machine learning and as John says in his
+
+20
+00:00:49,439 --> 00:00:55,709
+2018 article titled now what his
+
+21
+00:00:52,920 --> 00:00:59,219
+accomplishments have often come about by
+
+22
+00:00:55,710 --> 00:01:02,100
+asking that very question now what and
+
+23
+00:00:59,219 --> 00:01:03,800
+often responding by a major change of
+
+24
+00:01:02,100 --> 00:01:05,659
+direction
+
+25
+00:01:03,799 --> 00:01:08,479
+this is the artificial intelligence
+
+26
+00:01:05,659 --> 00:01:10,280
+podcast if you enjoy it subscribe on
+
+27
+00:01:08,480 --> 00:01:12,890
+YouTube give it five stars an apple
+
+28
+00:01:10,280 --> 00:01:14,900
+podcast supported on patreon or simply
+
+29
+00:01:12,890 --> 00:01:19,489
+connect with me on Twitter and Lex
+
+30
+00:01:14,900 --> 00:01:21,228
+Friedman spelled Fri D ma M as usual
+
+31
+00:01:19,489 --> 00:01:23,119
+I'll do one or two minutes of ads now
+
+32
+00:01:21,228 --> 00:01:24,829
+and never any ads in the middle that can
+
+33
+00:01:23,120 --> 00:01:27,290
+break the flow of the conversation I
+
+34
+00:01:24,829 --> 00:01:30,289
+hope that works for you and doesn't hurt
+
+35
+00:01:27,290 --> 00:01:32,360
+the listening experience this show is
+
+36
+00:01:30,290 --> 00:01:34,520
+presented by cash app the number one
+
+37
+00:01:32,359 --> 00:01:38,569
+finance app in the App Store when you
+
+38
+00:01:34,519 --> 00:01:40,579
+get it use colex podcast cash app lets
+
+39
+00:01:38,569 --> 00:01:42,529
+you send money to friends buy Bitcoin
+
+40
+00:01:40,579 --> 00:01:45,679
+and invest in the stock market with as
+
+41
+00:01:42,530 --> 00:01:47,390
+little as $1 since cash app does
+
+42
+00:01:45,680 --> 00:01:49,520
+fractional share trading let me mention
+
+43
+00:01:47,390 --> 00:01:51,500
+that the order execution algorithm that
+
+44
+00:01:49,519 --> 00:01:54,109
+works behind the scenes to create the
+
+45
+00:01:51,500 --> 00:01:57,109
+abstraction of fractional orders is to
+
+46
+00:01:54,109 --> 00:01:59,149
+me an algorithmic marvel so big props to
+
+47
+00:01:57,109 --> 00:02:01,310
+the cash app engineers for solving a
+
+48
+00:01:59,149 --> 00:02:03,590
+heart problem that in the end provides
+
+49
+00:02:01,310 --> 00:02:05,540
+an easy interface that takes a step up
+
+50
+00:02:03,590 --> 00:02:07,520
+the next layer of abstraction over the
+
+51
+00:02:05,540 --> 00:02:09,520
+stock market making trading more
+
+52
+00:02:07,519 --> 00:02:13,699
+accessible for new investors and
+
+53
+00:02:09,520 --> 00:02:15,350
+diversification much easier so again if
+
+54
+00:02:13,699 --> 00:02:17,869
+you get cash up from the App Store or
+
+55
+00:02:15,349 --> 00:02:20,419
+Google Play and use collects podcast
+
+56
+00:02:17,870 --> 00:02:22,759
+you'll get ten dollars in cash app will
+
+57
+00:02:20,419 --> 00:02:24,409
+also donate ten dollars the first one of
+
+58
+00:02:22,759 --> 00:02:26,479
+my favorite organizations that is
+
+59
+00:02:24,409 --> 00:02:28,340
+helping advanced robotics and STEM
+
+60
+00:02:26,479 --> 00:02:31,669
+education for young people around the
+
+61
+00:02:28,340 --> 00:02:35,500
+world and now here's my conversation
+
+62
+00:02:31,669 --> 00:02:35,500
+with john hopfield
+
+63
+00:02:35,979 --> 00:02:40,399
+biological neural networks and
+
+64
+00:02:37,908 --> 00:02:44,989
+artificial neural networks is most
+
+65
+00:02:40,400 --> 00:02:47,599
+captivating and profound to you at the
+
+66
+00:02:44,989 --> 00:02:51,709
+higher philosophical level let's not get
+
+67
+00:02:47,598 --> 00:02:54,968
+technical just yet one of the things
+
+68
+00:02:51,709 --> 00:02:59,530
+very much intrigues me is the fact that
+
+69
+00:02:54,968 --> 00:03:04,608
+neurons have all kinds of components
+
+70
+00:02:59,530 --> 00:03:06,919
+properties to them and evolutionary
+
+71
+00:03:04,609 --> 00:03:10,250
+biology if you have some little quirk
+
+72
+00:03:06,919 --> 00:03:13,039
+and I even how a molecule works or how
+
+73
+00:03:10,250 --> 00:03:16,039
+it still works and it can may mean use
+
+74
+00:03:13,039 --> 00:03:18,679
+of evolution will sharpen it up and make
+
+75
+00:03:16,039 --> 00:03:23,289
+it into a useful feature rather than a
+
+76
+00:03:18,680 --> 00:03:26,239
+glitch and so you expect in neurobiology
+
+77
+00:03:23,289 --> 00:03:29,150
+for evolution to have captured all kinds
+
+78
+00:03:26,239 --> 00:03:31,549
+of possibilities of getting neurons of
+
+79
+00:03:29,150 --> 00:03:35,780
+how you get neurons to do things for you
+
+80
+00:03:31,549 --> 00:03:39,400
+and that aspect has been completely
+
+81
+00:03:35,780 --> 00:03:43,579
+suppressed in artificial neural networks
+
+82
+00:03:39,400 --> 00:03:46,879
+so the glitches become features in them
+
+83
+00:03:43,579 --> 00:03:49,849
+in the biological neural network they
+
+84
+00:03:46,878 --> 00:03:54,318
+they can look let me take one of the
+
+85
+00:03:49,848 --> 00:03:58,848
+things that I used to do research on if
+
+86
+00:03:54,318 --> 00:04:01,969
+you take things which oscillate their
+
+87
+00:03:58,848 --> 00:04:04,098
+rhythms which are sort of close to each
+
+88
+00:04:01,969 --> 00:04:06,949
+other under some circumstances these
+
+89
+00:04:04,098 --> 00:04:08,568
+things will have a phase transition and
+
+90
+00:04:06,949 --> 00:04:10,909
+suddenly is the rhythm will everybody
+
+91
+00:04:08,568 --> 00:04:13,478
+will fall into step there was a
+
+92
+00:04:10,908 --> 00:04:16,430
+marvelous physical example of that in
+
+93
+00:04:13,479 --> 00:04:21,520
+the millenium bridge across the Thames
+
+94
+00:04:16,430 --> 00:04:24,139
+River about Bill about 2001 and
+
+95
+00:04:21,519 --> 00:04:26,418
+pedestrians walking across pedestrians
+
+96
+00:04:24,139 --> 00:04:28,699
+don't walk synchronized they don't walk
+
+97
+00:04:26,418 --> 00:04:31,788
+and lock lockstep but they're all
+
+98
+00:04:28,699 --> 00:04:33,860
+walking about the same frequency and the
+
+99
+00:04:31,788 --> 00:04:36,348
+bridge could say at that frequency in
+
+100
+00:04:33,860 --> 00:04:38,389
+the slight sway made pedestrians tend a
+
+101
+00:04:36,348 --> 00:04:40,610
+little bit to lock in the step master
+
+102
+00:04:38,389 --> 00:04:43,038
+well the bridge was oscillating back and
+
+103
+00:04:40,610 --> 00:04:45,060
+forth and the pedestrians were walking
+
+104
+00:04:43,038 --> 00:04:47,189
+in step to it you could see
+
+105
+00:04:45,060 --> 00:04:49,668
+we made it at the bridge and the
+
+106
+00:04:47,189 --> 00:04:52,139
+engineers made a simple-minded a mistake
+
+107
+00:04:49,668 --> 00:04:55,469
+they had a feeling when you walk it's
+
+108
+00:04:52,139 --> 00:04:58,079
+step step step and it's back at forth
+
+109
+00:04:55,470 --> 00:05:00,120
+motion but when you walk it's also right
+
+110
+00:04:58,079 --> 00:05:02,250
+foot left foot side to side motion and
+
+111
+00:05:00,120 --> 00:05:05,840
+the side to side motion for which the
+
+112
+00:05:02,250 --> 00:05:09,779
+bridge was strong enough but it wasn't
+
+113
+00:05:05,839 --> 00:05:11,489
+it wasn't stiff enough and as a result
+
+114
+00:05:09,779 --> 00:05:13,949
+you would feel the motion and you'd fall
+
+115
+00:05:11,490 --> 00:05:15,629
+under step with it and people were very
+
+116
+00:05:13,949 --> 00:05:17,610
+uncomfortable with it they closed the
+
+117
+00:05:15,629 --> 00:05:21,930
+bridge for two years really fully built
+
+118
+00:05:17,610 --> 00:05:24,090
+stiffening for it no nerves look nerve
+
+119
+00:05:21,930 --> 00:05:25,560
+cells loose action potentials you have a
+
+120
+00:05:24,089 --> 00:05:27,779
+bunch of cells which are loosely coupled
+
+121
+00:05:25,560 --> 00:05:29,879
+together perusing action potentials of
+
+122
+00:05:27,779 --> 00:05:32,759
+the same rate there'll be some
+
+123
+00:05:29,879 --> 00:05:36,839
+circumstances under which these things
+
+124
+00:05:32,759 --> 00:05:38,120
+can lock together other circumstances
+
+125
+00:05:36,839 --> 00:05:41,279
+which they won't
+
+126
+00:05:38,120 --> 00:05:42,899
+well they fire together you can be sure
+
+127
+00:05:41,279 --> 00:05:44,819
+the other cells are going to notice it
+
+128
+00:05:42,899 --> 00:05:47,149
+so you could make a computational
+
+129
+00:05:44,819 --> 00:05:51,269
+feature out of this and you're in an
+
+130
+00:05:47,149 --> 00:05:52,829
+evolving brain most artificial neural
+
+131
+00:05:51,269 --> 00:05:55,288
+networks don't even have action
+
+132
+00:05:52,829 --> 00:05:59,849
+potentials let alone have the Potala
+
+133
+00:05:55,288 --> 00:06:01,889
+bility for synchronizing them and you
+
+134
+00:05:59,850 --> 00:06:04,530
+mentioned the evolutionary process so
+
+135
+00:06:01,889 --> 00:06:07,579
+they're the evolutionary process that
+
+136
+00:06:04,529 --> 00:06:14,279
+builds on top of biological systems
+
+137
+00:06:07,579 --> 00:06:16,949
+leverage is that the the weird mess of
+
+138
+00:06:14,279 --> 00:06:20,159
+it somehow so how do you make sense of
+
+139
+00:06:16,949 --> 00:06:22,370
+that ability to leverage all the
+
+140
+00:06:20,160 --> 00:06:26,400
+different kinds of complexities in the
+
+141
+00:06:22,370 --> 00:06:30,060
+biological brain well look in the part
+
+142
+00:06:26,399 --> 00:06:33,000
+of the biological molecule level you
+
+143
+00:06:30,060 --> 00:06:35,490
+have a piece of DNA which included an
+
+144
+00:06:33,000 --> 00:06:37,379
+encode for a particular protein you
+
+145
+00:06:35,490 --> 00:06:40,650
+could duplicate that piece of DNA and
+
+146
+00:06:37,379 --> 00:06:42,060
+now one part of it
+
+147
+00:06:40,649 --> 00:06:45,209
+encode for that protein but the other
+
+148
+00:06:42,060 --> 00:06:46,889
+one could itself change a little bit and
+
+149
+00:06:45,209 --> 00:06:48,930
+the start coding for a molecule which is
+
+150
+00:06:46,889 --> 00:06:51,538
+just slightly different now is that
+
+151
+00:06:48,930 --> 00:06:54,079
+molecule was just slightly different had
+
+152
+00:06:51,538 --> 00:06:57,389
+it in a function which helped any old
+
+153
+00:06:54,079 --> 00:06:59,750
+chemical reaction was as important to
+
+154
+00:06:57,389 --> 00:06:59,750
+the cell
+
+155
+00:06:59,759 --> 00:07:05,829
+you would go ahead and let that e try an
+
+156
+00:07:03,610 --> 00:07:09,129
+evolution of slowly and improve that
+
+157
+00:07:05,829 --> 00:07:13,689
+function and so you have the possibility
+
+158
+00:07:09,129 --> 00:07:15,759
+of duplicating and then having things
+
+159
+00:07:13,689 --> 00:07:17,860
+drift apart one of them retain the old
+
+160
+00:07:15,759 --> 00:07:19,110
+function the other one do something new
+
+161
+00:07:17,860 --> 00:07:22,569
+for you
+
+162
+00:07:19,110 --> 00:07:25,389
+and there's evolutionary pressure to
+
+163
+00:07:22,569 --> 00:07:27,490
+improve look there isn't computers to
+
+164
+00:07:25,389 --> 00:07:30,389
+adjust improvement has to do with
+
+165
+00:07:27,490 --> 00:07:33,040
+closing some companies openings others
+
+166
+00:07:30,389 --> 00:07:35,860
+the evolutionary process looks a little
+
+167
+00:07:33,040 --> 00:07:39,129
+different yeah oh similar timescale
+
+168
+00:07:35,860 --> 00:07:41,830
+perhaps well or shorter in times to kill
+
+169
+00:07:39,129 --> 00:07:45,219
+companies close yeah go bankrupt and are
+
+170
+00:07:41,829 --> 00:07:48,129
+born yeah shorter but not much shorter
+
+171
+00:07:45,220 --> 00:07:51,400
+some some company lasts the century a
+
+172
+00:07:48,129 --> 00:07:52,959
+couple but yeah you're right I mean if
+
+173
+00:07:51,399 --> 00:07:55,750
+you think of companies a single organism
+
+174
+00:07:52,959 --> 00:08:00,579
+that builds and you all know yeah it's a
+
+175
+00:07:55,750 --> 00:08:03,069
+fascinating dual correspondence there
+
+176
+00:08:00,579 --> 00:08:05,680
+between biological and companies have
+
+177
+00:08:03,069 --> 00:08:07,719
+difficulty having a new product
+
+178
+00:08:05,680 --> 00:08:12,970
+competing with an old fraud large yeah
+
+179
+00:08:07,720 --> 00:08:15,070
+and when IBM built this first PC you
+
+180
+00:08:12,970 --> 00:08:18,070
+probably read the dread the book they
+
+181
+00:08:15,069 --> 00:08:19,839
+made a little isolated internal unit to
+
+182
+00:08:18,069 --> 00:08:23,560
+make the PC and for the first time in
+
+183
+00:08:19,839 --> 00:08:27,789
+IBM's history they didn't insist that
+
+184
+00:08:23,560 --> 00:08:29,319
+you build it out of IBM components but
+
+185
+00:08:27,790 --> 00:08:32,259
+they understood that they could get into
+
+186
+00:08:29,319 --> 00:08:34,990
+this market which is a very different
+
+187
+00:08:32,259 --> 00:08:41,729
+thing by completely changing their
+
+188
+00:08:34,990 --> 00:08:46,899
+culture and biology finds other markets
+
+189
+00:08:41,729 --> 00:08:48,280
+in a more adaptive way he adds better at
+
+190
+00:08:46,899 --> 00:08:52,509
+it it's better at that kind of
+
+191
+00:08:48,279 --> 00:08:54,970
+integration so maybe you've already said
+
+192
+00:08:52,509 --> 00:08:59,819
+it but what to use the most beautiful
+
+193
+00:08:54,970 --> 00:08:59,820
+aspect or mechanism of the human mind
+
+194
+00:09:00,948 --> 00:09:06,689
+is it the adaptive the ability to adapt
+
+195
+00:09:05,220 --> 00:09:08,399
+as you've described there's there some
+
+196
+00:09:06,690 --> 00:09:14,639
+other little quirk that you particularly
+
+197
+00:09:08,399 --> 00:09:18,299
+like adaptation is everything when you
+
+198
+00:09:14,639 --> 00:09:21,899
+get down to it but the difference there
+
+199
+00:09:18,299 --> 00:09:24,448
+are differences between adaptation where
+
+200
+00:09:21,899 --> 00:09:27,480
+your learning goes on on the over
+
+201
+00:09:24,448 --> 00:09:29,729
+generation that over evolutionary time
+
+202
+00:09:27,480 --> 00:09:32,250
+or your learning goes on at the
+
+203
+00:09:29,730 --> 00:09:35,190
+timescale of one individual who must
+
+204
+00:09:32,250 --> 00:09:40,139
+learn from the environment during that
+
+205
+00:09:35,190 --> 00:09:44,519
+individuals lifetime and biology has
+
+206
+00:09:40,139 --> 00:09:47,250
+both kinds of learning in it and the
+
+207
+00:09:44,519 --> 00:09:52,769
+thing which makes neurobiology hard is
+
+208
+00:09:47,250 --> 00:09:55,799
+that a mathematical systems that were
+
+209
+00:09:52,769 --> 00:09:59,730
+built on this other kind of evolutionary
+
+210
+00:09:55,799 --> 00:10:02,129
+system what do you mean by mathematical
+
+211
+00:09:59,730 --> 00:10:04,470
+system where where's the math in the
+
+212
+00:10:02,129 --> 00:10:06,958
+biology well when you talk to a computer
+
+213
+00:10:04,470 --> 00:10:10,019
+scientist about neural networks it's all
+
+214
+00:10:06,958 --> 00:10:13,828
+math the fact that biology actually came
+
+215
+00:10:10,019 --> 00:10:19,019
+about from evolution the thing and the
+
+216
+00:10:13,828 --> 00:10:24,318
+fact that biology is about a system
+
+217
+00:10:19,019 --> 00:10:24,318
+which you can build in three dimensions
+
+218
+00:10:24,350 --> 00:10:30,600
+if you look at computer chips computer
+
+219
+00:10:28,350 --> 00:10:34,949
+chips are basically two dimensional
+
+220
+00:10:30,600 --> 00:10:36,709
+structures a 2.1 dimensions but they
+
+221
+00:10:34,948 --> 00:10:40,828
+really have difficulty doing
+
+222
+00:10:36,708 --> 00:10:44,039
+three-dimensional wiring biology biology
+
+223
+00:10:40,828 --> 00:10:46,979
+is the neocortex is actually also
+
+224
+00:10:44,039 --> 00:10:48,629
+sheet-like and it sits on top of the
+
+225
+00:10:46,980 --> 00:10:50,339
+white matter which is about ten times
+
+226
+00:10:48,629 --> 00:10:52,620
+the volume of the gray matter and
+
+227
+00:10:50,339 --> 00:10:58,949
+contains all what you might call the
+
+228
+00:10:52,620 --> 00:11:02,429
+wires but there's a huge the the effect
+
+229
+00:10:58,948 --> 00:11:07,490
+the effect of computer structure on what
+
+230
+00:11:02,429 --> 00:11:12,719
+is easy and what is hard is immense
+
+231
+00:11:07,490 --> 00:11:15,600
+so and biology does makes some things
+
+232
+00:11:12,720 --> 00:11:17,910
+easy that are very difficult to
+
+233
+00:11:15,600 --> 00:11:20,040
+understand how to do computationally on
+
+234
+00:11:17,909 --> 00:11:21,838
+the other hand you can't do simple
+
+235
+00:11:20,039 --> 00:11:23,549
+floating-point arithmetic because though
+
+236
+00:11:21,839 --> 00:11:25,079
+it's awfully stupid yeah
+
+237
+00:11:23,549 --> 00:11:28,740
+and you're saying this kind of three
+
+238
+00:11:25,078 --> 00:11:32,489
+dimensional complicated structure makes
+
+239
+00:11:28,740 --> 00:11:34,440
+it's still math it still doing math the
+
+240
+00:11:32,490 --> 00:11:37,579
+kind of math is doing enables you to
+
+241
+00:11:34,440 --> 00:11:39,800
+solve problems of a very different kind
+
+242
+00:11:37,578 --> 00:11:43,379
+that's right that's right
+
+243
+00:11:39,799 --> 00:11:46,019
+so you mentioned two kinds of adaptation
+
+244
+00:11:43,379 --> 00:11:48,088
+the evolutionary adaptation at the end
+
+245
+00:11:46,019 --> 00:11:52,100
+the adaptation are learning at the scale
+
+246
+00:11:48,089 --> 00:11:56,250
+of a single human life which do you are
+
+247
+00:11:52,100 --> 00:11:59,550
+which is particularly beautiful to you
+
+248
+00:11:56,250 --> 00:12:02,610
+and interesting from a research and from
+
+249
+00:11:59,549 --> 00:12:05,069
+just a human perspective and which is
+
+250
+00:12:02,610 --> 00:12:07,620
+more powerful
+
+251
+00:12:05,070 --> 00:12:11,340
+I find things most interesting that I
+
+252
+00:12:07,620 --> 00:12:13,740
+begin to see how to get into the edges
+
+253
+00:12:11,340 --> 00:12:17,850
+edges of them and tease them apart a
+
+254
+00:12:13,740 --> 00:12:20,460
+little bit see how they work and since I
+
+255
+00:12:17,850 --> 00:12:27,509
+can't see the evolutionary process going
+
+256
+00:12:20,460 --> 00:12:30,180
+on I am in awe of it but I find it just
+
+257
+00:12:27,509 --> 00:12:32,519
+a black hole as far as trying to
+
+258
+00:12:30,179 --> 00:12:35,729
+understand what to do and so in a
+
+259
+00:12:32,519 --> 00:12:38,629
+certain sense I'm a doll but I couldn't
+
+260
+00:12:35,730 --> 00:12:43,320
+be interested in working on it
+
+261
+00:12:38,629 --> 00:12:47,879
+the human life timescale is however
+
+262
+00:12:43,320 --> 00:12:50,129
+thing you can tease apart and study yeah
+
+263
+00:12:47,879 --> 00:12:52,230
+you can do there's developmental
+
+264
+00:12:50,129 --> 00:12:57,689
+neurobiology which understands all of
+
+265
+00:12:52,230 --> 00:13:01,259
+these connections and now the structure
+
+266
+00:12:57,690 --> 00:13:04,740
+evolves from a combination of what the
+
+267
+00:13:01,259 --> 00:13:06,659
+genetics is like and the real the fact
+
+268
+00:13:04,740 --> 00:13:11,730
+that this is you're building a system in
+
+269
+00:13:06,659 --> 00:13:15,240
+three dimensions in just days and months
+
+270
+00:13:11,730 --> 00:13:18,480
+those early early days of human life are
+
+271
+00:13:15,240 --> 00:13:22,879
+really interesting they are and of
+
+272
+00:13:18,480 --> 00:13:25,259
+course there are times of immense still
+
+273
+00:13:22,879 --> 00:13:29,610
+multiplication there are also times of
+
+274
+00:13:25,259 --> 00:13:34,980
+the craziest cell death in the brain is
+
+275
+00:13:29,610 --> 00:13:38,370
+during infancy it's turnover so what is
+
+276
+00:13:34,980 --> 00:13:40,649
+what what what is not effective which is
+
+277
+00:13:38,370 --> 00:13:44,460
+not wired well enough to use the moment
+
+278
+00:13:40,649 --> 00:13:49,139
+throw it out it's a mysterious process
+
+279
+00:13:44,460 --> 00:13:50,639
+from let me ask from what field do you
+
+280
+00:13:49,139 --> 00:13:53,100
+think the biggest breakthroughs in
+
+281
+00:13:50,639 --> 00:13:56,159
+understanding the mind will come in the
+
+282
+00:13:53,100 --> 00:13:58,399
+next decades
+
+283
+00:13:56,159 --> 00:14:03,120
+is it neural science computer science
+
+284
+00:13:58,399 --> 00:14:06,019
+neurobiology psychology physics maybe
+
+285
+00:14:03,120 --> 00:14:08,278
+math maybe literature
+
+286
+00:14:06,019 --> 00:14:10,750
+[Laughter]
+
+287
+00:14:08,278 --> 00:14:13,149
+well of course I see the world always
+
+288
+00:14:10,750 --> 00:14:15,159
+through a lens of physics I grew up in
+
+289
+00:14:13,149 --> 00:14:19,328
+physics
+
+290
+00:14:15,159 --> 00:14:22,240
+and the way I pick problems is very
+
+291
+00:14:19,328 --> 00:14:24,250
+characteristic of physics and of an
+
+292
+00:14:22,240 --> 00:14:26,740
+intellectual background which is not
+
+293
+00:14:24,250 --> 00:14:27,519
+psychology which is not chemistry and so
+
+294
+00:14:26,740 --> 00:14:30,039
+on and so on
+
+295
+00:14:27,519 --> 00:14:32,698
+at both the air parents of physicists
+
+296
+00:14:30,039 --> 00:14:35,289
+both of our parents were physicists and
+
+297
+00:14:32,698 --> 00:14:38,889
+the real thing I gathered that was a
+
+298
+00:14:35,289 --> 00:14:42,399
+feeling that the world is an
+
+299
+00:14:38,889 --> 00:14:45,610
+understandable place and if you do
+
+300
+00:14:42,399 --> 00:14:48,370
+enough experiments and think about what
+
+301
+00:14:45,610 --> 00:14:51,250
+they mean and structure things that you
+
+302
+00:14:48,370 --> 00:14:53,110
+can do the mathematics of the relevant
+
+303
+00:14:51,250 --> 00:14:56,549
+of the experiments you also be able to
+
+304
+00:14:53,110 --> 00:14:59,438
+understand how things work but that was
+
+305
+00:14:56,549 --> 00:15:03,578
+that was a few years ago did you change
+
+306
+00:14:59,438 --> 00:15:05,578
+your mind at all through many decades of
+
+307
+00:15:03,578 --> 00:15:07,688
+trying to understand the mind of
+
+308
+00:15:05,578 --> 00:15:10,138
+studying in different kinds of ways not
+
+309
+00:15:07,688 --> 00:15:13,000
+even the minds just biological systems
+
+310
+00:15:10,139 --> 00:15:17,829
+you still have hope the physics that you
+
+311
+00:15:13,000 --> 00:15:20,828
+can understand there's the question of
+
+312
+00:15:17,828 --> 00:15:23,258
+what do you mean by understand of course
+
+313
+00:15:20,828 --> 00:15:25,448
+when I taught freshman physics I used to
+
+314
+00:15:23,259 --> 00:15:27,310
+say I wanted to get physics to
+
+315
+00:15:25,448 --> 00:15:30,419
+understand the subject to understand new
+
+316
+00:15:27,309 --> 00:15:34,299
+this laws I didn't want them simply to
+
+317
+00:15:30,419 --> 00:15:36,729
+memorize a set of examples to which they
+
+318
+00:15:34,299 --> 00:15:39,370
+knew the equations to write down to
+
+319
+00:15:36,730 --> 00:15:43,300
+generate the answers I had this nebulous
+
+320
+00:15:39,370 --> 00:15:45,818
+idea of understanding so the if you
+
+321
+00:15:43,299 --> 00:15:47,859
+looked at a situation you can say oh I
+
+322
+00:15:45,818 --> 00:15:51,370
+expect the bowl to make that trajectory
+
+323
+00:15:47,860 --> 00:15:56,980
+all right I expect so I'm into a notion
+
+324
+00:15:51,370 --> 00:15:58,990
+of understanding and I don't know how to
+
+325
+00:15:56,980 --> 00:16:02,980
+express that very well I've never known
+
+326
+00:15:58,990 --> 00:16:05,110
+how to express it well and you run smack
+
+327
+00:16:02,980 --> 00:16:08,050
+up against it well you choose these look
+
+328
+00:16:05,110 --> 00:16:12,909
+at these simple neural Nets feed-forward
+
+329
+00:16:08,049 --> 00:16:16,058
+neural Nets which do amazing things and
+
+330
+00:16:12,909 --> 00:16:18,698
+yet you know contain nothing of the
+
+331
+00:16:16,058 --> 00:16:21,159
+essence of what I would have felt was
+
+332
+00:16:18,698 --> 00:16:24,818
+understanding attending is more than
+
+333
+00:16:21,159 --> 00:16:27,730
+just an enormous lookup table let's
+
+334
+00:16:24,818 --> 00:16:29,599
+linger on that how sure you are of that
+
+335
+00:16:27,730 --> 00:16:34,730
+what if the table gets read
+
+336
+00:16:29,600 --> 00:16:37,278
+Liebig so i'm he asks another way these
+
+337
+00:16:34,730 --> 00:16:39,399
+feed-forward neural networks do you
+
+338
+00:16:37,278 --> 00:16:43,578
+think they'll ever understand
+
+339
+00:16:39,399 --> 00:16:47,870
+good answer that in two ways I think if
+
+340
+00:16:43,578 --> 00:16:51,019
+you look at real systems feedback is an
+
+341
+00:16:47,870 --> 00:16:53,899
+essential aspect of how these real
+
+342
+00:16:51,019 --> 00:16:55,850
+systems compute on the other hand if I
+
+343
+00:16:53,899 --> 00:16:59,318
+have a mathematical system with feedback
+
+344
+00:16:55,850 --> 00:17:02,899
+I know I can unlaid this and do it a
+
+345
+00:16:59,318 --> 00:17:05,178
+part of it but but I have an exponential
+
+346
+00:17:02,899 --> 00:17:07,250
+expansion and the amount of stuff I have
+
+347
+00:17:05,179 --> 00:17:10,220
+to build if I could resolve the problem
+
+348
+00:17:07,250 --> 00:17:14,288
+that way so feedback is essential so we
+
+349
+00:17:10,220 --> 00:17:16,730
+can talk even about recurrent recurrence
+
+350
+00:17:14,288 --> 00:17:20,838
+but do you think all the pieces are
+
+351
+00:17:16,730 --> 00:17:23,659
+there to achieve understanding through
+
+352
+00:17:20,838 --> 00:17:25,849
+these simple mechanisms like back to our
+
+353
+00:17:23,659 --> 00:17:27,679
+original question what is the
+
+354
+00:17:25,849 --> 00:17:29,359
+fundamental is there a fundamental
+
+355
+00:17:27,679 --> 00:17:32,630
+difference between artificial neural
+
+356
+00:17:29,359 --> 00:17:35,418
+networks and biological or is it just a
+
+357
+00:17:32,630 --> 00:17:41,559
+bunch of surface stuff suppose you ask a
+
+358
+00:17:35,419 --> 00:17:44,570
+neurosurgeon when does somebody did yeah
+
+359
+00:17:41,558 --> 00:17:48,259
+it'll probably go back to saying well I
+
+360
+00:17:44,569 --> 00:17:49,668
+can look at the brain rhythms and tell
+
+361
+00:17:48,259 --> 00:17:51,769
+you this is a brain which has never
+
+362
+00:17:49,669 --> 00:17:53,480
+could have functioned again this is one
+
+363
+00:17:51,769 --> 00:17:57,308
+another but this other one is one which
+
+364
+00:17:53,480 --> 00:17:59,929
+if we treat it well is still recoverable
+
+365
+00:17:57,308 --> 00:18:03,048
+and then just do that by so many
+
+366
+00:17:59,929 --> 00:18:06,860
+electrodes looking at simple like
+
+367
+00:18:03,048 --> 00:18:08,960
+electrical patterns just don't look in
+
+368
+00:18:06,859 --> 00:18:15,798
+any detail at all or what individual
+
+369
+00:18:08,960 --> 00:18:18,650
+neurons are doing these rhythms are
+
+370
+00:18:15,798 --> 00:18:21,400
+already absent from anything which goes
+
+371
+00:18:18,650 --> 00:18:21,400
+on in Google
+
+372
+00:18:22,980 --> 00:18:30,370
+yeah but the rhythms but the rhythms
+
+373
+00:18:26,950 --> 00:18:34,080
+would so well that's like comparing okay
+
+374
+00:18:30,369 --> 00:18:37,569
+I'll tell you it's like you're comparing
+
+375
+00:18:34,079 --> 00:18:40,210
+the the greatest classical musician in
+
+376
+00:18:37,569 --> 00:18:42,279
+the world to child first learning to
+
+377
+00:18:40,210 --> 00:18:45,220
+play the question I'm at but they're
+
+378
+00:18:42,279 --> 00:18:49,869
+still both playing the piano I'm asking
+
+379
+00:18:45,220 --> 00:18:52,690
+is there will it ever go on at Google do
+
+380
+00:18:49,869 --> 00:18:54,879
+you have a hope because you're one of
+
+381
+00:18:52,690 --> 00:18:58,090
+the seminal figures in both launching
+
+382
+00:18:54,880 --> 00:19:02,700
+both disciplines both sides of the of
+
+383
+00:18:58,089 --> 00:19:05,949
+the river I think it's going to go on
+
+384
+00:19:02,700 --> 00:19:09,519
+generation after generation the way it
+
+385
+00:19:05,950 --> 00:19:13,029
+has where what you might call the AI
+
+386
+00:19:09,519 --> 00:19:14,950
+computer science community says let's
+
+387
+00:19:13,029 --> 00:19:17,529
+take the following this is our model of
+
+388
+00:19:14,950 --> 00:19:21,519
+Neurobiology at the moment let's pretend
+
+389
+00:19:17,529 --> 00:19:25,000
+it's good enough and do everything we
+
+390
+00:19:21,519 --> 00:19:28,480
+can with it and it does interesting
+
+391
+00:19:25,000 --> 00:19:32,490
+things and after the while sort of
+
+392
+00:19:28,480 --> 00:19:34,240
+grinds into the sand and you say Oh
+
+393
+00:19:32,490 --> 00:19:36,370
+something else is needed from
+
+394
+00:19:34,240 --> 00:19:40,269
+neurobiology and some other grand thing
+
+395
+00:19:36,369 --> 00:19:44,199
+comes in and enables you to go a lot
+
+396
+00:19:40,269 --> 00:19:46,240
+further according to the sandakan
+
+397
+00:19:44,200 --> 00:19:48,400
+everything it could be generations of
+
+398
+00:19:46,240 --> 00:19:50,079
+this evolution I don't know how many of
+
+399
+00:19:48,400 --> 00:19:53,259
+them and each one is going to get you
+
+400
+00:19:50,079 --> 00:19:57,399
+further into what a brain does whatever
+
+401
+00:19:53,259 --> 00:20:05,379
+then in some sense passed the Turing
+
+402
+00:19:57,400 --> 00:20:07,180
+test longer and more broad aspects and
+
+403
+00:20:05,380 --> 00:20:10,540
+how many of these are good there are
+
+404
+00:20:07,180 --> 00:20:13,960
+going to have to be before you say I've
+
+405
+00:20:10,539 --> 00:20:16,690
+made something I've made a human I don't
+
+406
+00:20:13,960 --> 00:20:19,210
+know but your sense is it might be a
+
+407
+00:20:16,690 --> 00:20:25,269
+couple my senses might be a couple more
+
+408
+00:20:19,210 --> 00:20:28,170
+yeah and going back to my brain waves of
+
+409
+00:20:25,269 --> 00:20:28,170
+the word yes
+
+410
+00:20:29,950 --> 00:20:35,620
+from the AI point of view if they would
+
+411
+00:20:33,278 --> 00:20:41,079
+say ah maybe these are heavy phenomena
+
+412
+00:20:35,619 --> 00:20:47,888
+and not important at all the first car I
+
+413
+00:20:41,079 --> 00:20:50,129
+had no record of 1936 dodge Kobo 45
+
+414
+00:20:47,888 --> 00:20:55,949
+miles an hour in the wheels was Jimmy
+
+415
+00:20:50,130 --> 00:20:59,440
+yeah good good speedometer that
+
+416
+00:20:55,950 --> 00:21:01,659
+now don't be designed at the car that
+
+417
+00:20:59,440 --> 00:21:05,139
+way the cars malfunctioning to have that
+
+418
+00:21:01,659 --> 00:21:07,389
+but in biology if you if it were useful
+
+419
+00:21:05,138 --> 00:21:10,209
+to know when are you going more than 45
+
+420
+00:21:07,388 --> 00:21:11,558
+miles an hour you just capture that and
+
+421
+00:21:10,210 --> 00:21:13,620
+you wouldn't worry about where it came
+
+422
+00:21:11,558 --> 00:21:13,619
+from
+
+423
+00:21:14,849 --> 00:21:21,839
+yeah it'll be a long time before that
+
+424
+00:21:17,528 --> 00:21:25,419
+kind of thing which can take place in
+
+425
+00:21:21,839 --> 00:21:27,459
+large complex networks of things is
+
+426
+00:21:25,419 --> 00:21:32,169
+actually used in the computation
+
+427
+00:21:27,460 --> 00:21:35,350
+look-the how many transistors are there
+
+428
+00:21:32,169 --> 00:21:37,750
+at your laptop these days actually I
+
+429
+00:21:35,349 --> 00:21:39,668
+don't know the number it's it's on a
+
+430
+00:21:37,750 --> 00:21:40,569
+scale of 10 to the 10 I can't remember
+
+431
+00:21:39,669 --> 00:21:44,559
+the number
+
+432
+00:21:40,569 --> 00:21:46,720
+yeah and all the transistors are
+
+433
+00:21:44,558 --> 00:21:50,138
+somewhat similar and most physical
+
+434
+00:21:46,720 --> 00:21:52,750
+systems with that many parts all of
+
+435
+00:21:50,138 --> 00:21:56,579
+which are selfs or have collective
+
+436
+00:21:52,750 --> 00:21:58,359
+properties yes soundly is an error
+
+437
+00:21:56,579 --> 00:22:02,888
+Earthquakes what have you have
+
+438
+00:21:58,359 --> 00:22:05,408
+collective properties wither there are
+
+439
+00:22:02,888 --> 00:22:11,199
+no collective properties used in
+
+440
+00:22:05,409 --> 00:22:12,130
+artificial neural networks in AI yeah
+
+441
+00:22:11,200 --> 00:22:15,190
+it's very
+
+442
+00:22:12,130 --> 00:22:17,169
+if biology uses them it's gonna take us
+
+443
+00:22:15,190 --> 00:22:18,759
+two more generations of things to be the
+
+444
+00:22:17,169 --> 00:22:23,320
+perfect people to actually dig in and
+
+445
+00:22:18,759 --> 00:22:26,259
+see how they are used what they mean see
+
+446
+00:22:23,319 --> 00:22:30,189
+you're very right might have to return
+
+447
+00:22:26,259 --> 00:22:35,288
+several times to neurobiology and try to
+
+448
+00:22:30,190 --> 00:22:38,019
+make our transistors more messy yo-yo at
+
+449
+00:22:35,288 --> 00:22:42,709
+the same time the simple ones whole
+
+450
+00:22:38,019 --> 00:22:46,078
+concert will conquer big aspects
+
+451
+00:22:42,709 --> 00:22:52,200
+and I think one of the most biggest
+
+452
+00:22:46,078 --> 00:22:53,808
+surprises to me was how well learning
+
+453
+00:22:52,200 --> 00:22:57,450
+systems buzzer manifesting
+
+454
+00:22:53,808 --> 00:23:00,538
+non-biological how important they can be
+
+455
+00:22:57,450 --> 00:23:04,379
+actually and you how important how
+
+456
+00:23:00,538 --> 00:23:08,940
+useful they can be in a high so if we
+
+457
+00:23:04,378 --> 00:23:12,569
+can just take a stroll to some of your
+
+458
+00:23:08,940 --> 00:23:14,219
+work that is incredibly surprising that
+
+459
+00:23:12,569 --> 00:23:17,368
+it works as well as it does that
+
+460
+00:23:14,219 --> 00:23:20,609
+launched a lot of the recent work with
+
+461
+00:23:17,368 --> 00:23:26,578
+neural networks if we go to what are now
+
+462
+00:23:20,608 --> 00:23:29,428
+called hopfield networks can you tell me
+
+463
+00:23:26,578 --> 00:23:31,069
+what is associative memory in the mind
+
+464
+00:23:29,429 --> 00:23:35,249
+for the human side
+
+465
+00:23:31,069 --> 00:23:37,788
+let's explore memory for a bit okay what
+
+466
+00:23:35,249 --> 00:23:41,969
+do you mean by associative memory is oh
+
+467
+00:23:37,788 --> 00:23:44,278
+you have a memory of each of your
+
+468
+00:23:41,969 --> 00:23:45,869
+friends your friend has all kinds of
+
+469
+00:23:44,278 --> 00:23:47,459
+properties from what they look like is
+
+470
+00:23:45,868 --> 00:23:51,838
+whether voice sounds like to where they
+
+471
+00:23:47,459 --> 00:23:54,479
+went to college where you met them go on
+
+472
+00:23:51,838 --> 00:24:02,009
+and on what what science papers they've
+
+473
+00:23:54,479 --> 00:24:04,578
+written if I start talking about a five
+
+474
+00:24:02,009 --> 00:24:06,569
+foot ten wiry
+
+475
+00:24:04,578 --> 00:24:09,239
+cognitive scientist that's got a very
+
+476
+00:24:06,569 --> 00:24:11,338
+bad back it doesn't take very long for
+
+477
+00:24:09,239 --> 00:24:11,788
+you to say are you talking about geoff
+
+478
+00:24:11,338 --> 00:24:13,918
+hinton
+
+479
+00:24:11,788 --> 00:24:19,288
+I never been I never mentioned the name
+
+480
+00:24:13,919 --> 00:24:22,528
+or anything very particular but somehow
+
+481
+00:24:19,288 --> 00:24:25,378
+a few facts are associated with this
+
+482
+00:24:22,528 --> 00:24:27,628
+with a particular person enables you to
+
+483
+00:24:25,378 --> 00:24:29,608
+get a hold of the rest of the facts yeah
+
+484
+00:24:27,628 --> 00:24:32,998
+earned or not the dress that was another
+
+485
+00:24:29,608 --> 00:24:37,499
+subset of them and is this the ability
+
+486
+00:24:32,999 --> 00:24:41,129
+to link things together linked
+
+487
+00:24:37,499 --> 00:24:43,348
+experiences together which goes under
+
+488
+00:24:41,128 --> 00:24:47,428
+the general name of associative memory
+
+489
+00:24:43,348 --> 00:24:50,428
+and a large part of intelligent behavior
+
+490
+00:24:47,429 --> 00:24:52,879
+is actually just large associative
+
+491
+00:24:50,429 --> 00:24:54,890
+memories at work as far as I can see
+
+492
+00:24:52,878 --> 00:24:57,589
+what do you think
+
+493
+00:24:54,890 --> 00:25:02,110
+is the mechanism of how it works in the
+
+494
+00:24:57,589 --> 00:25:05,409
+mind is it is it a mystery to you still
+
+495
+00:25:02,109 --> 00:25:10,219
+do you have Inklings of how this
+
+496
+00:25:05,410 --> 00:25:15,220
+essential thing for cognition works what
+
+497
+00:25:10,220 --> 00:25:19,400
+I made 35 years ago was of course a
+
+498
+00:25:15,220 --> 00:25:23,298
+crude physics model to show the kayak
+
+499
+00:25:19,400 --> 00:25:24,980
+Chua Li enable you to understand my old
+
+500
+00:25:23,298 --> 00:25:27,679
+sense of understanding as a physicist
+
+501
+00:25:24,980 --> 00:25:29,509
+because you could say ah I understand
+
+502
+00:25:27,679 --> 00:25:31,790
+why this goes to stable States
+
+503
+00:25:29,509 --> 00:25:36,798
+it's like things going down downhill
+
+504
+00:25:31,789 --> 00:25:40,190
+right and that gives you something with
+
+505
+00:25:36,798 --> 00:25:42,769
+which to think in physical terms rather
+
+506
+00:25:40,190 --> 00:25:44,830
+than only in mathematical terms so
+
+507
+00:25:42,769 --> 00:25:47,450
+you've created these associative
+
+508
+00:25:44,829 --> 00:25:49,939
+artificial well that warp those right
+
+509
+00:25:47,450 --> 00:25:55,990
+and now if you if you look at what I did
+
+510
+00:25:49,940 --> 00:25:59,808
+I didn't did all describe a system which
+
+511
+00:25:55,990 --> 00:26:02,599
+gracefully learns I described as a
+
+512
+00:25:59,808 --> 00:26:04,279
+system in which you could understand how
+
+513
+00:26:02,599 --> 00:26:08,949
+things how learning could link things
+
+514
+00:26:04,279 --> 00:26:11,298
+together how very crudely it might learn
+
+515
+00:26:08,950 --> 00:26:13,669
+one of the things which intrigues me as
+
+516
+00:26:11,298 --> 00:26:20,839
+I reinvestigate that system now to some
+
+517
+00:26:13,669 --> 00:26:24,679
+extent is look I see you I'll see you
+
+518
+00:26:20,839 --> 00:26:25,240
+every second for the next hour or what
+
+519
+00:26:24,679 --> 00:26:27,919
+have you
+
+520
+00:26:25,240 --> 00:26:31,599
+each each look at you is a little bit
+
+521
+00:26:27,919 --> 00:26:33,590
+different I don't store all those
+
+522
+00:26:31,599 --> 00:26:35,839
+second-by-second images I don't store
+
+523
+00:26:33,589 --> 00:26:41,889
+3,000 images I somehow compact this
+
+524
+00:26:35,839 --> 00:26:41,889
+information so now I have a view of you
+
+525
+00:26:42,490 --> 00:26:48,620
+which can which I can use it doesn't
+
+526
+00:26:47,029 --> 00:26:50,089
+slavishly remember anything in
+
+527
+00:26:48,619 --> 00:26:53,149
+particular but it could PACs the
+
+528
+00:26:50,089 --> 00:26:57,109
+information in those useful chunks which
+
+529
+00:26:53,150 --> 00:26:59,570
+are somehow it's these chunks which are
+
+530
+00:26:57,109 --> 00:27:02,269
+not just activities of neurons from
+
+531
+00:26:59,569 --> 00:27:04,158
+bigger things than that which are the
+
+532
+00:27:02,269 --> 00:27:06,759
+real energies which are which are useful
+
+533
+00:27:04,159 --> 00:27:10,399
+which are useful to you
+
+534
+00:27:06,759 --> 00:27:14,538
+useful distal to you to describe to
+
+535
+00:27:10,398 --> 00:27:17,118
+compress this information present in
+
+536
+00:27:14,538 --> 00:27:19,700
+such a way that if I get the information
+
+537
+00:27:17,118 --> 00:27:22,418
+comes in just like this again I don't
+
+538
+00:27:19,700 --> 00:27:25,548
+bother about their to rewrite it or
+
+539
+00:27:22,419 --> 00:27:27,679
+efforts to rewrite it simply do not
+
+540
+00:27:25,548 --> 00:27:31,388
+yield anything because those things are
+
+541
+00:27:27,679 --> 00:27:35,330
+already written and that needs to be not
+
+542
+00:27:31,388 --> 00:27:37,488
+look this up has ever started somewhere
+
+543
+00:27:35,329 --> 00:27:40,398
+already therapies not something which is
+
+544
+00:27:37,489 --> 00:27:44,929
+much more automatic in the machine
+
+545
+00:27:40,398 --> 00:27:47,508
+hardware right so in the human mind how
+
+546
+00:27:44,929 --> 00:27:51,649
+complicated is that process do you think
+
+547
+00:27:47,509 --> 00:27:53,089
+so you've created feels weird to be
+
+548
+00:27:51,648 --> 00:27:56,798
+sitting with john hopfield calling them
+
+549
+00:27:53,089 --> 00:27:59,868
+hot field networks but it is weird
+
+550
+00:27:56,798 --> 00:28:03,138
+yeah but nevertheless that's what
+
+551
+00:27:59,868 --> 00:28:05,298
+everyone calls them so here we are so
+
+552
+00:28:03,138 --> 00:28:07,548
+that's a simplification that's what a
+
+553
+00:28:05,298 --> 00:28:08,929
+physicists would do you and richard
+
+554
+00:28:07,548 --> 00:28:12,888
+fineman sat down and talked about
+
+555
+00:28:08,929 --> 00:28:15,379
+associative memory now if you as a if
+
+556
+00:28:12,888 --> 00:28:19,278
+you look at the mind or you can't quite
+
+557
+00:28:15,378 --> 00:28:23,569
+simplify so perfectly do you let me
+
+558
+00:28:19,278 --> 00:28:27,798
+backtrack just a little bit yep biology
+
+559
+00:28:23,569 --> 00:28:33,168
+is about dynamical systems computers are
+
+560
+00:28:27,798 --> 00:28:37,308
+dynamical systems you can have if you
+
+561
+00:28:33,169 --> 00:28:40,190
+want to math the bottle biology bottle
+
+562
+00:28:37,308 --> 00:28:43,368
+neurobiology what is the time scale
+
+563
+00:28:40,190 --> 00:28:46,639
+there's a dynamical system in which you
+
+564
+00:28:43,368 --> 00:28:48,618
+have a fairly fast timescale in which
+
+565
+00:28:46,638 --> 00:28:50,778
+you goes eight the synopsis don't change
+
+566
+00:28:48,618 --> 00:28:53,358
+much during this computation so I'll
+
+567
+00:28:50,778 --> 00:28:56,569
+think of the synapses fixed and just do
+
+568
+00:28:53,358 --> 00:29:00,348
+the dynamics of the activity or you can
+
+569
+00:28:56,569 --> 00:29:02,058
+say the synapses are changing fast
+
+570
+00:29:00,348 --> 00:29:04,729
+enough that I have to have the synaptic
+
+571
+00:29:02,058 --> 00:29:08,418
+dynamics working at the same time as the
+
+572
+00:29:04,729 --> 00:29:10,869
+system dynamics in order to understand
+
+573
+00:29:08,419 --> 00:29:10,869
+the biology
+
+574
+00:29:12,609 --> 00:29:16,219
+most artists if you look at the
+
+575
+00:29:14,660 --> 00:29:19,910
+feed-forward art revisional their own
+
+576
+00:29:16,220 --> 00:29:21,710
+ads they're all done as learning is
+
+577
+00:29:19,910 --> 00:29:23,690
+first of all I spent some time learning
+
+578
+00:29:21,710 --> 00:29:28,100
+and not performing and I turned off
+
+579
+00:29:23,690 --> 00:29:33,110
+learning and I perform right that's not
+
+580
+00:29:28,099 --> 00:29:35,089
+biology and so he is there look more
+
+581
+00:29:33,109 --> 00:29:38,089
+deeply at neurobiology even as
+
+582
+00:29:35,089 --> 00:29:39,740
+associative memory I've got to face the
+
+583
+00:29:38,089 --> 00:29:44,869
+fact that the dynamics of a synapse
+
+584
+00:29:39,740 --> 00:29:46,808
+change is going on all the time and I
+
+585
+00:29:44,869 --> 00:29:49,549
+can't just get by by thing I'll do the
+
+586
+00:29:46,808 --> 00:29:54,319
+academics of activity with fixed
+
+587
+00:29:49,549 --> 00:29:56,569
+synapses so the the synaptic the
+
+588
+00:29:54,319 --> 00:29:58,849
+dynamics of the synapses is actually
+
+589
+00:29:56,569 --> 00:30:01,129
+fundamental to the whole system yum yum
+
+590
+00:29:58,849 --> 00:30:03,589
+and there's no there's no there's
+
+591
+00:30:01,130 --> 00:30:05,870
+nothing necessarily separating the time
+
+592
+00:30:03,589 --> 00:30:07,549
+skills where the time skills can be
+
+593
+00:30:05,869 --> 00:30:09,500
+separate and it's neat for the
+
+594
+00:30:07,549 --> 00:30:12,109
+physicists of the mathematicians point
+
+595
+00:30:09,500 --> 00:30:15,440
+of view but it's not necessarily true in
+
+596
+00:30:12,109 --> 00:30:18,049
+neurobiology New York you're kind of
+
+597
+00:30:15,440 --> 00:30:22,120
+dancing beautifully between showing a
+
+598
+00:30:18,049 --> 00:30:24,919
+lot of respect to physics and then also
+
+599
+00:30:22,119 --> 00:30:29,959
+saying that physics cannot quite reach
+
+600
+00:30:24,920 --> 00:30:32,058
+the the complexity of biology so where
+
+601
+00:30:29,960 --> 00:30:34,308
+do you land or do you continuously dance
+
+602
+00:30:32,058 --> 00:30:35,990
+between the two I continuously dance
+
+603
+00:30:34,308 --> 00:30:42,319
+between them because my whole notion of
+
+604
+00:30:35,990 --> 00:30:43,880
+understanding is it you can describe to
+
+605
+00:30:42,319 --> 00:30:49,149
+somebody else how something works in
+
+606
+00:30:43,880 --> 00:30:52,400
+ways which are honest and believable and
+
+607
+00:30:49,150 --> 00:30:57,440
+still not described all the nuts and
+
+608
+00:30:52,400 --> 00:31:03,470
+bolts in detail whether I can describe
+
+609
+00:30:57,440 --> 00:31:05,750
+whether as ten to the 32 molecules
+
+610
+00:31:03,470 --> 00:31:07,400
+colliding in the atmosphere I can
+
+611
+00:31:05,750 --> 00:31:09,200
+stimulate whether that way or I pick
+
+612
+00:31:07,400 --> 00:31:13,340
+enough machine I'll simulate it
+
+613
+00:31:09,200 --> 00:31:16,640
+accurately it's no good for
+
+614
+00:31:13,339 --> 00:31:18,169
+understanding but I just want to
+
+615
+00:31:16,640 --> 00:31:20,450
+understand things I want to understand
+
+616
+00:31:18,170 --> 00:31:22,759
+things in terms of wind patterns
+
+617
+00:31:20,450 --> 00:31:24,309
+hurricanes pressure differentials and so
+
+618
+00:31:22,759 --> 00:31:31,000
+on all things is there
+
+619
+00:31:24,309 --> 00:31:33,819
+negative and the physicists physicists
+
+620
+00:31:31,000 --> 00:31:35,440
+in me always hopes that biology will
+
+621
+00:31:33,819 --> 00:31:38,319
+have some things which can be said about
+
+622
+00:31:35,440 --> 00:31:40,870
+it was are both true and for which you
+
+623
+00:31:38,319 --> 00:31:43,929
+don't need all the molecular details of
+
+624
+00:31:40,869 --> 00:31:46,809
+the molecules colliding that's what I
+
+625
+00:31:43,930 --> 00:31:51,370
+mean from the roots of physics by
+
+626
+00:31:46,809 --> 00:31:53,500
+understanding so what did again sorry
+
+627
+00:31:51,369 --> 00:31:57,779
+but hopfield networks help you
+
+628
+00:31:53,500 --> 00:32:00,940
+understand what insight to give us about
+
+629
+00:31:57,779 --> 00:32:05,048
+memory about learning
+
+630
+00:32:00,940 --> 00:32:08,019
+they didn't give insights about learning
+
+631
+00:32:05,048 --> 00:32:12,608
+they gave insights about how things
+
+632
+00:32:08,019 --> 00:32:17,378
+having learned could be expressed how
+
+633
+00:32:12,608 --> 00:32:20,739
+having learned a picture of a picture of
+
+634
+00:32:17,378 --> 00:32:23,888
+you reminds me of your name that would
+
+635
+00:32:20,739 --> 00:32:28,450
+put it describe a reasonable way of
+
+636
+00:32:23,888 --> 00:32:31,178
+actually doing the learning or only said
+
+637
+00:32:28,450 --> 00:32:33,179
+if he had previously learned the
+
+638
+00:32:31,179 --> 00:32:37,960
+connections of this kind of pattern
+
+639
+00:32:33,179 --> 00:32:40,690
+would now be able to behave in a
+
+640
+00:32:37,960 --> 00:32:42,278
+physical way with the day off I put the
+
+641
+00:32:40,690 --> 00:32:43,840
+part of the pattern in here the other
+
+642
+00:32:42,278 --> 00:32:46,598
+pattern of the pet part of the pattern
+
+643
+00:32:43,839 --> 00:32:49,269
+will complete over here I can understand
+
+644
+00:32:46,598 --> 00:32:52,089
+that physics if the right learning stuff
+
+645
+00:32:49,269 --> 00:32:53,589
+had already been put in and you couldn't
+
+646
+00:32:52,089 --> 00:32:54,638
+understand why then putting in a picture
+
+647
+00:32:53,589 --> 00:32:58,178
+of somebody else would generate
+
+648
+00:32:54,638 --> 00:33:00,638
+something else over here but it didn't
+
+649
+00:32:58,179 --> 00:33:03,970
+out under did not have a reasonable
+
+650
+00:33:00,638 --> 00:33:05,978
+description of the learning process but
+
+651
+00:33:03,970 --> 00:33:08,798
+even to forget learning I mean that's
+
+652
+00:33:05,979 --> 00:33:13,538
+just a powerful concept that sort of
+
+653
+00:33:08,798 --> 00:33:16,058
+forming representations that are useful
+
+654
+00:33:13,538 --> 00:33:19,358
+to be robust you know for error
+
+655
+00:33:16,058 --> 00:33:21,848
+correction kind of thing so this is kind
+
+656
+00:33:19,358 --> 00:33:24,819
+of what the biology does we're talking
+
+657
+00:33:21,848 --> 00:33:27,489
+about what my paper did was simply
+
+658
+00:33:24,819 --> 00:33:34,628
+enable you there long there are lots of
+
+659
+00:33:27,489 --> 00:33:37,419
+ways of being robust if you think of it
+
+660
+00:33:34,628 --> 00:33:40,509
+a dividend amical system here you think
+
+661
+00:33:37,419 --> 00:33:43,389
+of a system where a path is going on and
+
+662
+00:33:40,509 --> 00:33:45,729
+in time and if you think for a computer
+
+663
+00:33:43,388 --> 00:33:48,788
+is a computational path which is going
+
+664
+00:33:45,729 --> 00:33:55,119
+out in a huge dimensional space of ones
+
+665
+00:33:48,788 --> 00:33:56,739
+and zeros and an error-correcting system
+
+666
+00:33:55,118 --> 00:33:59,199
+is a system which if you get a little
+
+667
+00:33:56,739 --> 00:34:01,090
+bit off that trajectory will push you
+
+668
+00:33:59,200 --> 00:34:02,798
+back onto that trajectory again till you
+
+669
+00:34:01,089 --> 00:34:05,048
+get to the same answer in spite of the
+
+670
+00:34:02,798 --> 00:34:07,118
+fact that there were things though that
+
+671
+00:34:05,048 --> 00:34:11,139
+the computation wasn't being ideally
+
+672
+00:34:07,118 --> 00:34:13,549
+done all the way along a line and there
+
+673
+00:34:11,139 --> 00:34:14,900
+are lots of models for error correction
+
+674
+00:34:13,550 --> 00:34:17,750
+but one of the models for error
+
+675
+00:34:14,900 --> 00:34:20,690
+correction is to say there's a family
+
+676
+00:34:17,750 --> 00:34:23,000
+that you're following flowing down and
+
+677
+00:34:20,690 --> 00:34:25,429
+if you push a little bit off the valley
+
+678
+00:34:23,000 --> 00:34:27,590
+it's just like water being pushed a
+
+679
+00:34:25,429 --> 00:34:31,119
+little bit by a rock gets back and
+
+680
+00:34:27,590 --> 00:34:36,829
+follows the course of the river and then
+
+681
+00:34:31,119 --> 00:34:38,449
+basically the analog in the in the
+
+682
+00:34:36,829 --> 00:34:42,259
+physical system went to enable to just
+
+683
+00:34:38,449 --> 00:34:44,719
+say oh yes error free computation and an
+
+684
+00:34:42,260 --> 00:34:47,000
+associative memory are very much like
+
+685
+00:34:44,719 --> 00:34:49,329
+like things that I can understand from
+
+686
+00:34:47,000 --> 00:34:53,269
+the point of view of a physical system
+
+687
+00:34:49,329 --> 00:34:58,250
+the physical system is can be under some
+
+688
+00:34:53,269 --> 00:35:00,440
+circumstances an accurate metaphor it's
+
+689
+00:34:58,250 --> 00:35:02,630
+not the only metaphor there are error
+
+690
+00:35:00,440 --> 00:35:07,519
+correction schemes which don't have a
+
+691
+00:35:02,630 --> 00:35:09,200
+valley and energy behind them but those
+
+692
+00:35:07,519 --> 00:35:11,179
+are correction schemes such a
+
+693
+00:35:09,199 --> 00:35:15,439
+mathematician may be able to understand
+
+694
+00:35:11,179 --> 00:35:18,230
+but I don't so there's a the physical
+
+695
+00:35:15,440 --> 00:35:22,000
+metaphor that seems to a it seems to
+
+696
+00:35:18,230 --> 00:35:25,340
+work here that's right that's right so
+
+697
+00:35:22,000 --> 00:35:28,250
+these kinds of networks actually led to
+
+698
+00:35:25,340 --> 00:35:30,260
+a lot of the work that is going on now
+
+699
+00:35:28,250 --> 00:35:32,269
+and you're on that works artificial
+
+700
+00:35:30,260 --> 00:35:34,940
+neural network so the follow-on work
+
+701
+00:35:32,269 --> 00:35:37,960
+with restrictive Boltzmann machines and
+
+702
+00:35:34,940 --> 00:35:40,849
+deep belief Nets
+
+703
+00:35:37,960 --> 00:35:42,679
+followed on from the from these ideas of
+
+704
+00:35:40,849 --> 00:35:46,880
+the hopfield network so what what do you
+
+705
+00:35:42,679 --> 00:35:50,799
+think about this continued progress of
+
+706
+00:35:46,880 --> 00:35:53,450
+that work towards now ree-ree vigor ated
+
+707
+00:35:50,800 --> 00:35:55,610
+exploration of feed-forward neural
+
+708
+00:35:53,449 --> 00:35:59,079
+networks and recurrent neural networks
+
+709
+00:35:55,610 --> 00:36:01,400
+in convolutional neural networks and
+
+710
+00:35:59,079 --> 00:36:03,170
+kinds of networks that are helping solve
+
+711
+00:36:01,400 --> 00:36:05,990
+image recognition natural language
+
+712
+00:36:03,170 --> 00:36:07,780
+processing all that kind of stuff it's
+
+713
+00:36:05,989 --> 00:36:09,019
+always intrigued me one of the most
+
+714
+00:36:07,780 --> 00:36:12,860
+long-lived
+
+715
+00:36:09,019 --> 00:36:15,469
+all the learning systems is the
+
+716
+00:36:12,860 --> 00:36:20,120
+Boltzmann machine which is intrinsically
+
+717
+00:36:15,469 --> 00:36:23,098
+a feedback network and was the
+
+718
+00:36:20,119 --> 00:36:25,710
+brilliance of in
+
+719
+00:36:23,099 --> 00:36:29,190
+and Sadowski to understand how to do
+
+720
+00:36:25,710 --> 00:36:30,929
+learning in that and it's still a useful
+
+721
+00:36:29,190 --> 00:36:34,048
+way to understand learning and
+
+722
+00:36:30,929 --> 00:36:35,788
+understand and the learning that you
+
+723
+00:36:34,048 --> 00:36:37,829
+understand and that has something to do
+
+724
+00:36:35,789 --> 00:36:41,579
+with the way that feed-forward systems
+
+725
+00:36:37,829 --> 00:36:47,278
+work but it's not always exactly simple
+
+726
+00:36:41,579 --> 00:36:49,920
+to express that intuition but it always
+
+727
+00:36:47,278 --> 00:36:52,409
+amuses me as he Hinton going back to the
+
+728
+00:36:49,920 --> 00:36:56,329
+will yet again on a form of the
+
+729
+00:36:52,409 --> 00:36:56,328
+Boltzmann machine because really that
+
+730
+00:36:56,449 --> 00:37:02,748
+which has feedback and interesting
+
+731
+00:36:59,880 --> 00:37:04,499
+probabilities in it this is a lovely
+
+732
+00:37:02,748 --> 00:37:09,439
+encapsulation of something in
+
+733
+00:37:04,498 --> 00:37:11,578
+computational something computational
+
+734
+00:37:09,440 --> 00:37:14,519
+something both computational and
+
+735
+00:37:11,579 --> 00:37:16,880
+physical computational and they very
+
+736
+00:37:14,518 --> 00:37:20,459
+much related to feed-forward networks
+
+737
+00:37:16,880 --> 00:37:23,720
+physical in that Boltzmann machine
+
+738
+00:37:20,460 --> 00:37:26,880
+learning is really learning a set of
+
+739
+00:37:23,719 --> 00:37:30,358
+parameters for physics Hamiltonian or
+
+740
+00:37:26,880 --> 00:37:33,690
+energy function what do you think about
+
+741
+00:37:30,358 --> 00:37:37,650
+learning in this whole domain do you do
+
+742
+00:37:33,690 --> 00:37:41,009
+you think the aforementioned guy Geoff
+
+743
+00:37:37,650 --> 00:37:44,338
+Hinton all the work there with
+
+744
+00:37:41,009 --> 00:37:47,969
+backpropagation all the kind of learning
+
+745
+00:37:44,338 --> 00:37:50,909
+that goes on in these networks how do
+
+746
+00:37:47,969 --> 00:37:54,298
+you if we compared to learning in the
+
+747
+00:37:50,909 --> 00:37:57,828
+brain for example is there echoes of the
+
+748
+00:37:54,298 --> 00:38:00,389
+same kind of power that back propagation
+
+749
+00:37:57,829 --> 00:38:02,460
+reveals about these kinds of recurrent
+
+750
+00:38:00,389 --> 00:38:04,558
+networks or is it something
+
+751
+00:38:02,460 --> 00:38:13,769
+fundamentally different going on in the
+
+752
+00:38:04,559 --> 00:38:17,930
+brain I don't think the brain is as deep
+
+753
+00:38:13,768 --> 00:38:22,439
+as the deepest networks go the deepest
+
+754
+00:38:17,929 --> 00:38:24,058
+computer science networks and I do
+
+755
+00:38:22,440 --> 00:38:26,519
+wonder where they're part of that depth
+
+756
+00:38:24,059 --> 00:38:29,339
+of the computer science networks is
+
+757
+00:38:26,518 --> 00:38:33,639
+necessitated by the fact that the only
+
+758
+00:38:29,338 --> 00:38:36,909
+learning is easily done on a machine is
+
+759
+00:38:33,639 --> 00:38:39,730
+his feed-forward and so there's the
+
+760
+00:38:36,909 --> 00:38:42,940
+question of to what extent as the
+
+761
+00:38:39,730 --> 00:38:47,108
+biology which has some feed-forward some
+
+762
+00:38:42,940 --> 00:38:51,760
+feedback been captured by something
+
+763
+00:38:47,108 --> 00:38:53,730
+which is it got many more neurons but
+
+764
+00:38:51,760 --> 00:38:58,778
+much more depth to the neurons
+
+765
+00:38:53,730 --> 00:39:01,059
+you know so party you wonders if the
+
+766
+00:38:58,778 --> 00:39:03,789
+feedback is actually more essential than
+
+767
+00:39:01,059 --> 00:39:06,730
+the number of neurons or the depth the
+
+768
+00:39:03,789 --> 00:39:09,250
+the dynamics of the feedback doesn't
+
+769
+00:39:06,730 --> 00:39:11,949
+ever have the feedback look if you don't
+
+770
+00:39:09,250 --> 00:39:13,329
+have if you don't have feedback it's a
+
+771
+00:39:11,949 --> 00:39:15,879
+little bit like a building a big
+
+772
+00:39:13,329 --> 00:39:18,700
+computer and having running up through
+
+773
+00:39:15,880 --> 00:39:22,150
+one clock cycle and then you can't do
+
+774
+00:39:18,699 --> 00:39:25,960
+anything do you put you reload something
+
+775
+00:39:22,150 --> 00:39:28,480
+coming in how do you use the fact that
+
+776
+00:39:25,960 --> 00:39:29,889
+there are multiple clocks like how do I
+
+777
+00:39:28,480 --> 00:39:32,409
+use the fact that you can close your
+
+778
+00:39:29,889 --> 00:39:34,598
+eyes stop listening to me and think
+
+779
+00:39:32,409 --> 00:39:40,268
+about a chessboard for two minutes
+
+780
+00:39:34,599 --> 00:39:43,690
+without any input whatsoever yeah that
+
+781
+00:39:40,268 --> 00:39:46,328
+memory thing that's fundamentally a
+
+782
+00:39:43,690 --> 00:39:50,679
+feedback kind of mechanism you're going
+
+783
+00:39:46,329 --> 00:39:52,359
+back to something yes it's hard it's
+
+784
+00:39:50,679 --> 00:39:58,149
+hard it's hard to understand so I don't
+
+785
+00:39:52,358 --> 00:40:00,159
+respect let alone consciousness oh is
+
+786
+00:39:58,150 --> 00:40:02,559
+that a little own consciousness yes
+
+787
+00:40:00,159 --> 00:40:06,000
+because that's tied up in there too you
+
+788
+00:40:02,559 --> 00:40:08,619
+can't just put that on another shelf
+
+789
+00:40:06,000 --> 00:40:11,409
+every once in a while like I interested
+
+790
+00:40:08,619 --> 00:40:13,858
+in consciousness and then I go and I've
+
+791
+00:40:11,409 --> 00:40:17,618
+done that for years and ask one of my
+
+792
+00:40:13,858 --> 00:40:19,869
+betters as it were their view on
+
+793
+00:40:17,619 --> 00:40:26,230
+consciousness there's been interest in
+
+794
+00:40:19,869 --> 00:40:30,519
+collecting them what let's try to take a
+
+795
+00:40:26,230 --> 00:40:32,858
+brief step into that room well that's
+
+796
+00:40:30,518 --> 00:40:36,028
+Marvin Minsky does you want to
+
+797
+00:40:32,858 --> 00:40:39,509
+consciousness and Marvin said
+
+798
+00:40:36,028 --> 00:40:44,079
+consciousness is basically overrated
+
+799
+00:40:39,509 --> 00:40:46,240
+it may be an epiphenomenon after all all
+
+800
+00:40:44,079 --> 00:40:48,780
+the things your brain does but your
+
+801
+00:40:46,239 --> 00:40:56,169
+as they're actually hard computations
+
+802
+00:40:48,780 --> 00:40:58,359
+you do not consciously and there's so
+
+803
+00:40:56,170 --> 00:41:01,289
+much evidence that even the things the
+
+804
+00:40:58,358 --> 00:41:04,239
+simple things you do you can make
+
+805
+00:41:01,289 --> 00:41:06,309
+decisions you can make committed
+
+806
+00:41:04,239 --> 00:41:08,739
+decisions about them the neurobiology
+
+807
+00:41:06,309 --> 00:41:14,920
+can say he's now committed he's going to
+
+808
+00:41:08,739 --> 00:41:16,509
+move the hand left before you know it so
+
+809
+00:41:14,920 --> 00:41:18,700
+his view that consciousness is not
+
+810
+00:41:16,510 --> 00:41:20,320
+that's just like little icing on the
+
+811
+00:41:18,699 --> 00:41:24,250
+cake the real cake is in the
+
+812
+00:41:20,320 --> 00:41:25,960
+subconscious yo-yo subconscious non
+
+813
+00:41:24,250 --> 00:41:27,820
+conscious non-conscious that's the
+
+814
+00:41:25,960 --> 00:41:29,889
+better word sir there's the it's only
+
+815
+00:41:27,820 --> 00:41:31,720
+the Freud captured the other word yeah
+
+816
+00:41:29,889 --> 00:41:34,779
+it's that's a confusing word
+
+817
+00:41:31,719 --> 00:41:38,439
+subconscious Nicholas Chater wrote an
+
+818
+00:41:34,780 --> 00:41:46,960
+interesting book I think the saw
+
+819
+00:41:38,440 --> 00:41:48,970
+delivers the mind is flat flat and in a
+
+820
+00:41:46,960 --> 00:41:51,809
+neural net sense you might have to be a
+
+821
+00:41:48,969 --> 00:41:54,250
+flat is something which is of very broad
+
+822
+00:41:51,809 --> 00:41:57,009
+they're all know without earlier than
+
+823
+00:41:54,250 --> 00:42:00,880
+the layers in depth or as a deep brain
+
+824
+00:41:57,010 --> 00:42:04,450
+would be many layers and not so broad in
+
+825
+00:42:00,880 --> 00:42:07,500
+the same sense that if you push Minsky
+
+826
+00:42:04,449 --> 00:42:10,569
+hard enough he would talk V of said
+
+827
+00:42:07,500 --> 00:42:13,750
+consciousness is your effort to explain
+
+828
+00:42:10,570 --> 00:42:19,480
+to yourself that would you have already
+
+829
+00:42:13,750 --> 00:42:21,519
+done yeah it's the weaving of the
+
+830
+00:42:19,480 --> 00:42:24,429
+narrative around the things that already
+
+831
+00:42:21,519 --> 00:42:27,759
+been computed for you that's right and
+
+832
+00:42:24,429 --> 00:42:31,868
+then so much of what we do for our
+
+833
+00:42:27,760 --> 00:42:35,140
+memories of events for example if
+
+834
+00:42:31,869 --> 00:42:37,329
+there's some traumatic event you witness
+
+835
+00:42:35,139 --> 00:42:40,358
+you will have a few facts about it
+
+836
+00:42:37,329 --> 00:42:42,699
+correctly done if somebody asks you
+
+837
+00:42:40,358 --> 00:42:45,159
+about it you will weave a narrative
+
+838
+00:42:42,699 --> 00:42:48,189
+which is actually much more rich in
+
+839
+00:42:45,159 --> 00:42:50,049
+detail than that based on some anchor
+
+840
+00:42:48,190 --> 00:42:53,260
+points you have of correct things and
+
+841
+00:42:50,050 --> 00:42:54,849
+and pulling together general knowledge
+
+842
+00:42:53,260 --> 00:42:57,550
+on the other but you will have a
+
+843
+00:42:54,849 --> 00:42:59,260
+narrative and once you generate that
+
+844
+00:42:57,550 --> 00:43:00,048
+narrative if you are very likely to
+
+845
+00:42:59,260 --> 00:43:01,849
+repeat that
+
+846
+00:43:00,048 --> 00:43:04,038
+narrative and claim that all the things
+
+847
+00:43:01,849 --> 00:43:04,640
+you have hidden are actually the correct
+
+848
+00:43:04,039 --> 00:43:06,949
+things
+
+849
+00:43:04,639 --> 00:43:15,498
+there was a marvelous example of that in
+
+850
+00:43:06,949 --> 00:43:18,999
+the Watergate / impeachment era of John
+
+851
+00:43:15,498 --> 00:43:23,688
+Dean John Dean you're too young to know
+
+852
+00:43:18,998 --> 00:43:28,098
+had been the personal lawyer of Dickson
+
+853
+00:43:23,688 --> 00:43:31,699
+and so John Dean was involved in the
+
+854
+00:43:28,099 --> 00:43:33,318
+cover-up and John Dean ultimately
+
+855
+00:43:31,699 --> 00:43:35,929
+realized the only way to keep himself
+
+856
+00:43:33,318 --> 00:43:38,028
+out of jail for a long time was actually
+
+857
+00:43:35,929 --> 00:43:41,028
+to tell some of the truths about Nixon
+
+858
+00:43:38,028 --> 00:43:44,509
+and John Dean was a tremendous witness
+
+859
+00:43:41,028 --> 00:43:47,978
+he would remember these conversations in
+
+860
+00:43:44,509 --> 00:43:52,759
+great detail and very convincingly tail
+
+861
+00:43:47,978 --> 00:43:56,659
+and long afterward some of the some of
+
+862
+00:43:52,759 --> 00:43:59,269
+the tapes the secret cases were for
+
+863
+00:43:56,659 --> 00:44:02,659
+which these Don was Jean was recalling
+
+864
+00:43:59,268 --> 00:44:05,118
+these conversations were published and
+
+865
+00:44:02,659 --> 00:44:07,548
+one found out that John Dean had a good
+
+866
+00:44:05,119 --> 00:44:10,999
+but not exceptional memory what he had
+
+867
+00:44:07,548 --> 00:44:14,179
+was an ability to paint vividly and in
+
+868
+00:44:10,998 --> 00:44:17,568
+some sense accurately the tone of what
+
+869
+00:44:14,179 --> 00:44:20,010
+was going on by the way that's a
+
+870
+00:44:17,568 --> 00:44:22,420
+beautiful description of consciousness
+
+871
+00:44:20,010 --> 00:44:28,209
+[Music]
+
+872
+00:44:22,420 --> 00:44:34,009
+do you mean like where do you stand in
+
+873
+00:44:28,208 --> 00:44:36,318
+your today so perhaps has changed his
+
+874
+00:44:34,009 --> 00:44:38,269
+day to day but where do you stand on the
+
+875
+00:44:36,318 --> 00:44:42,858
+importance of consciousness in our whole
+
+876
+00:44:38,268 --> 00:44:46,938
+big mess of cognition is it just a
+
+877
+00:44:42,858 --> 00:44:51,679
+little narrative maker or is it actually
+
+878
+00:44:46,938 --> 00:44:56,629
+fundamental to intelligence that's our
+
+879
+00:44:51,679 --> 00:45:00,709
+that's a very hard one but I asked
+
+880
+00:44:56,630 --> 00:45:03,499
+Francis Crick about consciousness he
+
+881
+00:45:00,708 --> 00:45:04,759
+launched forward a long monologue about
+
+882
+00:45:03,498 --> 00:45:07,968
+handling the peas
+
+883
+00:45:04,759 --> 00:45:10,579
+yeah and how Mendel knew that there was
+
+884
+00:45:07,969 --> 00:45:12,608
+something and how biologists understood
+
+885
+00:45:10,579 --> 00:45:16,359
+there was something in inherit
+
+886
+00:45:12,608 --> 00:45:19,358
+which was just very very different and
+
+887
+00:45:16,358 --> 00:45:22,598
+he is the effect that inherited traits
+
+888
+00:45:19,358 --> 00:45:28,088
+didn't just wash out into a grey but
+
+889
+00:45:22,599 --> 00:45:29,859
+it's this or this and propagated that
+
+890
+00:45:28,088 --> 00:45:32,739
+that was absolutely fundamentals of
+
+891
+00:45:29,858 --> 00:45:34,900
+biology and it took generations of
+
+892
+00:45:32,739 --> 00:45:37,509
+biologists to understand that there was
+
+893
+00:45:34,900 --> 00:45:40,210
+genetic and it took another generation
+
+894
+00:45:37,510 --> 00:45:44,680
+or two to understand that genetics came
+
+895
+00:45:40,210 --> 00:45:47,289
+from DNA but there but but but very
+
+896
+00:45:44,679 --> 00:45:48,759
+shortly after Mendel thinking biologists
+
+897
+00:45:47,289 --> 00:45:55,960
+did realize that there was a deep
+
+898
+00:45:48,760 --> 00:45:57,760
+problem about inheritance any Francis
+
+899
+00:45:55,960 --> 00:45:59,949
+blood of life would like to have said
+
+900
+00:45:57,760 --> 00:46:02,559
+and that's why I'm we're working
+
+901
+00:45:59,949 --> 00:46:04,689
+unconsciousness but of course he didn't
+
+902
+00:46:02,559 --> 00:46:09,880
+have any smoking gun in the sense of
+
+903
+00:46:04,690 --> 00:46:13,960
+Mendel and that's the weakness of his
+
+904
+00:46:09,880 --> 00:46:15,818
+physician that he read his his book but
+
+905
+00:46:13,960 --> 00:46:18,548
+you wrote with Corey bank
+
+906
+00:46:15,818 --> 00:46:21,358
+yeah Christophe go on I find it
+
+907
+00:46:18,548 --> 00:46:28,719
+unconvincing for this first poking gun
+
+908
+00:46:21,358 --> 00:46:30,608
+reason start going on and collecting
+
+909
+00:46:28,719 --> 00:46:33,129
+views without actually having taken a
+
+910
+00:46:30,608 --> 00:46:35,949
+very strong one myself because I haven't
+
+911
+00:46:33,130 --> 00:46:38,289
+seen the entry point not seeing the
+
+912
+00:46:35,949 --> 00:46:40,409
+smoking gun and the point of view of
+
+913
+00:46:38,289 --> 00:46:42,970
+physics I don't see the entry point
+
+914
+00:46:40,409 --> 00:46:45,250
+whereas whereas the neurobiology once
+
+915
+00:46:42,969 --> 00:46:49,239
+they understood the idea of a collective
+
+916
+00:46:45,250 --> 00:46:51,130
+a and evolution of dynamics which could
+
+917
+00:46:49,239 --> 00:46:54,608
+be described as a clock a collective
+
+918
+00:46:51,130 --> 00:46:57,068
+phenomenon I thought ah there's a point
+
+919
+00:46:54,608 --> 00:46:59,230
+where what I know about physics is so
+
+920
+00:46:57,068 --> 00:47:00,548
+different from any neurobiologist that I
+
+921
+00:46:59,230 --> 00:47:03,849
+have something that I might be able to
+
+922
+00:47:00,548 --> 00:47:06,400
+contribute and right now there's no way
+
+923
+00:47:03,849 --> 00:47:09,010
+to grasp at consciousness from a physics
+
+924
+00:47:06,400 --> 00:47:14,470
+perspective from my point of view that's
+
+925
+00:47:09,010 --> 00:47:17,410
+correct and of course people this is
+
+926
+00:47:14,469 --> 00:47:19,868
+like everybody else do you think very
+
+927
+00:47:17,409 --> 00:47:22,440
+but early about things you have the
+
+928
+00:47:19,869 --> 00:47:26,818
+closely is related question about
+
+929
+00:47:22,440 --> 00:47:26,818
+freewill do you believe your freewill
+
+930
+00:47:26,940 --> 00:47:31,960
+physicists will give an offhand answer
+
+931
+00:47:29,289 --> 00:47:33,969
+and then backtrack backtrack backtrack
+
+932
+00:47:31,960 --> 00:47:36,400
+where they realized that the answer they
+
+933
+00:47:33,969 --> 00:47:39,399
+gave must fundamentally contradict the
+
+934
+00:47:36,400 --> 00:47:41,019
+laws of physics that natura answering
+
+935
+00:47:39,400 --> 00:47:43,000
+questions of freewill and consciousness
+
+936
+00:47:41,019 --> 00:47:46,150
+naturally lead to contradictions from a
+
+937
+00:47:43,000 --> 00:47:47,409
+physics perspective because it
+
+938
+00:47:46,150 --> 00:47:49,420
+eventually ends up with quantum
+
+939
+00:47:47,409 --> 00:47:53,259
+mechanics and then you get into that
+
+940
+00:47:49,420 --> 00:47:56,920
+whole mess of trying to understand how
+
+941
+00:47:53,260 --> 00:47:59,830
+much from a physics perspective how much
+
+942
+00:47:56,920 --> 00:48:01,360
+is determined already predetermined much
+
+943
+00:47:59,829 --> 00:48:03,579
+is already deterministic about our
+
+944
+00:48:01,360 --> 00:48:06,070
+universe there's lots of difference and
+
+945
+00:48:03,579 --> 00:48:08,799
+if you don't push quite that far you can
+
+946
+00:48:06,070 --> 00:48:11,620
+say essentially all of Neurobiology
+
+947
+00:48:08,800 --> 00:48:15,480
+which is relevant it can be captured by
+
+948
+00:48:11,619 --> 00:48:18,219
+classical equations of motion right
+
+949
+00:48:15,480 --> 00:48:20,530
+because in my view of the mysteries of
+
+950
+00:48:18,219 --> 00:48:22,869
+the brain are not the mysteries of
+
+951
+00:48:20,530 --> 00:48:25,240
+quantum mechanics for the mysteries of
+
+952
+00:48:22,869 --> 00:48:29,259
+what can happen when you have a
+
+953
+00:48:25,239 --> 00:48:33,789
+dynamical system driven system with 10
+
+954
+00:48:29,260 --> 00:48:37,870
+to the 14 parts the bare complexity is
+
+955
+00:48:33,789 --> 00:48:40,659
+something which is if the physical
+
+956
+00:48:37,869 --> 00:48:43,809
+complex systems is at least as badly
+
+957
+00:48:40,659 --> 00:48:46,779
+understood as the physics of phase
+
+958
+00:48:43,809 --> 00:48:48,880
+coherence and quantum mechanics can we
+
+959
+00:48:46,780 --> 00:48:52,330
+go there for a second you've talked
+
+960
+00:48:48,880 --> 00:48:53,800
+about attractor networks and just maybe
+
+961
+00:48:52,329 --> 00:48:56,170
+you could say what our attractor
+
+962
+00:48:53,800 --> 00:48:59,200
+networks and more broadly what are
+
+963
+00:48:56,170 --> 00:49:05,380
+interesting network dynamics that emerge
+
+964
+00:48:59,199 --> 00:49:07,359
+in these or other complex systems you
+
+965
+00:49:05,380 --> 00:49:09,039
+have to be willing to think in a huge
+
+966
+00:49:07,360 --> 00:49:11,710
+number of dimensions because there's a
+
+967
+00:49:09,039 --> 00:49:13,389
+huge number of dimensions the behavior
+
+968
+00:49:11,710 --> 00:49:15,880
+of a system can be thought of as just
+
+969
+00:49:13,389 --> 00:49:18,420
+the motion of the point over time in
+
+970
+00:49:15,880 --> 00:49:21,610
+those huge number of adventures right
+
+971
+00:49:18,420 --> 00:49:25,119
+and an attractor network is simply a
+
+972
+00:49:21,610 --> 00:49:28,870
+network where there is a line and other
+
+973
+00:49:25,119 --> 00:49:31,359
+lines converge on it in time that's the
+
+974
+00:49:28,869 --> 00:49:34,059
+essence of an attractor Network that's
+
+975
+00:49:31,360 --> 00:49:34,890
+how you need a highly highly dimensional
+
+976
+00:49:34,059 --> 00:49:38,190
+space
+
+977
+00:49:34,889 --> 00:49:40,889
+and the easiest way to get that is to do
+
+978
+00:49:38,190 --> 00:49:44,099
+it in a high dimensional space where
+
+979
+00:49:40,889 --> 00:49:48,000
+some of these dimensions provide the
+
+980
+00:49:44,099 --> 00:49:51,860
+dissipation which base which a kind of a
+
+981
+00:49:48,000 --> 00:49:54,300
+physical system trajectories can dig our
+
+982
+00:49:51,860 --> 00:49:56,160
+contract everywhere they have to get
+
+983
+00:49:54,300 --> 00:49:58,860
+tracked in some places and expand in
+
+984
+00:49:56,159 --> 00:50:00,869
+others there was a fundamental classical
+
+985
+00:49:58,860 --> 00:50:02,910
+theorem most statistical mechanics which
+
+986
+00:50:00,869 --> 00:50:07,170
+goes under the name of liouville's
+
+987
+00:50:02,909 --> 00:50:09,179
+theorem which says you can't contract
+
+988
+00:50:07,170 --> 00:50:11,670
+everywhere after country if you contract
+
+989
+00:50:09,179 --> 00:50:14,159
+somewhere you were expand somewhere else
+
+990
+00:50:11,670 --> 00:50:17,789
+do you and is in interesting physical
+
+991
+00:50:14,159 --> 00:50:20,309
+systems you get driven systems where you
+
+992
+00:50:17,789 --> 00:50:22,769
+have a small subsystem which is the
+
+993
+00:50:20,309 --> 00:50:24,150
+interesting part and the rest of the
+
+994
+00:50:22,769 --> 00:50:26,009
+contraction of an expansion the
+
+995
+00:50:24,150 --> 00:50:31,470
+physicists say it's the entropy flow in
+
+996
+00:50:26,010 --> 00:50:34,250
+this other part of the system but but
+
+997
+00:50:31,469 --> 00:50:39,029
+basically attract your networks our
+
+998
+00:50:34,250 --> 00:50:41,699
+dynamics funneling downs of you can't be
+
+999
+00:50:39,030 --> 00:50:43,170
+any so if you start somewhere in the
+
+1000
+00:50:41,699 --> 00:50:45,389
+dynamical system you will soon find
+
+1001
+00:50:43,170 --> 00:50:47,519
+yourself on a pretty well determined
+
+1002
+00:50:45,389 --> 00:50:48,779
+pathway which goes somewhere you start
+
+1003
+00:50:47,519 --> 00:50:51,509
+somewhere else you'll wind up on a
+
+1004
+00:50:48,780 --> 00:50:53,940
+different pathway but you don't have
+
+1005
+00:50:51,510 --> 00:50:56,430
+just all possible things you have some
+
+1006
+00:50:53,940 --> 00:51:00,360
+defined pathways which are allowed and
+
+1007
+00:50:56,429 --> 00:51:02,009
+onto which you will converge and that's
+
+1008
+00:51:00,360 --> 00:51:02,970
+the way you make a stable computer and
+
+1009
+00:51:02,010 --> 00:51:07,950
+that's the way you make a stable
+
+1010
+00:51:02,969 --> 00:51:11,969
+behavior so in general looking at the
+
+1011
+00:51:07,949 --> 00:51:15,989
+physics of the emergent stability in
+
+1012
+00:51:11,969 --> 00:51:19,799
+these not--when networks what are some
+
+1013
+00:51:15,989 --> 00:51:21,000
+interesting characteristics that what
+
+1014
+00:51:19,800 --> 00:51:23,370
+are some interesting insights from
+
+1015
+00:51:21,000 --> 00:51:26,340
+studying the dynamics of such high
+
+1016
+00:51:23,369 --> 00:51:28,710
+dimensional systems most dynamical
+
+1017
+00:51:26,340 --> 00:51:30,720
+systems supposed I'm done driven
+
+1018
+00:51:28,710 --> 00:51:32,849
+dynamical systems I driven there are
+
+1019
+00:51:30,719 --> 00:51:35,669
+couples I'm out to an energy source and
+
+1020
+00:51:32,849 --> 00:51:40,230
+so their dynamics keeps going because
+
+1021
+00:51:35,670 --> 00:51:41,849
+it's coupling to the energy source most
+
+1022
+00:51:40,230 --> 00:51:43,980
+of them it's very difficult as all to
+
+1023
+00:51:41,849 --> 00:51:46,789
+understand it all with the devil
+
+1024
+00:51:43,980 --> 00:51:49,469
+the dynamical behavior is going to be
+
+1025
+00:51:46,789 --> 00:51:52,349
+you have to run it out you have to
+
+1026
+00:51:49,469 --> 00:51:55,379
+running there's this there's a subset of
+
+1027
+00:51:52,349 --> 00:51:58,170
+systems which has what was a clean tone
+
+1028
+00:51:55,380 --> 00:52:02,220
+to the mathematicians as as the Alpen of
+
+1029
+00:51:58,170 --> 00:52:05,909
+function and those systems you can
+
+1030
+00:52:02,219 --> 00:52:08,368
+understand convergent dynamics by saying
+
+1031
+00:52:05,909 --> 00:52:12,838
+you're going downhill on something or
+
+1032
+00:52:08,369 --> 00:52:14,250
+other and that's what I found without
+
+1033
+00:52:12,838 --> 00:52:17,130
+ever knowing what the alpha naught
+
+1034
+00:52:14,250 --> 00:52:20,010
+functions were in the simple model I
+
+1035
+00:52:17,130 --> 00:52:21,960
+made in the early eighties was an energy
+
+1036
+00:52:20,010 --> 00:52:24,030
+function so you could understand how you
+
+1037
+00:52:21,960 --> 00:52:27,449
+get this channeling I'm as under
+
+1038
+00:52:24,030 --> 00:52:31,980
+pathways without having to follow the
+
+1039
+00:52:27,449 --> 00:52:33,929
+dynamics in an infinite detail you
+
+1040
+00:52:31,980 --> 00:52:35,070
+started rolling a ball as off of a
+
+1041
+00:52:33,929 --> 00:52:37,588
+mountain that's gonna wind up at the
+
+1042
+00:52:35,070 --> 00:52:40,710
+bottom of a valley you know that it's
+
+1043
+00:52:37,588 --> 00:52:43,619
+true without actually watching the ball
+
+1044
+00:52:40,710 --> 00:52:46,949
+fall roll down there's certain
+
+1045
+00:52:43,619 --> 00:52:50,039
+properties of the system that when you
+
+1046
+00:52:46,949 --> 00:52:54,449
+can know that that's right and not all
+
+1047
+00:52:50,039 --> 00:52:56,730
+systems behave that way most don't
+
+1048
+00:52:54,449 --> 00:52:58,500
+probably both don't but it provides you
+
+1049
+00:52:56,730 --> 00:53:01,349
+with the metaphor for thinking about
+
+1050
+00:52:58,500 --> 00:53:04,500
+systems which are stable in the whoo to
+
+1051
+00:53:01,349 --> 00:53:07,349
+have these attractors behave even if you
+
+1052
+00:53:04,500 --> 00:53:09,119
+can't find the idly up and a function
+
+1053
+00:53:07,349 --> 00:53:13,400
+behind them or an energy function behind
+
+1054
+00:53:09,119 --> 00:53:13,400
+them it gives you a metaphor for thought
+
+1055
+00:53:14,900 --> 00:53:23,338
+speaking of thought if I had a glint in
+
+1056
+00:53:19,139 --> 00:53:25,618
+my eye with excitement and said you know
+
+1057
+00:53:23,338 --> 00:53:27,659
+I'm really excited about this something
+
+1058
+00:53:25,619 --> 00:53:30,269
+called deep learning and neural networks
+
+1059
+00:53:27,659 --> 00:53:33,389
+and I would like to create an
+
+1060
+00:53:30,269 --> 00:53:38,449
+intelligence system and came to you as
+
+1061
+00:53:33,389 --> 00:53:41,578
+an adviser what would you recommend
+
+1062
+00:53:38,449 --> 00:53:46,799
+is it a hopeless pursuit she's knew all
+
+1063
+00:53:41,579 --> 00:53:48,869
+networks that she thought is it what
+
+1064
+00:53:46,800 --> 00:53:52,410
+kind of mechanism should we explore what
+
+1065
+00:53:48,869 --> 00:53:56,700
+kind of ideas should we explore well you
+
+1066
+00:53:52,409 --> 00:53:57,259
+look at this as the simple net worth for
+
+1067
+00:53:56,699 --> 00:54:02,869
+everyone
+
+1068
+00:53:57,260 --> 00:54:08,300
+networks they don't support multiple
+
+1069
+00:54:02,869 --> 00:54:10,309
+hypotheses very well as I have tried to
+
+1070
+00:54:08,300 --> 00:54:11,720
+work with very simple systems which do
+
+1071
+00:54:10,309 --> 00:54:14,090
+something which you might consider to be
+
+1072
+00:54:11,719 --> 00:54:17,779
+thinking thought has to do with the
+
+1073
+00:54:14,090 --> 00:54:21,490
+ability to do mental exploration before
+
+1074
+00:54:17,780 --> 00:54:21,490
+you make it take a physical action
+
+1075
+00:54:21,730 --> 00:54:27,920
+almost they like we were mentioning
+
+1076
+00:54:24,230 --> 00:54:30,019
+playing chess visualizing simulating
+
+1077
+00:54:27,920 --> 00:54:35,960
+inside your head different outcomes
+
+1078
+00:54:30,019 --> 00:54:37,820
+yellow young and now you could do that
+
+1079
+00:54:35,960 --> 00:54:42,079
+as a feed-forward Network because you've
+
+1080
+00:54:37,820 --> 00:54:43,880
+pre calculated all kinds of things but I
+
+1081
+00:54:42,079 --> 00:54:49,610
+think the way neurobiology does it
+
+1082
+00:54:43,880 --> 00:54:52,220
+hasn't pre calculated everything exactly
+
+1083
+00:54:49,610 --> 00:54:56,780
+as parts of a dynamical system in which
+
+1084
+00:54:52,219 --> 00:55:01,879
+you're doing exploration in a way which
+
+1085
+00:54:56,780 --> 00:55:03,470
+is there's a creative element like
+
+1086
+00:55:01,880 --> 00:55:08,200
+there's an there's that there's there's
+
+1087
+00:55:03,469 --> 00:55:15,579
+a creative element and in a
+
+1088
+00:55:08,199 --> 00:55:20,359
+simple-minded neural net you ever a
+
+1089
+00:55:15,579 --> 00:55:24,019
+constellation of instances from which
+
+1090
+00:55:20,360 --> 00:55:29,000
+you've learned and if you are within
+
+1091
+00:55:24,019 --> 00:55:30,800
+that space you know if a new fan new
+
+1092
+00:55:29,000 --> 00:55:35,739
+question is the question within this
+
+1093
+00:55:30,800 --> 00:55:38,120
+space you can actually rely on that
+
+1094
+00:55:35,739 --> 00:55:41,419
+system pretty well to come up with a
+
+1095
+00:55:38,119 --> 00:55:44,150
+good suggestion for what to do if on the
+
+1096
+00:55:41,420 --> 00:55:47,900
+other hand the query comes from outside
+
+1097
+00:55:44,150 --> 00:55:49,430
+the space you have no way of knowing how
+
+1098
+00:55:47,900 --> 00:55:52,300
+the system is going to behave there are
+
+1099
+00:55:49,429 --> 00:55:55,369
+no limitations on what could happen and
+
+1100
+00:55:52,300 --> 00:55:59,420
+so with the artificial neural network is
+
+1101
+00:55:55,369 --> 00:56:02,839
+always very much I have a a population
+
+1102
+00:55:59,420 --> 00:56:04,940
+of examples the test set must be drawn
+
+1103
+00:56:02,840 --> 00:56:07,519
+from the equivalent population as the
+
+1104
+00:56:04,940 --> 00:56:10,318
+test as examples which are from a
+
+1105
+00:56:07,519 --> 00:56:13,650
+population which is completely different
+
+1106
+00:56:10,318 --> 00:56:15,748
+there's no way that you could expect to
+
+1107
+00:56:13,650 --> 00:56:19,660
+get the answer right
+
+1108
+00:56:15,748 --> 00:56:22,028
+Meowth and so what they saw outside the
+
+1109
+00:56:19,659 --> 00:56:25,449
+distribution that's right that's right
+
+1110
+00:56:22,028 --> 00:56:27,480
+and so if you see a ball rolling across
+
+1111
+00:56:25,449 --> 00:56:32,318
+the streets and dusk
+
+1112
+00:56:27,480 --> 00:56:35,108
+if there wasn't in your your training
+
+1113
+00:56:32,318 --> 00:56:37,869
+set the idea that a child may be coming
+
+1114
+00:56:35,108 --> 00:56:41,670
+close behind that is not going to occur
+
+1115
+00:56:37,869 --> 00:56:44,170
+with the neural lab and it is to our
+
+1116
+00:56:41,670 --> 00:56:46,630
+there's something in your biology that
+
+1117
+00:56:44,170 --> 00:56:48,369
+allows that yeah there's there's
+
+1118
+00:56:46,630 --> 00:56:52,329
+something in the way of what it means to
+
+1119
+00:56:48,369 --> 00:56:54,160
+be outside of the of the population of
+
+1120
+00:56:52,329 --> 00:56:56,499
+the training said the probability is
+
+1121
+00:56:54,159 --> 00:57:01,929
+that the training set isn't just sort of
+
+1122
+00:56:56,498 --> 00:57:04,889
+the set of examples it's there's more to
+
+1123
+00:57:01,929 --> 00:57:07,778
+it than that and it gets back to my own
+
+1124
+00:57:04,889 --> 00:57:13,568
+question of where's is it to understand
+
+1125
+00:57:07,778 --> 00:57:15,969
+something yeah you know is in a small
+
+1126
+00:57:13,568 --> 00:57:18,130
+tangent you've talked about the value of
+
+1127
+00:57:15,969 --> 00:57:22,328
+thinking of deductive reasoning in
+
+1128
+00:57:18,130 --> 00:57:25,269
+science versus large data collection so
+
+1129
+00:57:22,329 --> 00:57:27,519
+sort of thinking about the problem but I
+
+1130
+00:57:25,268 --> 00:57:29,969
+suppose it's the physics side of you of
+
+1131
+00:57:27,518 --> 00:57:31,868
+going back to first principles and
+
+1132
+00:57:29,969 --> 00:57:34,028
+thinking but what do you think is the
+
+1133
+00:57:31,869 --> 00:57:37,140
+value of deductive reasoning in in a
+
+1134
+00:57:34,028 --> 00:57:37,139
+scientific process
+
+1135
+00:57:37,170 --> 00:57:42,210
+well look there obviously scientific
+
+1136
+00:57:39,210 --> 00:57:44,460
+questions in which the route to the
+
+1137
+00:57:42,210 --> 00:57:48,710
+answer to it come through the analysis
+
+1138
+00:57:44,460 --> 00:57:48,710
+of one hell of a lot of data right
+
+1139
+00:57:48,889 --> 00:57:56,429
+cosmology at honest and that that's
+
+1140
+00:57:51,298 --> 00:57:58,440
+never written the kind of problem in
+
+1141
+00:57:56,429 --> 00:58:01,338
+which I've had any particular insight
+
+1142
+00:57:58,440 --> 00:58:04,409
+though I would say if you look at
+
+1143
+00:58:01,338 --> 00:58:06,119
+cosmology is was one of those if you
+
+1144
+00:58:04,409 --> 00:58:07,920
+look at the actual things that Jim
+
+1145
+00:58:06,119 --> 00:58:10,588
+Peebles one of this year's don't go
+
+1146
+00:58:07,920 --> 00:58:12,720
+prized for the vision physics ones from
+
+1147
+00:58:10,588 --> 00:58:15,659
+a local physics department the kinds of
+
+1148
+00:58:12,719 --> 00:58:18,828
+things he's done he's never crunched
+
+1149
+00:58:15,659 --> 00:58:23,190
+large data never never never
+
+1150
+00:58:18,829 --> 00:58:28,079
+he's used the encapsulation of the work
+
+1151
+00:58:23,190 --> 00:58:31,139
+of others in this regard but I
+
+1152
+00:58:28,079 --> 00:58:32,789
+ultimately boil down to thinking through
+
+1153
+00:58:31,139 --> 00:58:34,798
+the problem like what are the principles
+
+1154
+00:58:32,789 --> 00:58:38,849
+under which a particular phenomena
+
+1155
+00:58:34,798 --> 00:58:40,500
+operates yeah and look physics is always
+
+1156
+00:58:38,849 --> 00:58:43,410
+going to look for ways in which you can
+
+1157
+00:58:40,500 --> 00:58:47,969
+describe the system and which rises
+
+1158
+00:58:43,409 --> 00:58:53,328
+above the rises above the details and to
+
+1159
+00:58:47,969 --> 00:58:56,250
+the hard died the world biologists
+
+1160
+00:58:53,329 --> 00:58:59,430
+biology works because of the details and
+
+1161
+00:58:56,250 --> 00:59:01,619
+physics to the physicists we want an
+
+1162
+00:58:59,429 --> 00:59:03,629
+explanation which is right in spite of
+
+1163
+00:59:01,619 --> 00:59:05,670
+the details and they will leave
+
+1164
+00:59:03,630 --> 00:59:07,829
+questions which we cannot answer as
+
+1165
+00:59:05,670 --> 00:59:14,519
+physicists because the answer cannot be
+
+1166
+00:59:07,829 --> 00:59:16,890
+found that way there's a met sure if
+
+1167
+00:59:14,518 --> 00:59:20,389
+you're familiar with the entire field of
+
+1168
+00:59:16,889 --> 00:59:24,088
+brain-computer interfaces has become
+
+1169
+00:59:20,389 --> 00:59:25,469
+more and more intensely researched and
+
+1170
+00:59:24,088 --> 00:59:27,599
+developed recently especially with
+
+1171
+00:59:25,469 --> 00:59:30,268
+companies like neural link what Elon
+
+1172
+00:59:27,599 --> 00:59:34,890
+Musk you know I know they've always been
+
+1173
+00:59:30,268 --> 00:59:38,008
+the endres both in things like getting
+
+1174
+00:59:34,889 --> 00:59:41,129
+the eyes to be able to control things or
+
+1175
+00:59:38,009 --> 00:59:44,818
+getting the thought patterns to be able
+
+1176
+00:59:41,130 --> 00:59:46,769
+to move what had been a they connected
+
+1177
+00:59:44,818 --> 00:59:50,670
+limb which is now connected through a
+
+1178
+00:59:46,768 --> 00:59:51,000
+computer that's right so in the case of
+
+1179
+00:59:50,670 --> 00:59:54,450
+neural
+
+1180
+00:59:51,000 --> 00:59:56,239
+they're doing thousand-plus connections
+
+1181
+00:59:54,449 --> 01:00:00,359
+where they're able to do two-way
+
+1182
+00:59:56,239 --> 01:00:02,969
+activate and read spikes in your annual
+
+1183
+01:00:00,360 --> 01:00:06,750
+spikes do you have hope for that kind of
+
+1184
+01:00:02,969 --> 01:00:10,709
+computer brain interaction in the near
+
+1185
+01:00:06,750 --> 01:00:14,480
+or maybe even far future of being able
+
+1186
+01:00:10,710 --> 01:00:20,789
+to expand the ability of the mind of
+
+1187
+01:00:14,480 --> 01:00:24,300
+cognition or understand the mind as this
+
+1188
+01:00:20,789 --> 01:00:27,269
+was watching things go when I first
+
+1189
+01:00:24,300 --> 01:00:28,980
+became interested in neurobiology most
+
+1190
+01:00:27,269 --> 01:00:31,769
+of the practitioners thought you would
+
+1191
+01:00:28,980 --> 01:00:34,769
+be able to understand neurobiology by
+
+1192
+01:00:31,769 --> 01:00:37,860
+techniques which allowed you to record
+
+1193
+01:00:34,769 --> 01:00:44,039
+only one cell at a time once out yeah
+
+1194
+01:00:37,860 --> 01:00:47,460
+people like David Hoople very strongly
+
+1195
+01:00:44,039 --> 01:00:50,880
+reflected that point of view and that's
+
+1196
+01:00:47,460 --> 01:00:52,440
+been taken over by a generation a couple
+
+1197
+01:00:50,880 --> 01:00:55,079
+of generations later
+
+1198
+01:00:52,440 --> 01:00:57,510
+a set of people who says not until we
+
+1199
+01:00:55,079 --> 01:01:00,299
+can record from 10 to the 4 or 10 to the
+
+1200
+01:00:57,510 --> 01:01:01,830
+5 at a time who we actually be able to
+
+1201
+01:01:00,300 --> 01:01:07,950
+understand how the brain actually works
+
+1202
+01:01:01,829 --> 01:01:10,319
+and in a general sense I think that's
+
+1203
+01:01:07,949 --> 01:01:14,480
+right you have to look you have to begin
+
+1204
+01:01:10,320 --> 01:01:17,430
+to be able to look for the collective
+
+1205
+01:01:14,480 --> 01:01:19,829
+modes of the collective operations of
+
+1206
+01:01:17,429 --> 01:01:21,809
+things it doesn't rely on this action
+
+1207
+01:01:19,829 --> 01:01:23,579
+potential or death cell it relies on the
+
+1208
+01:01:21,809 --> 01:01:25,920
+collective properties of this set of
+
+1209
+01:01:23,579 --> 01:01:29,519
+cells connected to this kind of patterns
+
+1210
+01:01:25,920 --> 01:01:30,780
+so on and you're not going to see did
+
+1211
+01:01:29,519 --> 01:01:33,210
+the thing what those collective
+
+1212
+01:01:30,780 --> 01:01:39,060
+activities are without recording many
+
+1213
+01:01:33,210 --> 01:01:41,369
+cells at once and the question is how
+
+1214
+01:01:39,059 --> 01:01:46,019
+many at once what's the threshold and
+
+1215
+01:01:41,369 --> 01:01:48,329
+that's the that's the no and and because
+
+1216
+01:01:46,019 --> 01:01:52,980
+we pursued hard in the motor cortex the
+
+1217
+01:01:48,329 --> 01:01:54,869
+motor cortex does something which is
+
+1218
+01:01:52,980 --> 01:01:56,639
+complex and yet with the problem you're
+
+1219
+01:01:54,869 --> 01:01:58,940
+trying to address is very it's really
+
+1220
+01:01:56,639 --> 01:01:58,940
+simple
+
+1221
+01:01:59,980 --> 01:02:03,909
+now neurobiology does it in ways the
+
+1222
+01:02:02,139 --> 01:02:07,920
+different from the way an engineer would
+
+1223
+01:02:03,909 --> 01:02:10,210
+do it an engineer would put in six
+
+1224
+01:02:07,920 --> 01:02:13,780
+highly accurate stepping motors are
+
+1225
+01:02:10,210 --> 01:02:15,940
+controlling a limb rather than 2,000
+
+1226
+01:02:13,780 --> 01:02:21,310
+muscle fibers each of which has to be
+
+1227
+01:02:15,940 --> 01:02:23,409
+individually controlled so understanding
+
+1228
+01:02:21,309 --> 01:02:26,070
+how to do things in a way which is much
+
+1229
+01:02:23,409 --> 01:02:30,009
+more forgiving and much more neural I
+
+1230
+01:02:26,070 --> 01:02:36,100
+think would benefit the engineering
+
+1231
+01:02:30,010 --> 01:02:37,930
+world the engineering world touch that's
+
+1232
+01:02:36,099 --> 01:02:40,750
+where their pressure sensor or to let
+
+1233
+01:02:37,929 --> 01:02:43,179
+very them an array of of a gazillion
+
+1234
+01:02:40,750 --> 01:02:44,679
+pressure pressure sensors none of what
+
+1235
+01:02:43,179 --> 01:02:49,000
+you're accurate all of which are
+
+1236
+01:02:44,679 --> 01:02:51,279
+perpetually recalibrating themselves so
+
+1237
+01:02:49,000 --> 01:02:53,889
+you're saying your hope is your advice
+
+1238
+01:02:51,280 --> 01:02:59,100
+for the engineers of the future is to
+
+1239
+01:02:53,889 --> 01:03:01,629
+the embrace the large chaos of a messy
+
+1240
+01:02:59,099 --> 01:03:04,179
+error-prone system like those of the
+
+1241
+01:03:01,630 --> 01:03:06,190
+biological systems like that's probably
+
+1242
+01:03:04,179 --> 01:03:09,819
+the way to solve some of these I think
+
+1243
+01:03:06,190 --> 01:03:13,360
+you'll be able to make better compete
+
+1244
+01:03:09,820 --> 01:03:18,850
+computations last robotics that way than
+
+1245
+01:03:13,360 --> 01:03:22,210
+by trying to force things into a into a
+
+1246
+01:03:18,849 --> 01:03:25,480
+robotics for joint motors are powerful
+
+1247
+01:03:22,210 --> 01:03:27,670
+and stepping motors are accurate but
+
+1248
+01:03:25,480 --> 01:03:30,420
+then the physicists the physicists in
+
+1249
+01:03:27,670 --> 01:03:33,070
+you will be lost forever in such systems
+
+1250
+01:03:30,420 --> 01:03:35,639
+because there's no simple fundamentals
+
+1251
+01:03:33,070 --> 01:03:42,039
+to exploring systems that are so large
+
+1252
+01:03:35,639 --> 01:03:44,679
+and we also you see that yep there's a
+
+1253
+01:03:42,039 --> 01:03:48,340
+lot of physics and the navier-stokes
+
+1254
+01:03:44,679 --> 01:03:50,829
+equations the equations of nonlinear
+
+1255
+01:03:48,340 --> 01:03:53,710
+hydrodynamics huge amount of physics in
+
+1256
+01:03:50,829 --> 01:03:55,869
+them all the physics of atoms and
+
+1257
+01:03:53,710 --> 01:03:58,150
+molecules has been lost but it's been
+
+1258
+01:03:55,869 --> 01:04:00,639
+replaced or this other set of equations
+
+1259
+01:03:58,150 --> 01:04:03,579
+which is just as true as the equations
+
+1260
+01:04:00,639 --> 01:04:05,889
+of the bottle though those those
+
+1261
+01:04:03,579 --> 01:04:09,789
+equations are going to be harder to find
+
+1262
+01:04:05,889 --> 01:04:11,710
+in general biology but the physicist of
+
+1263
+01:04:09,789 --> 01:04:12,820
+me says there are probably some
+
+1264
+01:04:11,710 --> 01:04:15,010
+equations of there
+
+1265
+01:04:12,820 --> 01:04:17,530
+sort they're out there there they're out
+
+1266
+01:04:15,010 --> 01:04:20,710
+there and the physics is going to
+
+1267
+01:04:17,530 --> 01:04:22,990
+contribute anything it may contribute to
+
+1268
+01:04:20,710 --> 01:04:24,699
+trying to find out what those equations
+
+1269
+01:04:22,989 --> 01:04:27,879
+are and how to capture them from them
+
+1270
+01:04:24,699 --> 01:04:31,449
+biology would you say that's one of the
+
+1271
+01:04:27,880 --> 01:04:35,050
+main open problems of our age is to
+
+1272
+01:04:31,449 --> 01:04:38,049
+discover those equations yeah if you
+
+1273
+01:04:35,050 --> 01:04:44,080
+look at theirs molecules
+
+1274
+01:04:38,050 --> 01:04:45,460
+there's psychological behavior these two
+
+1275
+01:04:44,079 --> 01:04:49,360
+are somehow related
+
+1276
+01:04:45,460 --> 01:04:51,670
+there are layers of detail they're
+
+1277
+01:04:49,360 --> 01:04:56,340
+layers of collectiveness and to capture
+
+1278
+01:04:51,670 --> 01:04:56,340
+this to capture that at some vague wait
+
+1279
+01:04:58,019 --> 01:05:02,409
+several stages on the way up to see how
+
+1280
+01:05:00,369 --> 01:05:05,559
+these things that can actually be linked
+
+1281
+01:05:02,409 --> 01:05:08,889
+together so it seems in our universe
+
+1282
+01:05:05,559 --> 01:05:10,269
+there's a lot of a lot of elegant
+
+1283
+01:05:08,889 --> 01:05:12,609
+equations that can describe the
+
+1284
+01:05:10,269 --> 01:05:14,920
+fundamental way that things behave which
+
+1285
+01:05:12,610 --> 01:05:17,550
+is a surprise I mean it's compressible
+
+1286
+01:05:14,920 --> 01:05:20,289
+into equations it's simple and beautiful
+
+1287
+01:05:17,550 --> 01:05:23,230
+but there isn't it's still an open
+
+1288
+01:05:20,289 --> 01:05:27,329
+question whether that link is equally
+
+1289
+01:05:23,230 --> 01:05:30,159
+between molecules and the brain is
+
+1290
+01:05:27,329 --> 01:05:34,809
+equally compressible into elegant
+
+1291
+01:05:30,159 --> 01:05:36,819
+equations but your ear sounds some well
+
+1292
+01:05:34,809 --> 01:05:39,159
+you're both a physicist and a dreamer
+
+1293
+01:05:36,820 --> 01:05:42,730
+you have a sense that yes I can although
+
+1294
+01:05:39,159 --> 01:05:45,039
+I can only dream physics dreams physics
+
+1295
+01:05:42,730 --> 01:05:47,559
+shapes there was an interesting book
+
+1296
+01:05:45,039 --> 01:05:53,340
+called Einsteins dreams Forge alternates
+
+1297
+01:05:47,559 --> 01:05:56,469
+between chapters on his life and
+
+1298
+01:05:53,340 --> 01:06:02,350
+descriptions of the way time might have
+
+1299
+01:05:56,469 --> 01:06:05,199
+been but isn't as linking between these
+
+1300
+01:06:02,349 --> 01:06:06,519
+being of course the ideas that Einstein
+
+1301
+01:06:05,199 --> 01:06:08,589
+might have had to think about the
+
+1302
+01:06:06,519 --> 01:06:12,849
+essence of time as he was thinking about
+
+1303
+01:06:08,590 --> 01:06:17,440
+time so speaking of the essence of time
+
+1304
+01:06:12,849 --> 01:06:19,750
+in neurobiology you're one human famous
+
+1305
+01:06:17,440 --> 01:06:23,519
+impactful human but just one human with
+
+1306
+01:06:19,750 --> 01:06:26,730
+a brain living the human condition
+
+1307
+01:06:23,519 --> 01:06:29,809
+but you're ultimately mortal like all of
+
+1308
+01:06:26,730 --> 01:06:32,340
+us has studying the mind as a mechanism
+
+1309
+01:06:29,809 --> 01:06:39,980
+change the way you think about your own
+
+1310
+01:06:32,340 --> 01:06:42,090
+mortality it has really because as
+
+1311
+01:06:39,980 --> 01:06:46,610
+particularly as you get older in the
+
+1312
+01:06:42,090 --> 01:06:52,350
+body comes apart in various ways I
+
+1313
+01:06:46,610 --> 01:06:56,400
+became much more aware of the fact that
+
+1314
+01:06:52,349 --> 01:07:00,360
+what is somebody is contained in the
+
+1315
+01:06:56,400 --> 01:07:05,940
+brain and out in the body that you worry
+
+1316
+01:07:00,360 --> 01:07:09,390
+about burying and it is to a certain
+
+1317
+01:07:05,940 --> 01:07:14,869
+extent true that for people who write
+
+1318
+01:07:09,389 --> 01:07:20,219
+things down equations dreams notepads
+
+1319
+01:07:14,869 --> 01:07:23,340
+Diaries fractions of their thought does
+
+1320
+01:07:20,219 --> 01:07:25,379
+continue to live after they're dead and
+
+1321
+01:07:23,340 --> 01:07:30,329
+gone after their body is dead and gone
+
+1322
+01:07:25,380 --> 01:07:35,099
+and there's a sea change in there going
+
+1323
+01:07:30,329 --> 01:07:37,079
+on in my lifetime between what if my
+
+1324
+01:07:35,099 --> 01:07:39,000
+father died when except for the things
+
+1325
+01:07:37,079 --> 01:07:42,179
+that you're actually ridden by hymns
+
+1326
+01:07:39,000 --> 01:07:44,639
+that were very few facts about him will
+
+1327
+01:07:42,179 --> 01:07:46,349
+have ever been recorded and the number
+
+1328
+01:07:44,639 --> 01:07:50,250
+of facts which are recorded about each
+
+1329
+01:07:46,349 --> 01:07:54,569
+and every one of us forever now as far
+
+1330
+01:07:50,250 --> 01:08:01,380
+as I can see in the digital world and so
+
+1331
+01:07:54,570 --> 01:08:03,720
+the whole question of what is death may
+
+1332
+01:08:01,380 --> 01:08:06,590
+be different for people a generation to
+
+1333
+01:08:03,719 --> 01:08:09,719
+go in a generation or through ahead
+
+1334
+01:08:06,590 --> 01:08:16,460
+maybe we have become immortal under some
+
+1335
+01:08:09,719 --> 01:08:24,239
+definitions yeah yeah last easy question
+
+1336
+01:08:16,460 --> 01:08:30,630
+what is the meaning of life looking back
+
+1337
+01:08:24,239 --> 01:08:33,389
+studied the mind a weird descendants of
+
+1338
+01:08:30,630 --> 01:08:40,590
+apes what's the meaning of our existence
+
+1339
+01:08:33,390 --> 01:08:45,440
+on this little earth Oh word meeting is
+
+1340
+01:08:40,590 --> 01:08:45,440
+as slippery as the word understand
+
+1341
+01:08:45,710 --> 01:08:56,600
+interconnected somehow perhaps is there
+
+1342
+01:08:52,199 --> 01:08:59,099
+it's slippery but is there something you
+
+1343
+01:08:56,600 --> 01:09:03,960
+despite being slippery can hold long
+
+1344
+01:08:59,100 --> 01:09:10,470
+enough to express all I've been amazed
+
+1345
+01:09:03,960 --> 01:09:15,409
+at how hard it is to define the things
+
+1346
+01:09:10,470 --> 01:09:18,119
+in a living system in the sense that
+
+1347
+01:09:15,409 --> 01:09:18,680
+what a hydrogen atom is pretty much like
+
+1348
+01:09:18,119 --> 01:09:21,239
+another
+
+1349
+01:09:18,680 --> 01:09:24,570
+one bacterium is not so much like
+
+1350
+01:09:21,239 --> 01:09:27,059
+another like another bacterium even of
+
+1351
+01:09:24,569 --> 01:09:29,009
+the same nominal species in fact the
+
+1352
+01:09:27,060 --> 01:09:32,730
+whole notion of what as the species gets
+
+1353
+01:09:29,010 --> 01:09:34,650
+a little bit fuzzy and do species exists
+
+1354
+01:09:32,729 --> 01:09:37,379
+in the absence of certain classes of
+
+1355
+01:09:34,649 --> 01:09:41,609
+environments and pretty soon one winds
+
+1356
+01:09:37,380 --> 01:09:44,010
+up with with the biology which the whole
+
+1357
+01:09:41,609 --> 01:09:47,759
+thing is living but whether there's
+
+1358
+01:09:44,010 --> 01:09:51,300
+actually any element of it which by
+
+1359
+01:09:47,760 --> 01:09:55,710
+itself would be said to be living is
+
+1360
+01:09:51,300 --> 01:09:58,260
+becomes a little bit vague in my mind so
+
+1361
+01:09:55,710 --> 01:09:59,789
+in a sense the idea of meaning is
+
+1362
+01:09:58,260 --> 01:10:03,210
+something that's possessed by an
+
+1363
+01:09:59,789 --> 01:10:06,390
+individual like a conscious creature and
+
+1364
+01:10:03,210 --> 01:10:08,250
+you're saying that it's all
+
+1365
+01:10:06,390 --> 01:10:10,440
+interconnected in some kind of way that
+
+1366
+01:10:08,250 --> 01:10:13,949
+there might not even be an individual
+
+1367
+01:10:10,439 --> 01:10:15,750
+we're all kind of this complicated mess
+
+1368
+01:10:13,949 --> 01:10:18,989
+of biological systems at all different
+
+1369
+01:10:15,750 --> 01:10:21,989
+levels where the human starts and when
+
+1370
+01:10:18,989 --> 01:10:25,289
+the human ends is unclear you know yeah
+
+1371
+01:10:21,989 --> 01:10:27,479
+and we're the neurobiology where the oh
+
+1372
+01:10:25,289 --> 01:10:29,039
+you say that the your cortex does the
+
+1373
+01:10:27,479 --> 01:10:32,069
+thinking but there's lots of things that
+
+1374
+01:10:29,039 --> 01:10:35,970
+are done in the spinal cord and so we
+
+1375
+01:10:32,069 --> 01:10:37,649
+say where's the essence of thought it's
+
+1376
+01:10:35,970 --> 01:10:42,449
+just going to be neocortex
+
+1377
+01:10:37,649 --> 01:10:43,948
+can't be campy yeah maybe to understand
+
+1378
+01:10:42,448 --> 01:10:46,198
+and to build thought you have to build
+
+1379
+01:10:43,948 --> 01:10:49,769
+the universe along with the the
+
+1380
+01:10:46,198 --> 01:10:53,309
+neocortex it's all interlinked through
+
+1381
+01:10:49,770 --> 01:10:55,409
+the spinal cord John is a huge honor
+
+1382
+01:10:53,310 --> 01:10:55,800
+talking today thank you so much for your
+
+1383
+01:10:55,408 --> 01:10:57,599
+time
+
+1384
+01:10:55,800 --> 01:10:59,039
+I really appreciate it well thank you
+
+1385
+01:10:57,600 --> 01:11:00,630
+for the challenge of talking with you
+
+1386
+01:10:59,039 --> 01:11:03,269
+and the interesting to see whether you
+
+1387
+01:11:00,630 --> 01:11:06,230
+can win a 5 in 5 minutes out of that
+
+1388
+01:11:03,270 --> 01:11:09,120
+just coherent sense to anywhere
+
+1389
+01:11:06,229 --> 01:11:10,948
+beautiful thanks for listening to this
+
+1390
+01:11:09,119 --> 01:11:13,529
+conversation with john hopfield and
+
+1391
+01:11:10,948 --> 01:11:16,529
+thank you to our presenting sponsor cash
+
+1392
+01:11:13,529 --> 01:11:18,869
+app downloaded used coal export cast
+
+1393
+01:11:16,529 --> 01:11:20,969
+you'll get ten dollars and ten dollars
+
+1394
+01:11:18,869 --> 01:11:23,250
+will go to first an organization that
+
+1395
+01:11:20,969 --> 01:11:24,869
+inspires and educates young minds to
+
+1396
+01:11:23,250 --> 01:11:27,359
+become science and technology innovators
+
+1397
+01:11:24,869 --> 01:11:29,488
+of tomorrow if you enjoy this podcast
+
+1398
+01:11:27,359 --> 01:11:32,130
+subscribe I need to give it five stars
+
+1399
+01:11:29,488 --> 01:11:34,859
+an Apple podcast supported on patreon or
+
+1400
+01:11:32,130 --> 01:11:38,039
+simply connect with me on Twitter at Lex
+
+1401
+01:11:34,859 --> 01:11:40,170
+Friedman and now let me leave you with
+
+1402
+01:11:38,039 --> 01:11:44,760
+some words of wisdom from john hopfield
+
+1403
+01:11:40,170 --> 01:11:47,219
+in his article titled now what choosing
+
+1404
+01:11:44,760 --> 01:11:50,280
+problems is the primary determinant of
+
+1405
+01:11:47,219 --> 01:11:52,109
+what one accomplishes in science i have
+
+1406
+01:11:50,279 --> 01:11:54,630
+generally had a relatively short
+
+1407
+01:11:52,109 --> 01:11:56,819
+attention span and science problems thus
+
+1408
+01:11:54,630 --> 01:11:59,130
+i have always been on the lookout for
+
+1409
+01:11:56,819 --> 01:12:01,920
+more interesting questions either as my
+
+1410
+01:11:59,130 --> 01:12:04,590
+present ones get worked out or as it get
+
+1411
+01:12:01,920 --> 01:12:07,980
+classified by me as intractable give him
+
+1412
+01:12:04,590 --> 01:12:11,130
+my particular talents he then goes on to
+
+1413
+01:12:07,979 --> 01:12:13,109
+say what I have done in science relies
+
+1414
+01:12:11,130 --> 01:12:16,319
+entirely on experimental and theoretical
+
+1415
+01:12:13,109 --> 01:12:18,420
+studies by experts I have a great
+
+1416
+01:12:16,319 --> 01:12:19,880
+respect for them especially for those
+
+1417
+01:12:18,420 --> 01:12:23,158
+who are willing to attempt communication
+
+1418
+01:12:19,880 --> 01:12:26,730
+with soin who is not an expert in the
+
+1419
+01:12:23,158 --> 01:12:29,279
+field I would only add that experts are
+
+1420
+01:12:26,729 --> 01:12:33,169
+good at answering questions if you're
+
+1421
+01:12:29,279 --> 01:12:36,408
+brash enough ask your own
+
+1422
+01:12:33,170 --> 01:12:38,239
+too much about how you found them
+
+1423
+01:12:36,408 --> 01:12:41,018
+for listening and hope to see you next
+
+1424
+01:12:38,238 --> 01:12:41,018
+time
+
+1425
+01:12:45,470 --> 01:12:47,530
+you
+
