@@ -1,0 +1,6952 @@
+1
+00:00:00,210 --> 00:00:03,500
+[Music]
+
+2
+00:00:03,759 --> 00:00:09,678
+Mark we just tried Orion together yeah
+
+3
+00:00:06,399 --> 00:00:11,798
+we're fresh off of it it feels like true
+
+4
+00:00:09,679 --> 00:00:13,679
+AR glasses are finally getting closer
+
+5
+00:00:11,798 --> 00:00:16,600
+Orion is a product that you all have
+
+6
+00:00:13,679 --> 00:00:19,800
+been working on for five plus years yeah
+
+7
+00:00:16,600 --> 00:00:21,880
+almost 10 almost 10 yeah so take me back
+
+8
+00:00:19,800 --> 00:00:23,640
+to the beginning when you started the
+
+9
+00:00:21,879 --> 00:00:25,038
+project when it started in research like
+
+10
+00:00:23,640 --> 00:00:28,199
+what were you thinking about what was
+
+11
+00:00:25,039 --> 00:00:30,880
+the goal for it well I I think a lot of
+
+12
+00:00:28,199 --> 00:00:33,239
+it goes all the way back to
+
+13
+00:00:30,879 --> 00:00:36,200
+our relationship with mobile platforms
+
+14
+00:00:33,238 --> 00:00:38,959
+and all that right so it's um you know
+
+15
+00:00:36,200 --> 00:00:40,879
+we have lived through one major platform
+
+16
+00:00:38,960 --> 00:00:44,239
+transition already because we started on
+
+17
+00:00:40,878 --> 00:00:46,439
+web right not not on mobile and mobile
+
+18
+00:00:44,238 --> 00:00:49,679
+phones and smartphones kind of got
+
+19
+00:00:46,439 --> 00:00:51,439
+started around the same time as Facebook
+
+20
+00:00:49,679 --> 00:00:53,759
+and and kind of early social media was
+
+21
+00:00:51,439 --> 00:00:55,000
+getting started so didn't really get to
+
+22
+00:00:53,759 --> 00:00:57,558
+play any role in that platform
+
+23
+00:00:55,000 --> 00:01:00,439
+transition but going through it right we
+
+24
+00:00:57,558 --> 00:01:03,000
+weren't born on mobile we kind of
+
+25
+00:01:00,439 --> 00:01:06,000
+had this awareness that okay web was a
+
+26
+00:01:03,000 --> 00:01:07,560
+thing mobile is a thing it is different
+
+27
+00:01:06,000 --> 00:01:09,840
+um there are strengths and weaknesses of
+
+28
+00:01:07,560 --> 00:01:12,320
+it there's this Continuum of computing
+
+29
+00:01:09,840 --> 00:01:13,520
+where now you have a a mobile device
+
+30
+00:01:12,319 --> 00:01:17,639
+that you can take with you all the time
+
+31
+00:01:13,519 --> 00:01:18,719
+and that's amazing MH but it's small
+
+32
+00:01:17,640 --> 00:01:21,000
+kind of pulls you away from other
+
+33
+00:01:18,719 --> 00:01:22,679
+interactions those things are not great
+
+34
+00:01:21,000 --> 00:01:24,920
+but there was sort of this recognition
+
+35
+00:01:22,680 --> 00:01:28,840
+that just like there's the transition
+
+36
+00:01:24,920 --> 00:01:30,719
+from computers to mobile um mobile is
+
+37
+00:01:28,840 --> 00:01:33,159
+not going to be the end of the line so
+
+38
+00:01:30,719 --> 00:01:37,118
+as soon as we started
+
+39
+00:01:33,159 --> 00:01:38,600
+becoming like a more I I guess I'd say
+
+40
+00:01:37,118 --> 00:01:40,438
+Stable Company like once we found our
+
+41
+00:01:38,599 --> 00:01:41,679
+footing on mobile and and we weren't
+
+42
+00:01:40,438 --> 00:01:43,319
+like clearly going to go out of business
+
+43
+00:01:41,680 --> 00:01:45,560
+or something like that I was like okay
+
+44
+00:01:43,319 --> 00:01:49,000
+let's start um
+
+45
+00:01:45,560 --> 00:01:50,359
+planting our our some seeds for what we
+
+46
+00:01:49,000 --> 00:01:52,040
+think could be the future right it's
+
+47
+00:01:50,359 --> 00:01:56,959
+like mobile is already kind of getting
+
+48
+00:01:52,040 --> 00:01:59,479
+defined um you know by 2012 2014 is it
+
+49
+00:01:56,959 --> 00:02:01,280
+was generally too late to to Really
+
+50
+00:01:59,478 --> 00:02:03,399
+shape that platform in a meaningful way
+
+51
+00:02:01,280 --> 00:02:05,478
+I we we had some experiments I didn't
+
+52
+00:02:03,399 --> 00:02:07,599
+succeed or go anywhere so pretty quickly
+
+53
+00:02:05,478 --> 00:02:09,038
+I was like okay we should focus on the
+
+54
+00:02:07,599 --> 00:02:11,479
+future because just like there's the
+
+55
+00:02:09,038 --> 00:02:12,799
+shift from from from desktop to Mobile
+
+56
+00:02:11,479 --> 00:02:16,759
+new things are going to be possible in
+
+57
+00:02:12,800 --> 00:02:20,360
+the future so what is that um I think
+
+58
+00:02:16,759 --> 00:02:21,639
+the kind of simplest version of it is
+
+59
+00:02:20,360 --> 00:02:24,160
+basically what you started seeing with
+
+60
+00:02:21,639 --> 00:02:25,679
+Orion right it's it's like the vision is
+
+61
+00:02:24,159 --> 00:02:27,719
+a normal pair of
+
+62
+00:02:25,680 --> 00:02:31,000
+glasses that can do two really
+
+63
+00:02:27,719 --> 00:02:33,039
+fundamental things one is
+
+64
+00:02:31,000 --> 00:02:35,159
+put Holograms in the world to deliver
+
+65
+00:02:33,039 --> 00:02:37,239
+this realistic sense of presence like
+
+66
+00:02:35,159 --> 00:02:39,400
+you there with another person or in
+
+67
+00:02:37,239 --> 00:02:40,878
+another place or maybe you're physically
+
+68
+00:02:39,400 --> 00:02:43,239
+with a person but just like we did you
+
+69
+00:02:40,878 --> 00:02:45,919
+can pull up a virtual pong game or you
+
+70
+00:02:43,239 --> 00:02:47,280
+know whatever um you can work on things
+
+71
+00:02:45,919 --> 00:02:49,559
+together you can sit at a coffee shop
+
+72
+00:02:47,280 --> 00:02:51,360
+pull up your whole uh workstation of
+
+73
+00:02:49,560 --> 00:02:53,360
+different monitors you know you can be
+
+74
+00:02:51,360 --> 00:02:55,319
+on a flight or in the backseat of a car
+
+75
+00:02:53,360 --> 00:02:57,720
+and pull up a full screen movie theater
+
+76
+00:02:55,318 --> 00:03:00,000
+and and like okay all these things like
+
+77
+00:02:57,719 --> 00:03:01,318
+great Computing full sense of presence
+
+78
+00:03:00,000 --> 00:03:03,318
+like you're there with people no matter
+
+79
+00:03:01,318 --> 00:03:09,759
+where they are thing
+
+80
+00:03:03,318 --> 00:03:12,039
+two is it's the ideal device for AI and
+
+81
+00:03:09,759 --> 00:03:14,759
+the reason for that is because glasses
+
+82
+00:03:12,039 --> 00:03:17,479
+are sort of uniquely positioned for you
+
+83
+00:03:14,759 --> 00:03:20,519
+to be able to let them see what you see
+
+84
+00:03:17,479 --> 00:03:22,439
+and hear what you hear and give you very
+
+85
+00:03:20,519 --> 00:03:25,879
+subtle feedback back to you where they
+
+86
+00:03:22,439 --> 00:03:27,598
+can speak in your ear or um or they can
+
+87
+00:03:25,878 --> 00:03:29,919
+have silent input that that kind of
+
+88
+00:03:27,598 --> 00:03:31,238
+shows up on the on the glasses that that
+
+89
+00:03:29,919 --> 00:03:32,639
+other people can't see and doesn't take
+
+90
+00:03:31,239 --> 00:03:34,039
+you away from the world around you and I
+
+91
+00:03:32,639 --> 00:03:36,679
+think that that is all going to be
+
+92
+00:03:34,039 --> 00:03:38,079
+really profound now when we got started
+
+93
+00:03:36,680 --> 00:03:40,239
+with this I had thought that kind of the
+
+94
+00:03:38,080 --> 00:03:43,560
+Hologram part of this was going to be
+
+95
+00:03:40,239 --> 00:03:45,158
+possible before AI um so it's sort of an
+
+96
+00:03:43,560 --> 00:03:48,680
+interesting Twist of faith that the AI
+
+97
+00:03:45,158 --> 00:03:50,438
+part is actually possible before um
+
+98
+00:03:48,680 --> 00:03:52,079
+before the Holograms are really able to
+
+99
+00:03:50,438 --> 00:03:55,840
+be mass-produced at a at kind of an
+
+100
+00:03:52,079 --> 00:03:56,920
+affordable price but um but that was
+
+101
+00:03:55,840 --> 00:03:58,799
+sort of the vision I think that it's
+
+102
+00:03:56,919 --> 00:04:00,438
+pretty easy to wrap your head around and
+
+103
+00:03:58,799 --> 00:04:02,000
+there's already you know billion to two
+
+104
+00:04:00,438 --> 00:04:04,479
+billion people who wear glasses on a
+
+105
+00:04:02,000 --> 00:04:05,919
+daily basis just like you know everyone
+
+106
+00:04:04,479 --> 00:04:07,078
+who didn't have smartphones were kind of
+
+107
+00:04:05,919 --> 00:04:09,039
+the first people to upgrade two
+
+108
+00:04:07,079 --> 00:04:10,400
+smartphones I think everyone who has
+
+109
+00:04:09,039 --> 00:04:12,078
+glasses is pretty quickly going to
+
+110
+00:04:10,400 --> 00:04:13,599
+upgrade to smart glasses over the next
+
+111
+00:04:12,079 --> 00:04:15,319
+decade and then I think it's going to
+
+112
+00:04:13,598 --> 00:04:16,439
+start being really valuable and you know
+
+113
+00:04:15,318 --> 00:04:18,199
+a lot of other people who aren't wearing
+
+114
+00:04:16,439 --> 00:04:21,560
+glasses today are going to end up
+
+115
+00:04:18,199 --> 00:04:23,000
+wearing them too um that's kind of the
+
+116
+00:04:21,560 --> 00:04:25,360
+simple
+
+117
+00:04:23,000 --> 00:04:28,918
+version and then I think as we've
+
+118
+00:04:25,360 --> 00:04:30,720
+developed this out there are all these
+
+119
+00:04:28,918 --> 00:04:33,758
+sort of more Nu directions that have
+
+120
+00:04:30,720 --> 00:04:34,919
+emerged too so we've started you know
+
+121
+00:04:33,759 --> 00:04:36,919
+while while that was kind of the full
+
+122
+00:04:34,918 --> 00:04:39,758
+version of what we wanted to build there
+
+123
+00:04:36,918 --> 00:04:41,240
+are all these things that we said okay
+
+124
+00:04:39,759 --> 00:04:43,319
+well well maybe it's it's really hard to
+
+125
+00:04:41,240 --> 00:04:45,400
+build normal looking glasses that can do
+
+126
+00:04:43,319 --> 00:04:46,879
+Holograms um at an affordable price
+
+127
+00:04:45,399 --> 00:04:48,198
+point so what parts of that can we take
+
+128
+00:04:46,879 --> 00:04:50,159
+on and that's where we did the
+
+129
+00:04:48,199 --> 00:04:52,439
+partnership with slor luoda so it's like
+
+130
+00:04:50,160 --> 00:04:54,320
+okay before you have a display you can
+
+131
+00:04:52,439 --> 00:04:56,240
+get normal looking glasses that can have
+
+132
+00:04:54,319 --> 00:05:00,000
+a camera they can have a microphone
+
+133
+00:04:56,240 --> 00:05:02,319
+great audio can capture content can um
+
+134
+00:05:00,000 --> 00:05:03,959
+um and you can stream video at this
+
+135
+00:05:02,319 --> 00:05:05,959
+point but the most important feature at
+
+136
+00:05:03,959 --> 00:05:08,279
+this point is the ability to access meta
+
+137
+00:05:05,959 --> 00:05:10,399
+Ai and just kind of have kind of a full
+
+138
+00:05:08,279 --> 00:05:13,319
+AI there multimodal because it has has
+
+139
+00:05:10,399 --> 00:05:15,879
+camera um and I mean that product is
+
+140
+00:05:13,319 --> 00:05:17,759
+starting at $300 and you know initially
+
+141
+00:05:15,879 --> 00:05:19,439
+I kind of thought hey this is sort of on
+
+142
+00:05:17,759 --> 00:05:22,000
+the technology path to building full
+
+143
+00:05:19,439 --> 00:05:23,038
+holographic glasses at this point I
+
+144
+00:05:22,000 --> 00:05:24,560
+actually just think both are going to
+
+145
+00:05:23,038 --> 00:05:27,079
+exist longterm right I think that there
+
+146
+00:05:24,560 --> 00:05:28,360
+are going to be people who want the full
+
+147
+00:05:27,079 --> 00:05:30,240
+holographic glasses and I think that
+
+148
+00:05:28,360 --> 00:05:32,439
+there are going to be people who prefer
+
+149
+00:05:30,240 --> 00:05:34,918
+kind of the superior form factor or
+
+150
+00:05:32,439 --> 00:05:38,560
+lower price of a device where they are
+
+151
+00:05:34,918 --> 00:05:39,439
+primarily optimizing for getting AI um I
+
+152
+00:05:38,560 --> 00:05:40,639
+also think there's going to be a range
+
+153
+00:05:39,439 --> 00:05:42,600
+of things in between right so there's
+
+154
+00:05:40,639 --> 00:05:45,120
+the full kind of field of view that we
+
+155
+00:05:42,600 --> 00:05:48,759
+that you just saw right 70° really wide
+
+156
+00:05:45,120 --> 00:05:50,120
+field of view for glasses um but I think
+
+157
+00:05:48,759 --> 00:05:52,560
+that there are other products in between
+
+158
+00:05:50,120 --> 00:05:54,879
+that too there's like a heads up display
+
+159
+00:05:52,560 --> 00:05:57,680
+version which um you know for that you
+
+160
+00:05:54,879 --> 00:06:00,279
+probably just need you know 20
+
+161
+00:05:57,680 --> 00:06:04,038
+30° you can't do
+
+162
+00:06:00,279 --> 00:06:05,239
+kind of the full kind of world Holograms
+
+163
+00:06:04,038 --> 00:06:06,519
+where you're interacting with things
+
+164
+00:06:05,240 --> 00:06:09,120
+like you're not going to play ping pong
+
+165
+00:06:06,519 --> 00:06:11,598
+in in 30 Dee field of view um but you
+
+166
+00:06:09,120 --> 00:06:14,439
+can communicate with AI um you can text
+
+167
+00:06:11,598 --> 00:06:16,639
+your friends you can get directions um
+
+168
+00:06:14,439 --> 00:06:18,719
+you can see the content that you're
+
+169
+00:06:16,639 --> 00:06:20,000
+capturing um so I there's a lot there
+
+170
+00:06:18,720 --> 00:06:21,400
+that's going to be compelling and at
+
+171
+00:06:20,000 --> 00:06:23,879
+each step along this Continuum from
+
+172
+00:06:21,399 --> 00:06:26,000
+display list to small display to kind of
+
+173
+00:06:23,879 --> 00:06:27,918
+full holographic you're packing more
+
+174
+00:06:26,000 --> 00:06:31,079
+technology in so each step up is going
+
+175
+00:06:27,918 --> 00:06:32,240
+to be a little more expensive um is
+
+176
+00:06:31,079 --> 00:06:33,439
+going to have a little more constraints
+
+177
+00:06:32,240 --> 00:06:34,918
+on the form factor even though I think
+
+178
+00:06:33,439 --> 00:06:36,360
+we'll get them all to be attractive
+
+179
+00:06:34,918 --> 00:06:38,120
+you'll be able to do the the kind of
+
+180
+00:06:36,360 --> 00:06:41,639
+simpler ones and much smaller form
+
+181
+00:06:38,120 --> 00:06:42,759
+factors permanently um and then of
+
+182
+00:06:41,639 --> 00:06:44,400
+course there's the mixed reality
+
+183
+00:06:42,759 --> 00:06:45,479
+headsets which kind of took a different
+
+184
+00:06:44,399 --> 00:06:47,560
+direction which is going towards the
+
+185
+00:06:45,478 --> 00:06:49,879
+same vision
+
+186
+00:06:47,560 --> 00:06:51,759
+but on that we said okay well we're not
+
+187
+00:06:49,879 --> 00:06:53,759
+going to try to fit into a glasses form
+
+188
+00:06:51,759 --> 00:06:55,680
+factor for that one we're going to say
+
+189
+00:06:53,759 --> 00:06:57,960
+okay we're going to really go for all
+
+190
+00:06:55,680 --> 00:06:59,079
+the compute that we want and we're going
+
+191
+00:06:57,959 --> 00:07:00,959
+to say okay this is going to be more of
+
+192
+00:06:59,079 --> 00:07:02,719
+like a heads goggles form factor and my
+
+193
+00:07:00,959 --> 00:07:04,079
+guess is that that's going to be a thing
+
+194
+00:07:02,720 --> 00:07:05,879
+long term too because there are a bunch
+
+195
+00:07:04,079 --> 00:07:08,478
+of uses where people want the full
+
+196
+00:07:05,879 --> 00:07:09,840
+immersion um and you know if you're
+
+197
+00:07:08,478 --> 00:07:11,038
+sitting at your desk and working for a
+
+198
+00:07:09,839 --> 00:07:12,239
+long period of time you might want the
+
+199
+00:07:11,038 --> 00:07:14,279
+more computing power than you're going
+
+200
+00:07:12,240 --> 00:07:16,598
+to be able to get but but I I I think
+
+201
+00:07:14,279 --> 00:07:19,559
+that there's no doubt that kind of what
+
+202
+00:07:16,598 --> 00:07:23,560
+you saw with Orion is the I think kind
+
+203
+00:07:19,560 --> 00:07:25,399
+of quintessential vision of what people
+
+204
+00:07:23,560 --> 00:07:27,360
+what at least kind of I thought and and
+
+205
+00:07:25,399 --> 00:07:30,318
+continue to think is going to be the
+
+206
+00:07:27,360 --> 00:07:31,840
+next multi billion person major
+
+207
+00:07:30,319 --> 00:07:32,720
+Computing platform and then kind of all
+
+208
+00:07:31,839 --> 00:07:34,159
+these other things are going to get
+
+209
+00:07:32,720 --> 00:07:35,280
+built out around it it's my
+
+210
+00:07:34,160 --> 00:07:36,919
+understanding that you originally hoped
+
+211
+00:07:35,279 --> 00:07:38,279
+Orion would be a consumer product when
+
+212
+00:07:36,918 --> 00:07:41,359
+you first set out to build it yeah yeah
+
+213
+00:07:38,279 --> 00:07:44,239
+Orion was meant to be our first consumer
+
+214
+00:07:41,360 --> 00:07:45,639
+product and we weren't sure if we were
+
+215
+00:07:44,240 --> 00:07:48,158
+going to be able to pull it off I mean
+
+216
+00:07:45,639 --> 00:07:49,639
+in general it's probably turned out
+
+217
+00:07:48,158 --> 00:07:52,199
+significantly better than our kind of
+
+218
+00:07:49,639 --> 00:07:53,800
+50/50 estimates of what it would be but
+
+219
+00:07:52,199 --> 00:07:55,598
+we didn't get there on everything that
+
+220
+00:07:53,800 --> 00:07:58,240
+we wanted to I think we we still wanted
+
+221
+00:07:55,598 --> 00:08:00,800
+to be a little smaller um a little
+
+222
+00:07:58,240 --> 00:08:03,319
+brighter like a little bit higher
+
+223
+00:08:00,800 --> 00:08:04,720
+resolution um and a lot more affordable
+
+224
+00:08:03,319 --> 00:08:06,240
+before we kind of put it out there as a
+
+225
+00:08:04,720 --> 00:08:08,520
+product and and look we have line of
+
+226
+00:08:06,240 --> 00:08:10,879
+sight to all those things so I think um
+
+227
+00:08:08,519 --> 00:08:12,038
+so so I I think we'll we'll probably
+
+228
+00:08:10,879 --> 00:08:15,639
+have the thing that was going to be the
+
+229
+00:08:12,038 --> 00:08:18,439
+V2 end up being the consumer product and
+
+230
+00:08:15,639 --> 00:08:19,918
+we're going to use Orion with developers
+
+231
+00:08:18,439 --> 00:08:21,038
+to basically cultivate the software
+
+232
+00:08:19,918 --> 00:08:22,240
+experience that way by the time we're
+
+233
+00:08:21,038 --> 00:08:23,759
+ready to ship something it's going to be
+
+234
+00:08:22,240 --> 00:08:25,918
+much more dialed in but to be clear
+
+235
+00:08:23,759 --> 00:08:27,879
+you're not selling Orion at all I guess
+
+236
+00:08:25,918 --> 00:08:30,240
+what I'm wondering is when you made the
+
+237
+00:08:27,879 --> 00:08:32,038
+call I think it was around 2022 to say
+
+238
+00:08:30,240 --> 00:08:34,680
+oryan is going to just be internal kind
+
+239
+00:08:32,038 --> 00:08:36,000
+of dev kit um how did you feel about
+
+240
+00:08:34,679 --> 00:08:37,639
+making that call was there any part of
+
+241
+00:08:36,000 --> 00:08:38,879
+you that was like man I really wish this
+
+242
+00:08:37,639 --> 00:08:42,000
+could have just been the consumer
+
+243
+00:08:38,879 --> 00:08:45,360
+product we had built I me I always want
+
+244
+00:08:42,000 --> 00:08:47,240
+to ship stuff quickly and and all that
+
+245
+00:08:45,360 --> 00:08:49,320
+um
+
+246
+00:08:47,240 --> 00:08:51,639
+but I think it was the right thing I
+
+247
+00:08:49,320 --> 00:08:53,040
+mean I think on this product I think
+
+248
+00:08:51,639 --> 00:08:55,399
+that there is
+
+249
+00:08:53,039 --> 00:08:57,039
+a there's a pretty clear set of
+
+250
+00:08:55,399 --> 00:09:00,159
+constraints that I think you want to hit
+
+251
+00:08:57,039 --> 00:09:02,078
+MH um especially around the form Factor
+
+252
+00:09:00,159 --> 00:09:05,120
+right I mean it it is very helpful for
+
+253
+00:09:02,078 --> 00:09:07,319
+us that sort of chunkier glasses are
+
+254
+00:09:05,120 --> 00:09:09,679
+kind of ascendant in the fashion world
+
+255
+00:09:07,320 --> 00:09:10,839
+because that allows us to build glasses
+
+256
+00:09:09,679 --> 00:09:13,719
+that are going to be fashionable but
+
+257
+00:09:10,839 --> 00:09:16,920
+also Tech forward but
+
+258
+00:09:13,720 --> 00:09:20,759
+um even so I'd say you know these are
+
+259
+00:09:16,919 --> 00:09:22,519
+unmistakably glasses they're reasonably
+
+260
+00:09:20,759 --> 00:09:24,838
+comfortable they're you know under 100
+
+261
+00:09:22,519 --> 00:09:27,320
+gram I them for two hours and I couldn't
+
+262
+00:09:24,839 --> 00:09:29,839
+really tell yeah but but I mean I think
+
+263
+00:09:27,320 --> 00:09:32,120
+we aspire to building things that like
+
+264
+00:09:29,839 --> 00:09:34,240
+look really good right and and I think
+
+265
+00:09:32,120 --> 00:09:36,240
+this is like good glasses but I I I
+
+266
+00:09:34,240 --> 00:09:38,519
+wanted it to be a little a little
+
+267
+00:09:36,240 --> 00:09:39,839
+smaller so it can fit within like really
+
+268
+00:09:38,519 --> 00:09:41,360
+fashionable right when people see the
+
+269
+00:09:39,839 --> 00:09:43,519
+ray bands there's no compromise on
+
+270
+00:09:41,360 --> 00:09:45,639
+fashion it's like like part of why I
+
+271
+00:09:43,519 --> 00:09:46,720
+think people like them is yeah you get
+
+272
+00:09:45,639 --> 00:09:47,720
+all this functionality but even when
+
+273
+00:09:46,720 --> 00:09:50,839
+you're not using it they're great
+
+274
+00:09:47,720 --> 00:09:53,600
+glasses and I I think for the future
+
+275
+00:09:50,839 --> 00:09:55,480
+version of Orion that's the Target too
+
+276
+00:09:53,600 --> 00:09:56,399
+we want to make it so that um you know
+
+277
+00:09:55,480 --> 00:09:58,920
+most of the time you're going through
+
+278
+00:09:56,399 --> 00:10:00,159
+your day you're not Computing right and
+
+279
+00:09:58,919 --> 00:10:02,039
+or it's or something is happening in the
+
+280
+00:10:00,159 --> 00:10:03,600
+background or something but um so it
+
+281
+00:10:02,039 --> 00:10:05,599
+just needs to be good in order for you
+
+282
+00:10:03,600 --> 00:10:08,360
+to kind of want to keep it on your face
+
+283
+00:10:05,600 --> 00:10:09,920
+and I I feel like we're almost there I
+
+284
+00:10:08,360 --> 00:10:11,079
+think we made we've made more progress
+
+285
+00:10:09,919 --> 00:10:13,199
+than anyone else in the world that I'm
+
+286
+00:10:11,078 --> 00:10:18,439
+aware of um but it didn't quite hit my
+
+287
+00:10:13,200 --> 00:10:19,519
+bar um and similarly on price um these
+
+288
+00:10:18,440 --> 00:10:20,959
+are going to be more expensive than the
+
+289
+00:10:19,519 --> 00:10:23,519
+ray bands right I mean there's just a
+
+290
+00:10:20,958 --> 00:10:24,958
+lot more Tech that's going in them but
+
+291
+00:10:23,519 --> 00:10:28,519
+you know we do want to have it be within
+
+292
+00:10:24,958 --> 00:10:29,879
+a consumer price point and um this was
+
+293
+00:10:28,519 --> 00:10:31,639
+this was outside that race so I wanted
+
+294
+00:10:29,879 --> 00:10:33,320
+to wait until we could get to that range
+
+295
+00:10:31,639 --> 00:10:34,480
+in order to to have something that we sh
+
+296
+00:10:33,320 --> 00:10:36,360
+are you imagining that the first
+
+297
+00:10:34,480 --> 00:10:38,959
+commercial version whenever it is in the
+
+298
+00:10:36,360 --> 00:10:40,680
+next couple few years will it be a
+
+299
+00:10:38,958 --> 00:10:42,078
+developer focused product that you're
+
+300
+00:10:40,679 --> 00:10:44,879
+selling publicly you want it to be a
+
+301
+00:10:42,078 --> 00:10:47,039
+consumer ready and that's why I'm asking
+
+302
+00:10:44,879 --> 00:10:49,078
+about the strategy because Apple snap
+
+303
+00:10:47,039 --> 00:10:51,399
+others have decided to do developer
+
+304
+00:10:49,078 --> 00:10:53,399
+Focus plays and get the hardware kind of
+
+305
+00:10:51,399 --> 00:10:54,679
+going with developers early but you're
+
+306
+00:10:53,399 --> 00:10:56,639
+kind of are you saying you're skipping
+
+307
+00:10:54,679 --> 00:10:58,838
+that and you just want cons we are using
+
+308
+00:10:56,639 --> 00:11:00,600
+this as a developer kit just primarily
+
+309
+00:10:58,839 --> 00:11:02,680
+inter and maybe with a handful of
+
+310
+00:11:00,600 --> 00:11:05,600
+Partners but I mean I think at this
+
+311
+00:11:02,679 --> 00:11:08,239
+point meta is by far the kind of Premier
+
+312
+00:11:05,600 --> 00:11:10,440
+developer of augmented reality and
+
+313
+00:11:08,240 --> 00:11:12,639
+virtual and mixed reality software and
+
+314
+00:11:10,440 --> 00:11:14,000
+Hardware in the world so you can think
+
+315
+00:11:12,639 --> 00:11:15,600
+about it as a developer kit but we just
+
+316
+00:11:14,000 --> 00:11:17,720
+have a lot of that talent inous and then
+
+317
+00:11:15,600 --> 00:11:19,159
+we also have well-developed Partnerships
+
+318
+00:11:17,720 --> 00:11:21,720
+with a lot of folks externally who we
+
+319
+00:11:19,159 --> 00:11:23,439
+can go to and work with them as well so
+
+320
+00:11:21,720 --> 00:11:26,200
+it's um I don't think we need to go
+
+321
+00:11:23,440 --> 00:11:28,000
+announce a dev kit that like that kind
+
+322
+00:11:26,200 --> 00:11:29,320
+of arbitrary developers can go buy to
+
+323
+00:11:28,000 --> 00:11:30,600
+get access to the talent that we need to
+
+324
+00:11:29,320 --> 00:11:31,720
+go build out the platform I think we're
+
+325
+00:11:30,600 --> 00:11:33,680
+kind of in a place where we can work
+
+326
+00:11:31,720 --> 00:11:34,800
+with partners and and do that but that's
+
+327
+00:11:33,679 --> 00:11:36,479
+absolutely what we're going to do over
+
+328
+00:11:34,799 --> 00:11:38,000
+the next few years we're going to hone
+
+329
+00:11:36,480 --> 00:11:39,800
+the experience and figure out what we
+
+330
+00:11:38,000 --> 00:11:41,360
+need to do to to to Really nail it when
+
+331
+00:11:39,799 --> 00:11:42,559
+it's ready to ship a lot has been
+
+332
+00:11:41,360 --> 00:11:45,278
+written about how much you're spending
+
+333
+00:11:42,559 --> 00:11:47,199
+on reality labs and if you I don't you
+
+334
+00:11:45,278 --> 00:11:50,200
+probably can't have an exact number but
+
+335
+00:11:47,200 --> 00:11:52,278
+if you were to guesstimate the cost of
+
+336
+00:11:50,200 --> 00:11:55,800
+just building Orion over the last 10
+
+337
+00:11:52,278 --> 00:11:58,480
+years are we talking five plus billion
+
+338
+00:11:55,799 --> 00:12:00,240
+more than that um yeah probably probably
+
+339
+00:11:58,480 --> 00:12:03,959
+yeah yeah but I mean
+
+340
+00:12:00,240 --> 00:12:06,360
+overall um for reality labs for a while
+
+341
+00:12:03,958 --> 00:12:08,199
+a lot of people thought of all of that
+
+342
+00:12:06,360 --> 00:12:10,800
+budget is going towards virtual and
+
+343
+00:12:08,200 --> 00:12:14,519
+mixed reality and I actually think we've
+
+344
+00:12:10,799 --> 00:12:16,519
+said publicly that our glasses programs
+
+345
+00:12:14,519 --> 00:12:19,120
+are are a bigger budget than our virtual
+
+346
+00:12:16,519 --> 00:12:20,799
+and mixed reality programs um but that
+
+347
+00:12:19,120 --> 00:12:24,240
+goes across all of them right so that's
+
+348
+00:12:20,799 --> 00:12:25,759
+the kind of full AR that's um the
+
+349
+00:12:24,240 --> 00:12:28,639
+displaylist glasses like all the work
+
+350
+00:12:25,759 --> 00:12:29,919
+we're going to do on on um on rayan and
+
+351
+00:12:28,639 --> 00:12:32,759
+we just announced the expanded
+
+352
+00:12:29,919 --> 00:12:34,278
+partnership with luoda luoda great
+
+353
+00:12:32,759 --> 00:12:37,000
+company we've had a great experience
+
+354
+00:12:34,278 --> 00:12:38,639
+working with them they designed so many
+
+355
+00:12:37,000 --> 00:12:41,198
+great glasses and I think you know
+
+356
+00:12:38,639 --> 00:12:43,079
+working with them to to do even more um
+
+357
+00:12:41,198 --> 00:12:44,399
+is is is going to be really exciting so
+
+358
+00:12:43,078 --> 00:12:45,719
+there there's a lot more to do there on
+
+359
+00:12:44,399 --> 00:12:49,519
+on all of these things how does this
+
+360
+00:12:45,720 --> 00:12:51,879
+partnership work uh and this renew that
+
+361
+00:12:49,519 --> 00:12:55,159
+you just did with them how is it
+
+362
+00:12:51,879 --> 00:12:58,000
+structured what is this deal like you
+
+363
+00:12:55,159 --> 00:13:01,120
+know I think it was more of just a kind
+
+364
+00:12:58,000 --> 00:13:02,839
+of commitment from companies that we're
+
+365
+00:13:01,120 --> 00:13:04,560
+feeling pretty good about how this is
+
+366
+00:13:02,839 --> 00:13:06,800
+going and we're going to build a lot
+
+367
+00:13:04,559 --> 00:13:10,759
+more glasses together and part of the
+
+368
+00:13:06,799 --> 00:13:13,639
+way it works is um you know rather than
+
+369
+00:13:10,759 --> 00:13:16,439
+having sort of doing one generation and
+
+370
+00:13:13,639 --> 00:13:17,919
+then designing the Next Generation I
+
+371
+00:13:16,440 --> 00:13:20,920
+think by having a longer term
+
+372
+00:13:17,919 --> 00:13:22,679
+partnership it allows the teams to not
+
+373
+00:13:20,919 --> 00:13:24,198
+just have to worry about one thing at a
+
+374
+00:13:22,679 --> 00:13:26,958
+time then like
+
+375
+00:13:24,198 --> 00:13:28,958
+okay is this one going to be good
+
+376
+00:13:26,958 --> 00:13:30,838
+and then how do we build on that for the
+
+377
+00:13:28,958 --> 00:13:32,838
+next one now we can start like a
+
+378
+00:13:30,839 --> 00:13:35,040
+multi-year road map of many different
+
+379
+00:13:32,839 --> 00:13:37,360
+devices knowing that we're going to be
+
+380
+00:13:35,039 --> 00:13:38,799
+working together for a long time so I'm
+
+381
+00:13:37,360 --> 00:13:40,800
+optimistic about that that's sort of how
+
+382
+00:13:38,799 --> 00:13:42,879
+we work internally right we don't just I
+
+383
+00:13:40,799 --> 00:13:44,000
+mean sometimes when you're early on you
+
+384
+00:13:42,879 --> 00:13:46,278
+you definitely want to learn from each
+
+385
+00:13:44,000 --> 00:13:48,078
+device launch but
+
+386
+00:13:46,278 --> 00:13:49,399
+um when there are things that you're
+
+387
+00:13:48,078 --> 00:13:52,879
+committed to I don't think you want the
+
+388
+00:13:49,399 --> 00:13:54,839
+team to feel like okay if we don't get
+
+389
+00:13:52,879 --> 00:13:57,919
+the short-term Milestone then like we're
+
+390
+00:13:54,839 --> 00:14:00,360
+going to cancel the whole thing right um
+
+391
+00:13:57,919 --> 00:14:02,759
+so are you buying mistake in elsur
+
+392
+00:14:00,360 --> 00:14:04,320
+lexotica um yeah I think we've talked
+
+393
+00:14:02,759 --> 00:14:06,278
+about investing in them it's it's not
+
+394
+00:14:04,320 --> 00:14:09,519
+going to be a a kind of major thing I'd
+
+395
+00:14:06,278 --> 00:14:11,240
+say it's more of a of a symbolic um
+
+396
+00:14:09,519 --> 00:14:14,519
+thing I me we we we want to have this to
+
+397
+00:14:11,240 --> 00:14:16,399
+be a long-term partnership and um as as
+
+398
+00:14:14,519 --> 00:14:19,198
+part of that um I thought that this
+
+399
+00:14:16,399 --> 00:14:20,519
+would be kind of a nice gesture and I
+
+400
+00:14:19,198 --> 00:14:21,838
+fundamentally believe in them a lot I
+
+401
+00:14:20,519 --> 00:14:25,039
+mean I think that they're going to go
+
+402
+00:14:21,839 --> 00:14:28,160
+from being a the premier glasses company
+
+403
+00:14:25,039 --> 00:14:30,639
+in the world to I think one of the major
+
+404
+00:14:28,159 --> 00:14:32,319
+technology companies in the world I me
+
+405
+00:14:30,639 --> 00:14:34,360
+my vision for for them and how I think
+
+406
+00:14:32,320 --> 00:14:38,000
+about it is that if you think about like
+
+407
+00:14:34,360 --> 00:14:41,199
+how Samsung in in Korea kind of um made
+
+408
+00:14:38,000 --> 00:14:42,958
+it so that Samsung that Korea became one
+
+409
+00:14:41,198 --> 00:14:45,679
+of the main hubs of building phones in
+
+410
+00:14:42,958 --> 00:14:47,599
+the world I mean I think that this is
+
+411
+00:14:45,679 --> 00:14:50,159
+probably kind of one of the best shots
+
+412
+00:14:47,600 --> 00:14:52,360
+for Europe and Italy in particular to
+
+413
+00:14:50,159 --> 00:14:54,559
+become a major hub for manufacturing and
+
+414
+00:14:52,360 --> 00:14:56,680
+building and designing the next major
+
+415
+00:14:54,559 --> 00:14:59,958
+category of of smart glasses and sorry
+
+416
+00:14:56,679 --> 00:15:01,958
+of computing platforms overall so um
+
+417
+00:14:59,958 --> 00:15:03,638
+and and I think that they're they're
+
+418
+00:15:01,958 --> 00:15:06,719
+kind of all in on that now and and it's
+
+419
+00:15:03,639 --> 00:15:07,839
+been this interesting question um
+
+420
+00:15:06,720 --> 00:15:09,240
+because you know they have they have
+
+421
+00:15:07,839 --> 00:15:11,160
+such a good business and such deep
+
+422
+00:15:09,240 --> 00:15:13,120
+competence in in the areas and I I've
+
+423
+00:15:11,159 --> 00:15:14,719
+gotten more of an appreciation of how
+
+424
+00:15:13,120 --> 00:15:17,639
+strong of a technology they company they
+
+425
+00:15:14,720 --> 00:15:19,959
+are in their own way right designing
+
+426
+00:15:17,639 --> 00:15:23,519
+lenses designing the materials that you
+
+427
+00:15:19,958 --> 00:15:26,078
+need to make um fashionable glasses that
+
+428
+00:15:23,519 --> 00:15:30,198
+can be light enough but um but also kind
+
+429
+00:15:26,078 --> 00:15:33,239
+of like feel good um they have they
+
+430
+00:15:30,198 --> 00:15:35,439
+bring a huge amount that I think is um
+
+431
+00:15:33,240 --> 00:15:37,680
+people in kind of our world the tech
+
+432
+00:15:35,440 --> 00:15:38,880
+World probably don't necessarily see but
+
+433
+00:15:37,679 --> 00:15:40,479
+but I think that they're really well set
+
+434
+00:15:38,879 --> 00:15:41,759
+up for the future so I I I believe in
+
+435
+00:15:40,480 --> 00:15:43,278
+the partnership I'm really excited about
+
+436
+00:15:41,759 --> 00:15:44,600
+the work that we're doing together and
+
+437
+00:15:43,278 --> 00:15:46,078
+fundamentally I think that that's just
+
+438
+00:15:44,600 --> 00:15:48,399
+going to be a massively successful
+
+439
+00:15:46,078 --> 00:15:51,000
+company in the future um is is it set up
+
+440
+00:15:48,399 --> 00:15:52,480
+to where they control the designs or and
+
+441
+00:15:51,000 --> 00:15:54,318
+you provide the tech stack or do you
+
+442
+00:15:52,480 --> 00:15:56,240
+collaborate on the design like I I think
+
+443
+00:15:54,318 --> 00:15:58,039
+we collaborate on on everything it's
+
+444
+00:15:56,240 --> 00:15:59,759
+it's actually I mean part of working
+
+445
+00:15:58,039 --> 00:16:02,360
+together is
+
+446
+00:15:59,759 --> 00:16:05,278
+um you kind of build a joint culture
+
+447
+00:16:02,360 --> 00:16:09,079
+over time and there were a lot of really
+
+448
+00:16:05,278 --> 00:16:11,318
+sharp people over there who I think it
+
+449
+00:16:09,078 --> 00:16:13,239
+took maybe a couple versions for us
+
+450
+00:16:11,318 --> 00:16:16,159
+really to gain an appreciation for how
+
+451
+00:16:13,240 --> 00:16:17,360
+we each of us approach things because um
+
+452
+00:16:16,159 --> 00:16:20,078
+you know they really think about things
+
+453
+00:16:17,360 --> 00:16:23,800
+from this like fashion manufacturing
+
+454
+00:16:20,078 --> 00:16:25,559
+lens selling optical devices perspective
+
+455
+00:16:23,799 --> 00:16:28,919
+um and we obviously come at it from uh
+
+456
+00:16:25,559 --> 00:16:31,559
+kind of consumer electronics AI umof
+
+457
+00:16:28,919 --> 00:16:33,078
+software perspective but I think over
+
+458
+00:16:31,559 --> 00:16:34,679
+time we just kind of appreciate each
+
+459
+00:16:33,078 --> 00:16:37,359
+other's perspectives on things a lot
+
+460
+00:16:34,679 --> 00:16:38,958
+more and I mean I I'm like constantly
+
+461
+00:16:37,360 --> 00:16:40,839
+talking to them about things to get
+
+462
+00:16:38,958 --> 00:16:42,000
+their ideas on different things I mean
+
+463
+00:16:40,839 --> 00:16:45,399
+but you know when Partnerships are
+
+464
+00:16:42,000 --> 00:16:47,440
+working well when you reach out to them
+
+465
+00:16:45,399 --> 00:16:49,318
+to get their opinion on things that are
+
+466
+00:16:47,440 --> 00:16:51,639
+not actually currently in the scope of
+
+467
+00:16:49,318 --> 00:16:54,198
+what you're working on together and and
+
+468
+00:16:51,639 --> 00:16:55,959
+because I I do that frequently with um
+
+469
+00:16:54,198 --> 00:16:58,078
+with Rocco who runs their wearables and
+
+470
+00:16:55,958 --> 00:17:00,638
+Franchesco who's their their uh their
+
+471
+00:16:58,078 --> 00:17:02,439
+CEO it's um and our team does that too
+
+472
+00:17:00,639 --> 00:17:04,400
+with with like a large part of the
+
+473
+00:17:02,440 --> 00:17:06,000
+working group over there it's um it's
+
+474
+00:17:04,400 --> 00:17:07,519
+it's a good crew they're they they kind
+
+475
+00:17:06,000 --> 00:17:09,119
+of they share good values they're
+
+476
+00:17:07,519 --> 00:17:10,199
+they're really sharp and like I said I I
+
+477
+00:17:09,119 --> 00:17:11,678
+believe in them a lot and I think it's
+
+478
+00:17:10,199 --> 00:17:13,120
+going to be a very successful
+
+479
+00:17:11,679 --> 00:17:15,038
+partnership and Company yeah how many
+
+480
+00:17:13,119 --> 00:17:16,359
+Rayband metas have you sold so far I
+
+481
+00:17:15,038 --> 00:17:20,679
+don't know if we've given a number on
+
+482
+00:17:16,359 --> 00:17:22,958
+that but I know it's asking yeah it's um
+
+483
+00:17:20,679 --> 00:17:25,640
+it's going very well uh you know one of
+
+484
+00:17:22,959 --> 00:17:28,679
+the things I think is interesting is we
+
+485
+00:17:25,640 --> 00:17:31,000
+we underestimated demand so part of you
+
+486
+00:17:28,679 --> 00:17:32,798
+know one thing that is very different in
+
+487
+00:17:31,000 --> 00:17:37,240
+the world of consumer electronics than
+
+488
+00:17:32,798 --> 00:17:39,359
+software is um there are fewer kind of
+
+489
+00:17:37,240 --> 00:17:40,759
+Supply constraints in software there are
+
+490
+00:17:39,359 --> 00:17:43,599
+some I mean like some of the stuff that
+
+491
+00:17:40,759 --> 00:17:44,919
+we're rolling out like voice on meta AI
+
+492
+00:17:43,599 --> 00:17:46,000
+um we need to meter it as we're rolling
+
+493
+00:17:44,919 --> 00:17:47,799
+it out because we need to make sure we
+
+494
+00:17:46,000 --> 00:17:49,079
+have enough inference capacity to to
+
+495
+00:17:47,798 --> 00:17:51,839
+handle it but fundamentally we'll
+
+496
+00:17:49,079 --> 00:17:54,399
+resolve that um in weeks right but for
+
+497
+00:17:51,839 --> 00:17:55,678
+manufacturing it's like you make these
+
+498
+00:17:54,400 --> 00:17:58,080
+concrete decisions like okay are we
+
+499
+00:17:55,679 --> 00:17:59,880
+setting up four manufacturing lines or
+
+500
+00:17:58,079 --> 00:18:02,439
+six
+
+501
+00:17:59,880 --> 00:18:04,799
+and you know each one it was a big
+
+502
+00:18:02,440 --> 00:18:07,519
+upfront capex investment and you're
+
+503
+00:18:04,798 --> 00:18:08,240
+basically deciding upfront the velocity
+
+504
+00:18:07,519 --> 00:18:09,720
+at which you're going to be able to
+
+505
+00:18:08,240 --> 00:18:13,480
+generate Supply before you know what the
+
+506
+00:18:09,720 --> 00:18:16,759
+demand is so on this one we
+
+507
+00:18:13,480 --> 00:18:17,880
+thought that Rayband meta was probably
+
+508
+00:18:16,759 --> 00:18:22,000
+going to
+
+509
+00:18:17,880 --> 00:18:25,720
+sell three or five times more than the
+
+510
+00:18:22,000 --> 00:18:28,798
+first version did and we just
+
+511
+00:18:25,720 --> 00:18:30,319
+dramatically underestimated what the so
+
+512
+00:18:28,798 --> 00:18:31,519
+now we're in this position where it's
+
+513
+00:18:30,319 --> 00:18:33,079
+actually been somewhat hard for us to
+
+514
+00:18:31,519 --> 00:18:35,038
+gauge what the real demand is because
+
+515
+00:18:33,079 --> 00:18:36,439
+they're sold out you can't get them so
+
+516
+00:18:35,038 --> 00:18:37,798
+if you can't get them like then then how
+
+517
+00:18:36,440 --> 00:18:40,679
+do you know where where the actual curve
+
+518
+00:18:37,798 --> 00:18:41,519
+is but but that's um we're basically
+
+519
+00:18:40,679 --> 00:18:44,200
+getting to the point where that's
+
+520
+00:18:41,519 --> 00:18:46,000
+resolved now we we kind of adjusted we
+
+521
+00:18:44,200 --> 00:18:47,360
+made the decision to build more more
+
+522
+00:18:46,000 --> 00:18:49,240
+manufacturing lines they took some time
+
+523
+00:18:47,359 --> 00:18:50,678
+to do it they're online now we're kind
+
+524
+00:18:49,240 --> 00:18:51,679
+of you know it's it's not just about
+
+525
+00:18:50,679 --> 00:18:53,240
+being able to make them you need to get
+
+526
+00:18:51,679 --> 00:18:55,280
+them into all the stores and get the
+
+527
+00:18:53,240 --> 00:18:57,279
+distribution right we feel like that's
+
+528
+00:18:55,279 --> 00:18:58,918
+in a pretty good place now so I'd say
+
+529
+00:18:57,279 --> 00:19:00,158
+over the rest of this year we're going
+
+530
+00:18:58,919 --> 00:19:03,159
+to start getting a real sense of the
+
+531
+00:19:00,159 --> 00:19:04,880
+demand but while that's going on the
+
+532
+00:19:03,159 --> 00:19:07,720
+glasses keep getting better because of
+
+533
+00:19:04,880 --> 00:19:09,559
+overthe a AI updates so the hardware
+
+534
+00:19:07,720 --> 00:19:11,360
+doesn't necessarily change even though
+
+535
+00:19:09,558 --> 00:19:13,119
+um we keep shipping new frames and new
+
+536
+00:19:11,359 --> 00:19:14,519
+type of you know they're adding more
+
+537
+00:19:13,119 --> 00:19:17,678
+Transitions lenses because people want
+
+538
+00:19:14,519 --> 00:19:19,720
+to wear them indoors um and that's an
+
+539
+00:19:17,679 --> 00:19:21,840
+interesting thing because I mean
+
+540
+00:19:19,720 --> 00:19:23,440
+people sunglasses are a little more
+
+541
+00:19:21,839 --> 00:19:25,879
+discretionary so I think a lot more
+
+542
+00:19:23,440 --> 00:19:27,480
+people early on were thinking hey yeah
+
+543
+00:19:25,880 --> 00:19:28,760
+I'll try I'll experiment with this with
+
+544
+00:19:27,480 --> 00:19:31,319
+sunglasses I'm not going to make these
+
+545
+00:19:28,759 --> 00:19:33,279
+my primary glasses
+
+546
+00:19:31,319 --> 00:19:34,960
+um now we're seeing a lot more people
+
+547
+00:19:33,279 --> 00:19:36,038
+say hey this actually really useful I
+
+548
+00:19:34,960 --> 00:19:37,480
+want to be able to wear them inside I
+
+549
+00:19:36,038 --> 00:19:38,879
+want them to be my primary glasses so
+
+550
+00:19:37,480 --> 00:19:40,079
+whether that's kind of working with them
+
+551
+00:19:38,880 --> 00:19:41,640
+through the optical Channel or the
+
+552
+00:19:40,079 --> 00:19:46,079
+transitions that's an important part but
+
+553
+00:19:41,640 --> 00:19:47,559
+the the AI part of this um is also it
+
+554
+00:19:46,079 --> 00:19:50,879
+just keeps getting better I we talked
+
+555
+00:19:47,558 --> 00:19:54,480
+about it at um at connect I mean
+
+556
+00:19:50,880 --> 00:19:55,720
+basically the ability to now you over
+
+557
+00:19:54,480 --> 00:19:57,960
+the next few months when we roll This
+
+558
+00:19:55,720 --> 00:19:59,640
+Out real-time translations you're
+
+559
+00:19:57,960 --> 00:20:01,120
+traveling abroad someone's speaking
+
+560
+00:19:59,640 --> 00:20:03,038
+Spanish to you you just get it
+
+561
+00:20:01,119 --> 00:20:04,479
+translated into English in your ear just
+
+562
+00:20:03,038 --> 00:20:05,960
+roll out to more and more languages over
+
+563
+00:20:04,480 --> 00:20:08,360
+time I think we're starting with a few
+
+564
+00:20:05,960 --> 00:20:09,720
+we'll kind of hit more over time um I
+
+565
+00:20:08,359 --> 00:20:11,599
+tried that well actually I didn't try
+
+566
+00:20:09,720 --> 00:20:13,440
+real time but I tried looking at a menu
+
+567
+00:20:11,599 --> 00:20:14,558
+in French and it translated into English
+
+568
+00:20:13,440 --> 00:20:16,798
+and then I was like at the end I was
+
+569
+00:20:14,558 --> 00:20:18,519
+like what is Euro and dollar actually
+
+570
+00:20:16,798 --> 00:20:21,440
+and it did that too and then I'm also
+
+571
+00:20:18,519 --> 00:20:23,759
+starting to see the Continuum of this to
+
+572
+00:20:21,440 --> 00:20:26,120
+Orion in the sense of the utility
+
+573
+00:20:23,759 --> 00:20:27,879
+aspects you could say look at this and
+
+574
+00:20:26,119 --> 00:20:30,399
+remind me about it at 8:00 p.m. tonight
+
+575
+00:20:27,880 --> 00:20:32,280
+and then it sinks with
+
+576
+00:20:30,400 --> 00:20:33,960
+so I guess it's not replacing the phone
+
+577
+00:20:32,279 --> 00:20:36,000
+but it's augmenting what I would do with
+
+578
+00:20:33,960 --> 00:20:38,720
+my phone like how are these glasses
+
+579
+00:20:36,000 --> 00:20:41,159
+going to be more deeply tied to Med AI
+
+580
+00:20:38,720 --> 00:20:43,200
+over time um seems like they're getting
+
+581
+00:20:41,159 --> 00:20:46,039
+closer and closer all the time but yeah
+
+582
+00:20:43,200 --> 00:20:48,038
+well well I think Medi is becoming a
+
+583
+00:20:46,038 --> 00:20:49,400
+more and more prominent feature of the
+
+584
+00:20:48,038 --> 00:20:50,640
+glasses right there's more stuff that
+
+585
+00:20:49,400 --> 00:20:52,320
+you can do so you just mentioned
+
+586
+00:20:50,640 --> 00:20:54,559
+reminders as another example it's like
+
+587
+00:20:52,319 --> 00:20:56,480
+now that is just going to work and now
+
+588
+00:20:54,558 --> 00:20:57,960
+your glasses can remind you of things
+
+589
+00:20:56,480 --> 00:20:59,319
+and so okay you can look at a phone
+
+590
+00:20:57,960 --> 00:21:00,480
+number and say call this phone number
+
+591
+00:20:59,319 --> 00:21:02,038
+and then it calls on the phone you know
+
+592
+00:21:00,480 --> 00:21:03,720
+just will just add more capabilities
+
+593
+00:21:02,038 --> 00:21:06,079
+over time and some of better are model
+
+594
+00:21:03,720 --> 00:21:09,360
+updates right so like okay now it has
+
+595
+00:21:06,079 --> 00:21:10,720
+llama 3.2 but um but some of it is is
+
+596
+00:21:09,359 --> 00:21:12,359
+kind of software development around it
+
+597
+00:21:10,720 --> 00:21:14,120
+like reminders you don't get for free
+
+598
+00:21:12,359 --> 00:21:15,119
+just because we updated the model that's
+
+599
+00:21:14,119 --> 00:21:18,639
+kind we have this big software
+
+600
+00:21:15,119 --> 00:21:20,359
+development effort and um and and we're
+
+601
+00:21:18,640 --> 00:21:21,679
+kind of adding features continuously and
+
+602
+00:21:20,359 --> 00:21:23,959
+developing the ecosystem right so you
+
+603
+00:21:21,679 --> 00:21:25,278
+get more apps so know Spotify and all
+
+604
+00:21:23,960 --> 00:21:28,278
+these different things kind of kind of
+
+605
+00:21:25,278 --> 00:21:30,839
+can work more natively so the glasses
+
+606
+00:21:28,278 --> 00:21:32,480
+just more and more useful um which I
+
+607
+00:21:30,839 --> 00:21:35,158
+think is also going to increase demand
+
+608
+00:21:32,480 --> 00:21:36,679
+over time and how does it interact with
+
+609
+00:21:35,159 --> 00:21:39,200
+phones I
+
+610
+00:21:36,679 --> 00:21:42,320
+mean like you said I don't think people
+
+611
+00:21:39,200 --> 00:21:45,519
+are getting rid of phones anytime soon
+
+612
+00:21:42,319 --> 00:21:48,158
+um the way I kind of think about this is
+
+613
+00:21:45,519 --> 00:21:50,679
+that when phones became the primary
+
+614
+00:21:48,159 --> 00:21:54,600
+Computing platform we didn't get rid of
+
+615
+00:21:50,679 --> 00:21:56,880
+computers we just kind of shifted right
+
+616
+00:21:54,599 --> 00:21:59,119
+so I I I don't know if you have this
+
+617
+00:21:56,880 --> 00:22:02,000
+experience but at some point in the
+
+618
+00:21:59,119 --> 00:22:03,399
+early 2010s I noticed that I'd be
+
+619
+00:22:02,000 --> 00:22:05,079
+sitting at my desk in front of my
+
+620
+00:22:03,400 --> 00:22:07,240
+computer and I'd just pull out my phone
+
+621
+00:22:05,079 --> 00:22:09,399
+to do things yeah and I think what's
+
+622
+00:22:07,240 --> 00:22:11,720
+going to happen it's not like we're
+
+623
+00:22:09,400 --> 00:22:12,798
+going to throw away our phones but I
+
+624
+00:22:11,720 --> 00:22:14,558
+think
+
+625
+00:22:12,798 --> 00:22:17,000
+slowly
+
+626
+00:22:14,558 --> 00:22:18,399
+um we're just going to start doing more
+
+627
+00:22:17,000 --> 00:22:20,880
+things with our glasses and leaving our
+
+628
+00:22:18,400 --> 00:22:23,320
+phones in our pockets more and it's not
+
+629
+00:22:20,880 --> 00:22:24,159
+like we're done with our computers and I
+
+630
+00:22:23,319 --> 00:22:26,558
+don't think we're going to be done with
+
+631
+00:22:24,159 --> 00:22:29,200
+our phones for a while but there's a
+
+632
+00:22:26,558 --> 00:22:30,399
+pretty clear path where um where you're
+
+633
+00:22:29,200 --> 00:22:33,880
+just going to use your glasses for more
+
+634
+00:22:30,400 --> 00:22:35,240
+and more things and over time I the
+
+635
+00:22:33,880 --> 00:22:37,720
+glasses are also going to be able to be
+
+636
+00:22:35,240 --> 00:22:39,759
+powered by wrist-based wearables or
+
+637
+00:22:37,720 --> 00:22:42,079
+other wearables so you're going to wake
+
+638
+00:22:39,759 --> 00:22:43,480
+up one day 10 years AG from now and
+
+639
+00:22:42,079 --> 00:22:44,678
+you're not even going to need to bring
+
+640
+00:22:43,480 --> 00:22:47,519
+your phone with you now you're still
+
+641
+00:22:44,679 --> 00:22:48,360
+going to have a phone but I I think like
+
+642
+00:22:47,519 --> 00:22:49,558
+more of the time people are going to
+
+643
+00:22:48,359 --> 00:22:51,319
+leave it in their pocket or leave it in
+
+644
+00:22:49,558 --> 00:22:54,879
+their bag or eventually even some of the
+
+645
+00:22:51,319 --> 00:22:56,119
+time leave it in their at home and um I
+
+646
+00:22:54,880 --> 00:22:57,840
+think there will just be this sort of
+
+647
+00:22:56,119 --> 00:22:59,639
+gradual shift to glasses becoming the
+
+648
+00:22:57,839 --> 00:23:00,599
+main way that we do Computing it's
+
+649
+00:22:59,640 --> 00:23:01,960
+interesting that we're talking about
+
+650
+00:23:00,599 --> 00:23:04,599
+this right now because I feel like
+
+651
+00:23:01,960 --> 00:23:06,880
+phones are becoming kind of boring and
+
+652
+00:23:04,599 --> 00:23:08,359
+stale you know like I I just was like
+
+653
+00:23:06,880 --> 00:23:10,840
+looking at the new iPhone and it's
+
+654
+00:23:08,359 --> 00:23:13,119
+basically the same as the year before
+
+655
+00:23:10,839 --> 00:23:14,240
+people are doing foldables but like it
+
+656
+00:23:13,119 --> 00:23:16,639
+feels like people have kind of run out
+
+657
+00:23:14,240 --> 00:23:18,599
+of ideas on phones and that they're kind
+
+658
+00:23:16,640 --> 00:23:20,320
+of at their natural end State and I
+
+659
+00:23:18,599 --> 00:23:22,599
+wonder you know when you see something
+
+660
+00:23:20,319 --> 00:23:23,918
+like the rayb bands and how people have
+
+661
+00:23:22,599 --> 00:23:25,480
+really gravitated to them in a way
+
+662
+00:23:23,919 --> 00:23:27,240
+that's surprised you guys and I think
+
+663
+00:23:25,480 --> 00:23:29,120
+surprised all of us but it's also just
+
+664
+00:23:27,240 --> 00:23:31,480
+like people want to interact with
+
+665
+00:23:29,119 --> 00:23:32,278
+technology in different ways now and I
+
+666
+00:23:31,480 --> 00:23:34,360
+think
+
+667
+00:23:32,278 --> 00:23:36,038
+AI like you said at the beginning like
+
+668
+00:23:34,359 --> 00:23:37,918
+the way that AI is intersected with this
+
+669
+00:23:36,038 --> 00:23:41,599
+is just kind of like a aha thing for
+
+670
+00:23:37,919 --> 00:23:44,120
+people that honestly for me I didn't
+
+671
+00:23:41,599 --> 00:23:46,119
+expect it to click as quickly as it did
+
+672
+00:23:44,119 --> 00:23:48,079
+but like when I got WID listed for the
+
+673
+00:23:46,119 --> 00:23:50,000
+AI I was like walking around my backyard
+
+674
+00:23:48,079 --> 00:23:52,158
+and like using it and I was like oh like
+
+675
+00:23:50,000 --> 00:23:53,679
+I it's obvious now where this is going
+
+676
+00:23:52,159 --> 00:23:54,720
+so it feels like we're like I was saying
+
+677
+00:23:53,679 --> 00:23:57,400
+at the beginning it feels like things
+
+678
+00:23:54,720 --> 00:23:58,839
+are finally you can see where it's going
+
+679
+00:23:57,400 --> 00:24:01,400
+whereas Before It's been a lot of like
+
+680
+00:23:58,839 --> 00:24:03,959
+R&D and talking about it but like these
+
+681
+00:24:01,400 --> 00:24:05,400
+the ray bands are kind of a signifier of
+
+682
+00:24:03,960 --> 00:24:07,360
+that and I'm wondering if you agree with
+
+683
+00:24:05,400 --> 00:24:09,600
+that I agree I mean I still think it's
+
+684
+00:24:07,359 --> 00:24:10,639
+early um I think you really want to be
+
+685
+00:24:09,599 --> 00:24:14,480
+able
+
+686
+00:24:10,640 --> 00:24:17,960
+to not just ask the AI
+
+687
+00:24:14,480 --> 00:24:21,159
+questions but ask it to do things yeah
+
+688
+00:24:17,960 --> 00:24:23,840
+and know that it's going to reliably go
+
+689
+00:24:21,159 --> 00:24:25,840
+do it and we're starting with simple
+
+690
+00:24:23,839 --> 00:24:27,199
+things right so voice control of your
+
+691
+00:24:25,839 --> 00:24:29,398
+glasses although you can do that on
+
+692
+00:24:27,200 --> 00:24:32,440
+phones too things like ERS although you
+
+693
+00:24:29,398 --> 00:24:35,038
+can generally do that on on phones too
+
+694
+00:24:32,440 --> 00:24:36,720
+but I think as the model capabilities
+
+695
+00:24:35,038 --> 00:24:38,759
+grow over the next couple of generations
+
+696
+00:24:36,720 --> 00:24:41,919
+and you get more of you know what people
+
+697
+00:24:38,759 --> 00:24:43,720
+call these agentic um capabilities I
+
+698
+00:24:41,919 --> 00:24:46,038
+think it's it's going to start to get
+
+699
+00:24:43,720 --> 00:24:47,440
+pretty exciting for what it's worth I I
+
+700
+00:24:46,038 --> 00:24:50,240
+I also think that all the AI work is
+
+701
+00:24:47,440 --> 00:24:52,720
+going to make phones a lot more exciting
+
+702
+00:24:50,240 --> 00:24:55,720
+um it's the most exciting thing I think
+
+703
+00:24:52,720 --> 00:24:57,960
+that has happened to our family of apps
+
+704
+00:24:55,720 --> 00:25:00,399
+road map in a long time is all of the
+
+705
+00:24:57,960 --> 00:25:02,000
+all the AI things that we're building so
+
+706
+00:25:00,398 --> 00:25:03,479
+um you know if I were trying to design
+
+707
+00:25:02,000 --> 00:25:05,720
+what you know the next few versions of
+
+708
+00:25:03,480 --> 00:25:07,599
+iPhone or Google's phone should be I
+
+709
+00:25:05,720 --> 00:25:09,919
+mean I I think that there's a long and
+
+710
+00:25:07,599 --> 00:25:12,719
+interesting road map of things that they
+
+711
+00:25:09,919 --> 00:25:15,360
+can go do with AI that um as an app
+
+712
+00:25:12,720 --> 00:25:17,079
+developer we can't so um so I think that
+
+713
+00:25:15,359 --> 00:25:18,319
+that's like a pretty exciting and and
+
+714
+00:25:17,079 --> 00:25:19,839
+interesting thing for them to go do
+
+715
+00:25:18,319 --> 00:25:22,200
+which I I assume that they will on the
+
+716
+00:25:19,839 --> 00:25:23,839
+AI uh social media piece one of the
+
+717
+00:25:22,200 --> 00:25:26,278
+Wilder things that your team told me you
+
+718
+00:25:23,839 --> 00:25:28,879
+guys are going to start doing is showing
+
+719
+00:25:26,278 --> 00:25:30,558
+people AI generated imagery personalized
+
+720
+00:25:28,880 --> 00:25:32,399
+to them in feed I think it's starting as
+
+721
+00:25:30,558 --> 00:25:34,879
+an experiment but like if you're a
+
+722
+00:25:32,398 --> 00:25:37,158
+photographer you would see Meta AI
+
+723
+00:25:34,880 --> 00:25:39,360
+generating content that's maybe
+
+724
+00:25:37,159 --> 00:25:41,960
+personalized for you alongside content
+
+725
+00:25:39,359 --> 00:25:43,278
+from the people you follow yeah and
+
+726
+00:25:41,960 --> 00:25:45,840
+that's this idea that I've been thinking
+
+727
+00:25:43,278 --> 00:25:48,159
+about of AI and kind of invading social
+
+728
+00:25:45,839 --> 00:25:49,519
+media so to speak um maybe you don't
+
+729
+00:25:48,159 --> 00:25:52,120
+like the word invading but you know what
+
+730
+00:25:49,519 --> 00:25:55,398
+I mean and what does that what does that
+
+731
+00:25:52,119 --> 00:25:57,839
+do to how we how we relate to each other
+
+732
+00:25:55,398 --> 00:26:00,079
+as humans like how much AI stuff and AI
+
+733
+00:25:57,839 --> 00:26:03,199
+Genera stuff is going to be filling
+
+734
+00:26:00,079 --> 00:26:05,839
+feeds in the near future uh in your
+
+735
+00:26:03,200 --> 00:26:07,720
+view well here's how I Comm at this so
+
+736
+00:26:05,839 --> 00:26:09,558
+in the history of running the company
+
+737
+00:26:07,720 --> 00:26:13,960
+where we've been building these apps for
+
+738
+00:26:09,558 --> 00:26:16,639
+20 years every call it 3 to five years
+
+739
+00:26:13,960 --> 00:26:18,200
+there's some new major format that comes
+
+740
+00:26:16,640 --> 00:26:20,360
+along
+
+741
+00:26:18,200 --> 00:26:22,880
+that is typically additive to the
+
+742
+00:26:20,359 --> 00:26:25,038
+experience right so you know initially
+
+743
+00:26:22,880 --> 00:26:26,600
+people kind of updated their profiles
+
+744
+00:26:25,038 --> 00:26:29,158
+then they were able to post statuses
+
+745
+00:26:26,599 --> 00:26:33,119
+that were texts then then links
+
+746
+00:26:29,159 --> 00:26:36,159
+um you got photos early on um then you
+
+747
+00:26:33,119 --> 00:26:38,839
+added videos um then with
+
+748
+00:26:36,159 --> 00:26:40,480
+mobile basically you know snap invented
+
+749
+00:26:38,839 --> 00:26:42,798
+stories the first version of that and
+
+750
+00:26:40,480 --> 00:26:45,200
+that became a a pretty kind of widely
+
+751
+00:26:42,798 --> 00:26:48,200
+used format
+
+752
+00:26:45,200 --> 00:26:51,038
+um the whole version of short form
+
+753
+00:26:48,200 --> 00:26:55,759
+videos I think is is sort of a still
+
+754
+00:26:51,038 --> 00:26:58,839
+ascendant format but you basically
+
+755
+00:26:55,759 --> 00:27:00,480
+um at each step along the way
+
+756
+00:26:58,839 --> 00:27:02,759
+you want
+
+757
+00:27:00,480 --> 00:27:05,000
+to right it's like you keep on making
+
+758
+00:27:02,759 --> 00:27:06,599
+the system richer by having more
+
+759
+00:27:05,000 --> 00:27:09,480
+different types of content that people
+
+760
+00:27:06,599 --> 00:27:11,439
+can um can share and and different ways
+
+761
+00:27:09,480 --> 00:27:13,839
+to express themselves and when you look
+
+762
+00:27:11,440 --> 00:27:16,558
+out for the next 10 years of okay if
+
+763
+00:27:13,839 --> 00:27:18,959
+this trend seems to happen where every 3
+
+764
+00:27:16,558 --> 00:27:21,678
+five years whatever the pace is that
+
+765
+00:27:18,960 --> 00:27:21,679
+there are new
+
+766
+00:27:22,240 --> 00:27:25,880
+formats I think given the pace of change
+
+767
+00:27:24,278 --> 00:27:28,278
+in the tech industry I think you'd bet
+
+768
+00:27:25,880 --> 00:27:30,840
+that that continues or accelerates and I
+
+769
+00:27:28,278 --> 00:27:33,278
+think you'd bet that probably most of
+
+770
+00:27:30,839 --> 00:27:35,158
+the new formats are going to be kind of
+
+771
+00:27:33,278 --> 00:27:36,798
+AI connected in some way given that
+
+772
+00:27:35,159 --> 00:27:39,760
+that's the kind of driving theme for the
+
+773
+00:27:36,798 --> 00:27:42,359
+industry at this point so given that
+
+774
+00:27:39,759 --> 00:27:45,960
+kind of set of assumptions
+
+775
+00:27:42,359 --> 00:27:47,558
+um we're sort of trying to understand
+
+776
+00:27:45,960 --> 00:27:50,079
+what are the things that are most useful
+
+777
+00:27:47,558 --> 00:27:52,839
+to people within that um there's one
+
+778
+00:27:50,079 --> 00:27:55,720
+vein of this which is helping people and
+
+779
+00:27:52,839 --> 00:27:58,720
+creators make better content using AI
+
+780
+00:27:55,720 --> 00:28:00,120
+right so that's um that I think is going
+
+781
+00:27:58,720 --> 00:28:03,079
+to be pretty clear right just make it
+
+782
+00:28:00,119 --> 00:28:05,239
+like super easy for like aspiring
+
+783
+00:28:03,079 --> 00:28:06,359
+creators or Advanced creators to make
+
+784
+00:28:05,240 --> 00:28:08,759
+much better stuff than they would be
+
+785
+00:28:06,359 --> 00:28:11,278
+able to otherwise
+
+786
+00:28:08,759 --> 00:28:15,440
+um that can take the format of like all
+
+787
+00:28:11,278 --> 00:28:17,558
+right like my daughter is writing a book
+
+788
+00:28:15,440 --> 00:28:19,679
+and she wants it Illustrated and like we
+
+789
+00:28:17,558 --> 00:28:22,200
+sit down together and work with meta Ai
+
+790
+00:28:19,679 --> 00:28:24,399
+and imagine to help her come up with
+
+791
+00:28:22,200 --> 00:28:25,558
+images to illustrate it um it's like
+
+792
+00:28:24,398 --> 00:28:27,038
+okay that's like a thing that's like she
+
+793
+00:28:25,558 --> 00:28:28,599
+didn't have the capability to do that
+
+794
+00:28:27,038 --> 00:28:30,599
+before she's not a graphic designer but
+
+795
+00:28:28,599 --> 00:28:31,678
+now she kind of has that that that that
+
+796
+00:28:30,599 --> 00:28:33,719
+ability I think that that's going to be
+
+797
+00:28:31,679 --> 00:28:36,399
+pretty cool
+
+798
+00:28:33,720 --> 00:28:39,839
+um then I think that there's a version
+
+799
+00:28:36,398 --> 00:28:42,599
+where you have just this great
+
+800
+00:28:39,839 --> 00:28:44,519
+diversity of AI agents that are as part
+
+801
+00:28:42,599 --> 00:28:46,278
+of the system and this I think is a big
+
+802
+00:28:44,519 --> 00:28:48,200
+difference between our vision of AI and
+
+803
+00:28:46,278 --> 00:28:50,079
+most of the other companies is yeah
+
+804
+00:28:48,200 --> 00:28:51,880
+we're building meta AI as as kind of the
+
+805
+00:28:50,079 --> 00:28:53,839
+main assistant that you can build that's
+
+806
+00:28:51,880 --> 00:28:55,519
+sort of equivalent to you know the
+
+807
+00:28:53,839 --> 00:28:57,319
+singular assistant that maybe like a
+
+808
+00:28:55,519 --> 00:28:58,720
+Google or an open AI or different folks
+
+809
+00:28:57,319 --> 00:29:01,079
+are building
+
+810
+00:28:58,720 --> 00:29:03,360
+but it's not really the main thing that
+
+811
+00:29:01,079 --> 00:29:05,599
+we're doing um you know our main vision
+
+812
+00:29:03,359 --> 00:29:06,918
+is that we think that there are going to
+
+813
+00:29:05,599 --> 00:29:08,398
+be a lot of these right it's every
+
+814
+00:29:06,919 --> 00:29:11,960
+business all the hundreds of millions of
+
+815
+00:29:08,398 --> 00:29:14,719
+small businesses um you know just like
+
+816
+00:29:11,960 --> 00:29:17,319
+they have a website and an email address
+
+817
+00:29:14,720 --> 00:29:18,558
+and a social media account today I think
+
+818
+00:29:17,319 --> 00:29:19,599
+that they're all going to have an AI
+
+819
+00:29:18,558 --> 00:29:21,158
+that helps them interact with their
+
+820
+00:29:19,599 --> 00:29:22,558
+customers in the future that does some
+
+821
+00:29:21,159 --> 00:29:24,600
+combination of sales and customer
+
+822
+00:29:22,558 --> 00:29:26,519
+support and all that um I think all the
+
+823
+00:29:24,599 --> 00:29:29,079
+creators are basically going to want
+
+824
+00:29:26,519 --> 00:29:30,759
+some version of this that basically
+
+825
+00:29:29,079 --> 00:29:32,199
+helps them interact with their Community
+
+826
+00:29:30,759 --> 00:29:33,759
+when they're just limited by they don't
+
+827
+00:29:32,200 --> 00:29:35,200
+have enough hours in the day to interact
+
+828
+00:29:33,759 --> 00:29:37,519
+with all the messages that are coming in
+
+829
+00:29:35,200 --> 00:29:39,399
+and um they want to make sure that they
+
+830
+00:29:37,519 --> 00:29:42,319
+can show some love to to people in their
+
+831
+00:29:39,398 --> 00:29:44,278
+in their Community um and those I think
+
+832
+00:29:42,319 --> 00:29:45,879
+are just the two most obvious ones that
+
+833
+00:29:44,278 --> 00:29:47,798
+even if we just did those that's many
+
+834
+00:29:45,880 --> 00:29:49,600
+hundreds of millions but then there's
+
+835
+00:29:47,798 --> 00:29:51,639
+going to be all this more creative stuff
+
+836
+00:29:49,599 --> 00:29:53,558
+that's ugc that people create for that
+
+837
+00:29:51,640 --> 00:29:55,399
+are kind of Wilder use cases that they
+
+838
+00:29:53,558 --> 00:29:56,879
+want and our view is okay these are all
+
+839
+00:29:55,398 --> 00:29:58,599
+going to like live across these social
+
+840
+00:29:56,880 --> 00:30:00,320
+networks and Beyond
+
+841
+00:29:58,599 --> 00:30:03,398
+and
+
+842
+00:30:00,319 --> 00:30:05,798
+um I I don't think that they should just
+
+843
+00:30:03,398 --> 00:30:08,000
+be constrained to waiting until someone
+
+844
+00:30:05,798 --> 00:30:09,798
+messages them right I think that they're
+
+845
+00:30:08,000 --> 00:30:11,319
+going to have their own profiles they're
+
+846
+00:30:09,798 --> 00:30:13,879
+going to be creating content people will
+
+847
+00:30:11,319 --> 00:30:15,839
+be able to follow them if they want um
+
+848
+00:30:13,880 --> 00:30:17,120
+you'll be able to comment on their stuff
+
+849
+00:30:15,839 --> 00:30:18,319
+um they may be able to comment on your
+
+850
+00:30:17,119 --> 00:30:19,119
+stuff if you're connected with them I
+
+851
+00:30:18,319 --> 00:30:21,319
+there will obviously be different
+
+852
+00:30:19,119 --> 00:30:23,639
+different logic and rules but that
+
+853
+00:30:21,319 --> 00:30:26,038
+that's one way that there's going to be
+
+854
+00:30:23,640 --> 00:30:28,480
+just a lot more kind of AI participants
+
+855
+00:30:26,038 --> 00:30:30,679
+in the kind of broader social construct
+
+856
+00:30:28,480 --> 00:30:33,159
+that we have and then I think you get to
+
+857
+00:30:30,679 --> 00:30:35,679
+the test that you mentioned which is
+
+858
+00:30:33,159 --> 00:30:40,120
+maybe the most abstract which is just
+
+859
+00:30:35,679 --> 00:30:44,480
+having kind of the central meta AI
+
+860
+00:30:40,119 --> 00:30:45,759
+system directly generate content for you
+
+861
+00:30:44,480 --> 00:30:47,599
+based on what we think is going to be
+
+862
+00:30:45,759 --> 00:30:50,919
+interesting to you and putting that in
+
+863
+00:30:47,599 --> 00:30:52,158
+your feed and on that you know I think
+
+864
+00:30:50,919 --> 00:30:54,320
+that there's this been there's been this
+
+865
+00:30:52,159 --> 00:30:58,159
+trend over time where the feeds started
+
+866
+00:30:54,319 --> 00:30:59,798
+off as primarily and exclusively
+
+867
+00:30:58,159 --> 00:31:03,080
+content from people you you followed
+
+868
+00:30:59,798 --> 00:31:05,440
+friends um I guess it was friends early
+
+869
+00:31:03,079 --> 00:31:07,199
+on then it kind of broadened out to okay
+
+870
+00:31:05,440 --> 00:31:10,240
+you followed a set of friends and
+
+871
+00:31:07,200 --> 00:31:11,639
+creators and then it got to a point
+
+872
+00:31:10,240 --> 00:31:13,159
+where the algorithm was good enough
+
+873
+00:31:11,638 --> 00:31:14,319
+where we're actually showing you a lot
+
+874
+00:31:13,159 --> 00:31:17,080
+of stuff that you're not following
+
+875
+00:31:14,319 --> 00:31:18,038
+directly because um in some ways that's
+
+876
+00:31:17,079 --> 00:31:19,480
+a better way to show you more
+
+877
+00:31:18,038 --> 00:31:20,638
+interesting stuff than only constraining
+
+878
+00:31:19,480 --> 00:31:22,038
+it to things that you've chosen to
+
+879
+00:31:20,638 --> 00:31:24,479
+follow
+
+880
+00:31:22,038 --> 00:31:25,798
+and I think the next logical jump on
+
+881
+00:31:24,480 --> 00:31:27,720
+that is like okay we're showing you
+
+882
+00:31:25,798 --> 00:31:29,519
+content from your friends and creators
+
+883
+00:31:27,720 --> 00:31:30,919
+that you're following and creators that
+
+884
+00:31:29,519 --> 00:31:32,960
+you're not following that are generating
+
+885
+00:31:30,919 --> 00:31:34,480
+interesting things and you just add on
+
+886
+00:31:32,960 --> 00:31:37,240
+to that a layer of okay and we're also
+
+887
+00:31:34,480 --> 00:31:39,720
+going to show you content from um that's
+
+888
+00:31:37,240 --> 00:31:41,240
+generated by by an AI system that might
+
+889
+00:31:39,720 --> 00:31:43,960
+be something that you're interested in
+
+890
+00:31:41,240 --> 00:31:45,200
+now how big do any of these segments get
+
+891
+00:31:43,960 --> 00:31:47,519
+I think it's really hard to know until
+
+892
+00:31:45,200 --> 00:31:49,200
+you build them out over time but it
+
+893
+00:31:47,519 --> 00:31:51,880
+feels like it is a category in the world
+
+894
+00:31:49,200 --> 00:31:53,399
+that's going to exist and um how big it
+
+895
+00:31:51,880 --> 00:31:55,200
+gets is kind of dependent on the
+
+896
+00:31:53,398 --> 00:31:56,798
+execution and how good it is why do you
+
+897
+00:31:55,200 --> 00:32:00,360
+think it needs to exist as a new
+
+898
+00:31:56,798 --> 00:32:02,879
+category I'm still wrestling with why
+
+899
+00:32:00,359 --> 00:32:04,398
+people want this I get the companionship
+
+900
+00:32:02,880 --> 00:32:05,679
+stuff that character Ai and some
+
+901
+00:32:04,398 --> 00:32:08,319
+startups have already shown there's like
+
+902
+00:32:05,679 --> 00:32:10,080
+a market for um and you've talked about
+
+903
+00:32:08,319 --> 00:32:13,359
+how Med is already being used for role
+
+904
+00:32:10,079 --> 00:32:16,000
+playing and but the big idea is that AI
+
+905
+00:32:13,359 --> 00:32:18,839
+has been used to inter intermediate in
+
+906
+00:32:16,000 --> 00:32:21,278
+feed how humans reach each other and now
+
+907
+00:32:18,839 --> 00:32:23,638
+all of a sudden AIS are going to be in
+
+908
+00:32:21,278 --> 00:32:26,159
+feeds with us well I think the main
+
+909
+00:32:23,638 --> 00:32:27,558
+difference and that feels big yeah but
+
+910
+00:32:26,159 --> 00:32:30,278
+in a lot of ways the big change already
+
+911
+00:32:27,558 --> 00:32:32,519
+happened which is people getting content
+
+912
+00:32:30,278 --> 00:32:34,038
+that they weren't following and the
+
+913
+00:32:32,519 --> 00:32:35,880
+definition of feeds in social
+
+914
+00:32:34,038 --> 00:32:38,480
+interaction has changed very
+
+915
+00:32:35,880 --> 00:32:40,360
+fundamentally in the last 10 years now
+
+916
+00:32:38,480 --> 00:32:43,200
+in Social
+
+917
+00:32:40,359 --> 00:32:45,439
+systems most of the direct interaction
+
+918
+00:32:43,200 --> 00:32:48,558
+is happening in more private forums in
+
+919
+00:32:45,440 --> 00:32:50,080
+messaging our groups and this is one of
+
+920
+00:32:48,558 --> 00:32:51,720
+the reasons I think why we were late
+
+921
+00:32:50,079 --> 00:32:53,720
+with reals initially to competing with
+
+922
+00:32:51,720 --> 00:32:55,278
+Tik to is cu we we hadn't made this
+
+923
+00:32:53,720 --> 00:32:56,960
+mental shift where we kind of felt like
+
+924
+00:32:55,278 --> 00:32:59,960
+no feed is where you interact with
+
+925
+00:32:56,960 --> 00:33:01,600
+people actually increasingly feat is
+
+926
+00:32:59,960 --> 00:33:03,480
+becoming a place where you discover
+
+927
+00:33:01,599 --> 00:33:05,638
+content that you then take to your
+
+928
+00:33:03,480 --> 00:33:08,440
+private forums and interact with people
+
+929
+00:33:05,638 --> 00:33:09,798
+there so a lot of the the the way that I
+
+930
+00:33:08,440 --> 00:33:12,120
+interact with people it's like yeah I'll
+
+931
+00:33:09,798 --> 00:33:13,918
+still have the thing where a friend will
+
+932
+00:33:12,119 --> 00:33:16,638
+post something and I'll I'll comment on
+
+933
+00:33:13,919 --> 00:33:18,000
+it and engage directly in feed um again
+
+934
+00:33:16,638 --> 00:33:20,158
+you know this is additive you're adding
+
+935
+00:33:18,000 --> 00:33:22,638
+more over time
+
+936
+00:33:20,159 --> 00:33:25,278
+um but the main way that you engage with
+
+937
+00:33:22,638 --> 00:33:26,918
+reals isn't necessarily that you know
+
+938
+00:33:25,278 --> 00:33:28,720
+you go into the reals comments and
+
+939
+00:33:26,919 --> 00:33:30,440
+comment and talk to people you don't
+
+940
+00:33:28,720 --> 00:33:31,839
+know it's like you see something funny
+
+941
+00:33:30,440 --> 00:33:34,880
+and you send it to friends in a group
+
+942
+00:33:31,839 --> 00:33:37,319
+chat right and I I think that that
+
+943
+00:33:34,880 --> 00:33:39,440
+Paradigm will absolutely continue with
+
+944
+00:33:37,319 --> 00:33:42,678
+AI and all kinds of interesting content
+
+945
+00:33:39,440 --> 00:33:46,480
+so it is facilitating connections with
+
+946
+00:33:42,679 --> 00:33:48,720
+people um but I think already we're in
+
+947
+00:33:46,480 --> 00:33:50,278
+this mode where our connections through
+
+948
+00:33:48,720 --> 00:33:54,159
+social media are shifting to more
+
+949
+00:33:50,278 --> 00:33:56,079
+private places and the role of Feed in
+
+950
+00:33:54,159 --> 00:33:58,320
+the ecosystem is more as a you know I
+
+951
+00:33:56,079 --> 00:34:00,678
+call it a discovery engine content to
+
+952
+00:33:58,319 --> 00:34:02,519
+kind of um you know of ice breakers or
+
+953
+00:34:00,679 --> 00:34:04,679
+interesting kind of topic starters for
+
+954
+00:34:02,519 --> 00:34:06,399
+the conversations that you're having um
+
+955
+00:34:04,679 --> 00:34:07,880
+across this like broader spectrum of
+
+956
+00:34:06,398 --> 00:34:10,239
+places where you're interacting do you
+
+957
+00:34:07,880 --> 00:34:12,079
+worry about people interacting with AIS
+
+958
+00:34:10,239 --> 00:34:14,439
+like this making
+
+959
+00:34:12,079 --> 00:34:16,839
+people less likely to talk to other
+
+960
+00:34:14,440 --> 00:34:18,960
+people like it reducing the engagement
+
+961
+00:34:16,838 --> 00:34:21,440
+that we have with humans the sociology
+
+962
+00:34:18,960 --> 00:34:24,440
+that I've seen on this is that most
+
+963
+00:34:21,440 --> 00:34:26,119
+people have way fewer friends physically
+
+964
+00:34:24,440 --> 00:34:27,960
+than they would like to have I think
+
+965
+00:34:26,119 --> 00:34:30,039
+people cherish the kind of human
+
+966
+00:34:27,960 --> 00:34:31,838
+connection that they have and the more
+
+967
+00:34:30,039 --> 00:34:33,440
+we can do to make that feel more real
+
+968
+00:34:31,838 --> 00:34:34,799
+and give you more reasons to connect
+
+969
+00:34:33,440 --> 00:34:36,398
+whether it's through something funny
+
+970
+00:34:34,800 --> 00:34:38,679
+that shows up so you can message someone
+
+971
+00:34:36,398 --> 00:34:40,358
+or a pair of glasses that lets like you
+
+972
+00:34:38,679 --> 00:34:41,679
+your sister show up as a hologram in
+
+973
+00:34:40,358 --> 00:34:42,639
+your living room when you you know she
+
+974
+00:34:41,679 --> 00:34:44,159
+lives across the country and you
+
+975
+00:34:42,639 --> 00:34:45,599
+wouldn't be able to see her otherwise
+
+976
+00:34:44,159 --> 00:34:46,720
+like that's always kind of our main
+
+977
+00:34:45,599 --> 00:34:47,919
+bread and butter and the thing that
+
+978
+00:34:46,719 --> 00:34:50,799
+we're
+
+979
+00:34:47,918 --> 00:34:53,440
+doing but you know in addition to
+
+980
+00:34:50,800 --> 00:34:55,119
+that I mean if the you know the average
+
+981
+00:34:53,440 --> 00:34:58,119
+person I think you know maybe they'd
+
+982
+00:34:55,119 --> 00:34:59,838
+like to have 10 friends and I mean
+
+983
+00:34:58,119 --> 00:35:02,160
+there's the stat that it's like it's
+
+984
+00:34:59,838 --> 00:35:03,960
+sort of sad but I think the the average
+
+985
+00:35:02,159 --> 00:35:07,519
+American feels like they have fewer than
+
+986
+00:35:03,960 --> 00:35:09,679
+three like real kind of close friends so
+
+987
+00:35:07,519 --> 00:35:11,960
+does this take away from that my guess
+
+988
+00:35:09,679 --> 00:35:15,358
+is no I I think that what's going to
+
+989
+00:35:11,960 --> 00:35:17,679
+happen is it's going to help um give
+
+990
+00:35:15,358 --> 00:35:20,480
+people more of the support that they
+
+991
+00:35:17,679 --> 00:35:22,598
+need and give people more kind of
+
+992
+00:35:20,480 --> 00:35:24,838
+reasons and ability to connect with
+
+993
+00:35:22,599 --> 00:35:26,079
+either a broader range of people or more
+
+994
+00:35:24,838 --> 00:35:28,119
+deeply with the people who they care
+
+995
+00:35:26,079 --> 00:35:30,039
+about how are you feeling about how
+
+996
+00:35:28,119 --> 00:35:32,039
+threads is doing these days I mean
+
+997
+00:35:30,039 --> 00:35:33,400
+threads on fire it's great I mean it's I
+
+998
+00:35:32,039 --> 00:35:34,679
+mean these things it's like there's only
+
+999
+00:35:33,400 --> 00:35:36,519
+so quickly that something can get to a
+
+1000
+00:35:34,679 --> 00:35:38,319
+billion people so it's G to you know
+
+1001
+00:35:36,519 --> 00:35:39,800
+we'll kind of keep on pushing on it over
+
+1002
+00:35:38,320 --> 00:35:41,359
+I've heard it's still using Instagram a
+
+1003
+00:35:39,800 --> 00:35:43,160
+lot for growth like I'm guess I'm
+
+1004
+00:35:41,358 --> 00:35:46,440
+wondering when do you see it getting to
+
+1005
+00:35:43,159 --> 00:35:49,078
+like a I mean of Standalone growth
+
+1006
+00:35:46,440 --> 00:35:50,480
+driver on its own I mean I think that
+
+1007
+00:35:49,079 --> 00:35:52,640
+these things all connect to each other
+
+1008
+00:35:50,480 --> 00:35:54,318
+so I I don't I mean I think threads
+
+1009
+00:35:52,639 --> 00:35:56,000
+helps Instagram I think Instagram helps
+
+1010
+00:35:54,318 --> 00:35:57,719
+threads I don't I don't know that we
+
+1011
+00:35:56,000 --> 00:35:59,440
+have some strategic goal which is like
+
+1012
+00:35:57,719 --> 00:36:01,000
+like make it so that threads is
+
+1013
+00:35:59,440 --> 00:36:02,119
+completely disconnected from Instagram
+
+1014
+00:36:01,000 --> 00:36:03,239
+or Facebook I actually think we're going
+
+1015
+00:36:02,119 --> 00:36:04,680
+the other direction it started off just
+
+1016
+00:36:03,239 --> 00:36:06,000
+connected to Instagram and now we also
+
+1017
+00:36:04,679 --> 00:36:07,598
+connected it so that the content can
+
+1018
+00:36:06,000 --> 00:36:09,920
+show up now taking a step back I me we
+
+1019
+00:36:07,599 --> 00:36:11,079
+just talked about how for most people
+
+1020
+00:36:09,920 --> 00:36:13,280
+they're interacting in more private
+
+1021
+00:36:11,079 --> 00:36:14,839
+forums if you're a Creator what you want
+
+1022
+00:36:13,280 --> 00:36:16,160
+to do is have your content show up
+
+1023
+00:36:14,838 --> 00:36:17,400
+everywhere right because you're trying
+
+1024
+00:36:16,159 --> 00:36:19,239
+to build the biggest community that you
+
+1025
+00:36:17,400 --> 00:36:22,079
+can in these different places so it's
+
+1026
+00:36:19,239 --> 00:36:24,159
+this huge value um for for people if
+
+1027
+00:36:22,079 --> 00:36:25,680
+they can generate a real or a video or
+
+1028
+00:36:24,159 --> 00:36:29,000
+some text based content and now you can
+
+1029
+00:36:25,679 --> 00:36:32,559
+post it in Threads Instagram Facebook um
+
+1030
+00:36:29,000 --> 00:36:35,239
+and more places over time so um so I
+
+1031
+00:36:32,559 --> 00:36:37,679
+think the direction there is generally
+
+1032
+00:36:35,239 --> 00:36:39,679
+kind of more flow not less and kind of
+
+1033
+00:36:37,679 --> 00:36:41,399
+more interoperability and that's that's
+
+1034
+00:36:39,679 --> 00:36:43,838
+why um I've been I've been kind of
+
+1035
+00:36:41,400 --> 00:36:45,800
+pushing on that as as a theme over time
+
+1036
+00:36:43,838 --> 00:36:47,078
+I'm not even sure what x is anymore but
+
+1037
+00:36:45,800 --> 00:36:48,760
+I think what it used to be and what
+
+1038
+00:36:47,079 --> 00:36:50,839
+Twitter used to be was a place where you
+
+1039
+00:36:48,760 --> 00:36:53,359
+went when news was happening I know you
+
+1040
+00:36:50,838 --> 00:36:55,679
+and the company seem to be distancing
+
+1041
+00:36:53,358 --> 00:36:58,400
+yourself from recommending news but with
+
+1042
+00:36:55,679 --> 00:37:00,440
+threads it feels like
+
+1043
+00:36:58,400 --> 00:37:01,920
+that's what people want and people
+
+1044
+00:37:00,440 --> 00:37:03,920
+thought threads might be but it seems
+
+1045
+00:37:01,920 --> 00:37:05,920
+like you all are intentionally saying we
+
+1046
+00:37:03,920 --> 00:37:07,079
+don't want threads to actually be that
+
+1047
+00:37:05,920 --> 00:37:08,639
+yeah I mean it's interesting there's
+
+1048
+00:37:07,079 --> 00:37:11,640
+there are different ways to to look at
+
+1049
+00:37:08,639 --> 00:37:14,559
+this um I always looked at Twitter not
+
+1050
+00:37:11,639 --> 00:37:17,318
+as primarily about realtime news but as
+
+1051
+00:37:14,559 --> 00:37:19,078
+a kind of short form primarily text
+
+1052
+00:37:17,318 --> 00:37:21,079
+discussion oriented app to me the
+
+1053
+00:37:19,079 --> 00:37:24,519
+fundamental defining aspect of that
+
+1054
+00:37:21,079 --> 00:37:27,079
+format is that you don't when you make a
+
+1055
+00:37:24,519 --> 00:37:28,159
+post the comments aren't subordinate to
+
+1056
+00:37:27,079 --> 00:37:30,800
+the Post
+
+1057
+00:37:28,159 --> 00:37:33,000
+the comments are kind of at a pure level
+
+1058
+00:37:30,800 --> 00:37:36,280
+and that is a very different
+
+1059
+00:37:33,000 --> 00:37:38,920
+architecture than every other type of of
+
+1060
+00:37:36,280 --> 00:37:39,760
+um of social network that's out there
+
+1061
+00:37:38,920 --> 00:37:42,639
+and
+
+1062
+00:37:39,760 --> 00:37:44,319
+um it's a subtle difference but Within
+
+1063
+00:37:42,639 --> 00:37:45,598
+These systems these subtle differences
+
+1064
+00:37:44,318 --> 00:37:47,920
+lead to very different emerging
+
+1065
+00:37:45,599 --> 00:37:50,160
+behaviors so because of that people can
+
+1066
+00:37:47,920 --> 00:37:51,720
+take they can Fork discussions and it
+
+1067
+00:37:50,159 --> 00:37:53,559
+makes it a very good discussion oriented
+
+1068
+00:37:51,719 --> 00:37:55,399
+platform now news is one thing that
+
+1069
+00:37:53,559 --> 00:37:56,838
+people like discussing um but it's not
+
+1070
+00:37:55,400 --> 00:37:57,960
+the only thing and I always looked at
+
+1071
+00:37:56,838 --> 00:38:00,920
+Twitter and I was like
+
+1072
+00:37:57,960 --> 00:38:02,720
+hey this is such a wasted opportunity
+
+1073
+00:38:00,920 --> 00:38:06,400
+like this is clearly a billion person
+
+1074
+00:38:02,719 --> 00:38:07,879
+app um you know maybe in the modern day
+
+1075
+00:38:06,400 --> 00:38:09,720
+when you have multiple like many
+
+1076
+00:38:07,880 --> 00:38:11,880
+billions of people using social apps it
+
+1077
+00:38:09,719 --> 00:38:13,799
+should be multiple billions of people
+
+1078
+00:38:11,880 --> 00:38:15,318
+and for whatever reason I mean there was
+
+1079
+00:38:13,800 --> 00:38:16,400
+there are a lot of things that have been
+
+1080
+00:38:15,318 --> 00:38:18,119
+complicated about Twitter and the
+
+1081
+00:38:16,400 --> 00:38:20,000
+corporate structure and all that but
+
+1082
+00:38:18,119 --> 00:38:21,640
+they just weren't quite getting there
+
+1083
+00:38:20,000 --> 00:38:23,960
+and
+
+1084
+00:38:21,639 --> 00:38:26,239
+eventually you know I kind of thought
+
+1085
+00:38:23,960 --> 00:38:28,199
+hey I think we can do this I think we
+
+1086
+00:38:26,239 --> 00:38:30,959
+can get this like build out the
+
+1087
+00:38:28,199 --> 00:38:33,399
+discussion platform in in a way that can
+
+1088
+00:38:30,960 --> 00:38:36,119
+get to a billion people and be more of a
+
+1089
+00:38:33,400 --> 00:38:38,240
+ubiquitous social platform that I think
+
+1090
+00:38:36,119 --> 00:38:39,720
+achieves the um the fullness of what
+
+1091
+00:38:38,239 --> 00:38:43,199
+what what what it like its full
+
+1092
+00:38:39,719 --> 00:38:45,078
+potential but our version of this is we
+
+1093
+00:38:43,199 --> 00:38:47,000
+wanted to be a Kinder place right we
+
+1094
+00:38:45,079 --> 00:38:49,680
+don't want to start with kind of the
+
+1095
+00:38:47,000 --> 00:38:54,079
+like direct kind of head-to-head combat
+
+1096
+00:38:49,679 --> 00:38:56,078
+of news um and especially politics and
+
+1097
+00:38:54,079 --> 00:38:57,318
+um you feel like that constrains the
+
+1098
+00:38:56,079 --> 00:38:58,440
+growth of the product at all I mean I
+
+1099
+00:38:57,318 --> 00:39:00,519
+think I think we'll see we'll run the
+
+1100
+00:38:58,440 --> 00:39:02,639
+experiment um or that that needs to
+
+1101
+00:39:00,519 --> 00:39:05,199
+exist in the world cuz I feel like with
+
+1102
+00:39:02,639 --> 00:39:07,239
+x's seeming implosion it's not really
+
+1103
+00:39:05,199 --> 00:39:08,799
+existing anymore maybe I'm biased to
+
+1104
+00:39:07,239 --> 00:39:10,759
+someone in the media but I do think I do
+
+1105
+00:39:08,800 --> 00:39:12,200
+think people want when something big
+
+1106
+00:39:10,760 --> 00:39:13,599
+happens in the world they want an app
+
+1107
+00:39:12,199 --> 00:39:15,118
+that they can go to and see everyone
+
+1108
+00:39:13,599 --> 00:39:17,000
+that they follow talking about it
+
+1109
+00:39:15,119 --> 00:39:19,079
+immediately yeah
+
+1110
+00:39:17,000 --> 00:39:21,000
+well there's not we're not the only
+
+1111
+00:39:19,079 --> 00:39:22,640
+company I there's there were like a ton
+
+1112
+00:39:21,000 --> 00:39:24,920
+of different competitors and different
+
+1113
+00:39:22,639 --> 00:39:26,078
+companies doing things and you know I
+
+1114
+00:39:24,920 --> 00:39:29,639
+mean I think that there's a talented
+
+1115
+00:39:26,079 --> 00:39:33,318
+team over at Twitter and and um so so I
+
+1116
+00:39:29,639 --> 00:39:34,318
+I I I wouldn't write them off um and you
+
+1117
+00:39:33,318 --> 00:39:35,358
+know then obviously there's all these
+
+1118
+00:39:34,318 --> 00:39:37,000
+other folks and there's a lot of
+
+1119
+00:39:35,358 --> 00:39:39,519
+startups that are doing stuff so I don't
+
+1120
+00:39:37,000 --> 00:39:42,599
+feel like
+
+1121
+00:39:39,519 --> 00:39:44,358
+we have to go with that first I I think
+
+1122
+00:39:42,599 --> 00:39:47,160
+that like maybe we get there over time
+
+1123
+00:39:44,358 --> 00:39:48,920
+or maybe we decide that it's enough of a
+
+1124
+00:39:47,159 --> 00:39:51,159
+zero sum trade or maybe even a negative
+
+1125
+00:39:48,920 --> 00:39:53,280
+sum trade where like that that use case
+
+1126
+00:39:51,159 --> 00:39:56,960
+should exists somewhere but maybe that
+
+1127
+00:39:53,280 --> 00:39:58,400
+use case prevents a lot more usage um
+
+1128
+00:39:56,960 --> 00:40:00,119
+and and kind of a lot more value in
+
+1129
+00:39:58,400 --> 00:40:03,440
+other places because it makes it a
+
+1130
+00:40:00,119 --> 00:40:06,280
+somewhat less friendly place and
+
+1131
+00:40:03,440 --> 00:40:08,039
+um I I don't think we know the answer to
+
+1132
+00:40:06,280 --> 00:40:11,280
+that yet but I I do think the last 10
+
+1133
+00:40:08,039 --> 00:40:14,000
+years eight years of um of our
+
+1134
+00:40:11,280 --> 00:40:16,560
+experience has been that the political
+
+1135
+00:40:14,000 --> 00:40:19,838
+discourse is
+
+1136
+00:40:16,559 --> 00:40:21,838
+um it's It's Tricky right it's on the
+
+1137
+00:40:19,838 --> 00:40:24,039
+one hand it's obviously a very important
+
+1138
+00:40:21,838 --> 00:40:25,519
+thing in society and on the other hand I
+
+1139
+00:40:24,039 --> 00:40:28,079
+don't think it leaves people feeling
+
+1140
+00:40:25,519 --> 00:40:31,039
+good so I'm torn between these two
+
+1141
+00:40:28,079 --> 00:40:32,480
+values on the one hand I I think like
+
+1142
+00:40:31,039 --> 00:40:34,639
+people should be able to have this kind
+
+1143
+00:40:32,480 --> 00:40:36,199
+of open discourse and that's good on the
+
+1144
+00:40:34,639 --> 00:40:38,199
+other hand I don't want to design a
+
+1145
+00:40:36,199 --> 00:40:39,759
+product that makes people angry right
+
+1146
+00:40:38,199 --> 00:40:42,439
+it's like I mean is like there's an
+
+1147
+00:40:39,760 --> 00:40:44,359
+informational lens for looking at this
+
+1148
+00:40:42,440 --> 00:40:45,960
+and there's kind of a you're designing a
+
+1149
+00:40:44,358 --> 00:40:47,199
+product and like what's the feel of the
+
+1150
+00:40:45,960 --> 00:40:48,720
+product right it's like I think anyone
+
+1151
+00:40:47,199 --> 00:40:52,639
+who's designing a product cares a lot
+
+1152
+00:40:48,719 --> 00:40:54,519
+about how the thing feels and but you
+
+1153
+00:40:52,639 --> 00:40:55,759
+Rec you recognize the importance of that
+
+1154
+00:40:54,519 --> 00:40:57,559
+discussion happening in the world I
+
+1155
+00:40:55,760 --> 00:40:59,400
+think it's useful and look we don't
+
+1156
+00:40:57,559 --> 00:41:02,920
+block it you know we we just make it so
+
+1157
+00:40:59,400 --> 00:41:04,559
+that um you know for the content where
+
+1158
+00:41:02,920 --> 00:41:05,639
+you're following people if you want to
+
+1159
+00:41:04,559 --> 00:41:06,440
+talk to your friends about it if you
+
+1160
+00:41:05,639 --> 00:41:08,239
+want to talk to them about it in
+
+1161
+00:41:06,440 --> 00:41:09,519
+messaging there can be groups about it
+
+1162
+00:41:08,239 --> 00:41:12,039
+um if you follow people it can show up
+
+1163
+00:41:09,519 --> 00:41:14,318
+in your feed but we don't go out of our
+
+1164
+00:41:12,039 --> 00:41:17,719
+way to recommend that content when
+
+1165
+00:41:14,318 --> 00:41:20,279
+you're not following it and I think that
+
+1166
+00:41:17,719 --> 00:41:22,118
+that has been a healthy balance for us
+
+1167
+00:41:20,280 --> 00:41:25,160
+and for getting our products to
+
+1168
+00:41:22,119 --> 00:41:27,838
+generally feel the way that we want
+
+1169
+00:41:25,159 --> 00:41:29,679
+um and you know culture changes over
+
+1170
+00:41:27,838 --> 00:41:32,039
+time maybe the stuff will be like a
+
+1171
+00:41:29,679 --> 00:41:34,078
+little bit less polarized and anger
+
+1172
+00:41:32,039 --> 00:41:36,519
+inducing at some point and maybe it'll
+
+1173
+00:41:34,079 --> 00:41:38,440
+be possible to have more of that while
+
+1174
+00:41:36,519 --> 00:41:41,519
+also at the same time having a product
+
+1175
+00:41:38,440 --> 00:41:44,079
+where we're proud of how it feels but
+
+1176
+00:41:41,519 --> 00:41:46,519
+until then I think we we just we want to
+
+1177
+00:41:44,079 --> 00:41:48,318
+we want to design a product that um yeah
+
+1178
+00:41:46,519 --> 00:41:52,480
+people can get the things that they want
+
+1179
+00:41:48,318 --> 00:41:54,358
+but um but you know fundamentally we we
+
+1180
+00:41:52,480 --> 00:41:56,240
+um I care a lot about how people feel
+
+1181
+00:41:54,358 --> 00:41:59,000
+coming away from the products do you see
+
+1182
+00:41:56,239 --> 00:42:01,399
+this decision to to downrank political
+
+1183
+00:41:59,000 --> 00:42:04,318
+content for people that who aren't being
+
+1184
+00:42:01,400 --> 00:42:07,240
+followed um in feed as a political
+
+1185
+00:42:04,318 --> 00:42:09,079
+decision I guess because I don't know
+
+1186
+00:42:07,239 --> 00:42:11,239
+you're also at the same time you know
+
+1187
+00:42:09,079 --> 00:42:12,680
+not really saying much about the
+
+1188
+00:42:11,239 --> 00:42:13,838
+election this year you're not donating
+
+1189
+00:42:12,679 --> 00:42:15,838
+you've said you kind of want to stay out
+
+1190
+00:42:13,838 --> 00:42:18,039
+of it now and I see the way the
+
+1191
+00:42:15,838 --> 00:42:20,440
+company's acting and it reflects your
+
+1192
+00:42:18,039 --> 00:42:22,800
+personal kind of way you're operating
+
+1193
+00:42:20,440 --> 00:42:24,559
+right now and I'm wondering like how
+
+1194
+00:42:22,800 --> 00:42:27,240
+much more of it is also about what you
+
+1195
+00:42:24,559 --> 00:42:28,559
+and the company have gone through and
+
+1196
+00:42:27,239 --> 00:42:30,118
+the political environment and not
+
+1197
+00:42:28,559 --> 00:42:33,960
+necessarily just what users are telling
+
+1198
+00:42:30,119 --> 00:42:35,680
+you sure um like is there a through line
+
+1199
+00:42:33,960 --> 00:42:37,679
+there I I mean I'm sure it's all
+
+1200
+00:42:35,679 --> 00:42:39,399
+connected I think in this case it wasn't
+
+1201
+00:42:37,679 --> 00:42:40,519
+a trade-off between those two things
+
+1202
+00:42:39,400 --> 00:42:42,079
+because this actually was what our
+
+1203
+00:42:40,519 --> 00:42:45,039
+community was telling us and people were
+
+1204
+00:42:42,079 --> 00:42:47,599
+saying generally we don't want so much
+
+1205
+00:42:45,039 --> 00:42:49,279
+politics it it like this isn't you know
+
+1206
+00:42:47,599 --> 00:42:51,318
+like we don't feel good like like I we
+
+1207
+00:42:49,280 --> 00:42:52,400
+want like we we want content to that we
+
+1208
+00:42:51,318 --> 00:42:53,880
+want more stuff from our friends and
+
+1209
+00:42:52,400 --> 00:42:55,639
+family we want more stuff from our
+
+1210
+00:42:53,880 --> 00:42:58,119
+interests
+
+1211
+00:42:55,639 --> 00:43:00,318
+um so that that was kind of the primary
+
+1212
+00:42:58,119 --> 00:43:02,960
+driver but I think it's definitely the
+
+1213
+00:43:00,318 --> 00:43:06,719
+case that our corporate experience on
+
+1214
+00:43:02,960 --> 00:43:07,800
+this um shaped this and there's a big
+
+1215
+00:43:06,719 --> 00:43:10,399
+difference between something being
+
+1216
+00:43:07,800 --> 00:43:12,440
+political and being partisan and the
+
+1217
+00:43:10,400 --> 00:43:16,280
+main thing that I care about is making
+
+1218
+00:43:12,440 --> 00:43:18,318
+sure that we can be seen as a
+
+1219
+00:43:16,280 --> 00:43:20,599
+nonpartisan and you know as much as
+
+1220
+00:43:18,318 --> 00:43:23,239
+something can in the world in 2024 be
+
+1221
+00:43:20,599 --> 00:43:26,200
+sort of like a trusted institution by as
+
+1222
+00:43:23,239 --> 00:43:28,639
+many people as possible and um I just
+
+1223
+00:43:26,199 --> 00:43:33,118
+think that the partisan politics is so
+
+1224
+00:43:28,639 --> 00:43:34,598
+tough in the world right now that um
+
+1225
+00:43:33,119 --> 00:43:37,119
+I've made the decision that I I kind of
+
+1226
+00:43:34,599 --> 00:43:38,720
+feel like for me and for the company um
+
+1227
+00:43:37,119 --> 00:43:41,079
+best thing to do is to try to be as
+
+1228
+00:43:38,719 --> 00:43:43,838
+nonpartisan as possible in in in all of
+
+1229
+00:43:41,079 --> 00:43:45,960
+this and and kind of be be kind of as as
+
+1230
+00:43:43,838 --> 00:43:47,318
+neutral and and distance ourselves as
+
+1231
+00:43:45,960 --> 00:43:48,800
+much as possible and it's not just the
+
+1232
+00:43:47,318 --> 00:43:51,800
+substance I also think the perception
+
+1233
+00:43:48,800 --> 00:43:53,318
+matters so I think um so that's why you
+
+1234
+00:43:51,800 --> 00:43:55,160
+maybe you know it doesn't matter on our
+
+1235
+00:43:53,318 --> 00:43:56,279
+platforms whether I endorse a candidate
+
+1236
+00:43:55,159 --> 00:43:57,799
+or not but like I don't even I don't
+
+1237
+00:43:56,280 --> 00:44:00,599
+want to go anywhere near
+
+1238
+00:43:57,800 --> 00:44:05,160
+um and yeah I mean you could say that's
+
+1239
+00:44:00,599 --> 00:44:07,359
+a political strategy um but I think it's
+
+1240
+00:44:05,159 --> 00:44:09,719
+um I think for where we are in the world
+
+1241
+00:44:07,358 --> 00:44:12,078
+today it's very hard almost every
+
+1242
+00:44:09,719 --> 00:44:15,439
+institution has become partisan in some
+
+1243
+00:44:12,079 --> 00:44:18,920
+way and we are just trying to resist
+
+1244
+00:44:15,440 --> 00:44:20,440
+that and maybe I'm too naive and maybe
+
+1245
+00:44:18,920 --> 00:44:22,119
+that's impossible but that's we're going
+
+1246
+00:44:20,440 --> 00:44:23,800
+to try to do that on the acquired
+
+1247
+00:44:22,119 --> 00:44:26,079
+podcast recently you said that the
+
+1248
+00:44:23,800 --> 00:44:28,359
+political miscalculation was a 20-year
+
+1249
+00:44:26,079 --> 00:44:29,880
+mistake and a brand from a brand
+
+1250
+00:44:28,358 --> 00:44:32,039
+perspective and was going to take
+
+1251
+00:44:29,880 --> 00:44:35,079
+another 10 or so for you to fully work
+
+1252
+00:44:32,039 --> 00:44:37,239
+through that cycle yeah what makes you
+
+1253
+00:44:35,079 --> 00:44:39,640
+think it's such a lasting thing because
+
+1254
+00:44:37,239 --> 00:44:40,838
+you look at like how you personally have
+
+1255
+00:44:39,639 --> 00:44:41,879
+kind of evolved over the last couple
+
+1256
+00:44:40,838 --> 00:44:43,920
+years and I think perception of the
+
+1257
+00:44:41,880 --> 00:44:45,440
+company has evolved and I'm wondering
+
+1258
+00:44:43,920 --> 00:44:47,280
+like what you meant by saying it's going
+
+1259
+00:44:45,440 --> 00:44:50,200
+to take another 10 years I'm just
+
+1260
+00:44:47,280 --> 00:44:53,040
+talking about where our brand is and our
+
+1261
+00:44:50,199 --> 00:44:54,838
+reputation are compared to where I think
+
+1262
+00:44:53,039 --> 00:44:57,239
+they would have been I mean there's no
+
+1263
+00:44:54,838 --> 00:44:59,159
+doubt that even now here and okay yeah
+
+1264
+00:44:57,239 --> 00:45:00,598
+sure maybe things have improved somewhat
+
+1265
+00:44:59,159 --> 00:45:03,239
+over the last few years you can feel the
+
+1266
+00:45:00,599 --> 00:45:05,800
+trend but it's still significantly worse
+
+1267
+00:45:03,239 --> 00:45:08,838
+than it was in 2016 um you know it's I
+
+1268
+00:45:05,800 --> 00:45:13,318
+mean the internet industry overall um
+
+1269
+00:45:08,838 --> 00:45:17,318
+and I think our company in particular um
+
+1270
+00:45:13,318 --> 00:45:19,519
+just were seeing way more positively and
+
+1271
+00:45:17,318 --> 00:45:21,480
+now look there were real issues right so
+
+1272
+00:45:19,519 --> 00:45:22,559
+so I I I I think that it's always very
+
+1273
+00:45:21,480 --> 00:45:25,400
+difficult to talk about this stuff in a
+
+1274
+00:45:22,559 --> 00:45:28,000
+nuanced way because
+
+1275
+00:45:25,400 --> 00:45:29,639
+um I think to some Dee before 2016
+
+1276
+00:45:28,000 --> 00:45:31,079
+everyone was sort of too Rosy about the
+
+1277
+00:45:29,639 --> 00:45:32,400
+internet overall and didn't talk enough
+
+1278
+00:45:31,079 --> 00:45:34,000
+about the issues and then the pendulum
+
+1279
+00:45:32,400 --> 00:45:35,160
+sort of swung and people only talked
+
+1280
+00:45:34,000 --> 00:45:36,960
+about the issues and didn't talk about
+
+1281
+00:45:35,159 --> 00:45:40,879
+the stuff that was positive and it was
+
+1282
+00:45:36,960 --> 00:45:43,240
+all both there the whole time um but so
+
+1283
+00:45:40,880 --> 00:45:47,039
+when I talk about this I don't mean to
+
+1284
+00:45:43,239 --> 00:45:48,759
+you know come across as simplistic or um
+
+1285
+00:45:47,039 --> 00:45:50,079
+you know you guys didn't do anything
+
+1286
+00:45:48,760 --> 00:45:51,359
+wrong or anything like or that there
+
+1287
+00:45:50,079 --> 00:45:52,640
+weren't issues with the Internet or
+
+1288
+00:45:51,358 --> 00:45:54,400
+things like that I mean obviously every
+
+1289
+00:45:52,639 --> 00:45:55,759
+year you know whether it's politics or
+
+1290
+00:45:54,400 --> 00:45:57,039
+other things there always things that
+
+1291
+00:45:55,760 --> 00:45:58,520
+you look back at and you're like hey
+
+1292
+00:45:57,039 --> 00:45:59,880
+yeah like if I were playing this
+
+1293
+00:45:58,519 --> 00:46:02,318
+perfectly I would have done these things
+
+1294
+00:45:59,880 --> 00:46:06,440
+differently and
+
+1295
+00:46:02,318 --> 00:46:07,759
+um but I do think it's the case that I
+
+1296
+00:46:06,440 --> 00:46:09,400
+didn't really know how to react to
+
+1297
+00:46:07,760 --> 00:46:11,720
+something as big of of of sort of a
+
+1298
+00:46:09,400 --> 00:46:13,400
+shift in the world as what happened and
+
+1299
+00:46:11,719 --> 00:46:16,639
+it took me a while to find my footing
+
+1300
+00:46:13,400 --> 00:46:17,920
+and and I I I do think that It's Tricky
+
+1301
+00:46:16,639 --> 00:46:20,759
+when you're caught up in these kind of
+
+1302
+00:46:17,920 --> 00:46:22,280
+big debates and you're not kind of
+
+1303
+00:46:20,760 --> 00:46:25,720
+experienced or sophisticated and
+
+1304
+00:46:22,280 --> 00:46:27,640
+engaging with that I think um you can
+
+1305
+00:46:25,719 --> 00:46:31,239
+make some big missteps and I I do think
+
+1306
+00:46:27,639 --> 00:46:32,920
+that some of the things that um that
+
+1307
+00:46:31,239 --> 00:46:34,719
+that that we were accused of over time
+
+1308
+00:46:32,920 --> 00:46:36,280
+it just you know I think it's just been
+
+1309
+00:46:34,719 --> 00:46:37,558
+pretty clear at this point you know now
+
+1310
+00:46:36,280 --> 00:46:41,519
+that all the investigations have been
+
+1311
+00:46:37,559 --> 00:46:42,960
+done that like they they weren't true um
+
+1312
+00:46:41,519 --> 00:46:45,079
+and you're talking about like Cambridge
+
+1313
+00:46:42,960 --> 00:46:46,519
+analytica I think C analytica is a good
+
+1314
+00:46:45,079 --> 00:46:48,240
+example of something that it's like
+
+1315
+00:46:46,519 --> 00:46:51,159
+people thought that like all this data
+
+1316
+00:46:48,239 --> 00:46:54,679
+had been taken and that um it had been
+
+1317
+00:46:51,159 --> 00:46:56,199
+used in this campaign and out wasn't and
+
+1318
+00:46:54,679 --> 00:46:58,679
+like and yeah so it's like all the stuff
+
+1319
+00:46:56,199 --> 00:47:00,159
+okay the data wasn't even you know
+
+1320
+00:46:58,679 --> 00:47:01,519
+accessible to the to the developer and
+
+1321
+00:47:00,159 --> 00:47:04,399
+and we'd fix the issue like five years
+
+1322
+00:47:01,519 --> 00:47:07,039
+ago so um but in the moment it was like
+
+1323
+00:47:04,400 --> 00:47:09,838
+really hard for us to to kind of have a
+
+1324
+00:47:07,039 --> 00:47:13,800
+rational discussion about that and I
+
+1325
+00:47:09,838 --> 00:47:15,159
+think part of the challenge is that um
+
+1326
+00:47:13,800 --> 00:47:16,160
+you know for the general population I
+
+1327
+00:47:15,159 --> 00:47:18,118
+think a lot of people they read the
+
+1328
+00:47:16,159 --> 00:47:22,279
+initial headlines and they don't
+
+1329
+00:47:18,119 --> 00:47:23,960
+necessarily read the um you know and and
+
+1330
+00:47:22,280 --> 00:47:25,760
+and frankly you know a lot of the media
+
+1331
+00:47:23,960 --> 00:47:27,920
+I don't think was like as loud to write
+
+1332
+00:47:25,760 --> 00:47:30,480
+about when all the invest concluded that
+
+1333
+00:47:27,920 --> 00:47:32,119
+said that there weren't um that like a
+
+1334
+00:47:30,480 --> 00:47:34,440
+lot of the initial allegations were just
+
+1335
+00:47:32,119 --> 00:47:36,480
+completely wrong so I I think that's
+
+1336
+00:47:34,440 --> 00:47:39,318
+like a that's a real thing so okay so
+
+1337
+00:47:36,480 --> 00:47:41,679
+you take these hits and I didn't really
+
+1338
+00:47:39,318 --> 00:47:45,239
+know how to how to kind of push back on
+
+1339
+00:47:41,679 --> 00:47:46,679
+that and maybe some of it you can't but
+
+1340
+00:47:45,239 --> 00:47:48,078
+I I like to think that I think we could
+
+1341
+00:47:46,679 --> 00:47:51,039
+have played this some of this stuff
+
+1342
+00:47:48,079 --> 00:47:53,039
+differently um and I do think it was
+
+1343
+00:47:51,039 --> 00:47:54,920
+certainly the case that when you take
+
+1344
+00:47:53,039 --> 00:47:58,639
+responsibility for things that are not
+
+1345
+00:47:54,920 --> 00:48:01,680
+your fault you become sort of a weak
+
+1346
+00:47:58,639 --> 00:48:03,719
+Target for people who are looking to
+
+1347
+00:48:01,679 --> 00:48:06,799
+blame other things and find a target for
+
+1348
+00:48:03,719 --> 00:48:08,598
+them and it's sort of like um this is a
+
+1349
+00:48:06,800 --> 00:48:09,800
+different part of of of it's it's
+
+1350
+00:48:08,599 --> 00:48:11,680
+somewhat related to this but when you
+
+1351
+00:48:09,800 --> 00:48:13,318
+think about like like litigation
+
+1352
+00:48:11,679 --> 00:48:15,799
+strategy for the company one of the
+
+1353
+00:48:13,318 --> 00:48:18,279
+reason why I hate settling lawsuits is
+
+1354
+00:48:15,800 --> 00:48:20,519
+that it it basically sends a signal to
+
+1355
+00:48:18,280 --> 00:48:22,519
+people that hey this is a company that
+
+1356
+00:48:20,519 --> 00:48:24,759
+settles lawsuits so maybe like we can
+
+1357
+00:48:22,519 --> 00:48:26,199
+sue them and they'll settle lawsuits so
+
+1358
+00:48:24,760 --> 00:48:27,720
+um so you wouldn't write a blank check
+
+1359
+00:48:26,199 --> 00:48:29,679
+to the government like Google did for
+
+1360
+00:48:27,719 --> 00:48:32,598
+its antitrust case no I think like I
+
+1361
+00:48:29,679 --> 00:48:34,639
+think the right kind of way to approach
+
+1362
+00:48:32,599 --> 00:48:36,880
+this is when you believe in something
+
+1363
+00:48:34,639 --> 00:48:39,118
+you fight really hard for it and I think
+
+1364
+00:48:36,880 --> 00:48:40,318
+this is a repeat game this isn't like
+
+1365
+00:48:39,119 --> 00:48:42,559
+this it's not like there's a single
+
+1366
+00:48:40,318 --> 00:48:44,440
+issue and we're going to be around for a
+
+1367
+00:48:42,559 --> 00:48:46,760
+long time and I think it's it's really
+
+1368
+00:48:44,440 --> 00:48:49,079
+important that people know that we're a
+
+1369
+00:48:46,760 --> 00:48:50,839
+company that has conviction and that we
+
+1370
+00:48:49,079 --> 00:48:52,039
+we believe in what we're doing and we're
+
+1371
+00:48:50,838 --> 00:48:53,759
+going to back that up and defend
+
+1372
+00:48:52,039 --> 00:48:57,920
+ourselves and I think that that kind of
+
+1373
+00:48:53,760 --> 00:48:59,280
+sets the right tone um now now I think
+
+1374
+00:48:57,920 --> 00:49:01,000
+over the next 10 years I think we're
+
+1375
+00:48:59,280 --> 00:49:03,960
+sort of digging ourselves back to
+
+1376
+00:49:01,000 --> 00:49:05,119
+neutral on this and but I I like to
+
+1377
+00:49:03,960 --> 00:49:06,400
+think that if we hadn't had a lot of
+
+1378
+00:49:05,119 --> 00:49:08,318
+these issues we would have made progress
+
+1379
+00:49:06,400 --> 00:49:09,960
+over the last 10 years too so I sort of
+
+1380
+00:49:08,318 --> 00:49:11,759
+give it this time frame maybe 20 years
+
+1381
+00:49:09,960 --> 00:49:13,358
+is too long maybe it's 15 but it's hard
+
+1382
+00:49:11,760 --> 00:49:14,920
+to know with politics it feels like
+
+1383
+00:49:13,358 --> 00:49:16,798
+mental health and youth mental health
+
+1384
+00:49:14,920 --> 00:49:18,559
+may be the next wave of this that that I
+
+1385
+00:49:16,798 --> 00:49:20,400
+think is the next big fight and and on
+
+1386
+00:49:18,559 --> 00:49:22,760
+that you know I think a lot of the data
+
+1387
+00:49:20,400 --> 00:49:24,519
+on this I I think is just not where the
+
+1388
+00:49:22,760 --> 00:49:26,359
+narrative is the The Narrative yeah I
+
+1389
+00:49:24,519 --> 00:49:30,480
+think the narrative is a lot of people
+
+1390
+00:49:26,358 --> 00:49:33,558
+sort of take it as um as if it's like an
+
+1391
+00:49:30,480 --> 00:49:35,639
+assumed thing that there's some link and
+
+1392
+00:49:33,559 --> 00:49:37,200
+like I think the majority of the of the
+
+1393
+00:49:35,639 --> 00:49:38,480
+high quality research that's out there
+
+1394
+00:49:37,199 --> 00:49:40,598
+suggests that there's no causal
+
+1395
+00:49:38,480 --> 00:49:43,358
+connection like a at kind of a broad
+
+1396
+00:49:40,599 --> 00:49:44,680
+scale between between these things so um
+
+1397
+00:49:43,358 --> 00:49:46,039
+now look I mean I think that that's
+
+1398
+00:49:44,679 --> 00:49:47,759
+different from saying like in any given
+
+1399
+00:49:46,039 --> 00:49:50,079
+issue like was is someone bullied should
+
+1400
+00:49:47,760 --> 00:49:51,440
+we try to stop bullying yeah of course
+
+1401
+00:49:50,079 --> 00:49:55,720
+um
+
+1402
+00:49:51,440 --> 00:49:57,240
+but yeah overall um I I I think that
+
+1403
+00:49:55,719 --> 00:49:59,199
+this is this is one
+
+1404
+00:49:57,239 --> 00:50:00,519
+where there there are a bunch of these
+
+1405
+00:49:59,199 --> 00:50:03,639
+cases I think that there will be a lot
+
+1406
+00:50:00,519 --> 00:50:06,000
+of litigation around them uh and it's
+
+1407
+00:50:03,639 --> 00:50:09,078
+one where we're trying to make sure that
+
+1408
+00:50:06,000 --> 00:50:12,519
+the academic research that that shows
+
+1409
+00:50:09,079 --> 00:50:14,359
+something that that I think is you it um
+
+1410
+00:50:12,519 --> 00:50:16,358
+you know to me it sort of foots more
+
+1411
+00:50:14,358 --> 00:50:18,239
+with what I've seen of how the platforms
+
+1412
+00:50:16,358 --> 00:50:20,039
+operate but it's counter to what a lot
+
+1413
+00:50:18,239 --> 00:50:21,199
+of people think and I think that that's
+
+1414
+00:50:20,039 --> 00:50:24,519
+going to be a reckoning that we'll have
+
+1415
+00:50:21,199 --> 00:50:26,279
+to have is is basically when as the the
+
+1416
+00:50:24,519 --> 00:50:29,798
+kind of the majority of the highquality
+
+1417
+00:50:26,280 --> 00:50:31,798
+academic research um kind of gets shown
+
+1418
+00:50:29,798 --> 00:50:32,880
+is like Okay can people accept this and
+
+1419
+00:50:31,798 --> 00:50:34,798
+I think that's going to be a really
+
+1420
+00:50:32,880 --> 00:50:36,000
+important um set of debates over the
+
+1421
+00:50:34,798 --> 00:50:37,639
+next year at the same time you guys have
+
+1422
+00:50:36,000 --> 00:50:39,079
+acknowledged there's affordances in the
+
+1423
+00:50:37,639 --> 00:50:40,920
+product like the teen roll out with
+
+1424
+00:50:39,079 --> 00:50:43,240
+Instagram recently that you can make to
+
+1425
+00:50:40,920 --> 00:50:44,880
+make the product a better experience for
+
+1426
+00:50:43,239 --> 00:50:47,519
+young people yeah and I think this is an
+
+1427
+00:50:44,880 --> 00:50:50,400
+interesting part of the balance is
+
+1428
+00:50:47,519 --> 00:50:52,679
+um you can play a role in trying to make
+
+1429
+00:50:50,400 --> 00:50:55,160
+something better even if the thing
+
+1430
+00:50:52,679 --> 00:50:57,039
+wasn't caused by you in the first place
+
+1431
+00:50:55,159 --> 00:51:00,920
+like there's no doubt that being being a
+
+1432
+00:50:57,039 --> 00:51:04,639
+parent is really hard and there's a big
+
+1433
+00:51:00,920 --> 00:51:08,119
+question of in this internet age where
+
+1434
+00:51:04,639 --> 00:51:11,078
+we have phones
+
+1435
+00:51:08,119 --> 00:51:14,559
+um what are the right tools that parents
+
+1436
+00:51:11,079 --> 00:51:18,079
+need in order to be able to raise their
+
+1437
+00:51:14,559 --> 00:51:20,798
+kids and like I think that we can play a
+
+1438
+00:51:18,079 --> 00:51:22,880
+role in giving people controls over U
+
+1439
+00:51:20,798 --> 00:51:24,199
+parental controls over the apps I think
+
+1440
+00:51:22,880 --> 00:51:25,400
+that parental controls are also really
+
+1441
+00:51:24,199 --> 00:51:27,039
+important because parents have different
+
+1442
+00:51:25,400 --> 00:51:29,240
+ways that they want to raise their kids
+
+1443
+00:51:27,039 --> 00:51:31,039
+or just like schooling and education
+
+1444
+00:51:29,239 --> 00:51:32,639
+people have like very significantly
+
+1445
+00:51:31,039 --> 00:51:34,679
+different local preferences for how they
+
+1446
+00:51:32,639 --> 00:51:37,519
+want to raise their kids I don't think
+
+1447
+00:51:34,679 --> 00:51:39,480
+that most people want some internet
+
+1448
+00:51:37,519 --> 00:51:42,559
+company setting all the rules for this
+
+1449
+00:51:39,480 --> 00:51:44,000
+either so obviously you know when there
+
+1450
+00:51:42,559 --> 00:51:45,920
+are laws passed we'll we'll kind of
+
+1451
+00:51:44,000 --> 00:51:47,920
+follow the the the government's
+
+1452
+00:51:45,920 --> 00:51:49,200
+Direction and and and the laws on that
+
+1453
+00:51:47,920 --> 00:51:53,798
+but I actually think the right approach
+
+1454
+00:51:49,199 --> 00:51:55,639
+for us is to primarily kind of align
+
+1455
+00:51:53,798 --> 00:51:57,119
+with parents to give them the tools that
+
+1456
+00:51:55,639 --> 00:51:59,519
+they want to be able to raise their kids
+
+1457
+00:51:57,119 --> 00:52:00,559
+in the way that they want and some
+
+1458
+00:51:59,519 --> 00:52:02,318
+people are going to think that more
+
+1459
+00:52:00,559 --> 00:52:04,480
+technology use is good that's sort of
+
+1460
+00:52:02,318 --> 00:52:07,199
+how my parents you know Raised Me
+
+1461
+00:52:04,480 --> 00:52:10,079
+growing Up um I think it worked pretty
+
+1462
+00:52:07,199 --> 00:52:12,078
+well um some people are going to be kind
+
+1463
+00:52:10,079 --> 00:52:13,079
+of more more um you know want to limit
+
+1464
+00:52:12,079 --> 00:52:15,119
+it more and we want to give them the
+
+1465
+00:52:13,079 --> 00:52:16,720
+tools to be able to do that but but I
+
+1466
+00:52:15,119 --> 00:52:19,119
+don't think that this is you know
+
+1467
+00:52:16,719 --> 00:52:21,519
+primarily or only a social media thing
+
+1468
+00:52:19,119 --> 00:52:23,960
+um even even the parts of this that are
+
+1469
+00:52:21,519 --> 00:52:25,880
+technology age verification I think
+
+1470
+00:52:23,960 --> 00:52:28,318
+phones like the phone platforms have a
+
+1471
+00:52:25,880 --> 00:52:29,599
+huge part of this this I mean it's um
+
+1472
+00:52:28,318 --> 00:52:32,079
+yeah there's this big question of how do
+
+1473
+00:52:29,599 --> 00:52:33,640
+you do age verification and I mean I can
+
+1474
+00:52:32,079 --> 00:52:35,359
+tell you what the easiest way is which
+
+1475
+00:52:33,639 --> 00:52:36,759
+is like all right like every time you go
+
+1476
+00:52:35,358 --> 00:52:39,000
+do a payment on your phone I mean there
+
+1477
+00:52:36,760 --> 00:52:41,520
+already is child um you know basically
+
+1478
+00:52:39,000 --> 00:52:43,719
+like child age verification so I don't
+
+1479
+00:52:41,519 --> 00:52:45,000
+really understand well I guess I
+
+1480
+00:52:43,719 --> 00:52:48,399
+understand but I think it's it's it's
+
+1481
+00:52:45,000 --> 00:52:52,559
+not very um you know excusable from my
+
+1482
+00:52:48,400 --> 00:52:53,880
+perspective why apple and and and um I
+
+1483
+00:52:52,559 --> 00:52:56,160
+guess to some extent Google don't want
+
+1484
+00:52:53,880 --> 00:52:57,760
+to just extend the age verification that
+
+1485
+00:52:56,159 --> 00:53:00,558
+they already have on their phones to be
+
+1486
+00:52:57,760 --> 00:53:04,559
+a parental control for parents to to
+
+1487
+00:53:00,559 --> 00:53:06,359
+basically be able to say what um you
+
+1488
+00:53:04,559 --> 00:53:07,798
+what apps can my kids use right it's
+
+1489
+00:53:06,358 --> 00:53:09,719
+hard for me to not see the logic in it
+
+1490
+00:53:07,798 --> 00:53:11,079
+either I don't I don't really I think
+
+1491
+00:53:09,719 --> 00:53:12,838
+they don't want to take
+
+1492
+00:53:11,079 --> 00:53:15,119
+responsibility but maybe that's on
+
+1493
+00:53:12,838 --> 00:53:18,199
+Congress then to pass who has to take
+
+1494
+00:53:15,119 --> 00:53:19,358
+responsibility yeah yeah so and and and
+
+1495
+00:53:18,199 --> 00:53:20,558
+we're going to do our part and we're
+
+1496
+00:53:19,358 --> 00:53:22,920
+going to we're going to build the tools
+
+1497
+00:53:20,559 --> 00:53:28,519
+that we can for for parents and for and
+
+1498
+00:53:22,920 --> 00:53:31,119
+for teens um but it the end of the day
+
+1499
+00:53:28,519 --> 00:53:32,679
+um I I and look I'm not saying it's all
+
+1500
+00:53:31,119 --> 00:53:34,200
+the phone's fault either although I I
+
+1501
+00:53:32,679 --> 00:53:36,519
+would say that like the ability to get
+
+1502
+00:53:34,199 --> 00:53:38,919
+push notifications and get kind of
+
+1503
+00:53:36,519 --> 00:53:40,440
+distracted is from my perspective seems
+
+1504
+00:53:38,920 --> 00:53:43,400
+like a much greater contributor to
+
+1505
+00:53:40,440 --> 00:53:44,960
+mental health issues than um than than
+
+1506
+00:53:43,400 --> 00:53:46,039
+kind of a lot of the specific apps but
+
+1507
+00:53:44,960 --> 00:53:47,599
+but there are things that that I think
+
+1508
+00:53:46,039 --> 00:53:51,639
+everyone should should kind of try to
+
+1509
+00:53:47,599 --> 00:53:54,160
+improve and work on um
+
+1510
+00:53:51,639 --> 00:53:55,879
+but yeah I mean I that that's sort of
+
+1511
+00:53:54,159 --> 00:53:58,838
+that's sort of my view on all that on
+
+1512
+00:53:55,880 --> 00:54:00,400
+the regul piece as it relates to AI
+
+1513
+00:53:58,838 --> 00:54:03,639
+you've been very vocal about what's
+
+1514
+00:54:00,400 --> 00:54:05,599
+happening in the EU and uh you recently
+
+1515
+00:54:03,639 --> 00:54:07,279
+signed an open letter and I believe it
+
+1516
+00:54:05,599 --> 00:54:09,720
+was saying basically that you guys just
+
+1517
+00:54:07,280 --> 00:54:13,040
+don't have Clarity on consent for
+
+1518
+00:54:09,719 --> 00:54:15,598
+training how it's supposed to work um
+
+1519
+00:54:13,039 --> 00:54:17,039
+and I'm wondering what you think needs
+
+1520
+00:54:15,599 --> 00:54:18,440
+to happen there for things to move
+
+1521
+00:54:17,039 --> 00:54:20,558
+forward because like Med AI is not
+
+1522
+00:54:18,440 --> 00:54:24,639
+available in Europe new llama models are
+
+1523
+00:54:20,559 --> 00:54:27,160
+not um is that something you see getting
+
+1524
+00:54:24,639 --> 00:54:30,279
+resolved uh at all
+
+1525
+00:54:27,159 --> 00:54:31,679
+I guess and what would it take yeah I
+
+1526
+00:54:30,280 --> 00:54:36,720
+don't know it's it's a little hard for
+
+1527
+00:54:31,679 --> 00:54:38,519
+me to parse the the European politics um
+
+1528
+00:54:36,719 --> 00:54:40,639
+I have a hard time enough with American
+
+1529
+00:54:38,519 --> 00:54:42,480
+politics I mean it's and and I'm I'm
+
+1530
+00:54:40,639 --> 00:54:46,239
+American but
+
+1531
+00:54:42,480 --> 00:54:47,679
+um so in theory my understanding of the
+
+1532
+00:54:46,239 --> 00:54:50,838
+way this is supposed to work is they
+
+1533
+00:54:47,679 --> 00:54:55,199
+they kind of passed this gdpr
+
+1534
+00:54:50,838 --> 00:54:58,239
+regulation and you're supposed to have
+
+1535
+00:54:55,199 --> 00:55:01,439
+this this idea of sort of a One-Stop
+
+1536
+00:54:58,239 --> 00:55:04,000
+shop like home regulator who can
+
+1537
+00:55:01,440 --> 00:55:07,720
+basically on behalf of the whole EU
+
+1538
+00:55:04,000 --> 00:55:10,760
+interpret and enforce the rules and we
+
+1539
+00:55:07,719 --> 00:55:12,879
+have our European headquarters and we
+
+1540
+00:55:10,760 --> 00:55:14,480
+work with that regulator and you know I
+
+1541
+00:55:12,880 --> 00:55:16,880
+think they're like okay they're pretty
+
+1542
+00:55:14,480 --> 00:55:18,159
+tough on us and pretty firm but at least
+
+1543
+00:55:16,880 --> 00:55:19,960
+when you're working with one regulator
+
+1544
+00:55:18,159 --> 00:55:21,399
+you can kind of understand how are they
+
+1545
+00:55:19,960 --> 00:55:23,920
+thinking about things and it's and you
+
+1546
+00:55:21,400 --> 00:55:24,960
+can make progress and the thing that I
+
+1547
+00:55:23,920 --> 00:55:27,639
+think has been
+
+1548
+00:55:24,960 --> 00:55:29,000
+tricky is there there have been from
+
+1549
+00:55:27,639 --> 00:55:31,199
+from my perspective a little bit of a
+
+1550
+00:55:29,000 --> 00:55:34,798
+backslide where now you get all these
+
+1551
+00:55:31,199 --> 00:55:37,519
+other um dpas across the continent sort
+
+1552
+00:55:34,798 --> 00:55:39,880
+of also intervening and and trying to do
+
+1553
+00:55:37,519 --> 00:55:42,038
+things and it just seems like more of an
+
+1554
+00:55:39,880 --> 00:55:43,280
+kind of internal EU political thing
+
+1555
+00:55:42,039 --> 00:55:45,039
+which is like okay do they want to have
+
+1556
+00:55:43,280 --> 00:55:46,839
+this One-Stop shop and have Clarity for
+
+1557
+00:55:45,039 --> 00:55:49,200
+companies so companies can act can kind
+
+1558
+00:55:46,838 --> 00:55:50,798
+of like can execute or or do they just
+
+1559
+00:55:49,199 --> 00:55:54,960
+want it to be this kind of very
+
+1560
+00:55:50,798 --> 00:55:57,318
+complicated regulatory system and um I
+
+1561
+00:55:54,960 --> 00:55:58,639
+look I think that's for them to out um
+
+1562
+00:55:57,318 --> 00:56:00,838
+but but I know there's no doubt that
+
+1563
+00:55:58,639 --> 00:56:03,159
+when you have like dozens of different
+
+1564
+00:56:00,838 --> 00:56:04,798
+Regulators that can ask you kind of the
+
+1565
+00:56:03,159 --> 00:56:05,960
+same questions about different things it
+
+1566
+00:56:04,798 --> 00:56:08,199
+makes it a much more difficult
+
+1567
+00:56:05,960 --> 00:56:09,199
+environment to build things do you do I
+
+1568
+00:56:08,199 --> 00:56:10,759
+don't think that that's just us I think
+
+1569
+00:56:09,199 --> 00:56:12,679
+that that's all the company but do you
+
+1570
+00:56:10,760 --> 00:56:15,839
+understand the concern people have about
+
+1571
+00:56:12,679 --> 00:56:18,078
+training data and creators even and this
+
+1572
+00:56:15,838 --> 00:56:19,480
+idea that their data is being used for
+
+1573
+00:56:18,079 --> 00:56:21,359
+these models they're not getting
+
+1574
+00:56:19,480 --> 00:56:23,318
+compensated and the models are creating
+
+1575
+00:56:21,358 --> 00:56:25,639
+a lot of value and I know you're giving
+
+1576
+00:56:23,318 --> 00:56:26,920
+away llama but you're still you've got M
+
+1577
+00:56:25,639 --> 00:56:28,759
+Ai and
+
+1578
+00:56:26,920 --> 00:56:30,519
+I understand the frustration that people
+
+1579
+00:56:28,760 --> 00:56:32,720
+have about that I think it's a naturally
+
+1580
+00:56:30,519 --> 00:56:34,199
+bad feeling to be like oh my my data is
+
+1581
+00:56:32,719 --> 00:56:36,078
+now being used in a new way that I have
+
+1582
+00:56:34,199 --> 00:56:38,558
+no control or compensation over do you
+
+1583
+00:56:36,079 --> 00:56:41,119
+do you sympathize with that yeah I mean
+
+1584
+00:56:38,559 --> 00:56:43,400
+I think that there in any new medium and
+
+1585
+00:56:41,119 --> 00:56:46,280
+Technology there's like the concepts
+
+1586
+00:56:43,400 --> 00:56:49,440
+around fair use and like where are the
+
+1587
+00:56:46,280 --> 00:56:51,119
+boundaries between what you have control
+
+1588
+00:56:49,440 --> 00:56:52,838
+over right when you put something out in
+
+1589
+00:56:51,119 --> 00:56:54,838
+the world to what degree do you still
+
+1590
+00:56:52,838 --> 00:56:57,038
+get to control it and and kind of own it
+
+1591
+00:56:54,838 --> 00:56:59,599
+and license it
+
+1592
+00:56:57,039 --> 00:57:02,000
+um and I I think that all these things
+
+1593
+00:56:59,599 --> 00:57:04,920
+are basically going to get need to get
+
+1594
+00:57:02,000 --> 00:57:09,119
+you know relitigated and rediscussed in
+
+1595
+00:57:04,920 --> 00:57:10,838
+the um in the in the AI era so I'm I get
+
+1596
+00:57:09,119 --> 00:57:12,400
+it I I I think that these are these are
+
+1597
+00:57:10,838 --> 00:57:15,078
+important questions I think this is not
+
+1598
+00:57:12,400 --> 00:57:16,400
+like a completely novel thing to AI in
+
+1599
+00:57:15,079 --> 00:57:17,599
+in the grand scheme of things I think it
+
+1600
+00:57:16,400 --> 00:57:19,000
+was you a lot of them there were
+
+1601
+00:57:17,599 --> 00:57:20,838
+questions about it with with the
+
+1602
+00:57:19,000 --> 00:57:23,559
+internet overall too and with different
+
+1603
+00:57:20,838 --> 00:57:26,358
+Technologies over time
+
+1604
+00:57:23,559 --> 00:57:28,160
+um and but I think getting to clarity
+
+1605
+00:57:26,358 --> 00:57:32,119
+that is going to be important so that
+
+1606
+00:57:28,159 --> 00:57:33,960
+way the things that Society wants people
+
+1607
+00:57:32,119 --> 00:57:36,318
+to build they can go build what is
+
+1608
+00:57:33,960 --> 00:57:38,079
+Clarity look like to you there I mean I
+
+1609
+00:57:36,318 --> 00:57:39,719
+think it starts with having some
+
+1610
+00:57:38,079 --> 00:57:40,839
+framework of like okay what's the
+
+1611
+00:57:39,719 --> 00:57:43,959
+process going to be if we're working
+
+1612
+00:57:40,838 --> 00:57:45,519
+through that but but you don't see a
+
+1613
+00:57:43,960 --> 00:57:48,159
+scenario where creators get like
+
+1614
+00:57:45,519 --> 00:57:49,880
+directly compensated for the use of
+
+1615
+00:57:48,159 --> 00:57:51,639
+their content I think that there's a lot
+
+1616
+00:57:49,880 --> 00:57:53,440
+of different possibilities for how stuff
+
+1617
+00:57:51,639 --> 00:57:55,519
+goes in the future now I do think that
+
+1618
+00:57:53,440 --> 00:57:57,480
+there's this issue which is a lot of
+
+1619
+00:57:55,519 --> 00:58:00,119
+like while psychologically I understand
+
+1620
+00:57:57,480 --> 00:58:03,838
+what you're saying yeah I think
+
+1621
+00:58:00,119 --> 00:58:04,680
+individual creators or Publishers tend
+
+1622
+00:58:03,838 --> 00:58:07,480
+to
+
+1623
+00:58:04,679 --> 00:58:10,598
+overestimate the value of their specific
+
+1624
+00:58:07,480 --> 00:58:12,480
+content right so it's like okay maybe
+
+1625
+00:58:10,599 --> 00:58:15,200
+like in in in like in the grand scheme
+
+1626
+00:58:12,480 --> 00:58:18,679
+of this right so um so we have this set
+
+1627
+00:58:15,199 --> 00:58:19,960
+of challenges with with um you know news
+
+1628
+00:58:18,679 --> 00:58:21,879
+Publishers around the world which is
+
+1629
+00:58:19,960 --> 00:58:24,318
+like okay they they're like a lot of
+
+1630
+00:58:21,880 --> 00:58:25,760
+folks are constantly kind of asking to
+
+1631
+00:58:24,318 --> 00:58:26,960
+be paid for the content and on the other
+
+1632
+00:58:25,760 --> 00:58:28,559
+hand we have of our community which is
+
+1633
+00:58:26,960 --> 00:58:30,639
+asking us to show less news because it
+
+1634
+00:58:28,559 --> 00:58:32,039
+makes them feel bad right and I mean we
+
+1635
+00:58:30,639 --> 00:58:34,038
+talked about that so it's like there's
+
+1636
+00:58:32,039 --> 00:58:36,839
+this issue which is okay it's like
+
+1637
+00:58:34,039 --> 00:58:37,880
+actually we're showing some amount of
+
+1638
+00:58:36,838 --> 00:58:40,159
+the news that we're showing because we
+
+1639
+00:58:37,880 --> 00:58:41,640
+think it's socially important against
+
+1640
+00:58:40,159 --> 00:58:43,199
+what our community wants like if we were
+
+1641
+00:58:41,639 --> 00:58:44,879
+actually just following our our our what
+
+1642
+00:58:43,199 --> 00:58:47,159
+our what our community wants we'd show
+
+1643
+00:58:44,880 --> 00:58:48,480
+even less than we're showing um and you
+
+1644
+00:58:47,159 --> 00:58:50,118
+see that in the data that people just
+
+1645
+00:58:48,480 --> 00:58:52,079
+don't like to engage with this stuff and
+
+1646
+00:58:50,119 --> 00:58:54,318
+we've had these issues where sometimes
+
+1647
+00:58:52,079 --> 00:58:56,359
+we like Publishers say okay if you're
+
+1648
+00:58:54,318 --> 00:58:58,038
+not going to pay us then pull our cont
+
+1649
+00:58:56,358 --> 00:58:59,239
+down and it's just like yeah Share Fine
+
+1650
+00:58:58,039 --> 00:59:01,240
+pull pull your content down I mean that
+
+1651
+00:58:59,239 --> 00:59:04,719
+sucks I'd rather people be able to share
+
+1652
+00:59:01,239 --> 00:59:08,000
+it but but if but I think some to some
+
+1653
+00:59:04,719 --> 00:59:12,038
+degree some of these questions have to
+
+1654
+00:59:08,000 --> 00:59:14,000
+get tested by their negotiations and
+
+1655
+00:59:12,039 --> 00:59:17,160
+they have to get tested by people
+
+1656
+00:59:14,000 --> 00:59:20,639
+walking and and like and then at the end
+
+1657
+00:59:17,159 --> 00:59:23,318
+once people walk you figure out where
+
+1658
+00:59:20,639 --> 00:59:25,639
+the value really is right if if it if it
+
+1659
+00:59:23,318 --> 00:59:28,639
+really is the case that that news was a
+
+1660
+00:59:25,639 --> 00:59:30,838
+big thing the community wanted then I
+
+1661
+00:59:28,639 --> 00:59:32,920
+mean look we're we're a big company we
+
+1662
+00:59:30,838 --> 00:59:34,119
+could you know we we could probably you
+
+1663
+00:59:32,920 --> 00:59:35,240
+know we pay for Content when it's
+
+1664
+00:59:34,119 --> 00:59:36,240
+valuable to people we're just not going
+
+1665
+00:59:35,239 --> 00:59:40,038
+to pay for Content when it's not
+
+1666
+00:59:36,239 --> 00:59:42,439
+valuable to people um so I think that
+
+1667
+00:59:40,039 --> 00:59:45,079
+you'll probably see a similar Dynamic
+
+1668
+00:59:42,440 --> 00:59:46,280
+with AI which is my guess is that there
+
+1669
+00:59:45,079 --> 00:59:47,839
+are going to be certain Partnerships
+
+1670
+00:59:46,280 --> 00:59:51,680
+that get made when content is really
+
+1671
+00:59:47,838 --> 00:59:53,798
+important and valuable um and i' guess
+
+1672
+00:59:51,679 --> 00:59:57,279
+that there's probably a lot of people
+
+1673
+00:59:53,798 --> 00:59:59,239
+who are kind of have a a concern about
+
+1674
+00:59:57,280 --> 01:00:01,200
+like the feel of it like you're saying
+
+1675
+00:59:59,239 --> 01:00:03,759
+but then when push comes to
+
+1676
+01:00:01,199 --> 01:00:05,679
+shove if like if they demanded that we
+
+1677
+01:00:03,760 --> 01:00:07,480
+take that we don't use their content
+
+1678
+01:00:05,679 --> 01:00:09,118
+then we just wouldn't use their content
+
+1679
+01:00:07,480 --> 01:00:10,519
+and it's not like you know that's going
+
+1680
+01:00:09,119 --> 01:00:12,400
+to change the outcome of this stuff that
+
+1681
+01:00:10,519 --> 01:00:14,119
+much I guess to bring this full circle
+
+1682
+01:00:12,400 --> 01:00:16,599
+where we started uh as you're building
+
+1683
+01:00:14,119 --> 01:00:18,240
+augmented reality glasses um and what
+
+1684
+01:00:16,599 --> 01:00:19,798
+you've learned over just the societal
+
+1685
+01:00:18,239 --> 01:00:22,919
+implications of the stuff you've built
+
+1686
+01:00:19,798 --> 01:00:25,000
+over the last decade um how are you
+
+1687
+01:00:22,920 --> 01:00:26,159
+thinking about this as it relates to
+
+1688
+01:00:25,000 --> 01:00:27,639
+glasses at scale because you're
+
+1689
+01:00:26,159 --> 01:00:29,798
+literally going to be augmented
+
+1690
+01:00:27,639 --> 01:00:31,440
+augmenting reality which is a it's a
+
+1691
+01:00:29,798 --> 01:00:33,038
+responsibility I think that's going to
+
+1692
+01:00:31,440 --> 01:00:34,838
+be another platform too and you're going
+
+1693
+01:00:33,039 --> 01:00:36,160
+to have a lot of these questions as well
+
+1694
+01:00:34,838 --> 01:00:38,400
+I mean I think the interesting thing
+
+1695
+01:00:36,159 --> 01:00:40,639
+about Holograms and augmented reality is
+
+1696
+01:00:38,400 --> 01:00:42,920
+it's going to be this intermingling of
+
+1697
+01:00:40,639 --> 01:00:45,759
+the physical and digital much more than
+
+1698
+01:00:42,920 --> 01:00:47,480
+we've had in other platforms um where on
+
+1699
+01:00:45,760 --> 01:00:49,520
+your phone it's like okay yeah we we
+
+1700
+01:00:47,480 --> 01:00:51,000
+live a primarily physical world but then
+
+1701
+01:00:49,519 --> 01:00:52,798
+you have the small window into this
+
+1702
+01:00:51,000 --> 01:00:55,079
+digital world and I think we're going to
+
+1703
+01:00:52,798 --> 01:00:57,038
+basically have this world in the future
+
+1704
+01:00:55,079 --> 01:00:59,160
+that is
+
+1705
+01:00:57,039 --> 01:01:01,039
+increasingly you know call it half
+
+1706
+01:00:59,159 --> 01:01:03,679
+physical half digital or I don't know
+
+1707
+01:01:01,039 --> 01:01:06,880
+60% physical 40% digital and it's like
+
+1708
+01:01:03,679 --> 01:01:08,719
+and it's um going to be Blended together
+
+1709
+01:01:06,880 --> 01:01:10,519
+and I think that there are going to be a
+
+1710
+01:01:08,719 --> 01:01:14,199
+lot of interesting governance questions
+
+1711
+01:01:10,519 --> 01:01:16,239
+around that right in terms of um like is
+
+1712
+01:01:14,199 --> 01:01:18,558
+is kind of all of the digital stuff
+
+1713
+01:01:16,239 --> 01:01:21,000
+that's overlaid physically going to fit
+
+1714
+01:01:18,559 --> 01:01:23,400
+within sort of a
+
+1715
+01:01:21,000 --> 01:01:26,400
+physical kind of
+
+1716
+01:01:23,400 --> 01:01:27,720
+national regulation perspective or is it
+
+1717
+01:01:26,400 --> 01:01:29,358
+sort of is it actually coming from a
+
+1718
+01:01:27,719 --> 01:01:32,519
+different world or something you know
+
+1719
+01:01:29,358 --> 01:01:34,838
+and and um I think these will all be
+
+1720
+01:01:32,519 --> 01:01:36,519
+very interesting questions that we will
+
+1721
+01:01:34,838 --> 01:01:37,759
+have a perspective I'm sure we're not
+
+1722
+01:01:36,519 --> 01:01:40,679
+going to be right about every single
+
+1723
+01:01:37,760 --> 01:01:41,960
+thing um I I think like the world will
+
+1724
+01:01:40,679 --> 01:01:43,078
+kind of need to sort out where it wants
+
+1725
+01:01:41,960 --> 01:01:44,280
+to be different countries will have
+
+1726
+01:01:43,079 --> 01:01:45,440
+different values and take somewhat
+
+1727
+01:01:44,280 --> 01:01:47,359
+different approaches on things and I
+
+1728
+01:01:45,440 --> 01:01:49,480
+think that that's it's part of the
+
+1729
+01:01:47,358 --> 01:01:51,239
+interesting process of this the the
+
+1730
+01:01:49,480 --> 01:01:55,039
+tapestry of how it all gets built is
+
+1731
+01:01:51,239 --> 01:01:57,000
+like is um you need to work through so
+
+1732
+01:01:55,039 --> 01:01:58,079
+that it ends up being positive for you
+
+1733
+01:01:57,000 --> 01:02:00,920
+know as many of the possible
+
+1734
+01:01:58,079 --> 01:02:03,440
+stakeholders as possible more to come
+
+1735
+01:02:00,920 --> 01:02:06,079
+yeah a lot to come yeah thanks Mark okay
+
+1736
+01:02:03,440 --> 01:02:09,838
+cool good game good game you you haveen
+
+1737
+01:02:06,079 --> 01:02:14,519
+anage that's all right I've played a few
+
+1738
+01:02:09,838 --> 01:02:14,519
+more cool all right done
+

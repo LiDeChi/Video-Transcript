@@ -82,38 +82,49 @@ def save_subtitle(video_id, video_title, transcript, language):
 def create_consolidated_text(video_id, video_title, transcript, language):
     safe_title = re.sub(r'[\\/*?:"<>|]', "", video_title)  # 移除文件名中的非法字符
     txt_filename = f"{safe_title}_{language}_consolidated.txt"
-    with open(txt_filename, "w", encoding="utf-8") as f:
-        paragraph = ""
-        sentence_count = 0
-        last_end_time = 0
-        is_first_paragraph = True
+    
+    consolidated_text = ""
+    paragraph = ""
+    sentence_count = 0
+    last_end_time = 0
+    is_first_paragraph = True
+    
+    for entry in transcript.fetch():
+        text = entry['text'].strip()
+        start_time = entry['start']
         
-        for entry in transcript.fetch():
-            text = entry['text'].strip()
-            start_time = entry['start']
-            
-            # 如果与上一个字幕的时间间隔超过5秒，或者累积了3个句子，就开始新的段落
-            if start_time - last_end_time > 5 or sentence_count >= 3:
-                if paragraph:
-                    if not is_first_paragraph:
-                        f.write("\n\n")  # 段落之间空两行
-                    f.write("    " + paragraph.strip() + "\n")  # 段落首个单词缩进
-                    is_first_paragraph = False
-                    paragraph = ""
-                    sentence_count = 0
-            
-            paragraph += text + " "
-            last_end_time = start_time + entry['duration']
-            
-            # 检查是否有句子结束符
+        # 如果与上一个字幕的时间间隔超过5秒，或者累积了3个句子，就开始新的段落
+        if start_time - last_end_time > 5 or sentence_count >= 3:
+            if paragraph:
+                if not is_first_paragraph:
+                    consolidated_text += "\n\n"  # 段落之间空两行
+                consolidated_text += paragraph.strip() + "\n"  # 移除段落首的缩进
+                is_first_paragraph = False
+                paragraph = ""
+                sentence_count = 0
+        
+        paragraph += text + " "
+        last_end_time = start_time + entry['duration']
+        
+        # 检查是否有句子结束符
+        if language.startswith('zh'):
+            # 对于中文，我们检查常见的句子结束符
+            if text.endswith('。') or text.endswith('！') or text.endswith('？') or text.endswith('…'):
+                sentence_count += 1
+        else:
+            # 对于其他语言（如英文），保持原有的检查方式
             if text.endswith('.') or text.endswith('?') or text.endswith('!'):
                 sentence_count += 1
-        
-        # 写入最后剩余的文本
-        if paragraph:
-            if not is_first_paragraph:
-                f.write("\n\n")
-            f.write("    " + paragraph.strip())
+    
+    # 写入最后剩余的文本
+    if paragraph:
+        if not is_first_paragraph:
+            consolidated_text += "\n\n"
+        consolidated_text += paragraph.strip()
+    
+    # 保存文本文件
+    with open(txt_filename, "w", encoding="utf-8") as f:
+        f.write(consolidated_text)
     
     print(f"整合并分段后的{language}文本已保存到 {txt_filename}")
 
