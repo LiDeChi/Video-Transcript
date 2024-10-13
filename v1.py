@@ -1,5 +1,10 @@
+import tkinter as tk
+from tkinter import ttk, messagebox
 from youtube_transcript_api import YouTubeTranscriptApi
 import re
+import json
+import os
+import requests
 
 def extract_video_id(url):
     # 从YouTube URL中提取视频ID
@@ -8,6 +13,15 @@ def extract_video_id(url):
         return video_id_match.group(1)
     return None
 
+def get_video_title(video_id):
+    try:
+        url = f"https://www.youtube.com/oembed?url=http://www.youtube.com/watch?v={video_id}&format=json"
+        response = requests.get(url)
+        data = response.json()
+        return data['title']
+    except:
+        return video_id  # 如果获取标题失败,就使用视频ID作为标题
+
 def get_subtitles(video_url):
     video_id = extract_video_id(video_url)
     if not video_id:
@@ -15,10 +29,9 @@ def get_subtitles(video_url):
         return
 
     try:
-        # 尝试获取所有可用的字幕
+        video_title = get_video_title(video_id)
         transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
         
-        # 优先尝试获取中文字幕
         zh_transcript = None
         en_transcript = None
         
@@ -34,20 +47,23 @@ def get_subtitles(video_url):
                 print("未找到英文字幕")
         
         if zh_transcript:
-            save_subtitle(video_id, zh_transcript, 'zh-CN')
+            save_subtitle(video_id, video_title, zh_transcript, 'zh-CN')
         
         if en_transcript:
-            save_subtitle(video_id, en_transcript, 'en')
+            save_subtitle(video_id, video_title, en_transcript, 'en')
         
         if not zh_transcript and not en_transcript:
             print("未找到中文或英文字幕")
         
+        return video_title
+        
     except Exception as e:
         print(f"获取字幕时出错: {str(e)}")
+        return None
 
-def save_subtitle(video_id, transcript, language):
-    # 将字幕保存为SRT格式
-    srt_filename = f"{video_id}_{language}_subtitles.srt"
+def save_subtitle(video_id, video_title, transcript, language):
+    safe_title = re.sub(r'[\\/*?:"<>|]', "", video_title)  # 移除文件名中的非法字符
+    srt_filename = f"{safe_title}_{language}_subtitles.srt"
     with open(srt_filename, "w", encoding="utf-8") as f:
         for i, entry in enumerate(transcript.fetch(), start=1):
             start = entry['start']
@@ -61,14 +77,11 @@ def save_subtitle(video_id, transcript, language):
     
     print(f"{language}字幕已保存到 {srt_filename}")
     
-    # 生成整合后的文本文件
-    create_consolidated_text(video_id, transcript, language)
-    
-    # 生成Markdown文件
-    create_markdown_text(video_id, transcript, language)
+    create_consolidated_text(video_id, video_title, transcript, language)
 
-def create_consolidated_text(video_id, transcript, language):
-    txt_filename = f"{video_id}_{language}_consolidated.txt"
+def create_consolidated_text(video_id, video_title, transcript, language):
+    safe_title = re.sub(r'[\\/*?:"<>|]', "", video_title)  # 移除文件名中的非法字符
+    txt_filename = f"{safe_title}_{language}_consolidated.txt"
     with open(txt_filename, "w", encoding="utf-8") as f:
         paragraph = ""
         sentence_count = 0
@@ -104,41 +117,6 @@ def create_consolidated_text(video_id, transcript, language):
     
     print(f"整合并分段后的{language}文本已保存到 {txt_filename}")
 
-def create_markdown_text(video_id, transcript, language):
-    md_filename = f"{video_id}_{language}_consolidated.md"
-    with open(md_filename, "w", encoding="utf-8") as f:
-        paragraph = ""
-        sentence_count = 0
-        last_end_time = 0
-        
-        # 写入标题
-        f.write(f"# Transcript: {video_id}\n\n")
-        
-        for entry in transcript.fetch():
-            text = entry['text'].strip()
-            start_time = entry['start']
-            
-            # 如果与上一个字幕的时间间隔超过5秒，或者累积了3个句子，就开始新的段落
-            if start_time - last_end_time > 5 or sentence_count >= 3:
-                if paragraph:
-                    f.write(paragraph.strip() + "\n\n\n")  # 段落之间空两行
-                    f.write(f"## {format_time(start_time)}\n\n")  # 添加时间戳作为二级标题
-                paragraph = ""
-                sentence_count = 0
-            
-            paragraph += text + " "
-            last_end_time = start_time + entry['duration']
-            
-            # 检查是否有句子结束符
-            if text.endswith('.') or text.endswith('?') or text.endswith('!'):
-                sentence_count += 1
-        
-        # 写入最后剩余的文本
-        if paragraph:
-            f.write(paragraph.strip())
-    
-    print(f"整合并分段后的{language} Markdown 文件已保存到 {md_filename}")
-
 def format_time(seconds):
     # 将秒数转换为SRT时间格式 (HH:MM:SS,mmm)
     hours = int(seconds / 3600)
@@ -147,6 +125,69 @@ def format_time(seconds):
     milliseconds = int((seconds - int(seconds)) * 1000)
     return f"{hours:02d}:{minutes:02d}:{int(seconds):02d},{milliseconds:03d}"
 
+class YouTubeSubtitleApp:
+    def __init__(self, master):
+        self.master = master
+        master.title("YouTube字幕下载器")
+        master.geometry("600x400")
+
+        self.url_label = ttk.Label(master, text="请输入YouTube视频URL:")
+        self.url_label.pack(pady=10)
+
+        self.url_entry = ttk.Entry(master, width=50)
+        self.url_entry.pack(pady=5)
+
+        self.submit_button = ttk.Button(master, text="确认", command=self.process_url)
+        self.submit_button.pack(pady=10)
+
+        self.history_label = ttk.Label(master, text="历史记录:")
+        self.history_label.pack(pady=5)
+
+        self.history_listbox = tk.Listbox(master, width=70, height=10)
+        self.history_listbox.pack(pady=5)
+
+        self.history_file = "youtube_url_history.json"
+        self.load_history()
+
+    def process_url(self):
+        url = self.url_entry.get()
+        if url:
+            video_title = get_subtitles(url)
+            if video_title:
+                self.add_to_history(url, video_title)
+                messagebox.showinfo("成功", "字幕和文本文件已生成")
+                self.url_entry.delete(0, tk.END)  # 清空输入框
+            else:
+                messagebox.showerror("错误", "无法获取视频信息或生成字幕")
+        else:
+            messagebox.showerror("错误", "请输入有效的YouTube URL")
+
+    def add_to_history(self, url, title):
+        entry = {"url": url, "title": title}
+        if entry not in self.history:
+            self.history.insert(0, entry)
+            self.history = self.history[:20]  # 保留最近的20个URL
+            self.save_history()
+            self.update_history_display()
+
+    def load_history(self):
+        try:
+            with open(self.history_file, "r", encoding="utf-8") as f:
+                self.history = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            self.history = []
+        self.update_history_display()
+
+    def save_history(self):
+        with open(self.history_file, "w", encoding="utf-8") as f:
+            json.dump(self.history, f, ensure_ascii=False, indent=2)
+
+    def update_history_display(self):
+        self.history_listbox.delete(0, tk.END)
+        for entry in self.history:
+            self.history_listbox.insert(tk.END, f"{entry['title']} - {entry['url']}")
+
 if __name__ == "__main__":
-    video_url = input("请输入YouTube视频URL: ")
-    get_subtitles(video_url)
+    root = tk.Tk()
+    app = YouTubeSubtitleApp(root)
+    root.mainloop()
