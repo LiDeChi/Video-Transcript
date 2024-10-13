@@ -1,0 +1,3582 @@
+1
+00:00:00,000 --> 00:00:01,560
+Hi, my name is Mark.
+
+2
+00:00:01,560 --> 00:00:07,380
+For years I've wanted to make my very own 
+video games, using software like Unity.
+
+3
+00:00:07,379 --> 00:00:13,320
+Unity is the powerful game engine behind 
+titles like Cuphead, Neon White, Tunic,  
+
+4
+00:00:13,320 --> 00:00:18,600
+Outer Wilds, Hearthstone, Firewatch, 
+and even the Pokemon Diamond remake.
+
+5
+00:00:18,600 --> 00:00:25,740
+But I've always found that lengthy, multi-part, 
+meandering tutorials just send me to sleep.
+
+6
+00:00:25,739 --> 00:00:31,140
+I can't learn by watching someone else - I have 
+to get hands-on and figure things out for myself.
+
+7
+00:00:31,140 --> 00:00:35,939
+And so last year I developed a 
+solution that actually works.
+
+8
+00:00:35,939 --> 00:00:41,640
+It's a three-step technique where you: one 
+just learn the absolute basics of Unity.
+
+9
+00:00:41,640 --> 00:00:45,539
+Then, two, cement those 
+lessons with simple exercises.
+
+10
+00:00:45,539 --> 00:00:49,140
+And then, three, figure out 
+the rest as you go along.
+
+11
+00:00:49,140 --> 00:00:52,079
+And it totally worked! In 
+the space of about a year,  
+
+12
+00:00:52,079 --> 00:00:58,619
+I went from ripping off iPhone games to working 
+on my very own puzzle platformer about magnets.
+
+13
+00:00:58,619 --> 00:01:03,479
+And I released an interactive video 
+essay that's had over 100,000 plays.
+
+14
+00:01:03,479 --> 00:01:08,579
+But wait, I hear you say! How do you do 
+step one? How do you learn the basics,  
+
+15
+00:01:08,579 --> 00:01:11,579
+when the software is so complicated to figure out?
+
+16
+00:01:11,579 --> 00:01:15,359
+Well for me it was about writing down 
+a list of things I would need to know,  
+
+17
+00:01:15,359 --> 00:01:17,519
+regardless of what game I was going to make.
+
+18
+00:01:17,519 --> 00:01:21,119
+Things like how to make a character 
+appear and move them around the screen.
+
+19
+00:01:21,120 --> 00:01:24,300
+How to make stuff spawn in and 
+then delete it again later.
+
+20
+00:01:24,299 --> 00:01:28,679
+How to have collisions and game over 
+and animations and sound effects.
+
+21
+00:01:28,680 --> 00:01:33,540
+Then I learned all that by hunting through 
+lengthy tutorials, reading the Unity docs,  
+
+22
+00:01:33,540 --> 00:01:37,260
+Googling esoteric words, and 
+doing a lot of trial and error.
+
+23
+00:01:37,260 --> 00:01:41,820
+And so the whole point of this 
+video is to save you that hassle.
+
+24
+00:01:41,819 --> 00:01:46,379
+This video is the tutorial I wish 
+I had when I was learning Unity.
+
+25
+00:01:46,379 --> 00:01:50,939
+So in the next 40 minutes we're going 
+to use the engine to make Flappy Bird.
+
+26
+00:01:50,939 --> 00:01:54,780
+Not because we want to make Flappy 
+Bird, but because in order to remake  
+
+27
+00:01:54,780 --> 00:01:59,400
+this addictive iPhone game, we'll need to 
+learn basically everything I just listed,  
+
+28
+00:01:59,400 --> 00:02:02,219
+from spawning objects to getting game overs.
+
+29
+00:02:02,219 --> 00:02:06,599
+This tutorial will cover every step 
+of the way from downloading Unity,  
+
+30
+00:02:06,599 --> 00:02:11,219
+to understanding the UI, to writing your 
+very first line of programming code,  
+
+31
+00:02:11,219 --> 00:02:14,099
+to building a game that you 
+can share with your friends.
+
+32
+00:02:14,099 --> 00:02:18,000
+And then, when the tutorial is 
+over, I'll share some concrete  
+
+33
+00:02:18,000 --> 00:02:22,259
+next steps that you can take in order to 
+continue learning the rest by yourself.
+
+34
+00:02:22,259 --> 00:02:25,919
+Sound good? Then let's get started.
+
+35
+00:02:26,879 --> 00:02:30,840
+Okay, let's start by getting 
+Unity from the website.
+
+36
+00:02:30,840 --> 00:02:34,200
+Download and install the Unity Hub.
+
+37
+00:02:34,800 --> 00:02:38,460
+And then you'll need to make a 
+free account to actually use it.
+
+38
+00:02:38,460 --> 00:02:45,420
+Once that's done, you'll be asked to install the 
+Unity Editor - I'm using version 2021.3 for this  
+
+39
+00:02:45,419 --> 00:02:49,739
+tutorial, if you're watching a million years in 
+the future and wondering why things are different.
+
+40
+00:02:49,740 --> 00:02:52,379
+Let's pretend I have fast internet - Neeooowwwwmm.
+
+41
+00:02:52,379 --> 00:02:55,019
+We're not quite done yet.
+
+42
+00:02:55,020 --> 00:03:00,300
+Under installs, hit the cog icon on 
+the Unity Editor and pick modules.
+
+43
+00:03:00,300 --> 00:03:04,020
+You'll see that Microsoft Visual 
+Studio has been ticked - this is  
+
+44
+00:03:04,020 --> 00:03:06,360
+the software we'll use to write programming code.
+
+45
+00:03:06,360 --> 00:03:07,620
+So hit continue.
+
+46
+00:03:07,620 --> 00:03:09,480
+And install Visual Studio.
+
+47
+00:03:09,479 --> 00:03:13,379
+On this screen, scroll down and 
+tick game development with Unity,  
+
+48
+00:03:13,379 --> 00:03:16,680
+and untick Unity Hub, because we already have it.
+
+49
+00:03:16,680 --> 00:03:17,460
+Neeooowwwwmm.
+
+50
+00:03:17,460 --> 00:03:21,240
+We don't need to make an account 
+to use Visual Studio, so skip that.
+
+51
+00:03:21,240 --> 00:03:23,580
+And don't bother loading it, we'll open it later.
+
+52
+00:03:23,580 --> 00:03:25,560
+Okay, that's all done now.
+
+53
+00:03:25,560 --> 00:03:27,960
+So in Unity Hub, pick new project.
+
+54
+00:03:27,960 --> 00:03:29,820
+Choose all templates.
+
+55
+00:03:29,819 --> 00:03:31,680
+And use 2D, Core.
+
+56
+00:03:31,680 --> 00:03:36,960
+This is an empty project, with a few 
+configurations to make it suitable for 2D games.
+
+57
+00:03:36,960 --> 00:03:41,219
+Give your project a name, hit 
+create, and let's get game makin'.
+
+58
+00:03:43,259 --> 00:03:48,239
+In step one, we're going to become familiar 
+with the default Unity user interface.
+
+59
+00:03:48,240 --> 00:03:52,500
+And as we explore the different panels, 
+we'll make the bird appear on screen.
+
+60
+00:03:52,500 --> 00:03:53,400
+Right.
+
+61
+00:03:53,400 --> 00:03:58,800
+So this is the default screen layout for 
+Unity, and it's split into four panels.
+
+62
+00:03:59,879 --> 00:04:02,939
+First of all, down here, is the Project panel.
+
+63
+00:04:02,939 --> 00:04:06,719
+This will contain everything that 
+is in our game - like sprites,  
+
+64
+00:04:06,719 --> 00:04:10,859
+sound effects, scripts, tiles, fonts, and so on.
+
+65
+00:04:10,860 --> 00:04:14,460
+Some of this stuff will be 
+made in Unity as we go along.
+
+66
+00:04:14,460 --> 00:04:17,939
+But we can also just drag and drop 
+files from elsewhere on our computer.
+
+67
+00:04:17,939 --> 00:04:21,000
+Like, I've made some sprites for the bird and the  
+
+68
+00:04:21,000 --> 00:04:25,019
+pipe in Photoshop and I'm going to 
+import them into my project like so.
+
+69
+00:04:25,019 --> 00:04:28,079
+I'd recommend you make your own 
+- that's always more fun - but  
+
+70
+00:04:28,079 --> 00:04:32,399
+if you have zero artistic ability then 
+check the description for these assets.
+
+71
+00:04:32,399 --> 00:04:35,039
+The next panel is the hierarchy.
+
+72
+00:04:35,040 --> 00:04:38,939
+This contains all of the stuff 
+that's in the current scene - which,  
+
+73
+00:04:38,939 --> 00:04:40,860
+in most games, will be a level.
+
+74
+00:04:40,860 --> 00:04:45,840
+We're going to start by making the bird, 
+so right click and choose Create Empty.
+
+75
+00:04:45,839 --> 00:04:48,359
+This has made an empty GameObject...
+
+76
+00:04:48,360 --> 00:04:50,280
+so what's that?
+
+77
+00:04:50,279 --> 00:04:53,879
+Well, a GameObject is essentially 
+an invisible container.
+
+78
+00:04:53,879 --> 00:04:57,959
+It has a position in space, 
+a rotation, and a scale.
+
+79
+00:04:57,959 --> 00:05:02,699
+Then, you can fill that container with 
+components - to add extra features.
+
+80
+00:05:02,699 --> 00:05:05,579
+For example, if we add a 
+Sprite Renderer component,  
+
+81
+00:05:05,579 --> 00:05:08,219
+we can slap the bird image onto the GameObject.
+
+82
+00:05:08,220 --> 00:05:13,260
+Absolutely everything in our level will be 
+a GameObject with components - the bird,  
+
+83
+00:05:13,259 --> 00:05:16,439
+the pipes, even the user interface and the camera.
+
+84
+00:05:16,439 --> 00:05:22,680
+All of this magic happens in the third panel, the 
+Inspector - which is for messing with GameObjects.
+
+85
+00:05:22,680 --> 00:05:24,540
+So, once we've selected our new,  
+
+86
+00:05:24,540 --> 00:05:28,980
+empty GameObject we can put a name in 
+the top field - let's call it Bird.
+
+87
+00:05:28,980 --> 00:05:34,860
+And we can see and change the GameObject's 
+position, rotation, and scale, under Transform.
+
+88
+00:05:34,860 --> 00:05:40,560
+We can now press Add Component, pick 
+Rendering, and pick Sprite Renderer.
+
+89
+00:05:40,560 --> 00:05:44,639
+To make this work, we need to fill in 
+the sprite field - so just drag the  
+
+90
+00:05:44,639 --> 00:05:49,620
+bird image from the project panel into 
+the field and viola, we have graphics!
+
+91
+00:05:49,620 --> 00:05:54,540
+That will, of course, show up in the 
+fourth and final panel, the scene view.
+
+92
+00:05:54,540 --> 00:05:57,240
+Here we can see what's in our current scene, and,  
+
+93
+00:05:57,240 --> 00:06:01,560
+if you want, you can use these tools to 
+move stuff around, scale it, and so on.
+
+94
+00:06:01,560 --> 00:06:04,500
+This section has an extra tab for game view,  
+
+95
+00:06:04,500 --> 00:06:08,579
+which shows us what the game will look like 
+from the main camera when it's running.
+
+96
+00:06:08,579 --> 00:06:13,919
+Also, from this dropdown, we can set 
+a resolution or aspect ratio to get  
+
+97
+00:06:13,920 --> 00:06:19,080
+a better idea of what it will look like when 
+played - so I'm going to choose 1920 by 1080.
+
+98
+00:06:19,079 --> 00:06:21,839
+Oof, the bird takes up way too much space.
+
+99
+00:06:21,839 --> 00:06:25,199
+We could scale it down, but let's 
+actually just zoom out the camera.
+
+100
+00:06:25,199 --> 00:06:29,699
+Like I said before, the camera itself 
+is a GameObject in the hierarchy.
+
+101
+00:06:29,699 --> 00:06:33,240
+And it has a camera component 
+with stats we can mess with.
+
+102
+00:06:33,240 --> 00:06:35,879
+By changing the size, we can zoom out.
+
+103
+00:06:36,420 --> 00:06:38,580
+I'm also going to change the background colour.
+
+104
+00:06:38,579 --> 00:06:39,419
+Lovely.
+
+105
+00:06:39,420 --> 00:06:42,780
+We can now press the play 
+button up here to start...
+
+106
+00:06:42,779 --> 00:06:45,299
+the world's most boring game.
+
+107
+00:06:45,300 --> 00:06:47,759
+Okay, let's make it a bit more exciting.
+
+108
+00:06:49,319 --> 00:06:50,699
+A quick recap.
+
+109
+00:06:50,699 --> 00:06:53,399
+Unity has four panels by default.
+
+110
+00:06:53,399 --> 00:06:55,620
+Project holds all the stuff in our game.
+
+111
+00:06:55,620 --> 00:06:59,040
+Hierarchy lists all of the 
+GameObjects in the current level.
+
+112
+00:06:59,040 --> 00:07:02,580
+Inspector lets us see and 
+change those GameObjects.
+
+113
+00:07:02,579 --> 00:07:04,740
+And we can see the level in the scene view.
+
+114
+00:07:04,740 --> 00:07:10,800
+And a GameObject is an invisible container that we 
+can fill with components, like a sprite renderer.
+
+115
+00:07:11,579 --> 00:07:15,240
+In step two we're going to use 
+more components to make the bird  
+
+116
+00:07:15,240 --> 00:07:18,180
+into a physics object that is affected by gravity.
+
+117
+00:07:18,180 --> 00:07:20,220
+And then we're going to write some programming  
+
+118
+00:07:20,220 --> 00:07:23,400
+code to make the bird fly up 
+when we press the space bar.
+
+119
+00:07:23,399 --> 00:07:27,779
+So let's add another component 
+to our bird: a Rigidbody 2D.
+
+120
+00:07:27,779 --> 00:07:31,439
+This turns our bird into a 
+physics object, with gravity.
+
+121
+00:07:31,439 --> 00:07:35,579
+So when we hit play, the bird 
+drops, and falls off the screen.
+
+122
+00:07:35,579 --> 00:07:36,599
+Cool.
+
+123
+00:07:36,600 --> 00:07:42,180
+We'll also want this bird to be able to interact 
+with other objects, so let's add a collider.
+
+124
+00:07:42,180 --> 00:07:43,920
+A circle collider 2D.
+
+125
+00:07:43,920 --> 00:07:47,640
+Back in scene view we can see 
+the collider as a green outline.
+
+126
+00:07:47,639 --> 00:07:52,079
+It's a bit off-center for me, so 
+I'll use the offset to move it.
+
+127
+00:07:52,079 --> 00:07:57,599
+And, a little game design trick - if we make 
+the collider a bit smaller than the image,  
+
+128
+00:07:57,600 --> 00:08:01,920
+it will let the player get through pipes 
+even if they juuust touched the edge.
+
+129
+00:08:01,920 --> 00:08:05,220
+It gives the game a bit of leniency 
+and makes it feel more fair.
+
+130
+00:08:05,220 --> 00:08:08,280
+The final thing to add right now: a script.
+
+131
+00:08:08,279 --> 00:08:12,359
+This essentially lets us make our 
+own custom component - but we'll  
+
+132
+00:08:12,360 --> 00:08:14,580
+have to write it ourself using programming code.
+
+133
+00:08:14,579 --> 00:08:17,459
+Choose New Script from the components list.
+
+134
+00:08:17,459 --> 00:08:19,199
+And call it BirdScript.
+
+135
+00:08:19,199 --> 00:08:23,099
+Once it's loaded, double click 
+the script field to open it up.
+
+136
+00:08:23,100 --> 00:08:27,000
+This will open the file in Visual 
+Studio, which we installed earlier.
+
+137
+00:08:27,000 --> 00:08:31,620
+So, welcome to programming! 
+It's not too scary, promise.
+
+138
+00:08:31,620 --> 00:08:32,340
+We'll take it slow.
+
+139
+00:08:32,340 --> 00:08:35,460
+We're writing in C sharp, 
+that's the programming language.
+
+140
+00:08:35,460 --> 00:08:41,340
+And the only thing to worry about right now 
+is these two chunks here: start and update.
+
+141
+00:08:41,340 --> 00:08:46,080
+Start is for any code that will run 
+as soon as this script is enabled.
+
+142
+00:08:46,080 --> 00:08:48,600
+And it runs precisely once.
+
+143
+00:08:48,600 --> 00:08:51,960
+Update runs constantly 
+while the script is enabled.
+
+144
+00:08:51,960 --> 00:08:55,200
+And it will fire off every line 
+of code, every single frame.
+
+145
+00:08:55,200 --> 00:08:57,360
+Over and over and over again.
+
+146
+00:08:58,080 --> 00:09:02,820
+So the main thing we're going to be doing 
+with code right now is - well, if we go back  
+
+147
+00:09:02,820 --> 00:09:08,340
+to Unity - see these numbers and text fields in 
+the components? And how we can change them in  
+
+148
+00:09:08,340 --> 00:09:13,320
+the Unity editor? We're just going to write code 
+to change these stats while the game is running.
+
+149
+00:09:13,320 --> 00:09:16,860
+Just as a dumb example, and 
+we'll delete this in a second.
+
+150
+00:09:16,860 --> 00:09:21,960
+In start, we can type gameObject 
+- that refers to this bit up here.
+
+151
+00:09:22,679 --> 00:09:24,239
+And then a dot.
+
+152
+00:09:24,240 --> 00:09:29,340
+You'll see a list appear, and many of the 
+items refer to stuff back in the Inspector,  
+
+153
+00:09:29,340 --> 00:09:33,360
+like isStatic, tag, layer, and name.
+
+154
+00:09:33,360 --> 00:09:35,159
+So let's pick name.
+
+155
+00:09:35,159 --> 00:09:36,959
+Then write an equals sign.
+
+156
+00:09:38,039 --> 00:09:40,379
+And in quotes, give our bird a name.
+
+157
+00:09:40,379 --> 00:09:44,639
+Finally, we must always use a 
+semi-colon to mark the end of a command.
+
+158
+00:09:45,539 --> 00:09:48,779
+And we must always save the script
+before we go back to Unity.
+
+159
+00:09:48,779 --> 00:09:50,759
+Now, when we run the game...
+
+160
+00:09:50,759 --> 00:09:53,519
+the name of the GameObject has been changed.
+
+161
+00:09:53,519 --> 00:09:54,360
+Nice.
+
+162
+00:09:55,080 --> 00:09:56,400
+Okay, delete that code.
+
+163
+00:09:56,399 --> 00:10:00,360
+That was just for sillies - but it shows 
+us how we can use code to talk to the game.
+
+164
+00:10:00,360 --> 00:10:06,000
+We can write a command by choosing someone to 
+talk to - in this game, the GameObject - and  
+
+165
+00:10:06,000 --> 00:10:12,000
+then a topic of conversation - its name - and 
+then a command - change it to Bob Birdington.
+
+166
+00:10:12,000 --> 00:10:14,159
+We'll be doing this a lot.
+
+167
+00:10:14,879 --> 00:10:16,799
+So what we actually want to do is...
+
+168
+00:10:16,799 --> 00:10:22,439
+in the Rigidbody 2D's component, under info, 
+we'll see a greyed-out field for velocity.
+
+169
+00:10:22,440 --> 00:10:27,120
+And we want to write some code to add upward 
+velocity to the bird to make it fly into the air.
+
+170
+00:10:27,120 --> 00:10:28,320
+The problem is...
+
+171
+00:10:28,320 --> 00:10:33,180
+initially, a script can only talk to the 
+GameObject's top bit and the transform.
+
+172
+00:10:33,179 --> 00:10:37,199
+Right now, this script is completely 
+unaware of the other components.
+
+173
+00:10:37,200 --> 00:10:38,940
+So we need to sort that out first.
+
+174
+00:10:38,940 --> 00:10:42,480
+We need to make a special slot on this script for  
+
+175
+00:10:42,480 --> 00:10:46,379
+a Rigidbody2D - so we can then 
+talk to it and send it commands.
+
+176
+00:10:46,379 --> 00:10:48,360
+This is called a reference.
+
+177
+00:10:48,360 --> 00:10:53,039
+We're going to create the reference up here, 
+between the class name and the start function.
+
+178
+00:10:53,039 --> 00:10:57,839
+We're going to write public 
+Rigidbody2D myRigidbody.
+
+179
+00:11:00,539 --> 00:11:03,599
+So we now have a slot to store a Rigidbody2D.
+
+180
+00:11:03,600 --> 00:11:06,480
+And we have a name that we 
+can refer to - to make sure  
+
+181
+00:11:06,480 --> 00:11:09,360
+we're talking about this specific Rigidbody2D.
+
+182
+00:11:09,360 --> 00:11:13,980
+And because we made it public, it means we 
+can access this slot from outside the script.
+
+183
+00:11:13,980 --> 00:11:15,420
+So, if we save.
+
+184
+00:11:15,419 --> 00:11:21,179
+And go back to Unity, we'll see that the script 
+component now has a field for a Rigidbody2D.
+
+185
+00:11:21,179 --> 00:11:24,779
+We can drag the component 
+into that slot, and viola.
+
+186
+00:11:24,779 --> 00:11:28,740
+We have established a line of communication 
+between the script and the Rigidbody.
+
+187
+00:11:29,340 --> 00:11:31,379
+Okay, back in Visual Studio.
+
+188
+00:11:31,379 --> 00:11:34,439
+In update, we can type myRigidbody.
+
+189
+00:11:34,440 --> 00:11:35,880
+Then dot.
+
+190
+00:11:35,879 --> 00:11:38,279
+And now look at all the things we can talk about.
+
+191
+00:11:38,279 --> 00:11:43,559
+Angular drag, gravity scale, mass - these 
+are all properties on the component.
+
+192
+00:11:43,559 --> 00:11:45,539
+The one we want is velocity.
+
+193
+00:11:45,539 --> 00:11:51,059
+We want to set this to a new number, and so, just 
+like before with the name, we'll write an equals.
+
+194
+00:11:51,059 --> 00:11:55,379
+Now what we're actually writing here 
+is a vector, which is two numbers,  
+
+195
+00:11:55,379 --> 00:11:57,779
+to represent a position in 2D space.
+
+196
+00:11:57,779 --> 00:12:01,620
+And in this case, it's used to represent 
+a direction for the bird to travel.
+
+197
+00:12:01,620 --> 00:12:06,659
+We want the bird to go straight up, so 
+zero, comma one would be a good one.
+
+198
+00:12:06,659 --> 00:12:11,939
+I'm just going to use Vector2.up, which 
+a built-in shorthand for zero comma one.
+
+199
+00:12:11,940 --> 00:12:16,380
+And to give it a bit more power, I'm 
+going to multiply that vector by a number.
+
+200
+00:12:16,379 --> 00:12:19,919
+Say, 10, which should send 
+the bird flying up in the sky.
+
+201
+00:12:19,919 --> 00:12:25,740
+Now, like I said before, any code in update 
+will run, over and over again, every frame.
+
+202
+00:12:25,740 --> 00:12:29,279
+So if we save the script and hit play in Unity...
+
+203
+00:12:29,279 --> 00:12:30,299
+off goes our bird.
+
+204
+00:12:30,299 --> 00:12:31,559
+Bye!!
+
+205
+00:12:31,559 --> 00:12:32,939
+That's not what we want.
+
+206
+00:12:32,940 --> 00:12:35,940
+We want this to only happen when 
+the player hits the space bar.
+
+207
+00:12:35,940 --> 00:12:41,040
+So it's time to use the most fundamental 
+bit of programming code: the if statement.
+
+208
+00:12:41,039 --> 00:12:43,379
+An if statement is like a gate.
+
+209
+00:12:43,379 --> 00:12:48,299
+You can surround some code with a fence, and 
+every frame that code will be completely ignored.
+
+210
+00:12:48,299 --> 00:12:52,379
+Unless, the game meets some specific 
+conditions that are written on the  
+
+211
+00:12:52,379 --> 00:12:56,700
+gate - in which case the gate is open, 
+and the code is read and executed.
+
+212
+00:12:56,700 --> 00:13:00,960
+So we want to say "if the player hits 
+the space bar, then add upward velocity".
+
+213
+00:13:00,960 --> 00:13:01,860
+To do this...
+
+214
+00:13:01,860 --> 00:13:05,220
+we can write if, and then in 
+brackets we can write the condition.
+
+215
+00:13:05,220 --> 00:13:07,980
+This time we're not talking to a component,  
+
+216
+00:13:07,980 --> 00:13:11,759
+we're talking to Unity itself - 
+specifically its input system.
+
+217
+00:13:11,759 --> 00:13:13,319
+So we'll write Input.
+
+218
+00:13:13,860 --> 00:13:18,720
+Then we can pick GetKeyDown, 
+and in brackets, KeyCode.Space.
+
+219
+00:13:18,720 --> 00:13:22,620
+This asks Unity if the space bar 
+has been pressed on this frame.
+
+220
+00:13:22,620 --> 00:13:25,200
+And then we'll finish with equals, equals true.
+
+221
+00:13:25,200 --> 00:13:29,940
+A quick note on equals signs - 
+we use one to make the thing on  
+
+222
+00:13:29,940 --> 00:13:32,220
+the left be the same as the thing on the right.
+
+223
+00:13:32,220 --> 00:13:37,740
+And we use two if we're just checking if the thing 
+on the left is the same as the thing on the right.
+
+224
+00:13:37,740 --> 00:13:38,519
+Cool?
+
+225
+00:13:38,519 --> 00:13:39,179
+Anyway.
+
+226
+00:13:39,179 --> 00:13:40,379
+So this code says...
+
+227
+00:13:40,379 --> 00:13:43,019
+if the space bar has just been pressed, then...
+
+228
+00:13:43,019 --> 00:13:45,779
+and then we'll use curly brackets - these are the  
+
+229
+00:13:45,779 --> 00:13:48,959
+fence in our little analogy - 
+and put the flap code in here.
+
+230
+00:13:50,100 --> 00:13:54,240
+So, now in update - every frame the game 
+will go to the gate and be asked "hey,  
+
+231
+00:13:54,240 --> 00:13:58,680
+has the spacebar just been pressed?" If yes, 
+the code will fire and the bird will flap.
+
+232
+00:13:58,679 --> 00:14:02,759
+If not, it will skip the code in the 
+curly brackets and try again next frame.
+
+233
+00:14:02,759 --> 00:14:05,879
+So - save the script and go back to Unity.
+
+234
+00:14:05,879 --> 00:14:10,439
+We can now hit play and tada: the 
+bird goes up when we press space.
+
+235
+00:14:10,440 --> 00:14:14,460
+We have now created a character 
+and made it react to input.
+
+236
+00:14:14,460 --> 00:14:16,379
+This is a video game.
+
+237
+00:14:16,379 --> 00:14:17,340
+Hooray!
+
+238
+00:14:17,340 --> 00:14:20,220
+However, it feels like trash.
+
+239
+00:14:20,220 --> 00:14:23,940
+The flap isn't right, and it doesn't 
+feel like the original iPhone game.
+
+240
+00:14:23,940 --> 00:14:26,100
+So we could change this number.
+
+241
+00:14:26,100 --> 00:14:27,060
+Save.
+
+242
+00:14:27,059 --> 00:14:28,259
+Open Unity.
+
+243
+00:14:28,259 --> 00:14:29,580
+Run the game.
+
+244
+00:14:29,580 --> 00:14:30,720
+Not quite right.
+
+245
+00:14:30,720 --> 00:14:31,259
+Stop.
+
+246
+00:14:31,259 --> 00:14:32,340
+Change the number.
+
+247
+00:14:32,340 --> 00:14:33,000
+Save.
+
+248
+00:14:33,000 --> 00:14:35,340
+But that's slow and dumb.
+
+249
+00:14:35,340 --> 00:14:36,540
+Let's do something smarter.
+
+250
+00:14:36,539 --> 00:14:39,000
+First, we're going to make a variable.
+
+251
+00:14:39,000 --> 00:14:42,840
+Let's go back to the top of the script 
+and under our reference to the Rigidbody,  
+
+252
+00:14:42,840 --> 00:14:46,320
+let's make a public float called flapstrength.
+
+253
+00:14:46,320 --> 00:14:51,180
+A float is a floating point number - basically 
+a number that can have a decimal place.
+
+254
+00:14:51,179 --> 00:14:57,719
+And then back in our update code, we'll multiply 
+the vector2.up by flapstrength, instead of 10.
+
+255
+00:14:57,720 --> 00:15:03,360
+Now, back in Unity, you'll see that the script 
+component has a new field: flapStrength.
+
+256
+00:15:03,360 --> 00:15:07,320
+And we can change that whenever we 
+want to make the game feel different.
+
+257
+00:15:07,320 --> 00:15:10,680
+We can even change it during the 
+game, but note that anything you  
+
+258
+00:15:10,679 --> 00:15:13,859
+change while the game is running 
+won't save when you press stop.
+
+259
+00:15:13,860 --> 00:15:16,560
+This means you can play with 
+values to your heart's content  
+
+260
+00:15:16,559 --> 00:15:18,659
+without worrying about screwing up your game.
+
+261
+00:15:18,659 --> 00:15:23,279
+So, if we mess with the flapStrength, and 
+also the gravity scale on the Rigidbody,  
+
+262
+00:15:23,279 --> 00:15:25,500
+we'll hopefully get to something that feels good.
+
+263
+00:15:25,500 --> 00:15:29,639
+Ah, changing numbers back and 
+forth: honey, that's game design!
+
+264
+00:15:30,299 --> 00:15:31,439
+Recap time.
+
+265
+00:15:31,440 --> 00:15:36,000
+We can use code to change the properties 
+of a component, while the game is running.
+
+266
+00:15:36,000 --> 00:15:40,200
+A script cannot talk to the other 
+components on the gameobject, by default.
+
+267
+00:15:40,200 --> 00:15:45,000
+You have to make a line of communication by 
+storing a reference to that specific component.
+
+268
+00:15:45,000 --> 00:15:49,860
+We create the reference in code, and then 
+fill it in Unity by dragging and dropping.
+
+269
+00:15:50,399 --> 00:15:54,000
+Code in start runs once, when 
+the script comes into existence.
+
+270
+00:15:54,000 --> 00:15:57,659
+Code in update runs 
+continuously, every single frame.
+
+271
+00:15:57,659 --> 00:16:01,919
+But, we can use if statements to skip 
+some code, unless a condition is met.
+
+272
+00:16:01,919 --> 00:16:04,740
+And we can use public variables to change certain  
+
+273
+00:16:04,740 --> 00:16:07,860
+values in Unity's inspector - 
+even while the game is running.
+
+274
+00:16:09,480 --> 00:16:13,139
+Okay, so the secret to Flappy 
+Bird is that while it looks  
+
+275
+00:16:13,139 --> 00:16:17,340
+like a bird is flapping along through 
+a world of pipes - it's actually not.
+
+276
+00:16:17,340 --> 00:16:21,840
+The bird stays completely still and 
+the pipes move across the screen.
+
+277
+00:16:21,840 --> 00:16:25,620
+So in step three we're going to 
+make pipes spawn into the world,  
+
+278
+00:16:25,620 --> 00:16:28,620
+move across the screen, 
+and then delete themselves.
+
+279
+00:16:28,620 --> 00:16:31,379
+We'll start by making the object we want to spawn.
+
+280
+00:16:31,379 --> 00:16:35,100
+This will be two pipes which move across 
+the screen, from the left to right.
+
+281
+00:16:35,100 --> 00:16:38,220
+Let's make another GameObject called pipe.
+
+282
+00:16:38,220 --> 00:16:41,700
+Put it exactly on the bird for 
+now, to get the sizing right.
+
+283
+00:16:41,700 --> 00:16:46,080
+And then we'll make another object 
+within this one, called top pipe.
+
+284
+00:16:46,080 --> 00:16:49,320
+This is a child of the first GameObject's parent.
+
+285
+00:16:49,320 --> 00:16:52,260
+This way we can nest multiple GameObjects,  
+
+286
+00:16:52,259 --> 00:16:55,080
+and move all of them at once 
+just by moving the parent.
+
+287
+00:16:55,980 --> 00:16:57,659
+So let's repeat what we did for the bird.
+
+288
+00:16:57,659 --> 00:17:00,000
+Add a sprite renderer for the pipe image.
+
+289
+00:17:00,899 --> 00:17:04,440
+And add a collider - a Box Collider 2D, this time.
+
+290
+00:17:04,440 --> 00:17:07,980
+We don't need a RigidBody because it's 
+not going to be affected by physics.
+
+291
+00:17:07,980 --> 00:17:13,440
+We can then move it up above the bird 
+- but keep the X position as zero.
+
+292
+00:17:13,440 --> 00:17:16,559
+Finally, we can duplicate 
+this whole top pipe object.
+
+293
+00:17:16,559 --> 00:17:18,419
+Call it bottom pipe.
+
+294
+00:17:18,420 --> 00:17:22,200
+And flip it upside down by 
+changing the Y scale to minus one.
+
+295
+00:17:22,200 --> 00:17:24,420
+Then move it down below the bird.
+
+296
+00:17:24,420 --> 00:17:31,019
+As you can see, if we mess with the pipe 
+parent GameObject, both pipes move, scale,  
+
+297
+00:17:31,019 --> 00:17:34,500
+and rotate along with it, with 
+the parent as the pivot point.
+
+298
+00:17:34,500 --> 00:17:38,940
+So let's add a script to this parent's 
+object to make it move across the screen.
+
+299
+00:17:40,680 --> 00:17:44,039
+We'll start by creating a variable for moveSpeed.
+
+300
+00:17:44,039 --> 00:17:49,139
+If we give it a number here, it will 
+fill this as the default value in Unity.
+
+301
+00:17:49,140 --> 00:17:50,700
+But we can always change it there, later.
+
+302
+00:17:50,700 --> 00:17:53,759
+Then we'll write code to 
+move the object, in update.
+
+303
+00:17:53,759 --> 00:17:58,500
+Now it would be lovely if we could 
+just type transform.position.x,  
+
+304
+00:17:58,500 --> 00:18:04,799
+and change this number directly - but, no, boo, 
+you have to change the entire Vector in one go.
+
+305
+00:18:04,799 --> 00:18:07,259
+Oh, and this time we're gonna have to use Vector3,  
+
+306
+00:18:07,259 --> 00:18:11,099
+instead of Vector2, because the 
+transform has three numbers.
+
+307
+00:18:11,099 --> 00:18:16,439
+Even though we're making our game in 2D, 
+Unity is still fundamentally a 3D engine  
+
+308
+00:18:16,440 --> 00:18:19,980
+and so it's keeping track of the 
+object's depth with the Z value.
+
+309
+00:18:20,579 --> 00:18:22,079
+So, here's what we'll do.
+
+310
+00:18:22,079 --> 00:18:23,759
+We'll take the current transform.position.
+
+311
+00:18:24,299 --> 00:18:26,159
+And then equals.
+
+312
+00:18:26,160 --> 00:18:30,660
+We want to add to its current position, 
+so write transform.position again.
+
+313
+00:18:30,660 --> 00:18:31,800
+And then plus.
+
+314
+00:18:31,799 --> 00:18:37,319
+And finally, in brackets, we'll 
+do Vector3.left * moveSpeed.
+
+315
+00:18:39,000 --> 00:18:41,430
+Back in Unity, press play and vroooof.
+
+316
+00:18:41,430 --> 00:18:42,660
+That's way too fast.
+
+317
+00:18:42,660 --> 00:18:45,120
+Now, you might think that you could just change  
+
+318
+00:18:45,119 --> 00:18:49,559
+this moveSpeed variable down to 
+a really small number like 0.001.
+
+319
+00:18:49,559 --> 00:18:53,279
+And that will work - but that's 
+not actually the problem here.
+
+320
+00:18:53,279 --> 00:18:56,700
+You see, code in update just 
+runs as often as it can.
+
+321
+00:18:56,700 --> 00:18:58,860
+In fact, if we check the stats in Game view,  
+
+322
+00:18:58,859 --> 00:19:02,099
+we'll see the game is running 
+at over 1,000 frames per second.
+
+323
+00:19:02,099 --> 00:19:04,439
+Heh, sorry PlayStation 5.
+
+324
+00:19:04,440 --> 00:19:07,680
+120 fps? Pfft, that's got nothing on Flappy Bird.
+
+325
+00:19:07,680 --> 00:19:11,880
+And the real problem is that the game may run 
+at different speeds on different computers,  
+
+326
+00:19:11,880 --> 00:19:16,440
+and we don't want the pipe to move 
+faster or slower depending on your rig.
+
+327
+00:19:16,440 --> 00:19:22,440
+Real games have actually made this mistake - 
+in Dark Souls 2, weapon durability was once  
+
+328
+00:19:22,440 --> 00:19:28,920
+tied to frame rate, so your swords would break 
+twice as fast at 60 FPS, compared to 30 FPS.
+
+329
+00:19:29,579 --> 00:19:30,659
+That was a whoopsie.
+
+330
+00:19:30,660 --> 00:19:32,880
+Luckily, it's a pretty easy fix.
+
+331
+00:19:32,880 --> 00:19:35,160
+We just multiply it by Time.deltaTime.
+
+332
+00:19:36,420 --> 00:19:40,440
+This ensures the multiplication happens 
+the same, no matter the frame rate.
+
+333
+00:19:40,440 --> 00:19:44,220
+We didn't need it for the velocity 
+code because physics runs on its  
+
+334
+00:19:44,220 --> 00:19:46,559
+own little clock, but otherwise we will need it.
+
+335
+00:19:46,559 --> 00:19:51,539
+if you want to know more - about this, or anything 
+really, the Unity docs are a good place to check.
+
+336
+00:19:51,539 --> 00:19:53,579
+You'll find info and sample code.
+
+337
+00:19:53,579 --> 00:19:58,259
+Okay, now with that fix in place, our 
+pipe moves smoothly across the screen.
+
+338
+00:19:58,259 --> 00:19:59,400
+Lovely.
+
+339
+00:19:59,400 --> 00:20:03,780
+Next, we want to create a system that 
+will continually spawn new pipes.
+
+340
+00:20:03,779 --> 00:20:09,119
+To start, take the parent GameObject from 
+the hierarchy and drag it into your project.
+
+341
+00:20:09,119 --> 00:20:12,239
+This creates a prefabricated GameObject.
+
+342
+00:20:12,240 --> 00:20:13,500
+Or prefab.
+
+343
+00:20:13,500 --> 00:20:16,980
+This is like a blueprint for a 
+GameObject and we can create new  
+
+344
+00:20:16,980 --> 00:20:21,720
+versions of this entire GameObject- with all 
+its children, components, and properties.
+
+345
+00:20:21,720 --> 00:20:25,559
+Oh, and before we move on, we can delete 
+the original in our hierarchy now.
+
+346
+00:20:25,559 --> 00:20:26,460
+Bye bye.
+
+347
+00:20:26,460 --> 00:20:29,460
+Let's make a new GameObject called Pipe Spawner.
+
+348
+00:20:30,720 --> 00:20:33,180
+We'll put it just to the right of the camera.
+
+349
+00:20:33,180 --> 00:20:35,039
+And we'll make a script for it.
+
+350
+00:20:35,039 --> 00:20:40,200
+The purpose of this script is to spawn new 
+versions of the pipe prefab every few seconds.
+
+351
+00:20:40,200 --> 00:20:42,900
+And because the pipe already 
+has code to move left,  
+
+352
+00:20:42,900 --> 00:20:46,800
+the pipe will automatically move across 
+the screen as soon as it spawns in.
+
+353
+00:20:47,400 --> 00:20:50,880
+We're going to write some code to 
+spawn that prefab we just made.
+
+354
+00:20:50,880 --> 00:20:53,700
+So we'll start by making 
+a reference to the prefab.
+
+355
+00:20:54,420 --> 00:20:58,680
+Up here, we'll type Public GameObject pipe.
+
+356
+00:20:58,680 --> 00:21:03,840
+Then in Unity, we'll use the same drag and 
+drop method to fill the slot, but this time,  
+
+357
+00:21:03,839 --> 00:21:07,919
+instead of a component, we'll drag 
+the prefab from the project panel.
+
+358
+00:21:07,920 --> 00:21:08,700
+Now, 
+
+359
+00:21:08,700 --> 00:21:12,539
+Unity has a nice built-in method 
+for spawning new GameObjects.
+
+360
+00:21:12,539 --> 00:21:15,659
+We'll type Instantiate, 
+and then open the brackets.
+
+361
+00:21:15,660 --> 00:21:19,080
+In here, the command is 
+asking for some extra details.
+
+362
+00:21:19,079 --> 00:21:24,359
+we can actually flip through these to find 
+different, I dunno, recipes? I guess? Number  
+
+363
+00:21:24,359 --> 00:21:28,500
+4 looks good - it will create an object 
+at a specified position and rotation.
+
+364
+00:21:28,500 --> 00:21:31,920
+So, for the GameObject, we can type pipe.
+
+365
+00:21:31,920 --> 00:21:32,759
+For position
+
+366
+00:21:32,759 --> 00:21:37,920
+we can just type transform.position to get the 
+position of the object holding this script.
+
+367
+00:21:37,920 --> 00:21:40,980
+That will make it spawn on top of the spawner.
+
+368
+00:21:40,980 --> 00:21:44,819
+And for rotation, let's just 
+use transform.rotation so,  
+
+369
+00:21:44,819 --> 00:21:46,799
+again, it's the same as the spawner.
+
+370
+00:21:48,299 --> 00:21:51,359
+Let's run it and oh my god, 
+that's not what we want.
+
+371
+00:21:51,359 --> 00:21:54,899
+Spawning works great, but they're 
+coming out every single frame - and  
+
+372
+00:21:54,900 --> 00:21:57,600
+we want them to come out on a 
+nice interval that we can control.
+
+373
+00:21:57,599 --> 00:21:59,759
+So, back to Visual Studio.
+
+374
+00:21:59,759 --> 00:22:03,599
+What we're going to do now is to 
+write some code to make a timer.
+
+375
+00:22:03,599 --> 00:22:06,480
+this will count up for a 
+specified number of seconds,  
+
+376
+00:22:06,480 --> 00:22:09,180
+run some code, and then start the count again.
+
+377
+00:22:09,180 --> 00:22:11,700
+To do this, we'll need to make a couple variables.
+
+378
+00:22:11,700 --> 00:22:15,600
+A spawnRate is how many seconds 
+it should be between spawns.
+
+379
+00:22:15,599 --> 00:22:18,599
+And then a timer is the number that counts up.
+
+380
+00:22:18,599 --> 00:22:22,980
+We can make this one private as we won't be 
+changing it in the editor or anywhere else.
+
+381
+00:22:22,980 --> 00:22:25,680
+In update, we'll do another if statement.
+
+382
+00:22:25,680 --> 00:22:29,400
+This time, if the timer is 
+less than the spawnRate,  
+
+383
+00:22:29,400 --> 00:22:32,460
+then we want to make the timer count up by one.
+
+384
+00:22:32,460 --> 00:22:37,319
+So we'll take the timer as it currently 
+is, and add Time.deltaTime to it.
+
+385
+00:22:37,319 --> 00:22:39,779
+This creates a number that counts up every frame,  
+
+386
+00:22:39,779 --> 00:22:42,599
+and works the same no matter what 
+your computer's frame rate is.
+
+387
+00:22:42,599 --> 00:22:48,480
+We can actually shorten this by changing it to +=, 
+but, don't feel like you need to make your code as  
+
+388
+00:22:48,480 --> 00:22:52,500
+short as humanly possible just to 
+avoid getting sniffy YouTube comments.
+
+389
+00:22:52,500 --> 00:22:57,900
+If timer = timer + is easier to read 
+and grasp, then that's absolutely fine.
+
+390
+00:22:57,900 --> 00:23:01,740
+You can always swap to the other version 
+in the future when you feel more confident.
+
+391
+00:23:01,740 --> 00:23:05,220
+Now, before I said an if statement is like a gate.
+
+392
+00:23:05,220 --> 00:23:08,460
+And we can add another gate 
+to the side of it, with else.
+
+393
+00:23:08,460 --> 00:23:14,519
+This means, if the condition isn't met, then 
+skip the code - and do the code in else, instead.
+
+394
+00:23:14,519 --> 00:23:20,759
+So we'll put the spawn code in here, 
+and also reset the timer to zero.
+
+395
+00:23:20,759 --> 00:23:24,720
+So now, every frame, it asks if the 
+timer is less than the spawn rate.
+
+396
+00:23:24,720 --> 00:23:26,940
+If it is, then count the timer up.
+
+397
+00:23:26,940 --> 00:23:28,500
+If it's not - i.e.
+
+398
+00:23:28,500 --> 00:23:33,420
+the timer has actually met or exceeded the spawn 
+rate, then spawn a pipe and start the timer again.
+
+399
+00:23:33,420 --> 00:23:35,700
+Put this in Unity and - pretty good.
+
+400
+00:23:35,700 --> 00:23:36,720
+I'm happy with that.
+
+401
+00:23:36,720 --> 00:23:38,220
+The only problem is...
+
+402
+00:23:38,220 --> 00:23:41,579
+we have to wait ages for the first pipe to spawn.
+
+403
+00:23:41,579 --> 00:23:44,099
+It would be good if this 
+came out immediately, right?
+
+404
+00:23:44,099 --> 00:23:49,559
+Now, we could copy and paste the spawn code 
+into start, so it happens once in start.
+
+405
+00:23:49,559 --> 00:23:52,079
+And then happens over and over in update.
+
+406
+00:23:52,079 --> 00:23:53,939
+But that's a bad idea.
+
+407
+00:23:53,940 --> 00:23:59,160
+You should generally try to avoid having the 
+same, or even similar code in multiple places.
+
+408
+00:23:59,160 --> 00:24:02,100
+What happens if we want to change how the spawn  
+
+409
+00:24:02,099 --> 00:24:05,099
+works? We'll have to find 
+and change it everywhere.
+
+410
+00:24:05,099 --> 00:24:06,119
+No good.
+
+411
+00:24:06,119 --> 00:24:10,559
+Instead, we can put the spawn code in a new 
+function, and then just run that function.
+
+412
+00:24:10,559 --> 00:24:15,179
+So here, below update - but above 
+the final curly bracket - we'll  
+
+413
+00:24:15,180 --> 00:24:17,880
+make a function called void spawnPipe().
+
+414
+00:24:17,880 --> 00:24:21,420
+And then cut and paste the 
+Instantiate code into there.
+
+415
+00:24:21,420 --> 00:24:26,519
+Now we can just write spawnPipe, with 
+empty brackets, in both update and start.
+
+416
+00:24:26,519 --> 00:24:30,839
+This will run all the code in that 
+function when these lines are executed.
+
+417
+00:24:30,839 --> 00:24:33,959
+And with that done, it will make 
+a pipe as soon as the game begins,  
+
+418
+00:24:33,960 --> 00:24:37,019
+and will make new pipes every 
+time the timer maxes out.
+
+419
+00:24:37,019 --> 00:24:37,799
+Perfect.
+
+420
+00:24:38,759 --> 00:24:44,039
+However - this is a pretty boring game, right? 
+The pipes always come out in the middle.
+
+421
+00:24:44,039 --> 00:24:46,259
+we want them to come out at random heights.
+
+422
+00:24:46,259 --> 00:24:49,079
+So, remember that when we 
+wrote the instantiate code,  
+
+423
+00:24:49,079 --> 00:24:52,980
+we had to pick a position for the object 
+to appear? We'll change that value.
+
+424
+00:24:52,980 --> 00:24:56,940
+Right now the pipes always spawn on 
+the same position as the spawner.
+
+425
+00:24:56,940 --> 00:24:58,920
+We want the X value to be the same...
+
+426
+00:24:58,920 --> 00:25:03,960
+but for Y, we want to pick a random point 
+somewhere above or below the spawner.
+
+427
+00:25:03,960 --> 00:25:08,519
+So let's create a public variable 
+for a heightOffset, maybe 10.
+
+428
+00:25:08,519 --> 00:25:11,460
+And then we'll make a float called lowestPoint.
+
+429
+00:25:11,460 --> 00:25:16,259
+Because we're making this variable inside the 
+function, rather than at the top of the script,  
+
+430
+00:25:16,259 --> 00:25:18,960
+it means it can only be used within the function.
+
+431
+00:25:18,960 --> 00:25:22,200
+But, also, it means we can 
+set it by doing a calculation.
+
+432
+00:25:22,200 --> 00:25:27,660
+so we'll do equals 
+transform.position.y - heightOffset.
+
+433
+00:25:28,740 --> 00:25:33,839
+And then we'll make another one for highestPoint, 
+but this time it's plus heightOffset.
+
+434
+00:25:34,500 --> 00:25:36,599
+That gets us these two numbers.
+
+435
+00:25:37,559 --> 00:25:41,399
+Then we'll replace the transform.position 
+in our Instantiate code.
+
+436
+00:25:41,400 --> 00:25:43,800
+We're gonna write new Vector3,  
+
+437
+00:25:43,799 --> 00:25:47,819
+we have to write that whenever we're 
+specifying our own numbers for a vector.
+
+438
+00:25:47,819 --> 00:25:53,039
+and then in brackets we'll specify the X, 
+Y, and Z values as three different floats.
+
+439
+00:25:53,039 --> 00:25:58,019
+For X, we want this to be the same as the 
+spawner, so we'll do transform.position.x.
+
+440
+00:25:58,019 --> 00:26:00,539
+But for Y, we can do Random.Range.
+
+441
+00:26:01,200 --> 00:26:05,819
+And in the brackets for that, we can supply 
+a minimum and maximum point to pick from.
+
+442
+00:26:05,819 --> 00:26:08,700
+That's lowestPoint and highestPoint.
+
+443
+00:26:09,240 --> 00:26:10,799
+Then a 0 for Z.
+
+444
+00:26:10,799 --> 00:26:12,299
+And close the brackets.
+
+445
+00:26:14,220 --> 00:26:15,420
+Back in Unity....
+
+446
+00:26:15,420 --> 00:26:19,560
+nice! The pipes will spawn 
+anywhere between these two numbers.
+
+447
+00:26:19,559 --> 00:26:21,539
+Oh, one last thing.
+
+448
+00:26:21,539 --> 00:26:25,019
+Every time these pipes spawn 
+they'll appear and move left....
+
+449
+00:26:25,019 --> 00:26:26,220
+forever.
+
+450
+00:26:26,220 --> 00:26:30,120
+Which isn't great practice - they're 
+off screen and doing absolutely nothing,  
+
+451
+00:26:30,119 --> 00:26:32,939
+and yet they're still in memory 
+and running code every frame.
+
+452
+00:26:32,940 --> 00:26:36,299
+And if too many spawn they'll 
+start to spill out the side of  
+
+453
+00:26:36,299 --> 00:26:38,519
+your monitor and make a right mess of your desk.
+
+454
+00:26:38,519 --> 00:26:40,139
+So let's fix that.
+
+455
+00:26:40,140 --> 00:26:43,980
+Now we could make a timer, and 
+delete the pipe after a few seconds.
+
+456
+00:26:43,980 --> 00:26:47,400
+But instead, we'll check 
+the X position of the pipe,  
+
+457
+00:26:47,400 --> 00:26:49,680
+and delete it if it goes past a certain point.
+
+458
+00:26:49,680 --> 00:26:54,779
+We'll borrow the bird to find out the 
+X coordinate of the left of the screen.
+
+459
+00:26:54,779 --> 00:26:56,879
+Looks about minus 45.
+
+460
+00:26:57,660 --> 00:27:01,380
+In the pipe move script, we'll 
+add a float for a deadzone.
+
+461
+00:27:01,980 --> 00:27:02,640
+-45.
+
+462
+00:27:03,599 --> 00:27:09,000
+And then a simple if statement - if 
+transform.position.x is less than deadZone,  
+
+463
+00:27:10,079 --> 00:27:13,019
+then destroy the GameObject 
+that holds this script.
+
+464
+00:27:15,720 --> 00:27:18,839
+Run it in Unity and, bam, they're dead.
+
+465
+00:27:18,839 --> 00:27:22,259
+Let's do one more thing, 
+just as a teachable moment.
+
+466
+00:27:22,259 --> 00:27:28,799
+Just before the destroy line, let's write 
+Debug.Log, and in brackets, Pipe Deleted.
+
+467
+00:27:29,579 --> 00:27:34,259
+Then, back in Unity, you'll see one 
+other panel I skipped during the UI  
+
+468
+00:27:34,259 --> 00:27:37,859
+demo - it's a tab next to project, called console.
+
+469
+00:27:37,859 --> 00:27:39,599
+Then when we run the game...
+
+470
+00:27:39,599 --> 00:27:43,619
+every time a pipe is deleted, our 
+message is sent to the console.
+
+471
+00:27:43,619 --> 00:27:47,519
+This is a wonderfully useful 
+way to debug our code, because  
+
+472
+00:27:47,519 --> 00:27:50,279
+we can find out exactly what the code is up to.
+
+473
+00:27:51,900 --> 00:27:52,800
+Recap time!
+
+474
+00:27:52,799 --> 00:27:55,559
+GameObjects can be turned into prefabs,  
+
+475
+00:27:55,559 --> 00:27:58,980
+by dragging them from the hierarchy, 
+and dropping them into the project.
+
+476
+00:27:58,980 --> 00:28:01,860
+You can then drag these into scenes - I use  
+
+477
+00:28:01,859 --> 00:28:04,679
+prefabs to create levels in 
+my puzzle game, for example.
+
+478
+00:28:04,680 --> 00:28:08,940
+Or you can make a spawner to 
+instantiate new ones during the game.
+
+479
+00:28:08,940 --> 00:28:12,660
+Timers are a great way to make 
+code happen on a certain interval,  
+
+480
+00:28:12,660 --> 00:28:17,400
+but always use Time.deltaTime to keep things 
+consistent across different computers.
+
+481
+00:28:17,400 --> 00:28:22,800
+If statements can have an else gate, to 
+make code fire if the condition is not met.
+
+482
+00:28:22,799 --> 00:28:26,519
+You can also have else if, to 
+make more complicated gates.
+
+483
+00:28:26,519 --> 00:28:30,960
+And you should try to delete GameObjects if 
+they're no longer needed, to free up memory.
+
+484
+00:28:32,400 --> 00:28:35,820
+Okay, our next step is to keep 
+track of the player's score,  
+
+485
+00:28:35,819 --> 00:28:38,579
+and show it to the player on the user interface.
+
+486
+00:28:38,579 --> 00:28:43,379
+Then, we want the score to go up by one, 
+every time the bird goes through the pipes.
+
+487
+00:28:43,380 --> 00:28:47,460
+So, remember that a GameObject doesn't 
+have to be a physical thing in your game  
+
+488
+00:28:47,460 --> 00:28:52,559
+world like a character or an enemy - it 
+can be a completely invisible manager  
+
+489
+00:28:52,559 --> 00:28:56,819
+that's just keeping track of critical 
+data like health, or time, or score.
+
+490
+00:28:56,819 --> 00:29:01,259
+And then, we can make that information 
+visible to the player, using a user interface.
+
+491
+00:29:01,259 --> 00:29:03,599
+So let's start by making the UI.
+
+492
+00:29:03,599 --> 00:29:07,259
+Like everything else, it's a 
+GameObject in the hierarchy.
+
+493
+00:29:07,259 --> 00:29:12,059
+This time go down to UI and pick 
+text - which may be under legacy.
+
+494
+00:29:12,059 --> 00:29:16,679
+We'll need to zoom really far out on 
+the scene view to actually see the UI.
+
+495
+00:29:16,680 --> 00:29:21,660
+To make sure the UI looks the same on every 
+device, we'll pick this new canvas GameObject  
+
+496
+00:29:21,660 --> 00:29:26,759
+and set the canvas scaler component's 
+UI scale to scale with screen size,  
+
+497
+00:29:26,759 --> 00:29:31,140
+and choose a sensible reference 
+resolution - I'm gonna use 1080p again.
+
+498
+00:29:31,140 --> 00:29:33,240
+We can then move our text around.
+
+499
+00:29:33,240 --> 00:29:37,859
+You'll notice that UI has a rect 
+transform, rather than a normal transform.
+
+500
+00:29:37,859 --> 00:29:40,740
+The most important thing to 
+note is that you don't really  
+
+501
+00:29:40,740 --> 00:29:44,700
+want to mess with scale of elements - 
+instead, change the width and height.
+
+502
+00:29:46,259 --> 00:29:50,640
+I'll then increase the font size 
+and set the default text to 0.
+
+503
+00:29:50,640 --> 00:29:53,280
+And then check it all looks nice on the game view.
+
+504
+00:29:53,279 --> 00:29:56,639
+Okay, now we want to make a script 
+that will store the player's score,  
+
+505
+00:29:56,640 --> 00:29:59,820
+and change the number on the UI to that score.
+
+506
+00:29:59,819 --> 00:30:02,939
+We'll make a GameObject called Logic Manager.
+
+507
+00:30:03,960 --> 00:30:05,880
+And we'll give it a script.
+
+508
+00:30:05,880 --> 00:30:10,140
+This script is going to keep track of high 
+level information like the player's score.
+
+509
+00:30:10,140 --> 00:30:13,860
+And it will have various meta-level 
+functions that we can run.
+
+510
+00:30:13,859 --> 00:30:17,519
+So we'll delete start and update, 
+we don't need them in this script.
+
+511
+00:30:17,519 --> 00:30:19,500
+We can always add them back 
+later if we change our mind.
+
+512
+00:30:19,500 --> 00:30:22,019
+We want to store a number for the player's score.
+
+513
+00:30:22,019 --> 00:30:25,980
+This time, we don't want a float 
+because we only ever want round numbers.
+
+514
+00:30:25,980 --> 00:30:28,140
+So let's do an int, instead.
+
+515
+00:30:28,140 --> 00:30:29,400
+That's an integer.
+
+516
+00:30:29,400 --> 00:30:30,360
+No decimal places.
+
+517
+00:30:30,359 --> 00:30:36,839
+And because we want to update the UI text we just 
+made we will, as always, have to make a reference.
+
+518
+00:30:36,839 --> 00:30:37,559
+Except...
+
+519
+00:30:37,559 --> 00:30:40,679
+text doesn't seem to be a thing?
+
+520
+00:30:40,680 --> 00:30:42,180
+Ah, well.
+
+521
+00:30:42,180 --> 00:30:45,900
+By default, a script only loads 
+in the stuff you need for basic  
+
+522
+00:30:45,900 --> 00:30:49,680
+Unity functionality - but if we 
+go up to the top and type using  
+
+523
+00:30:49,680 --> 00:30:56,039
+UnityEngine.UI;, we can now access more 
+functionality - in this case, UI stuff.
+
+524
+00:30:56,039 --> 00:30:58,680
+Now we can make a reference to text.
+
+525
+00:30:59,279 --> 00:31:02,940
+We'll need to drag the text component 
+into this field back in Unity.
+
+526
+00:31:02,940 --> 00:31:07,019
+Because we're referencing a component 
+on another GameObject - the text on the  
+
+527
+00:31:07,019 --> 00:31:11,639
+UI - the best way to do this is to just 
+drag the whole GameObject into our slot.
+
+528
+00:31:11,640 --> 00:31:14,520
+This will automatically find 
+the text component for us.
+
+529
+00:31:14,519 --> 00:31:16,019
+Handy.
+
+530
+00:31:16,019 --> 00:31:17,759
+So now we want to make a function.
+
+531
+00:31:17,759 --> 00:31:19,619
+And we'll call it addScore.
+
+532
+00:31:19,619 --> 00:31:24,959
+And because we're going to run this function 
+from other scripts, we'll set it to public void.
+
+533
+00:31:25,740 --> 00:31:27,839
+This function needs to do two things.
+
+534
+00:31:27,839 --> 00:31:29,939
+Add one to the player's score.
+
+535
+00:31:29,940 --> 00:31:32,039
+Easy enough, we know how to do that now.
+
+536
+00:31:32,039 --> 00:31:35,819
+And change the text on the UI to be this number.
+
+537
+00:31:37,259 --> 00:31:41,640
+Oh, the text box is looking 
+for a string - a sequences  
+
+538
+00:31:41,640 --> 00:31:44,580
+of characters - and our score is an integer.
+
+539
+00:31:44,579 --> 00:31:48,299
+They look identical to us 
+humans, but robots are fussy.
+
+540
+00:31:48,299 --> 00:31:51,720
+Easily fixed, mind you, by adding 
+.toString() to the game score.
+
+541
+00:31:52,799 --> 00:31:58,079
+To make sure this works, let's give ourselves 
+the power to run this function from Unity itself.
+
+542
+00:31:58,079 --> 00:32:02,819
+All we need to do is write ContextMenu, 
+and a name, above the function.
+
+543
+00:32:05,339 --> 00:32:10,139
+Now, in Unity, while the game is running, hit the 
+little dots on this script and pick the function.
+
+544
+00:32:10,799 --> 00:32:14,460
+Nice! This sort of thing comes 
+in real handy for testing.
+
+545
+00:32:15,059 --> 00:32:17,099
+Okay, so now that we know the function runs,  
+
+546
+00:32:17,099 --> 00:32:20,579
+we specifically want to run it when 
+the bird goes between the pipes.
+
+547
+00:32:20,579 --> 00:32:23,220
+And the way to do this is collisions.
+
+548
+00:32:23,220 --> 00:32:28,380
+Now if two objects have colliders, they will 
+bash into each other - in fact, in our game,  
+
+549
+00:32:28,380 --> 00:32:32,040
+the bird will already crash into the pipes 
+because we've added colliders to both.
+
+550
+00:32:32,039 --> 00:32:35,879
+However - you can also have 
+invisible colliders, called triggers.
+
+551
+00:32:35,880 --> 00:32:37,740
+They don't create an actual collision,  
+
+552
+00:32:37,740 --> 00:32:42,000
+but they do let you know that two objects have 
+touched - and you can run code at that moment.
+
+553
+00:32:42,000 --> 00:32:45,720
+So we're going to put a trigger 
+in between the pipes, so we know  
+
+554
+00:32:45,720 --> 00:32:49,740
+that the bird has passed through them.
+And then at that moment, we'll run addScore.
+
+555
+00:32:50,700 --> 00:32:53,160
+Let's open up the prefab for the pipes.
+
+556
+00:32:53,160 --> 00:32:57,300
+We'll make another GameObject called 
+middle - and it needs a box collider.
+
+557
+00:32:57,299 --> 00:32:59,700
+Let's make it this sort of shape.
+
+558
+00:32:59,700 --> 00:33:02,580
+And this time we'll tick the box isTrigger.
+
+559
+00:33:02,579 --> 00:33:06,419
+Finally, let's add a script 
+to this new middle GameObject.
+
+560
+00:33:06,420 --> 00:33:13,259
+Beneath Update, type ontrig, and the autocorrect 
+will help us type out OnTriggerEnter2D.
+
+561
+00:33:13,259 --> 00:33:15,539
+Just press tab to autofill.
+
+562
+00:33:15,539 --> 00:33:19,980
+Anything in this function will run 
+whenever an object first hits the trigger.
+
+563
+00:33:19,980 --> 00:33:24,240
+There's also OnTriggerExit and 
+OnTriggerStay, for future reference.
+
+564
+00:33:24,240 --> 00:33:28,200
+And its in here, that we want to run the 
+addscore function we wrote earlier...
+
+565
+00:33:28,200 --> 00:33:28,620
+except.
+
+566
+00:33:28,619 --> 00:33:29,459
+ah.
+
+567
+00:33:29,460 --> 00:33:32,579
+once again, this script doesn't know 
+about any other scripts in the game,  
+
+568
+00:33:32,579 --> 00:33:34,439
+until we make a reference to it.
+
+569
+00:33:34,440 --> 00:33:38,519
+So we can write public LogicScript logic.
+
+570
+00:33:38,519 --> 00:33:44,099
+But back in Unity, you'll quickly realise 
+that you can't drag the script into this slot.
+
+571
+00:33:44,099 --> 00:33:46,679
+You can't drag it from the project panel - we  
+
+572
+00:33:46,680 --> 00:33:49,980
+can only talk to an instance of a 
+script that lives on a GameObject.
+
+573
+00:33:49,980 --> 00:33:53,700
+But we also can't drag from 
+the scene into the prefab.
+
+574
+00:33:53,700 --> 00:33:57,299
+That's because the pipe doesn't 
+exist in the scene yet, it will  
+
+575
+00:33:57,299 --> 00:34:01,319
+only exist when the game is running, 
+and the spawner starts making pipes.
+
+576
+00:34:01,319 --> 00:34:04,980
+So, instead, we'll need to 
+fill this reference using code.
+
+577
+00:34:04,980 --> 00:34:08,340
+and this needs to happen 
+when the pipe first spawns.
+
+578
+00:34:08,340 --> 00:34:12,000
+To do this, we'll need to help 
+the code find the logic script.
+
+579
+00:34:12,000 --> 00:34:18,420
+To do this, take the Game Logic object, and look 
+at the top of the inspector: you'll see tags.
+
+580
+00:34:18,420 --> 00:34:21,420
+From the drop down, choose add tag.
+
+581
+00:34:21,420 --> 00:34:24,659
+Make a new tag called, say, Logic.
+
+582
+00:34:24,659 --> 00:34:29,159
+And make sure you go back to the 
+GameObject and actually set this new tag.
+
+583
+00:34:29,159 --> 00:34:31,679
+You will forget to do this approximately eight  
+
+584
+00:34:31,679 --> 00:34:34,679
+thousand times in your Unity 
+career, so look forward to that.
+
+585
+00:34:34,679 --> 00:34:37,379
+Now, back in the PipeMiddleScript,  
+
+586
+00:34:37,380 --> 00:34:41,519
+under start we can write logic = 
+GameObject.FindGameObjectWithTag("Logic").
+
+587
+00:34:46,739 --> 00:34:51,659
+this will look for the first GameObject 
+in the hierarchy with the tag, Logic.
+
+588
+00:34:51,659 --> 00:34:54,420
+In our case, there will only 
+ever be one in the scene,  
+
+589
+00:34:54,420 --> 00:34:57,900
+so we know it will always find the 
+right one - but do be mindful of that.
+
+590
+00:34:57,900 --> 00:35:02,280
+And then we can add .GetComponent();
+
+591
+00:35:03,480 --> 00:35:06,119
+So, as soon as a new pipe spawns,  
+
+592
+00:35:06,119 --> 00:35:10,319
+it will look through the hierarchy to 
+find a GameObject with the tag Logic.
+
+593
+00:35:10,320 --> 00:35:13,200
+Then, it will look through 
+that object's components to  
+
+594
+00:35:13,199 --> 00:35:15,419
+find a script of the class LogicScript.
+
+595
+00:35:15,420 --> 00:35:19,019
+And if it finds one, it will 
+put that in our reference slot.
+
+596
+00:35:19,019 --> 00:35:22,739
+It has done the exact same thing as 
+dragging and dropping the component  
+
+597
+00:35:22,739 --> 00:35:27,179
+in the Unity editor - except it has 
+done it instantly, during run time.
+
+598
+00:35:27,179 --> 00:35:28,199
+Excellent.
+
+599
+00:35:28,860 --> 00:35:33,960
+So now, the pipe's middle script can 
+find and talk to the logic script.
+
+600
+00:35:35,400 --> 00:35:39,539
+And if we write logic.addScore, 
+this will run that code.
+
+601
+00:35:40,440 --> 00:35:43,559
+Back in Unity, hit play and 
+if we did everything right,  
+
+602
+00:35:43,559 --> 00:35:47,340
+the score will go up by one 
+when we pass between the pipes.
+
+603
+00:35:47,340 --> 00:35:50,519
+Oh, and just for future proofing and whatnot,  
+
+604
+00:35:50,519 --> 00:35:53,759
+let's make sure that it was 
+actually the bird that went through.
+
+605
+00:35:53,760 --> 00:35:56,160
+We'll do this by putting the bird on a layer,  
+
+606
+00:35:56,159 --> 00:35:59,159
+and checking if the colliding 
+object was on that layer.
+
+607
+00:35:59,159 --> 00:36:05,039
+Go to the bird's GameObject and this time, 
+instead of the tag, we'll change the bird's layer.
+
+608
+00:36:05,039 --> 00:36:10,619
+Make a new one, remember to actually 
+assign it, and make a note of the number.
+
+609
+00:36:10,619 --> 00:36:15,480
+Now, on the pipe's middle script,
+we can add an if statement around addScore,  
+
+610
+00:36:15,480 --> 00:36:20,400
+and check if the collision that just happened 
+was with a GameObject on the bird's layer.
+
+611
+00:36:22,559 --> 00:36:25,739
+One more bit of future proofing, 
+while we're on the subject.
+
+612
+00:36:25,739 --> 00:36:27,479
+Go back to the Logic Script.
+
+613
+00:36:27,480 --> 00:36:34,260
+And, let's take the AddScore function, and in 
+these empty brackets we'll write int scoreToAdd.
+
+614
+00:36:34,260 --> 00:36:38,520
+And then instead of adding 
+one, we'll add scoreToAdd.
+
+615
+00:36:39,239 --> 00:36:44,459
+Then in the pipe middle script, we can 
+write a 1 in the brackets after addScore.
+
+616
+00:36:44,460 --> 00:36:48,119
+Right now this does exactly the 
+same thing as we had before.
+
+617
+00:36:48,119 --> 00:36:50,159
+But, as you can surely guess,  
+
+618
+00:36:50,159 --> 00:36:54,899
+you could later add some other goal in 
+the game that adds, say, 5 to your score.
+
+619
+00:36:54,900 --> 00:36:57,960
+This allows us to make a function more versatile,  
+
+620
+00:36:57,960 --> 00:37:00,659
+as it can be used in different 
+ways, from different places.
+
+621
+00:37:00,659 --> 00:37:03,119
+Part of being a good programmer, I think,  
+
+622
+00:37:03,119 --> 00:37:07,440
+is making stuff less rigid, and 
+keeping it open for future ideas.
+
+623
+00:37:07,440 --> 00:37:12,000
+This makes it easier and faster 
+to iterate on your designs.
+
+624
+00:37:12,659 --> 00:37:14,039
+Right! Recap!
+
+625
+00:37:14,039 --> 00:37:18,059
+UI is just another GameObject, 
+but if we want to reference any of  
+
+626
+00:37:18,059 --> 00:37:22,920
+these components we'll need to add using 
+UnityEngine.UI to the top of the script.
+
+627
+00:37:22,920 --> 00:37:25,680
+GameObjects can be completely invisible things,  
+
+628
+00:37:25,679 --> 00:37:29,759
+merely there to keep track of 
+rules, logic, score, and so on.
+
+629
+00:37:29,760 --> 00:37:34,080
+If we want to a reference a component when 
+one of the GameObjects is not in the scene,  
+
+630
+00:37:34,079 --> 00:37:36,659
+we'll need to find that component during run time.
+
+631
+00:37:36,659 --> 00:37:42,299
+One way to do this is to use tags, 
+findGameObject, and GetComponent.
+
+632
+00:37:42,300 --> 00:37:47,580
+A public function can be run from another script, 
+as long as you have a reference to that script.
+
+633
+00:37:47,579 --> 00:37:50,940
+And we can even pass in variables 
+when that function runs.
+
+634
+00:37:50,940 --> 00:37:55,679
+And Collisions and triggers can be used to 
+make stuff happen when two objects touch.
+
+635
+00:37:56,579 --> 00:37:59,400
+Speaking of collisions, let's 
+move on to the next step...
+
+636
+00:38:01,019 --> 00:38:03,960
+The final step is to add a fail state.
+
+637
+00:38:03,960 --> 00:38:06,900
+When the bird hits the pipes, the game is over.
+
+638
+00:38:06,900 --> 00:38:12,119
+We'll do this by making a game over screen, and 
+have it appear when the bird crashes into a pipe.
+
+639
+00:38:12,119 --> 00:38:16,319
+The game over screen will have a button, 
+which we can use to reset the game.
+
+640
+00:38:16,980 --> 00:38:19,260
+First, let's make that game over screen.
+
+641
+00:38:19,260 --> 00:38:23,580
+On the canvas GameObject, add a new 
+empty one called game over screen.
+
+642
+00:38:25,019 --> 00:38:28,440
+Then, in that parent, add a text for game over.
+
+643
+00:38:30,960 --> 00:38:34,559
+And also a a button - that's also under legacy.
+
+644
+00:38:34,559 --> 00:38:35,940
+Resize it.
+
+645
+00:38:35,940 --> 00:38:41,579
+And change the text on the button - the text 
+can be found as a child on the button itself.
+
+646
+00:38:43,440 --> 00:38:50,340
+So back on the button GameObject, on the button 
+component, you'll see this bit that says On Click.
+
+647
+00:38:50,340 --> 00:38:55,500
+This is an event, and it allows us to 
+call a public function on a GameObject.
+
+648
+00:38:55,500 --> 00:38:58,679
+So let's make a function for restarting the level.
+
+649
+00:38:59,519 --> 00:39:04,199
+We can put this code in the logic 
+script, underneath our addScore function.
+
+650
+00:39:04,199 --> 00:39:08,579
+You could make a seperate script if 
+you want, but I think this is fine.
+
+651
+00:39:08,579 --> 00:39:12,059
+Let's make another public 
+function called restartGame,  
+
+652
+00:39:12,059 --> 00:39:15,059
+and in here we'll write code to restart the scene.
+
+653
+00:39:15,059 --> 00:39:18,659
+Just like before with the UI, 
+if we're managing scenes then  
+
+654
+00:39:18,659 --> 00:39:22,559
+we'll need to add a line the top - this 
+time, using UnityEngine.SceneManagment.
+
+655
+00:39:23,940 --> 00:39:29,460
+Now in our function, we'll call up the 
+SceneManager and then, dot, LoadScene.
+
+656
+00:39:29,460 --> 00:39:31,800
+This is looking for the name of a scene.
+
+657
+00:39:31,800 --> 00:39:33,300
+Literally the filename.
+
+658
+00:39:33,300 --> 00:39:34,920
+But because we want the current scene  
+
+659
+00:39:34,920 --> 00:39:40,740
+we can simply type SceneManager dot 
+GetActiveScene, brackets, dot name.
+
+660
+00:39:40,739 --> 00:39:42,719
+Close off all the brackets.
+
+661
+00:39:44,579 --> 00:39:48,000
+Now back in Unity, add an event to this button.
+
+662
+00:39:48,960 --> 00:39:51,119
+Then drag in the logic GameObject.
+
+663
+00:39:51,119 --> 00:39:53,339
+and find the restartGame function.
+
+664
+00:39:57,300 --> 00:39:58,620
+Give it a test and...
+
+665
+00:39:58,619 --> 00:39:59,579
+nice.
+
+666
+00:39:59,579 --> 00:40:02,579
+Every time we press the 
+button, the game begins anew.
+
+667
+00:40:02,579 --> 00:40:06,900
+Now obviously we don't want this to be on 
+the screen all the time - just when we fail.
+
+668
+00:40:06,900 --> 00:40:12,000
+So, we can just take the whole game over screen 
+GameObject and disable it with this checkmark.
+
+669
+00:40:13,380 --> 00:40:16,260
+Then we'll make it show up when 
+the bird hits into the pipes.
+
+670
+00:40:16,260 --> 00:40:18,300
+Let's write the function first.
+
+671
+00:40:18,300 --> 00:40:22,620
+Again in the logic script, let's 
+make a public function for gameOver.
+
+672
+00:40:22,619 --> 00:40:26,339
+We'll need to make a reference to 
+the game over screen GameObject.
+
+673
+00:40:27,900 --> 00:40:29,880
+And fill it in Unity.
+
+674
+00:40:31,500 --> 00:40:37,260
+And then we can simply type 
+gameoverscreen.SetActive true in this function.
+
+675
+00:40:38,820 --> 00:40:42,300
+So we want this function to trigger 
+when the bird crashes into a pipe.
+
+676
+00:40:42,300 --> 00:40:46,740
+Back on the bird script, let's 
+reuse that code from before to  
+
+677
+00:40:46,739 --> 00:40:49,679
+access the logic script from the bird script.
+
+678
+00:40:49,679 --> 00:40:53,940
+Yes, we could drag and drop the reference in 
+Unity, but hey, we've written this code now.
+
+679
+00:40:53,940 --> 00:40:58,200
+And then we're going to do a similar thing 
+to the trigger code, but this time we'll use  
+
+680
+00:40:58,199 --> 00:41:03,359
+OnCollisionEnter2D, because the pipes are 
+solid objects, and not set to be triggers.
+
+681
+00:41:03,360 --> 00:41:08,220
+And when that collision occurs, trigger 
+the game over script with logic.gameOver.
+
+682
+00:41:09,780 --> 00:41:10,920
+Back in Unity...
+
+683
+00:41:10,920 --> 00:41:15,240
+it kind of works, but we can still 
+play in the game over screen.
+
+684
+00:41:15,239 --> 00:41:16,439
+Not ideal.
+
+685
+00:41:16,440 --> 00:41:20,280
+So, I've talked about a few 
+key variable types, already.
+
+686
+00:41:20,280 --> 00:41:22,980
+Floats and ints are numbers.
+
+687
+00:41:22,980 --> 00:41:25,920
+And string is usually for text.
+
+688
+00:41:25,920 --> 00:41:29,760
+The other important one is 
+a bool, short for boolean.
+
+689
+00:41:29,760 --> 00:41:33,960
+This is a really simple type 
+that is either true, or false.
+
+690
+00:41:33,960 --> 00:41:34,740
+On, or off.
+
+691
+00:41:34,739 --> 00:41:35,339
+Yes, or no.
+
+692
+00:41:35,340 --> 00:41:38,340
+It's a great way to simply check 
+or change something's state.
+
+693
+00:41:38,940 --> 00:41:44,159
+So let's have a bool called birdisalive, 
+and make sure it starts as true.
+
+694
+00:41:44,159 --> 00:41:49,079
+Then when the collision happens, 
+we'll set birdisalive to false.
+
+695
+00:41:49,079 --> 00:41:53,579
+And finally, we'll add an extra 
+condition to our very first if statement.
+
+696
+00:41:53,579 --> 00:41:57,539
+We're going to say if the space 
+bar has just been pressed and...
+
+697
+00:41:57,539 --> 00:41:59,460
+written with two ampersands...
+
+698
+00:41:59,460 --> 00:42:02,220
+and birdisalive is equal to true.
+
+699
+00:42:02,219 --> 00:42:05,579
+Actually, we don't need to add 
+this equals equals true thing.
+
+700
+00:42:05,579 --> 00:42:07,259
+It does the exact same thing without it.
+
+701
+00:42:07,260 --> 00:42:11,400
+But, again, it's up to you - maybe it's easier 
+to read this with the full code written out.
+
+702
+00:42:11,400 --> 00:42:17,039
+Anyway, now, the bird won't flap if it's 
+dead, which seems quite logical to me.
+
+703
+00:42:17,039 --> 00:42:19,679
+The final thing to do is to build the game.
+
+704
+00:42:19,679 --> 00:42:23,099
+Which is really easy.
+Pick file, build settings, and build.
+
+705
+00:42:23,099 --> 00:42:24,839
+Pick a folder on your hard drive.
+
+706
+00:42:24,840 --> 00:42:26,519
+And let Unity do its work.
+
+707
+00:42:26,519 --> 00:42:31,500
+Then you can open this file 
+to play your game! Amazing.
+
+708
+00:42:31,500 --> 00:42:35,400
+In a very short period of time, we 
+have made a pretty functional game.
+
+709
+00:42:35,400 --> 00:42:39,960
+And what’s more, we’ve learned loads 
+of fundamental lessons about Unity.
+
+710
+00:42:39,960 --> 00:42:43,260
+We have made a character that 
+moves in response to our input.
+
+711
+00:42:43,260 --> 00:42:46,020
+We have spawned in new objects on a timer.
+
+712
+00:42:46,019 --> 00:42:51,420
+We have created a UI that shows a score, and 
+made that score tick up when conditions are met.
+
+713
+00:42:51,420 --> 00:42:54,780
+And we've got the ability to get 
+a game over, and start again.
+
+714
+00:42:54,780 --> 00:42:57,480
+Now, I should note that there are different - and  
+
+715
+00:42:57,480 --> 00:43:01,019
+perhaps better ways to do pretty 
+much everything in this tutorial.
+
+716
+00:43:01,019 --> 00:43:04,619
+For example - I used Unity's 
+old way of checking for inputs,  
+
+717
+00:43:04,619 --> 00:43:08,279
+and the company has since developed 
+a much, much better Input System.
+
+718
+00:43:08,280 --> 00:43:12,840
+But it's a lot more complicated to use - 
+so this simple method is great for now,  
+
+719
+00:43:12,840 --> 00:43:17,460
+and you can look into the new input system later 
+down the line, when you feel more confident.
+
+720
+00:43:17,460 --> 00:43:19,019
+That's how it went for me.
+
+721
+00:43:19,019 --> 00:43:23,579
+There's also TextMeshPro, which 
+has replaced the old legacy UI  
+
+722
+00:43:23,579 --> 00:43:27,059
+system - so you'll want to graduate 
+to that, at some point, as well.
+
+723
+00:43:27,059 --> 00:43:31,380
+Anyway, these are lessons that will be useful,
+for making all sorts of games.
+
+724
+00:43:31,380 --> 00:43:32,340
+But...
+
+725
+00:43:32,340 --> 00:43:34,740
+the game isn't quite finished yet.
+
+726
+00:43:34,739 --> 00:43:36,719
+There's still a few more things to figure out.
+
+727
+00:43:36,719 --> 00:43:39,000
+Though, I don't want to tell 
+you how to do everything.
+
+728
+00:43:39,000 --> 00:43:41,880
+So i'm gonna give you some suggestions 
+for how to finish up the game,  
+
+729
+00:43:41,880 --> 00:43:43,860
+but I want you to try and 
+figure it out for yourself.
+
+730
+00:43:43,860 --> 00:43:48,360
+So first of all, we need to have a game 
+over if the bird goes off the screen.
+
+731
+00:43:48,360 --> 00:43:49,740
+That shouldn't be too hard.
+
+732
+00:43:49,739 --> 00:43:53,519
+There's also a bug where the score 
+can go up, even after a game over.
+
+733
+00:43:53,519 --> 00:43:55,019
+Try to solve that one too.
+
+734
+00:43:55,019 --> 00:43:57,119
+We also want sound effects.
+
+735
+00:43:57,119 --> 00:44:00,299
+I want you to add an Audio Source 
+component to the logic manager.
+
+736
+00:44:00,300 --> 00:44:02,039
+fill it with a sound effect file.
+
+737
+00:44:02,039 --> 00:44:03,480
+Reference it on the script.
+
+738
+00:44:03,480 --> 00:44:05,699
+And have it play when the score goes up.
+
+739
+00:44:05,699 --> 00:44:11,219
+Then, i want you to play around with the particle 
+system to make clouds appear in the game.
+
+740
+00:44:11,219 --> 00:44:15,599
+Next, open the animation window, and 
+add some flapping wings to the bird.
+
+741
+00:44:15,599 --> 00:44:19,319
+Then i want you to add another 
+scene to make a title screen,  
+
+742
+00:44:19,320 --> 00:44:21,780
+so the game doesn't immediately 
+launch into the action.
+
+743
+00:44:21,780 --> 00:44:25,740
+Here's a clue: you'll need to add this 
+new scene to the build settings window.
+
+744
+00:44:25,739 --> 00:44:31,139
+And finally, if you want a real 
+challenge - use PlayerPrefs to  
+
+745
+00:44:31,139 --> 00:44:35,400
+save the player's high score to the hard 
+drive, and draw that on the UI as well.
+
+746
+00:44:35,400 --> 00:44:40,619
+For each one of these, you will probably want to 
+Google the relevant terms, read the Unity docs,  
+
+747
+00:44:40,619 --> 00:44:45,119
+watch some quick tutorial videos, or 
+ask for help in the comments down below.
+
+748
+00:44:45,119 --> 00:44:47,880
+Next, you could expand on Flappy Bird.
+
+749
+00:44:47,880 --> 00:44:53,280
+Get creative and add in ideas or designs that 
+weren't there in the original iPhone game.
+
+750
+00:44:53,280 --> 00:44:56,940
+For example, with a little messing 
+around I gave the bird the ability  
+
+751
+00:44:56,940 --> 00:45:00,480
+to shoot out a missile, and then 
+I added targets to the pipes.
+
+752
+00:45:00,480 --> 00:45:04,619
+You've now got to hit the target with a 
+missile to open a gap you can flap through.
+
+753
+00:45:04,619 --> 00:45:07,500
+It's pretty cool, and adds a lot 
+more depth to the simple game.
+
+754
+00:45:07,500 --> 00:45:10,920
+In fact, I'd love to see how you 
+might expand on the original game.
+
+755
+00:45:10,920 --> 00:45:15,059
+If you make something interesting, record 
+a bit of footage, pop it on YouTube,  
+
+756
+00:45:15,059 --> 00:45:17,159
+and drop a link in the comments.
+
+757
+00:45:17,159 --> 00:45:19,199
+I might feature some of them in the future.
+
+758
+00:45:19,199 --> 00:45:22,859
+And then, finally, I'd recommend that 
+you take another simple game and try  
+
+759
+00:45:22,860 --> 00:45:25,680
+to remake it in Unity, like we just did right now.
+
+760
+00:45:25,679 --> 00:45:30,599
+This is a great technique because you 
+don't have to worry about art or design...
+
+761
+00:45:30,599 --> 00:45:31,619
+just code.
+
+762
+00:45:31,619 --> 00:45:36,179
+And the problem-solving puzzles you'll face are
+a perfect example of
+
+763
+00:45:36,179 --> 00:45:38,279
+what real game development will be like.
+
+764
+00:45:38,280 --> 00:45:45,720
+Good candidates for this include Pong, Space 
+Invaders, Breakout, Pop the Lock, Angry Birds,
+
+765
+00:45:45,719 --> 00:45:48,119
+various WarioWare mini games,  
+
+766
+00:45:48,119 --> 00:45:51,779
+and that dinosaur game that plays 
+in Chrome if your internet's broken.
+
+767
+00:45:51,780 --> 00:45:53,940
+So, in this video I wanted to teach  
+
+768
+00:45:53,940 --> 00:45:58,679
+you the fundamental concepts behind 
+Unity - but, the rest is up to you.
+
+769
+00:45:58,679 --> 00:46:02,519
+Luckily, I reckon this sort 
+of hands-on, self-directed,  
+
+770
+00:46:02,519 --> 00:46:08,579
+learn from your mistakes style of learning is the 
+most fun and effective way to make stuff stick.
+
+771
+00:46:08,579 --> 00:46:10,380
+But we’ll see!
+
+772
+00:46:10,380 --> 00:46:13,380
+Let me know how you got on 
+in the comments down below.
+
+773
+00:46:13,380 --> 00:46:16,320
+And if you want to watch my 
+game development story - which  
+
+774
+00:46:16,320 --> 00:46:22,140
+is still ongoing, promise - then click 
+here, for episode one of Developing.
+
+775
+00:46:22,139 --> 00:46:24,599
+Thanks very much to my Patrons 
+- they're the reason you don't  
+
+776
+00:46:24,599 --> 00:46:28,079
+get mid-roll ads in a looong video like this one.
+
+777
+00:46:28,079 --> 00:46:30,539
+You can help support GMTK at Patreon.com.
+

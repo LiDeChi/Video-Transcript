@@ -1,0 +1,1380 @@
+1
+00:00:00,060 --> 00:00:06,559
+well
+
+2
+00:00:01,800 --> 00:00:06,559
+the short talk is this
+
+3
+00:00:07,559 --> 00:00:12,599
+I did a lot of math
+
+4
+00:00:10,380 --> 00:00:15,540
+I made a lot of money
+
+5
+00:00:12,599 --> 00:00:19,140
+and I gave almost all of it away
+
+6
+00:00:15,539 --> 00:00:22,379
+that's the story of my life now
+
+7
+00:00:19,140 --> 00:00:23,820
+it's a good story but it's short
+
+8
+00:00:22,379 --> 00:00:26,460
+so
+
+9
+00:00:23,820 --> 00:00:30,179
+when I was a little boy
+
+10
+00:00:26,460 --> 00:00:32,820
+I uh I liked math in the sense that I
+
+11
+00:00:30,179 --> 00:00:34,558
+like to when I was three or four or
+
+12
+00:00:32,820 --> 00:00:38,399
+something like that double the numbers
+
+13
+00:00:34,558 --> 00:00:39,238
+to 4 8 16 32 episode
+
+14
+00:00:38,399 --> 00:00:42,660
+Etc
+
+15
+00:00:39,238 --> 00:00:46,979
+I got up to a thousand and twenty four
+
+16
+00:00:42,659 --> 00:00:49,439
+and I said enough of that but uh but I I
+
+17
+00:00:46,979 --> 00:00:52,378
+like doubling numbers
+
+18
+00:00:49,439 --> 00:00:56,238
+and uh
+
+19
+00:00:52,378 --> 00:01:00,238
+when I was a little boy also
+
+20
+00:00:56,238 --> 00:01:03,780
+I was in my father's my father was
+
+21
+00:01:00,238 --> 00:01:07,560
+driving me and he said he has to
+
+22
+00:01:03,780 --> 00:01:09,960
+go to a gas station and get gasoline I
+
+23
+00:01:07,560 --> 00:01:10,978
+said why do you need to get gasoline he
+
+24
+00:01:09,959 --> 00:01:13,618
+says well
+
+25
+00:01:10,978 --> 00:01:16,140
+a car needs gasoline I said but you
+
+26
+00:01:13,618 --> 00:01:18,780
+shouldn't need to have to get gasoline
+
+27
+00:01:16,140 --> 00:01:22,259
+you could just use half of what you now
+
+28
+00:01:18,780 --> 00:01:24,000
+have and then half of that and half of
+
+29
+00:01:22,259 --> 00:01:26,519
+that and half of that and you'll never
+
+30
+00:01:24,000 --> 00:01:29,459
+run out of gas
+
+31
+00:01:26,519 --> 00:01:30,359
+without what's called Zeno's Paradox but
+
+32
+00:01:29,459 --> 00:01:32,399
+uh
+
+33
+00:01:30,359 --> 00:01:36,118
+because it didn't occur to me that we
+
+34
+00:01:32,400 --> 00:01:38,400
+wouldn't get very far either but uh
+
+35
+00:01:36,118 --> 00:01:44,219
+there there it was
+
+36
+00:01:38,400 --> 00:01:46,560
+but I did always always like math and uh
+
+37
+00:01:44,219 --> 00:01:48,420
+I went to MIT
+
+38
+00:01:46,560 --> 00:01:51,359
+and uh
+
+39
+00:01:48,420 --> 00:01:52,978
+I took a graduate course right in my
+
+40
+00:01:51,359 --> 00:01:55,859
+freshman year
+
+41
+00:01:52,978 --> 00:01:57,658
+which uh was puzzling to me it was
+
+42
+00:01:55,859 --> 00:01:59,359
+abstract algebra
+
+43
+00:01:57,659 --> 00:02:02,880
+but during this
+
+44
+00:01:59,359 --> 00:02:06,840
+summer I figured it all out I got a book
+
+45
+00:02:02,879 --> 00:02:08,459
+I figured it all out and and then took a
+
+46
+00:02:06,840 --> 00:02:11,219
+lot of math courses
+
+47
+00:02:08,459 --> 00:02:12,180
+at MIT
+
+48
+00:02:11,219 --> 00:02:14,699
+um
+
+49
+00:02:12,180 --> 00:02:19,620
+and uh
+
+50
+00:02:14,699 --> 00:02:23,039
+well the field that I really liked
+
+51
+00:02:19,620 --> 00:02:24,959
+was called differential geometry
+
+52
+00:02:23,039 --> 00:02:28,159
+how many of you have ever heard of
+
+53
+00:02:24,959 --> 00:02:28,159
+differential geometry
+
+54
+00:02:28,378 --> 00:02:31,500
+okay
+
+55
+00:02:29,759 --> 00:02:34,019
+the old folks know about different
+
+56
+00:02:31,500 --> 00:02:38,580
+geometry well differential geometry is a
+
+57
+00:02:34,020 --> 00:02:40,560
+study of curved spaces in in many
+
+58
+00:02:38,580 --> 00:02:43,560
+dimensions
+
+59
+00:02:40,560 --> 00:02:46,080
+with typically with a metric on it so
+
+60
+00:02:43,560 --> 00:02:47,459
+you can see how far apart any two points
+
+61
+00:02:46,080 --> 00:02:51,599
+would would be
+
+62
+00:02:47,459 --> 00:02:53,939
+and uh I really like that field
+
+63
+00:02:51,598 --> 00:02:55,500
+and well
+
+64
+00:02:53,939 --> 00:02:59,098
+um
+
+65
+00:02:55,500 --> 00:03:03,840
+I went to Berkeley
+
+66
+00:02:59,098 --> 00:03:05,878
+I forgot my well I I graduated MIT in
+
+67
+00:03:03,840 --> 00:03:06,959
+three years so I stayed as a graduate
+
+68
+00:03:05,878 --> 00:03:08,579
+student
+
+69
+00:03:06,959 --> 00:03:11,459
+for a year
+
+70
+00:03:08,580 --> 00:03:14,400
+and then they told me
+
+71
+00:03:11,459 --> 00:03:16,019
+you should go to Berkeley and I said why
+
+72
+00:03:14,400 --> 00:03:18,539
+why should I go to Berkeley they said
+
+73
+00:03:16,019 --> 00:03:20,759
+well the great man in your field
+
+74
+00:03:18,539 --> 00:03:23,098
+differential geometry
+
+75
+00:03:20,759 --> 00:03:25,560
+a man named chern
+
+76
+00:03:23,098 --> 00:03:28,439
+is just going to Berkeley
+
+77
+00:03:25,560 --> 00:03:32,300
+and you should work under churn
+
+78
+00:03:28,439 --> 00:03:35,280
+so I said okay so I went out to Berkeley
+
+79
+00:03:32,300 --> 00:03:38,640
+regrettably uh churn
+
+80
+00:03:35,280 --> 00:03:41,519
+was taking a sabbatical leave that year
+
+81
+00:03:38,639 --> 00:03:43,378
+and so he wasn't there so I worked with
+
+82
+00:03:41,519 --> 00:03:44,658
+someone else and that that worked out
+
+83
+00:03:43,378 --> 00:03:47,818
+fine
+
+84
+00:03:44,658 --> 00:03:50,598
+uh it was interesting
+
+85
+00:03:47,818 --> 00:03:53,219
+uh working with this guy
+
+86
+00:03:50,598 --> 00:03:54,658
+I came up with a little theorem and I
+
+87
+00:03:53,219 --> 00:03:57,419
+showed it to him
+
+88
+00:03:54,658 --> 00:03:58,439
+and he said oh that's a nice little
+
+89
+00:03:57,419 --> 00:04:00,419
+theorem
+
+90
+00:03:58,439 --> 00:04:03,719
+it puts in mind
+
+91
+00:04:00,419 --> 00:04:06,000
+an open question which I won't
+
+92
+00:04:03,719 --> 00:04:09,180
+really describe to you
+
+93
+00:04:06,000 --> 00:04:12,799
+but uh but don't work on that question I
+
+94
+00:04:09,180 --> 00:04:15,719
+said why he said because it's too tough
+
+95
+00:04:12,799 --> 00:04:17,759
+this this one worked on it and tried and
+
+96
+00:04:15,719 --> 00:04:20,459
+that one worked on it and tried
+
+97
+00:04:17,759 --> 00:04:24,240
+well of course that just sort of got me
+
+98
+00:04:20,459 --> 00:04:29,160
+going and uh I said okay but I I'm going
+
+99
+00:04:24,240 --> 00:04:32,100
+to work in this problem and uh well uh
+
+100
+00:04:29,160 --> 00:04:35,699
+I did and I solved the problem
+
+101
+00:04:32,100 --> 00:04:37,979
+and I was very pleased with myself
+
+102
+00:04:35,699 --> 00:04:42,720
+and uh
+
+103
+00:04:37,978 --> 00:04:47,219
+went back to teach at MIT and Harvard
+
+104
+00:04:42,720 --> 00:04:51,000
+but for reasons which I won't go into
+
+105
+00:04:47,220 --> 00:04:54,900
+I uh I needed money
+
+106
+00:04:51,000 --> 00:04:58,279
+and I had borrowed money to invest in a
+
+107
+00:04:54,899 --> 00:05:02,698
+company with some friends of mine
+
+108
+00:04:58,279 --> 00:05:05,279
+and I need needed to pay it back
+
+109
+00:05:02,699 --> 00:05:07,620
+but there was a place in Princeton
+
+110
+00:05:05,279 --> 00:05:09,779
+called The Institute for defense
+
+111
+00:05:07,620 --> 00:05:11,780
+analyzes
+
+112
+00:05:09,779 --> 00:05:15,258
+which was a highly
+
+113
+00:05:11,779 --> 00:05:19,859
+classified place
+
+114
+00:05:15,259 --> 00:05:22,800
+under the Aegis of the government the
+
+115
+00:05:19,860 --> 00:05:24,180
+defense department and what we're
+
+116
+00:05:22,800 --> 00:05:28,439
+supposed to do
+
+117
+00:05:24,180 --> 00:05:31,620
+is uh break Russian codes
+
+118
+00:05:28,439 --> 00:05:33,478
+well that was an interesting challenge
+
+119
+00:05:31,620 --> 00:05:36,120
+uh
+
+120
+00:05:33,478 --> 00:05:39,379
+I like the work
+
+121
+00:05:36,120 --> 00:05:42,538
+they told us you could do your own
+
+122
+00:05:39,379 --> 00:05:45,060
+mathematics up to half your time the
+
+123
+00:05:42,538 --> 00:05:47,339
+other half you had to do you know this
+
+124
+00:05:45,060 --> 00:05:50,579
+cold cracking business
+
+125
+00:05:47,339 --> 00:05:52,560
+and well uh
+
+126
+00:05:50,579 --> 00:05:56,279
+during that period
+
+127
+00:05:52,560 --> 00:06:00,660
+I was very interested in an area of
+
+128
+00:05:56,279 --> 00:06:02,638
+mathematics called minimal surfaces does
+
+129
+00:06:00,660 --> 00:06:04,880
+any of you know what a minimal surface
+
+130
+00:06:02,639 --> 00:06:04,879
+is
+
+131
+00:06:05,038 --> 00:06:10,800
+well someone must know what a minimal
+
+132
+00:06:07,319 --> 00:06:14,279
+surface is okay so a minimal surface is
+
+133
+00:06:10,800 --> 00:06:16,379
+a surface of minimal area with respect
+
+134
+00:06:14,279 --> 00:06:20,179
+to its boundary
+
+135
+00:06:16,379 --> 00:06:22,439
+so imagine taking a wire frame just a
+
+136
+00:06:20,180 --> 00:06:23,879
+closed frame
+
+137
+00:06:22,439 --> 00:06:27,418
+dip it in
+
+138
+00:06:23,879 --> 00:06:29,159
+so in in so soap suds
+
+139
+00:06:27,418 --> 00:06:31,219
+and then take it out
+
+140
+00:06:29,160 --> 00:06:35,639
+and there'll be a film
+
+141
+00:06:31,220 --> 00:06:37,979
+that is bounded by this thing and that
+
+142
+00:06:35,639 --> 00:06:42,360
+film that soap film
+
+143
+00:06:37,978 --> 00:06:45,120
+has less an area than any other surface
+
+144
+00:06:42,360 --> 00:06:48,560
+with that boundary so that's a minimal
+
+145
+00:06:45,120 --> 00:06:52,319
+that's a minimal surface and uh
+
+146
+00:06:48,560 --> 00:06:57,000
+the first Fields Prize winner
+
+147
+00:06:52,319 --> 00:07:02,100
+uh back in maybe 1905
+
+148
+00:06:57,000 --> 00:07:04,740
+had proved that any such boundary
+
+149
+00:07:02,100 --> 00:07:08,520
+would have
+
+150
+00:07:04,740 --> 00:07:10,439
+a minimal surface just one and it would
+
+151
+00:07:08,519 --> 00:07:12,000
+be smooth it wouldn't have any points or
+
+152
+00:07:10,439 --> 00:07:14,038
+anything like that it would just be a
+
+153
+00:07:12,000 --> 00:07:16,740
+nice smooth surface
+
+154
+00:07:14,038 --> 00:07:17,639
+and as I said he won the fields medal
+
+155
+00:07:16,740 --> 00:07:22,019
+for that
+
+156
+00:07:17,639 --> 00:07:25,860
+and um so I got interested in that area
+
+157
+00:07:22,019 --> 00:07:28,139
+while I was there at uh at The Institute
+
+158
+00:07:25,860 --> 00:07:31,500
+for defense analyzes
+
+159
+00:07:28,139 --> 00:07:34,819
+so in my spare time which was
+
+160
+00:07:31,500 --> 00:07:38,098
+quite a lot I worked on that problem
+
+161
+00:07:34,819 --> 00:07:40,139
+because in higher dimensions
+
+162
+00:07:38,098 --> 00:07:42,659
+it was an open was an open problem
+
+163
+00:07:40,139 --> 00:07:44,418
+someone had done it in one dimension
+
+164
+00:07:42,660 --> 00:07:48,720
+higher
+
+165
+00:07:44,418 --> 00:07:51,478
+uh so that would be uh a a
+
+166
+00:07:48,720 --> 00:07:53,880
+three-dimensional
+
+167
+00:07:51,478 --> 00:07:56,879
+surface with a two-dimensional boundary
+
+168
+00:07:53,879 --> 00:08:00,120
+in four-dimensional space
+
+169
+00:07:56,879 --> 00:08:01,439
+and uh well uh but that's where it
+
+170
+00:08:00,120 --> 00:08:03,598
+stopped
+
+171
+00:08:01,439 --> 00:08:05,279
+so I worked in that problem in higher
+
+172
+00:08:03,598 --> 00:08:07,860
+dimensions and
+
+173
+00:08:05,279 --> 00:08:10,619
+was uh lucky enough
+
+174
+00:08:07,860 --> 00:08:14,520
+to solve the problem
+
+175
+00:08:10,620 --> 00:08:18,899
+through ambient Dimension seven
+
+176
+00:08:14,519 --> 00:08:21,959
+but in dimension eight
+
+177
+00:08:18,899 --> 00:08:25,378
+my proof didn't work
+
+178
+00:08:21,959 --> 00:08:28,439
+and uh and I constructed what I thought
+
+179
+00:08:25,379 --> 00:08:30,360
+was a counter example a counter example
+
+180
+00:08:28,439 --> 00:08:33,538
+was something that uh
+
+181
+00:08:30,360 --> 00:08:35,099
+you you you think you have a
+
+182
+00:08:33,538 --> 00:08:37,620
+you've proved the theorem but someone
+
+183
+00:08:35,099 --> 00:08:39,539
+comes along with an example that shows
+
+184
+00:08:37,620 --> 00:08:44,639
+you didn't prove that theorem because
+
+185
+00:08:39,538 --> 00:08:47,278
+this is a counter example so uh I found
+
+186
+00:08:44,639 --> 00:08:48,778
+what I thought was a counter example I
+
+187
+00:08:47,278 --> 00:08:51,899
+couldn't prove it
+
+188
+00:08:48,778 --> 00:08:53,458
+but a couple years and I the paper got
+
+189
+00:08:51,899 --> 00:08:56,100
+published it was
+
+190
+00:08:53,458 --> 00:08:58,139
+was a pretty good paper actually
+
+191
+00:08:56,100 --> 00:09:00,120
+and um
+
+192
+00:08:58,139 --> 00:09:02,278
+but a few years later
+
+193
+00:09:00,120 --> 00:09:04,320
+a couple of mathematicians one of whom
+
+194
+00:09:02,278 --> 00:09:07,559
+was named bombieri
+
+195
+00:09:04,320 --> 00:09:10,500
+and uh showed that my counter example
+
+196
+00:09:07,559 --> 00:09:14,219
+was really a counter example so that
+
+197
+00:09:10,500 --> 00:09:14,220
+killed the problem altogether
+
+198
+00:09:14,339 --> 00:09:21,660
+well uh at a certain point
+
+199
+00:09:19,019 --> 00:09:24,360
+I came to
+
+200
+00:09:21,659 --> 00:09:26,039
+Stony Brook University I was 30 years
+
+201
+00:09:24,360 --> 00:09:28,740
+old
+
+202
+00:09:26,039 --> 00:09:31,379
+to be the chair
+
+203
+00:09:28,740 --> 00:09:34,200
+of their math department
+
+204
+00:09:31,379 --> 00:09:36,240
+which was not a very strong Department
+
+205
+00:09:34,200 --> 00:09:40,019
+and I was pretty young to be the
+
+206
+00:09:36,240 --> 00:09:41,879
+chairman but I thought it would be fun
+
+207
+00:09:40,019 --> 00:09:43,820
+and I had a lot of money to work with
+
+208
+00:09:41,879 --> 00:09:46,620
+because
+
+209
+00:09:43,820 --> 00:09:48,660
+the governor at the time was a guy named
+
+210
+00:09:46,620 --> 00:09:51,720
+Rockefeller now I think everyone has
+
+211
+00:09:48,659 --> 00:09:54,778
+probably heard of the name Rockefeller
+
+212
+00:09:51,720 --> 00:09:56,459
+but has anyone not heard of the name
+
+213
+00:09:54,778 --> 00:09:59,059
+Rockefeller
+
+214
+00:09:56,458 --> 00:10:01,259
+okay most of you have heard of
+
+215
+00:09:59,059 --> 00:10:03,719
+Rockefeller Rockefeller love the State
+
+216
+00:10:01,259 --> 00:10:06,059
+University and was pouring money on it
+
+217
+00:10:03,720 --> 00:10:07,920
+so I had a lot of money to work with
+
+218
+00:10:06,059 --> 00:10:11,039
+and uh
+
+219
+00:10:07,919 --> 00:10:13,919
+hired some terrific people so
+
+220
+00:10:11,039 --> 00:10:18,480
+high as I'm terrific people
+
+221
+00:10:13,919 --> 00:10:20,939
+but at the same time in that time frame
+
+222
+00:10:18,480 --> 00:10:24,379
+I started to get interested in another
+
+223
+00:10:20,940 --> 00:10:24,380
+area of math
+
+224
+00:10:24,620 --> 00:10:30,299
+and uh
+
+225
+00:10:27,179 --> 00:10:33,419
+I worked on that area
+
+226
+00:10:30,299 --> 00:10:34,979
+and came up with something really quite
+
+227
+00:10:33,419 --> 00:10:38,278
+beautiful
+
+228
+00:10:34,980 --> 00:10:40,920
+three dimensions it was a function I
+
+229
+00:10:38,278 --> 00:10:43,919
+can't really describe it but it
+
+230
+00:10:40,919 --> 00:10:45,360
+it lived in three dimensions closed
+
+231
+00:10:43,919 --> 00:10:47,278
+three-dimensional
+
+232
+00:10:45,360 --> 00:10:49,800
+spaces
+
+233
+00:10:47,278 --> 00:10:52,860
+and I
+
+234
+00:10:49,799 --> 00:10:55,500
+was quite pleased
+
+235
+00:10:52,860 --> 00:10:59,519
+I showed it to churn
+
+236
+00:10:55,500 --> 00:11:01,919
+I I say I showed it I we I centered by
+
+237
+00:10:59,519 --> 00:11:03,600
+the mail because her nose days there was
+
+238
+00:11:01,919 --> 00:11:06,899
+no email
+
+239
+00:11:03,600 --> 00:11:08,220
+and chern said well you've done this in
+
+240
+00:11:06,899 --> 00:11:12,179
+three dimensions
+
+241
+00:11:08,220 --> 00:11:15,420
+but it should work in all dimensions
+
+242
+00:11:12,179 --> 00:11:17,338
+I was very dubious but I said okay let's
+
+243
+00:11:15,419 --> 00:11:19,019
+work together and see
+
+244
+00:11:17,339 --> 00:11:21,779
+and he was right
+
+245
+00:11:19,019 --> 00:11:24,539
+it would work in all dimensions
+
+246
+00:11:21,778 --> 00:11:26,720
+and I was very pleased we published the
+
+247
+00:11:24,539 --> 00:11:26,719
+paper
+
+248
+00:11:27,120 --> 00:11:32,220
+and about five years later
+
+249
+00:11:30,000 --> 00:11:35,039
+a physicist
+
+250
+00:11:32,220 --> 00:11:37,800
+named Whitten
+
+251
+00:11:35,039 --> 00:11:40,860
+saw this paper and thought and he was
+
+252
+00:11:37,799 --> 00:11:43,859
+right it could apply to physics
+
+253
+00:11:40,860 --> 00:11:47,360
+and then some other physicists saw how
+
+254
+00:11:43,860 --> 00:11:47,360
+it could apply to physics
+
+255
+00:11:47,820 --> 00:11:54,240
+I didn't know any physics at all
+
+256
+00:11:50,700 --> 00:11:55,680
+churn might have known something but it
+
+257
+00:11:54,240 --> 00:11:57,180
+never occurred to him that would apply
+
+258
+00:11:55,679 --> 00:12:00,958
+to physics
+
+259
+00:11:57,179 --> 00:12:03,059
+and remarkably so you never know where
+
+260
+00:12:00,958 --> 00:12:05,759
+something will go
+
+261
+00:12:03,059 --> 00:12:09,838
+you think you're doing math and you're
+
+262
+00:12:05,759 --> 00:12:12,659
+actually doing physics maybe or whatever
+
+263
+00:12:09,839 --> 00:12:14,820
+so today
+
+264
+00:12:12,659 --> 00:12:19,259
+that is
+
+265
+00:12:14,820 --> 00:12:23,100
+called churn Simon's Theory
+
+266
+00:12:19,259 --> 00:12:26,039
+it's all over the place in physics
+
+267
+00:12:23,100 --> 00:12:29,339
+on average every day
+
+268
+00:12:26,039 --> 00:12:31,500
+four papers in physics
+
+269
+00:12:29,339 --> 00:12:33,959
+reference this
+
+270
+00:12:31,500 --> 00:12:37,458
+churn Simon's Theory
+
+271
+00:12:33,958 --> 00:12:41,159
+so I can't take any credit for it at all
+
+272
+00:12:37,458 --> 00:12:43,799
+but but there it was and of course
+
+273
+00:12:41,159 --> 00:12:46,679
+I'm quite pleased about it but I can't
+
+274
+00:12:43,799 --> 00:12:49,039
+say that oh I I invented this for
+
+275
+00:12:46,679 --> 00:12:49,039
+physics
+
+276
+00:12:49,139 --> 00:12:51,680
+well
+
+277
+00:12:51,720 --> 00:12:56,339
+shortly after that
+
+278
+00:12:53,759 --> 00:12:58,919
+I started to get interested
+
+279
+00:12:56,339 --> 00:13:01,320
+in the world of Investments
+
+280
+00:12:58,919 --> 00:13:03,958
+I had come into
+
+281
+00:13:01,320 --> 00:13:06,720
+a very small amount of money but it was
+
+282
+00:13:03,958 --> 00:13:09,539
+enough to start investing
+
+283
+00:13:06,720 --> 00:13:13,379
+and one thing led to another
+
+284
+00:13:09,539 --> 00:13:17,338
+I started hiring people
+
+285
+00:13:13,379 --> 00:13:19,338
+and we made what was called a hedge fund
+
+286
+00:13:17,339 --> 00:13:22,620
+and it was
+
+287
+00:13:19,339 --> 00:13:26,339
+remarkably successful
+
+288
+00:13:22,620 --> 00:13:28,440
+it's still going I'm not with it anymore
+
+289
+00:13:26,339 --> 00:13:30,779
+but I made
+
+290
+00:13:28,440 --> 00:13:35,459
+a tremendous amount of money
+
+291
+00:13:30,778 --> 00:13:39,480
+from this from this hedge fund
+
+292
+00:13:35,458 --> 00:13:41,879
+now my lovely wife Marilyn
+
+293
+00:13:39,480 --> 00:13:44,639
+said let's give some of it away
+
+294
+00:13:41,879 --> 00:13:46,078
+so I said okay fine so we gave some
+
+295
+00:13:44,639 --> 00:13:47,700
+charity
+
+296
+00:13:46,078 --> 00:13:49,679
+and then she said well why don't we
+
+297
+00:13:47,700 --> 00:13:53,759
+start a foundation
+
+298
+00:13:49,679 --> 00:13:55,679
+and uh okay starting Foundation she
+
+299
+00:13:53,759 --> 00:13:58,379
+started a foundation
+
+300
+00:13:55,679 --> 00:14:00,059
+I put money into it
+
+301
+00:13:58,379 --> 00:14:01,860
+the good thing about putting money into
+
+302
+00:14:00,059 --> 00:14:05,099
+a foundation is you can give the money
+
+303
+00:14:01,860 --> 00:14:07,560
+away you've got the tax advantage but it
+
+304
+00:14:05,100 --> 00:14:09,000
+doesn't have to be spent immediately so
+
+305
+00:14:07,559 --> 00:14:10,500
+you can put money into the foundation
+
+306
+00:14:09,000 --> 00:14:12,899
+and say well we'll see what we want to
+
+307
+00:14:10,500 --> 00:14:14,039
+do with it tomorrow or next year or
+
+308
+00:14:12,899 --> 00:14:17,519
+whatever
+
+309
+00:14:14,039 --> 00:14:19,799
+but it grew and grew
+
+310
+00:14:17,519 --> 00:14:22,860
+and grew
+
+311
+00:14:19,799 --> 00:14:25,679
+so uh
+
+312
+00:14:22,860 --> 00:14:27,360
+it today
+
+313
+00:14:25,679 --> 00:14:31,500
+oh well
+
+314
+00:14:27,360 --> 00:14:35,519
+we decided to focus on science
+
+315
+00:14:31,500 --> 00:14:37,799
+with our uh Foundation
+
+316
+00:14:35,519 --> 00:14:41,820
+focus on science
+
+317
+00:14:37,799 --> 00:14:46,439
+uh ninety percent of it should be
+
+318
+00:14:41,820 --> 00:14:47,519
+science 8 60 of that should be basic
+
+319
+00:14:46,440 --> 00:14:50,579
+science
+
+320
+00:14:47,519 --> 00:14:51,959
+and 30 of that could be translational
+
+321
+00:14:50,578 --> 00:14:55,019
+science
+
+322
+00:14:51,958 --> 00:14:57,599
+and 10 could be education and Outreach
+
+323
+00:14:55,019 --> 00:15:00,120
+and things like that
+
+324
+00:14:57,600 --> 00:15:03,778
+so today uh
+
+325
+00:15:00,120 --> 00:15:06,360
+that Foundation is
+
+326
+00:15:03,778 --> 00:15:09,980
+extremely large
+
+327
+00:15:06,360 --> 00:15:13,079
+and uh so most of the money that I made
+
+328
+00:15:09,980 --> 00:15:18,240
+was put into the foundation
+
+329
+00:15:13,078 --> 00:15:20,159
+so I'm not so rich as I was before but
+
+330
+00:15:18,240 --> 00:15:23,579
+uh Rich enough
+
+331
+00:15:20,159 --> 00:15:25,319
+and we had this wonderful Foundation
+
+332
+00:15:23,578 --> 00:15:27,719
+and uh
+
+333
+00:15:25,320 --> 00:15:29,879
+running it most of the time was my
+
+334
+00:15:27,720 --> 00:15:32,660
+wonderful wife
+
+335
+00:15:29,879 --> 00:15:32,659
+any questions
+
+336
+00:15:35,940 --> 00:15:38,720
+no questions
+
+337
+00:15:38,759 --> 00:15:42,899
+yeah Yuri is in the foundation he just
+
+338
+00:15:41,759 --> 00:15:45,620
+talked
+
+339
+00:15:42,899 --> 00:15:45,620
+uh
+
+340
+00:15:48,019 --> 00:15:53,459
+that's a very good question
+
+341
+00:15:51,240 --> 00:15:57,419
+I could go into that but it's a long
+
+342
+00:15:53,458 --> 00:16:00,419
+story so so I won't
+
+343
+00:15:57,419 --> 00:16:02,959
+any other questions
+
+344
+00:16:00,419 --> 00:16:08,658
+okay good luck to all of you
+
+345
+00:16:02,960 --> 00:16:08,658
+[Applause]
+

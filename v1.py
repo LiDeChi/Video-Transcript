@@ -1,6 +1,6 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
-from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
+from tkinter import ttk, messagebox, filedialog
+from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 import re
 import json
 import os
@@ -21,9 +21,16 @@ def get_random_user_agent():
 
 def extract_video_id(url):
     # 从YouTube URL中提取视频ID
-    video_id_match = re.search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url)
-    if video_id_match:
-        return video_id_match.group(1)
+    patterns = [
+        r"(?:v=|\/)([0-9A-Za-z_-]{11}).*",
+        r"(?:embed\/|v\/|youtu.be\/)([0-9A-Za-z_-]{11})",
+        r"^([0-9A-Za-z_-]{11})$"
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, url)
+        if match:
+            return match.group(1)
+    print(f"无法从URL提取视频ID: {url}")
     return None
 
 def get_video_title(video_id):
@@ -36,7 +43,7 @@ def get_video_title(video_id):
     except:
         return video_id  # 如果获取标题失败,就使用视频ID作为标题
 
-def get_subtitles(video_url):
+def get_subtitles(video_url, cookies=None):
     video_id = extract_video_id(video_url)
     if not video_id:
         print("无效的YouTube URL")
@@ -44,39 +51,50 @@ def get_subtitles(video_url):
 
     try:
         video_title = get_video_title(video_id)
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id, cookies=cookies)
         
-        zh_transcript = None
-        en_transcript = None
+        # 尝试获取原始字幕
+        original_transcript = None
+        for transcript in transcript_list:
+            original_transcript = transcript
+            break  # 获取第一个可用的字幕
         
-        try:
-            zh_transcript = transcript_list.find_transcript(['zh-CN', 'zh'])
-        except:
-            print(f"视频 '{video_title}' 未找到中文字幕")
-        
-        try:
-            en_transcript = transcript_list.find_transcript(['en'])
-        except:
-            if not zh_transcript:
-                print(f"视频 '{video_title}' 未找到英文字幕")
-        
-        if zh_transcript:
-            save_subtitle(video_id, video_title, zh_transcript, 'zh-CN')
-        
-        if en_transcript:
-            save_subtitle(video_id, video_title, en_transcript, 'en')
-        
-        if not zh_transcript and not en_transcript:
-            print(f"视频 '{video_title}' 没有可用的中文或英文字幕")
-            return None
+        if original_transcript:
+            print(f"找到原始字幕，语言：{original_transcript.language}")
+            save_subtitle(video_id, video_title, original_transcript, original_transcript.language)
+            
+            # 尝试翻译成中文
+            chinese_codes = ['zh', 'zh-CN', 'zh-TW', 'zh-HK', 'zh-SG', 'zh-Hans', 'zh-Hant']
+            translated = False
+            
+            for code in chinese_codes:
+                try:
+                    zh_translated = original_transcript.translate(code)
+                    save_subtitle(video_id, video_title, zh_translated, f'{code}-translated')
+                    print(f"已将原始字幕翻译为中文（{code}）并保存")
+                    translated = True
+                    break
+                except Exception as e:
+                    print(f"使用 '{code}' 翻译字幕时出错: {str(e)}")
+            
+            if not translated:
+                print("尝试了所有中文语言代码，但都无法成功翻译")
+        else:
+            print(f"视频 '{video_title}' 没有可用的字幕")
         
         return video_title
         
     except TranscriptsDisabled:
-        print(f"视频 '{get_video_title(video_id)}' 的字幕已被禁用")
+        print(f"视频 '{video_title}' 的字幕已被禁用。尝试使用cookies可能会解决此问题。")
+        return None
+    except NoTranscriptFound:
+        print(f"视频 '{video_title}' 没有找到字幕。尝试使用cookies可能会解决此问题。")
         return None
     except Exception as e:
         print(f"获取字幕时出错: {str(e)}")
+        print(f"视频ID: {video_id}")
+        print(f"视频标题: {video_title}")
+        print(f"建议：访问 https://www.youtube.com/watch?v={video_id} 查看更多信息")
         return None
 
 def save_subtitle(video_id, video_title, transcript, language):
@@ -158,7 +176,7 @@ class YouTubeSubtitleApp:
     def __init__(self, master):
         self.master = master
         master.title("YouTube字幕下载器")
-        master.geometry("600x400")
+        master.geometry("600x500")
 
         self.url_label = ttk.Label(master, text="请输入YouTube视频URL:")
         self.url_label.pack(pady=10)
@@ -166,8 +184,20 @@ class YouTubeSubtitleApp:
         self.url_entry = ttk.Entry(master, width=50)
         self.url_entry.pack(pady=5)
 
-        self.submit_button = ttk.Button(master, text="确认", command=self.process_url)
+        self.cookies_label = ttk.Label(master, text="Cookies文件 (可选，但推荐使用):")
+        self.cookies_label.pack(pady=5)
+
+        self.cookies_entry = ttk.Entry(master, width=50)
+        self.cookies_entry.pack(pady=5)
+
+        self.browse_button = ttk.Button(master, text="浏览", command=self.browse_cookies)
+        self.browse_button.pack(pady=5)
+
+        self.submit_button = ttk.Button(master, text="下载字幕", command=self.process_url)
         self.submit_button.pack(pady=10)
+
+        self.status_label = ttk.Label(master, text="")
+        self.status_label.pack(pady=5)
 
         self.history_label = ttk.Label(master, text="历史记录:")
         self.history_label.pack(pady=5)
@@ -178,17 +208,35 @@ class YouTubeSubtitleApp:
         self.history_file = "youtube_url_history.json"
         self.load_history()
 
+    def browse_cookies(self):
+        filename = filedialog.askopenfilename(filetypes=[("Text files", "*.txt")])
+        if filename:
+            self.cookies_entry.delete(0, tk.END)
+            self.cookies_entry.insert(0, filename)
+
     def process_url(self):
         url = self.url_entry.get()
+        cookies_file = self.cookies_entry.get()
+        
         if url:
-            video_title = get_subtitles(url)
+            cookies = None
+            if cookies_file:
+                cookies = cookies_file
+            
+            self.status_label.config(text="正在下载字幕...")
+            self.master.update()
+            
+            video_title = get_subtitles(url, cookies=cookies)
             if video_title:
                 self.add_to_history(url, video_title)
+                self.status_label.config(text="字幕下载成功！")
                 messagebox.showinfo("成功", "字幕和文本文件已生成")
                 self.url_entry.delete(0, tk.END)  # 清空输入框
             else:
+                self.status_label.config(text="字幕下载失败。请查看控制台输出以获取详细信息。")
                 messagebox.showwarning("警告", "无法获取字幕。请查看控制台输出以获取详细信息。")
         else:
+            self.status_label.config(text="请输入有效的YouTube URL")
             messagebox.showerror("错误", "请输入有效的YouTube URL")
 
     def add_to_history(self, url, title):
