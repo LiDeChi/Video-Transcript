@@ -1,10 +1,23 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 import re
 import json
 import os
 import requests
+import random
+
+# 添加一个用户代理列表
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36',
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1'
+]
+
+def get_random_user_agent():
+    return random.choice(USER_AGENTS)
 
 def extract_video_id(url):
     # 从YouTube URL中提取视频ID
@@ -16,7 +29,8 @@ def extract_video_id(url):
 def get_video_title(video_id):
     try:
         url = f"https://www.youtube.com/oembed?url=http://www.youtube.com/watch?v={video_id}&format=json"
-        response = requests.get(url)
+        headers = {'User-Agent': get_random_user_agent()}
+        response = requests.get(url, headers=headers)
         data = response.json()
         return data['title']
     except:
@@ -26,7 +40,7 @@ def get_subtitles(video_url):
     video_id = extract_video_id(video_url)
     if not video_id:
         print("无效的YouTube URL")
-        return
+        return None
 
     try:
         video_title = get_video_title(video_id)
@@ -38,13 +52,13 @@ def get_subtitles(video_url):
         try:
             zh_transcript = transcript_list.find_transcript(['zh-CN', 'zh'])
         except:
-            print("未找到中文字幕")
+            print(f"视频 '{video_title}' 未找到中文字幕")
         
         try:
             en_transcript = transcript_list.find_transcript(['en'])
         except:
             if not zh_transcript:
-                print("未找到英文字幕")
+                print(f"视频 '{video_title}' 未找到英文字幕")
         
         if zh_transcript:
             save_subtitle(video_id, video_title, zh_transcript, 'zh-CN')
@@ -53,10 +67,14 @@ def get_subtitles(video_url):
             save_subtitle(video_id, video_title, en_transcript, 'en')
         
         if not zh_transcript and not en_transcript:
-            print("未找到中文或英文字幕")
+            print(f"视频 '{video_title}' 没有可用的中文或英文字幕")
+            return None
         
         return video_title
         
+    except TranscriptsDisabled:
+        print(f"视频 '{get_video_title(video_id)}' 的字幕已被禁用")
+        return None
     except Exception as e:
         print(f"获取字幕时出错: {str(e)}")
         return None
@@ -169,7 +187,7 @@ class YouTubeSubtitleApp:
                 messagebox.showinfo("成功", "字幕和文本文件已生成")
                 self.url_entry.delete(0, tk.END)  # 清空输入框
             else:
-                messagebox.showerror("错误", "无法获取视频信息或生成字幕")
+                messagebox.showwarning("警告", "无法获取字幕。请查看控制台输出以获取详细信息。")
         else:
             messagebox.showerror("错误", "请输入有效的YouTube URL")
 

@@ -8,6 +8,7 @@ import threading
 from deep_translator import GoogleTranslator
 import time
 from requests.exceptions import RequestException
+import math
 
 def extract_bvid(url):
     bvid_match = re.search(r"BV\w+", url)
@@ -16,92 +17,62 @@ def extract_bvid(url):
     return None
 
 def get_video_info(bvid):
-    try:
-        url = f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}"
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Referer': 'https://www.bilibili.com',
-            'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
-            'Origin': 'https://www.bilibili.com'
-        }
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        print(f"Video info response: {data}")  # 打印完整的响应
-        if data['code'] == 0:
-            title = data['data']['title']
-            aid = data['data']['aid']
-            cid = data['data']['cid']
-            return title, aid, cid
-        else:
-            print(f"获取视频信息失败，错误代码：{data['code']}，错误信息：{data['message']}")
-            return None, None, None
-    except Exception as e:
-        print(f"获取视频信息时发生错误：{str(e)}")
-        return None, None, None
-
-def get_subtitle_url(bvid, cid):
-    url = f"https://api.bilibili.com/x/player/v2?cid={cid}&bvid={bvid}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Referer': 'https://www.bilibili.com',
-        'Accept': 'application/json, text/plain, */*',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Origin': 'https://www.bilibili.com'
+        'Referer': f'https://www.bilibili.com/video/{bvid}/',
     }
-    response = requests.get(url, headers=headers)
-    data = response.json()
-    print(f"Subtitle info response: {data}")  # 打印完整的响应
-    if data['code'] == 0 and 'subtitle' in data['data']:
-        subtitles = data['data']['subtitle'].get('subtitles', [])
-        if subtitles:
-            return subtitles
-        else:
-            print("API返回的字幕列表为空")
-    else:
-        print(f"获取字幕信息失败，错误代码：{data['code']}，错误信息：{data.get('message', '未知错误')}")
-    return None
-
-def download_subtitle(bvid, cid, video_title):
-    subtitles = get_subtitle_url(bvid, cid)
-    if not subtitles:
-        print(f"视频 (BV号：{bvid}) 没有可用的字幕")
-        return False
-
-    for subtitle in subtitles:
-        language = subtitle['lan']
-        subtitle_url = "https:" + subtitle['subtitle_url']
-        save_subtitle(bvid, video_title, subtitle_url, language)
     
-    return True
-
-def save_subtitle(bvid, video_title, subtitle_url, language):
     try:
-        response = requests.get(subtitle_url)
-        response.raise_for_status()
-        subtitle_data = response.json()
+        resp = requests.get(f'https://www.bilibili.com/video/{bvid}/', headers=headers)
+        resp.raise_for_status()
         
-        if not os.path.exists('subtitles'):
-            os.makedirs('subtitles')
+        # 从HTML中提取视频信息
+        title_match = re.search(r'<h1 title="([^"]+)"', resp.text)
+        title = title_match.group(1) if title_match else "Unknown Title"
+        
+        # 提取字幕信息
+        subtitle_match = re.search(r'"subtitle":\s*({[^}]+})', resp.text)
+        if subtitle_match:
+            subtitle_info = json.loads(subtitle_match.group(1))
+            return title, subtitle_info
+        else:
+            print("未找到字幕信息")
+            return title, None
+        
+    except Exception as e:
+        print(f"获取视频信息时发生错误：{str(e)}")
+        return None, None
+
+def download_subtitle(video_title, subtitle_url):
+    if not os.path.exists('subtitles'):
+        os.makedirs('subtitles')
+    
+    try:
+        subtitle_resp = requests.get(subtitle_url)
+        subtitle_resp.raise_for_status()
+        subtitle_data = subtitle_resp.json()
         
         safe_title = re.sub(r'[\\/*?:"<>|]', "", video_title)
-        filename = f"subtitles/{safe_title}_{language}.srt"
-        with open(filename, 'w', encoding='utf-8') as f:
+        srt_filename = f"subtitles/{safe_title}.srt"
+        with open(srt_filename, 'w', encoding='utf-8') as f:
             for i, line in enumerate(subtitle_data['body'], start=1):
                 start_time = format_time(line['from'])
                 end_time = format_time(line['to'])
                 content = line['content']
                 f.write(f"{i}\n{start_time} --> {end_time}\n{content}\n\n")
         
-        print(f"字幕已保存到 {filename}")
+        print(f"字幕已保存到 {srt_filename}")
+        return True
     except Exception as e:
-        print(f"保存字幕时发生错误：{str(e)}")
+        print(f"下载字幕时发生错误：{str(e)}")
+        return False
 
 def format_time(seconds):
-    m, s = divmod(seconds, 60)
-    h, m = divmod(m, 60)
-    return f"{int(h):02d}:{int(m):02d}:{s:06.3f}".replace('.', ',')
+    hours = math.floor(seconds) // 3600
+    minutes = (math.floor(seconds) - hours * 3600) // 60
+    secs = math.floor(seconds) - hours * 3600 - minutes * 60
+    millisecs = int((seconds - math.floor(seconds)) * 1000)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d},{millisecs:03d}"
 
 def get_subtitles(video_url):
     bvid = extract_bvid(video_url)
@@ -110,12 +81,17 @@ def get_subtitles(video_url):
         return None
 
     try:
-        video_title, aid, cid = get_video_info(bvid)
-        if not video_title or not aid or not cid:
+        video_title, subtitle_info = get_video_info(bvid)
+        if not video_title:
             print(f"无法获取视频信息，BV号：{bvid}")
             return None
 
-        if download_subtitle(bvid, cid, video_title):
+        if not subtitle_info or 'list' not in subtitle_info or not subtitle_info['list']:
+            print(f"视频 {video_title} (BV号：{bvid}) 没有字幕")
+            return None
+
+        subtitle_url = "https:" + subtitle_info['list'][0]['subtitle_url']
+        if download_subtitle(video_title, subtitle_url):
             return video_title
         else:
             print(f"无法下载字幕，视频标题：{video_title}")
